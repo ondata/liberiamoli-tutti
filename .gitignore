@@ -1,5 +1,8 @@
-tmp.*
+tmp*
 
 _site/*
 
 /.quarto/
+
+# sbarchi-migranti
+sbarchi-migranti/script/tmp/*
