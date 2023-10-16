@@ -90,7 +90,6 @@ while read -r line; do
   # check
   # daff --output "$folder"/tmp/check/"$data".html ../rawdata/csv/"$data"_migranti_sbarcati_per_giorno.csv "$folder"/data/"$data"_migranti_sbarcati_per_giorno.csv
 done < "$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
-#done < "$folder"/data/tmpa.jsonl
 
 find "$folder" -type f -name 'tmp*.png' -exec rm {} \;
 
