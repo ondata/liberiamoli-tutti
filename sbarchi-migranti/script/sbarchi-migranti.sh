@@ -84,6 +84,8 @@ while read -r line; do
   put '$Data_Report="'"$data"'"' "$folder"/tmp_raw.txt >"$folder"/data/"$data"_migranti_sbarcati_per_giorno.csv
   if [ "$data" = "2022-12-31" ]; then
     mlrgo -I --csv put '$Note="*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 24:00 del giorno di riferimento"' "$folder"/data/"$data"_migranti_sbarcati_per_giorno.csv
+  elif [ "$data" = "2023-06-30" ]; then
+    mlrgo -I --csv put 'if($Data=="2023-06-29"){$Valore=2307}else{$Valore=$Valore}' "$folder"/data/"$data"_migranti_sbarcati_per_giorno.csv
   fi
   # check
   # daff --output "$folder"/tmp/check/"$data".html ../rawdata/csv/"$data"_migranti_sbarcati_per_giorno.csv "$folder"/data/"$data"_migranti_sbarcati_per_giorno.csv
