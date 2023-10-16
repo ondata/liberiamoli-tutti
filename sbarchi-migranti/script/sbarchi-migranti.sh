@@ -86,7 +86,7 @@ while read -r line; do
     mlrgo -I --csv put '$Note="*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 24:00 del giorno di riferimento"' "$folder"/data/"$data"_migranti_sbarcati_per_giorno.csv
   fi
   # check
-  daff --output "$folder"/tmp/check/"$data".html ../rawdata/csv/"$data"_migranti_sbarcati_per_giorno.csv "$folder"/data/"$data"_migranti_sbarcati_per_giorno.csv
+  # daff --output "$folder"/tmp/check/"$data".html ../rawdata/csv/"$data"_migranti_sbarcati_per_giorno.csv "$folder"/data/"$data"_migranti_sbarcati_per_giorno.csv
 done < "$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
 #done < "$folder"/data/tmpa.jsonl
 
@@ -100,4 +100,4 @@ mlr -I --csv head -n 30 "$folder"/data/2023-04-15_migranti_sbarcati_per_giorno.c
 # check giorni mese
 mlr --csv put '$mese=strftime(strptime($Data,"%Y-%m-%d"),"%m");$anno=strftime(strptime($Data,"%Y-%m-%d"),"%Y")' then cut -f Data_Report,mese,anno then count-similar -g Data_Report,mese then uniq -a then sort -f Data_Report "$folder"/data/*_migranti_sbarcati_per_giorno.csv >"$folder"/tmp/tmp_all.csv
 
- mlr --csv join --ul --np -j anno,mese,count -f "$folder"/tmp/tmp_all.csv then unsparsify "$folder"/risorse/anagrafica_anni_mesi.csv > "$folder"/tmp/errori_giorni_mese.csv
+mlr --csv join --ul --np -j anno,mese,count -f "$folder"/tmp/tmp_all.csv then unsparsify "$folder"/risorse/anagrafica_anni_mesi.csv > "$folder"/tmp/errori_giorni_mese.csv
