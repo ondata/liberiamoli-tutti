@@ -3,6 +3,7 @@ tmp*
 _site/*
 
 /.quarto/
+docs
 
 # sbarchi-migranti
 sbarchi-migranti/script/tmp/*
