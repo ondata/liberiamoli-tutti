@@ -23,7 +23,7 @@ mlrgo --jsonl put '$data=strftime(strptime(regextract_or_else(${@title},"[0-9]{2
 
 # estrai la lista dei file pdf, in cui è presente il dato dei sbarchi giornalieri. Ci sono dal report del 15/10/2019
 # rimuovo il report del 15/07/2021, perché il PDF è danneggiato
-mlrgo --jsonl filter '$data>"2019-10-14"' then filter -x '$data=="2021-07-15"' then sort -f data "$folder"/data/cruscotto-statistico-giornaliero_lista.jsonl | head -n -1 >"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
+mlrgo --jsonl filter '$data>"2019-09-16"' then filter -x '$data=="2021-07-15"' then sort -f data "$folder"/data/cruscotto-statistico-giornaliero_lista.jsonl | head -n -1 >"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
 
 # scarica i file pdf, se non sono già presenti
 while read -r line; do
