@@ -63,5 +63,8 @@ put '$data=strftime(strptime(regextract_or_else($file,"([0-9]{2})-([0-9]{2})-([0
 reorder -f data then \
 sort -f data,Nazione "$folder"/nazionalita-accoglienza/process/*-nazionalita.csv >"$folder"/nazionalita.csv
 
+exit 0
+
 # normalizza i nomi delle nazioni
-mlrgo --csv join --ul -j Nazione -f "$folder"/nazionalita.csv then unsparsify then cut -x -f Nazione then reorder -f data,Nation,ISO_3166-1 "$folder"/risorse/nations.csv >"$folder"/../dati/nazionalita.csv
+mlrgo --csv join --ul -j Nazione -f "$folder"/../dati/nazionalita.csv then unsparsify then cut -x -f Nazione then reorder -f data,Nation,ISO_3166-1 then sort -f data,Nation "$folder"/risorse/nations.csv >"$folder"/../dati/tmp.csv
+mv "$folder"/../dati/tmp.csv "$folder"/../dati/nazionalita.csv
