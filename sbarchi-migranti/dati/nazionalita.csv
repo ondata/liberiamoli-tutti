@@ -1,1068 +1,1032 @@
-data,Nation,ISO_3166-1,Valore,file
-2019-09-30,Algeria,DZ,723,cruscotto_statistico_giornaliero_30-09-2019_0
-2019-09-30,Bangladesh,BD,259,cruscotto_statistico_giornaliero_30-09-2019_0
-2019-09-30,Costa d'Avorio,CI,864,cruscotto_statistico_giornaliero_30-09-2019_0
-2019-09-30,Guinea,GN,187,cruscotto_statistico_giornaliero_30-09-2019_0
-2019-09-30,Iran,IR,188,cruscotto_statistico_giornaliero_30-09-2019_0
-2019-09-30,Iraq,IQ,582,cruscotto_statistico_giornaliero_30-09-2019_0
-2019-09-30,Marocco,MA,132,cruscotto_statistico_giornaliero_30-09-2019_0
-2019-09-30,Pakistan,PK,922,cruscotto_statistico_giornaliero_30-09-2019_0
-2019-09-30,Sudan,SD,344,cruscotto_statistico_giornaliero_30-09-2019_0
-2019-09-30,Tunisia,TN,2087,cruscotto_statistico_giornaliero_30-09-2019_0
-2019-09-30,altre,,1233,cruscotto_statistico_giornaliero_30-09-2019_0
-2019-10-15,Algeria,DZ,786,cruscotto_statistico_giornaliero_15-10-2019_0
-2019-10-15,Bangladesh,BD,325,cruscotto_statistico_giornaliero_15-10-2019_0
-2019-10-15,Costa d'Avorio,CI,942,cruscotto_statistico_giornaliero_15-10-2019_0
-2019-10-15,Guinea,GN,190,cruscotto_statistico_giornaliero_15-10-2019_0
-2019-10-15,Iran,IR,214,cruscotto_statistico_giornaliero_15-10-2019_0
-2019-10-15,Iraq,IQ,620,cruscotto_statistico_giornaliero_15-10-2019_0
-2019-10-15,Marocco,MA,152,cruscotto_statistico_giornaliero_15-10-2019_0
-2019-10-15,Pakistan,PK,997,cruscotto_statistico_giornaliero_15-10-2019_0
-2019-10-15,Sudan,SD,344,cruscotto_statistico_giornaliero_15-10-2019_0
-2019-10-15,Tunisia,TN,2349,cruscotto_statistico_giornaliero_15-10-2019_0
-2019-10-15,altre,,1536,cruscotto_statistico_giornaliero_15-10-2019_0
-2019-10-31,Algeria,DZ,944,cruscotto_statistico_giornaliero_31-10-2019
-2019-10-31,Bangladesh,BD,383,cruscotto_statistico_giornaliero_31-10-2019
-2019-10-31,Costa d'Avorio,CI,973,cruscotto_statistico_giornaliero_31-10-2019
-2019-10-31,Guinea,GN,208,cruscotto_statistico_giornaliero_31-10-2019
-2019-10-31,Iran,IR,375,cruscotto_statistico_giornaliero_31-10-2019
-2019-10-31,Iraq,IQ,777,cruscotto_statistico_giornaliero_31-10-2019
-2019-10-31,Marocco,MA,190,cruscotto_statistico_giornaliero_31-10-2019
-2019-10-31,Pakistan,PK,1094,cruscotto_statistico_giornaliero_31-10-2019
-2019-10-31,Sudan,SD,356,cruscotto_statistico_giornaliero_31-10-2019
-2019-10-31,Tunisia,TN,2555,cruscotto_statistico_giornaliero_31-10-2019
-2019-10-31,altre,,1793,cruscotto_statistico_giornaliero_31-10-2019
-2019-11-15,Algeria,DZ,952,cruscotto_statistico_giornaliero_15-11-2019
-2019-11-15,Bangladesh,BD,435,cruscotto_statistico_giornaliero_15-11-2019
-2019-11-15,Costa d'Avorio,CI,1044,cruscotto_statistico_giornaliero_15-11-2019
-2019-11-15,Guinea,GN,236,cruscotto_statistico_giornaliero_15-11-2019
-2019-11-15,Iran,IR,388,cruscotto_statistico_giornaliero_15-11-2019
-2019-11-15,Iraq,IQ,805,cruscotto_statistico_giornaliero_15-11-2019
-2019-11-15,Nigeria,NG,206,cruscotto_statistico_giornaliero_15-11-2019
-2019-11-15,Pakistan,PK,1142,cruscotto_statistico_giornaliero_15-11-2019
-2019-11-15,Sudan,SD,358,cruscotto_statistico_giornaliero_15-11-2019
-2019-11-15,Tunisia,TN,2557,cruscotto_statistico_giornaliero_15-11-2019
-2019-11-15,altre,,1821,cruscotto_statistico_giornaliero_15-11-2019
-2019-11-30,Algeria,DZ,982,cruscotto_statistico_giornaliero_30-11-2019
-2019-11-30,Bangladesh,BD,520,cruscotto_statistico_giornaliero_30-11-2019
-2019-11-30,Costa d'Avorio,CI,1120,cruscotto_statistico_giornaliero_30-11-2019
-2019-11-30,Guinea,GN,277,cruscotto_statistico_giornaliero_30-11-2019
-2019-11-30,Iran,IR,403,cruscotto_statistico_giornaliero_30-11-2019
-2019-11-30,Iraq,IQ,821,cruscotto_statistico_giornaliero_30-11-2019
-2019-11-30,Nigeria,NG,230,cruscotto_statistico_giornaliero_30-11-2019
-2019-11-30,Pakistan,PK,1180,cruscotto_statistico_giornaliero_30-11-2019
-2019-11-30,Sudan,SD,440,cruscotto_statistico_giornaliero_30-11-2019
-2019-11-30,Tunisia,TN,2642,cruscotto_statistico_giornaliero_30-11-2019
-2019-11-30,altre,,2258,cruscotto_statistico_giornaliero_30-11-2019
-2019-12-15,Algeria,DZ,1005,cruscotto_statistico_giornaliero_15-12-2019
-2019-12-15,Bangladesh,BD,581,cruscotto_statistico_giornaliero_15-12-2019
-2019-12-15,Costa d'Avorio,CI,1135,cruscotto_statistico_giornaliero_15-12-2019
-2019-12-15,Guinea,GN,281,cruscotto_statistico_giornaliero_15-12-2019
-2019-12-15,Iran,IR,434,cruscotto_statistico_giornaliero_15-12-2019
-2019-12-15,Iraq,IQ,871,cruscotto_statistico_giornaliero_15-12-2019
-2019-12-15,Marocco,MA,253,cruscotto_statistico_giornaliero_15-12-2019
-2019-12-15,Pakistan,PK,1180,cruscotto_statistico_giornaliero_15-12-2019
-2019-12-15,Sudan,SD,444,cruscotto_statistico_giornaliero_15-12-2019
-2019-12-15,Tunisia,TN,2654,cruscotto_statistico_giornaliero_15-12-2019
-2019-12-15,altre,,2259,cruscotto_statistico_giornaliero_15-12-2019
-2019-12-31,Algeria,DZ,1009,cruscotto_statistico_giornaliero_31-12-2019
-2019-12-31,Bangladesh,BD,602,cruscotto_statistico_giornaliero_31-12-2019
-2019-12-31,Costa d'Avorio,CI,1139,cruscotto_statistico_giornaliero_31-12-2019
-2019-12-31,Guinea,GN,295,cruscotto_statistico_giornaliero_31-12-2019
-2019-12-31,Iran,IR,481,cruscotto_statistico_giornaliero_31-12-2019
-2019-12-31,Iraq,IQ,972,cruscotto_statistico_giornaliero_31-12-2019
-2019-12-31,Pakistan,PK,1180,cruscotto_statistico_giornaliero_31-12-2019
-2019-12-31,Somalia,SO,270,cruscotto_statistico_giornaliero_31-12-2019
-2019-12-31,Sudan,SD,446,cruscotto_statistico_giornaliero_31-12-2019
-2019-12-31,Tunisia,TN,2654,cruscotto_statistico_giornaliero_31-12-2019
-2019-12-31,altre,,2423,cruscotto_statistico_giornaliero_31-12-2019
-2020-01-15,Afghanistan,AF,4,cruscotto_statistico_giornaliero_15-01-2020_0
-2020-01-15,Algeria,DZ,111,cruscotto_statistico_giornaliero_15-01-2020_0
-2020-01-15,Camerun,CM,1,cruscotto_statistico_giornaliero_15-01-2020_0
-2020-01-15,Costa d'Avorio,CI,73,cruscotto_statistico_giornaliero_15-01-2020_0
-2020-01-15,Guinea,GN,16,cruscotto_statistico_giornaliero_15-01-2020_0
-2020-01-15,Iran,IR,48,cruscotto_statistico_giornaliero_15-01-2020_0
-2020-01-15,Iraq,IQ,62,cruscotto_statistico_giornaliero_15-01-2020_0
-2020-01-15,Mali,ML,4,cruscotto_statistico_giornaliero_15-01-2020_0
-2020-01-15,Tunisia,TN,17,cruscotto_statistico_giornaliero_15-01-2020_0
-2020-01-15,Ucraina,UA,3,cruscotto_statistico_giornaliero_15-01-2020_0
-2020-01-15,altre,,3,cruscotto_statistico_giornaliero_15-01-2020_0
-2020-01-31,Algeria,DZ,249,cruscotto_statistico_giornaliero_31-01-2020_0
-2020-01-31,Bangladesh,BD,91,cruscotto_statistico_giornaliero_31-01-2020_0
-2020-01-31,Costa d'Avorio,CI,126,cruscotto_statistico_giornaliero_31-01-2020_0
-2020-01-31,Guinea,GN,58,cruscotto_statistico_giornaliero_31-01-2020_0
-2020-01-31,Iran,IR,48,cruscotto_statistico_giornaliero_31-01-2020_0
-2020-01-31,Iraq,IQ,62,cruscotto_statistico_giornaliero_31-01-2020_0
-2020-01-31,Mali,ML,27,cruscotto_statistico_giornaliero_31-01-2020_0
-2020-01-31,Marocco,MA,46,cruscotto_statistico_giornaliero_31-01-2020_0
-2020-01-31,Nigeria,NG,25,cruscotto_statistico_giornaliero_31-01-2020_0
-2020-01-31,Tunisia,TN,40,cruscotto_statistico_giornaliero_31-01-2020_0
-2020-01-31,altre,,503,cruscotto_statistico_giornaliero_31-01-2020_0
-2020-02-15,Algeria,DZ,256,cruscotto_statistico_giornaliero_15-02-2020
-2020-02-15,Bangladesh,BD,226,cruscotto_statistico_giornaliero_15-02-2020
-2020-02-15,Costa d'Avorio,CI,218,cruscotto_statistico_giornaliero_15-02-2020
-2020-02-15,Guinea,GN,105,cruscotto_statistico_giornaliero_15-02-2020
-2020-02-15,Iraq,IQ,62,cruscotto_statistico_giornaliero_15-02-2020
-2020-02-15,Mali,ML,57,cruscotto_statistico_giornaliero_15-02-2020
-2020-02-15,Marocco,MA,75,cruscotto_statistico_giornaliero_15-02-2020
-2020-02-15,Somalia,SO,86,cruscotto_statistico_giornaliero_15-02-2020
-2020-02-15,Sudan,SD,238,cruscotto_statistico_giornaliero_15-02-2020
-2020-02-15,Tunisia,TN,84,cruscotto_statistico_giornaliero_15-02-2020
-2020-02-15,altre,,603,cruscotto_statistico_giornaliero_15-02-2020
-2020-02-29,Algeria,DZ,308,cruscotto_statistico_giornaliero_29-02-2020
-2020-02-29,Bangladesh,BD,440,cruscotto_statistico_giornaliero_29-02-2020
-2020-02-29,Costa d'Avorio,CI,283,cruscotto_statistico_giornaliero_29-02-2020
-2020-02-29,Guinea,GN,121,cruscotto_statistico_giornaliero_29-02-2020
-2020-02-29,Mali,ML,115,cruscotto_statistico_giornaliero_29-02-2020
-2020-02-29,Marocco,MA,112,cruscotto_statistico_giornaliero_29-02-2020
-2020-02-29,Nigeria,NG,70,cruscotto_statistico_giornaliero_29-02-2020
-2020-02-29,Somalia,SO,172,cruscotto_statistico_giornaliero_29-02-2020
-2020-02-29,Sudan,SD,245,cruscotto_statistico_giornaliero_29-02-2020
-2020-02-29,Tunisia,TN,94,cruscotto_statistico_giornaliero_29-02-2020
-2020-02-29,altre,,593,cruscotto_statistico_giornaliero_29-02-2020
-2020-03-15,Algeria,DZ,308,cruscotto_statistico_giornaliero_15-03-2020
-2020-03-15,Bangladesh,BD,440,cruscotto_statistico_giornaliero_15-03-2020
-2020-03-15,Costa d'Avorio,CI,283,cruscotto_statistico_giornaliero_15-03-2020
-2020-03-15,Guinea,GN,121,cruscotto_statistico_giornaliero_15-03-2020
-2020-03-15,Mali,ML,115,cruscotto_statistico_giornaliero_15-03-2020
-2020-03-15,Marocco,MA,143,cruscotto_statistico_giornaliero_15-03-2020
-2020-03-15,Nigeria,NG,70,cruscotto_statistico_giornaliero_15-03-2020
-2020-03-15,Somalia,SO,172,cruscotto_statistico_giornaliero_15-03-2020
-2020-03-15,Sudan,SD,245,cruscotto_statistico_giornaliero_15-03-2020
-2020-03-15,Tunisia,TN,133,cruscotto_statistico_giornaliero_15-03-2020
-2020-03-15,altre,,708,cruscotto_statistico_giornaliero_15-03-2020
-2020-03-31,Algeria,DZ,312,cruscotto_statistico_giornaliero_31-03-2020_0
-2020-03-31,Bangladesh,BD,455,cruscotto_statistico_giornaliero_31-03-2020_0
-2020-03-31,Costa d'Avorio,CI,310,cruscotto_statistico_giornaliero_31-03-2020_0
-2020-03-31,Guinea,GN,129,cruscotto_statistico_giornaliero_31-03-2020_0
-2020-03-31,Iraq,IQ,72,cruscotto_statistico_giornaliero_31-03-2020_0
-2020-03-31,Mali,ML,122,cruscotto_statistico_giornaliero_31-03-2020_0
-2020-03-31,Marocco,MA,145,cruscotto_statistico_giornaliero_31-03-2020_0
-2020-03-31,Somalia,SO,172,cruscotto_statistico_giornaliero_31-03-2020_0
-2020-03-31,Sudan,SD,248,cruscotto_statistico_giornaliero_31-03-2020_0
-2020-03-31,Tunisia,TN,154,cruscotto_statistico_giornaliero_31-03-2020_0
-2020-03-31,altre,,675,cruscotto_statistico_giornaliero_31-03-2020_0
-2020-04-15,Algeria,DZ,319,cruscotto_statistico_giornaliero_15-04-2020
-2020-04-15,Bangladesh,BD,493,cruscotto_statistico_giornaliero_15-04-2020
-2020-04-15,Costa d'Avorio,CI,345,cruscotto_statistico_giornaliero_15-04-2020
-2020-04-15,Guinea,GN,145,cruscotto_statistico_giornaliero_15-04-2020
-2020-04-15,Mali,ML,144,cruscotto_statistico_giornaliero_15-04-2020
-2020-04-15,Marocco,MA,234,cruscotto_statistico_giornaliero_15-04-2020
-2020-04-15,Nigeria,NG,75,cruscotto_statistico_giornaliero_15-04-2020
-2020-04-15,Somalia,SO,207,cruscotto_statistico_giornaliero_15-04-2020
-2020-04-15,Sudan,SD,290,cruscotto_statistico_giornaliero_15-04-2020
-2020-04-15,Tunisia,TN,178,cruscotto_statistico_giornaliero_15-04-2020
-2020-04-15,altre,,801,cruscotto_statistico_giornaliero_15-04-2020
-2020-04-30,Algeria,DZ,319,cruscotto_statistico_giornaliero_30-04-2020
-2020-04-30,Bangladesh,BD,494,cruscotto_statistico_giornaliero_30-04-2020
-2020-04-30,Costa d'Avorio,CI,407,cruscotto_statistico_giornaliero_30-04-2020
-2020-04-30,Egitto,EG,84,cruscotto_statistico_giornaliero_30-04-2020
-2020-04-30,Guinea,GN,165,cruscotto_statistico_giornaliero_30-04-2020
-2020-04-30,Mali,ML,152,cruscotto_statistico_giornaliero_30-04-2020
-2020-04-30,Marocco,MA,237,cruscotto_statistico_giornaliero_30-04-2020
-2020-04-30,Somalia,SO,208,cruscotto_statistico_giornaliero_30-04-2020
-2020-04-30,Sudan,SD,357,cruscotto_statistico_giornaliero_30-04-2020
-2020-04-30,Tunisia,TN,186,cruscotto_statistico_giornaliero_30-04-2020
-2020-04-30,altre,,856,cruscotto_statistico_giornaliero_30-04-2020
-2020-05-15,Algeria,DZ,323,cruscotto_statistico_giornaliero_15-05-2020_0
-2020-05-15,Bangladesh,BD,830,cruscotto_statistico_giornaliero_15-05-2020_0
-2020-05-15,Costa d'Avorio,CI,571,cruscotto_statistico_giornaliero_15-05-2020_0
-2020-05-15,Egitto,EG,88,cruscotto_statistico_giornaliero_15-05-2020_0
-2020-05-15,Guinea,GN,206,cruscotto_statistico_giornaliero_15-05-2020_0
-2020-05-15,Mali,ML,162,cruscotto_statistico_giornaliero_15-05-2020_0
-2020-05-15,Marocco,MA,309,cruscotto_statistico_giornaliero_15-05-2020_0
-2020-05-15,Somalia,SO,211,cruscotto_statistico_giornaliero_15-05-2020_0
-2020-05-15,Sudan,SD,390,cruscotto_statistico_giornaliero_15-05-2020_0
-2020-05-15,Tunisia,TN,270,cruscotto_statistico_giornaliero_15-05-2020_0
-2020-05-15,altre,,877,cruscotto_statistico_giornaliero_15-05-2020_0
-2020-05-31,Algeria,DZ,372,cruscotto_statistico_giornaliero_31-05-2020_0
-2020-05-31,Bangladesh,BD,974,cruscotto_statistico_giornaliero_31-05-2020_0
-2020-05-31,Costa d'Avorio,CI,665,cruscotto_statistico_giornaliero_31-05-2020_0
-2020-05-31,Guinea,GN,214,cruscotto_statistico_giornaliero_31-05-2020_0
-2020-05-31,Mali,ML,165,cruscotto_statistico_giornaliero_31-05-2020_0
-2020-05-31,Marocco,MA,322,cruscotto_statistico_giornaliero_31-05-2020_0
-2020-05-31,Nigeria,NG,117,cruscotto_statistico_giornaliero_31-05-2020_0
-2020-05-31,Somalia,SO,228,cruscotto_statistico_giornaliero_31-05-2020_0
-2020-05-31,Sudan,SD,396,cruscotto_statistico_giornaliero_31-05-2020_0
-2020-05-31,Tunisia,TN,590,cruscotto_statistico_giornaliero_31-05-2020_0
-2020-05-31,altre,,1076,cruscotto_statistico_giornaliero_31-05-2020_0
-2020-06-15,Algeria,DZ,377,cruscotto_statistico_giornaliero_15-06-2020_0
-2020-06-15,Bangladesh,BD,1050,cruscotto_statistico_giornaliero_15-06-2020_0
-2020-06-15,Costa d'Avorio,CI,776,cruscotto_statistico_giornaliero_15-06-2020_0
-2020-06-15,Guinea,GN,233,cruscotto_statistico_giornaliero_15-06-2020_0
-2020-06-15,Mali,ML,167,cruscotto_statistico_giornaliero_15-06-2020_0
-2020-06-15,Marocco,MA,322,cruscotto_statistico_giornaliero_15-06-2020_0
-2020-06-15,Nigeria,NG,123,cruscotto_statistico_giornaliero_15-06-2020_0
-2020-06-15,Somalia,SO,228,cruscotto_statistico_giornaliero_15-06-2020_0
-2020-06-15,Sudan,SD,456,cruscotto_statistico_giornaliero_15-06-2020_0
-2020-06-15,Tunisia,TN,892,cruscotto_statistico_giornaliero_15-06-2020_0
-2020-06-15,altre,,1015,cruscotto_statistico_giornaliero_15-06-2020_0
-2020-06-30,Algeria,DZ,427,cruscotto_statistico_giornaliero_30-06-2020
-2020-06-30,Bangladesh,BD,1237,cruscotto_statistico_giornaliero_30-06-2020
-2020-06-30,Costa d'Avorio,CI,777,cruscotto_statistico_giornaliero_30-06-2020
-2020-06-30,Guinea,GN,243,cruscotto_statistico_giornaliero_30-06-2020
-2020-06-30,Mali,ML,168,cruscotto_statistico_giornaliero_30-06-2020
-2020-06-30,Marocco,MA,335,cruscotto_statistico_giornaliero_30-06-2020
-2020-06-30,Nigeria,NG,123,cruscotto_statistico_giornaliero_30-06-2020
-2020-06-30,Somalia,SO,230,cruscotto_statistico_giornaliero_30-06-2020
-2020-06-30,Sudan,SD,457,cruscotto_statistico_giornaliero_30-06-2020
-2020-06-30,Tunisia,TN,1303,cruscotto_statistico_giornaliero_30-06-2020
-2020-06-30,altre,,1512,cruscotto_statistico_giornaliero_30-06-2020
-2020-07-15,Algeria,DZ,503,cruscotto_statistico_giornaliero_15-07-2020
-2020-07-15,Bangladesh,BD,1733,cruscotto_statistico_giornaliero_15-07-2020
-2020-07-15,Costa d'Avorio,CI,795,cruscotto_statistico_giornaliero_15-07-2020
-2020-07-15,Egitto,EG,174,cruscotto_statistico_giornaliero_15-07-2020
-2020-07-15,Guinea,GN,245,cruscotto_statistico_giornaliero_15-07-2020
-2020-07-15,Marocco,MA,365,cruscotto_statistico_giornaliero_15-07-2020
-2020-07-15,Pakistan,PK,230,cruscotto_statistico_giornaliero_15-07-2020
-2020-07-15,Somalia,SO,233,cruscotto_statistico_giornaliero_15-07-2020
-2020-07-15,Sudan,SD,461,cruscotto_statistico_giornaliero_15-07-2020
-2020-07-15,Tunisia,TN,2830,cruscotto_statistico_giornaliero_15-07-2020
-2020-07-15,altre,,2137,cruscotto_statistico_giornaliero_15-07-2020
-2020-07-31,Algeria,DZ,630,cruscotto_statistico_giornaliero_31-07-2020
-2020-07-31,Bangladesh,BD,1830,cruscotto_statistico_giornaliero_31-07-2020
-2020-07-31,Costa d'Avorio,CI,819,cruscotto_statistico_giornaliero_31-07-2020
-2020-07-31,Egitto,EG,220,cruscotto_statistico_giornaliero_31-07-2020
-2020-07-31,Guinea,GN,252,cruscotto_statistico_giornaliero_31-07-2020
-2020-07-31,Marocco,MA,377,cruscotto_statistico_giornaliero_31-07-2020
-2020-07-31,Pakistan,PK,358,cruscotto_statistico_giornaliero_31-07-2020
-2020-07-31,Somalia,SO,273,cruscotto_statistico_giornaliero_31-07-2020
-2020-07-31,Sudan,SD,466,cruscotto_statistico_giornaliero_31-07-2020
-2020-07-31,Tunisia,TN,5357,cruscotto_statistico_giornaliero_31-07-2020
-2020-07-31,altre,,3128,cruscotto_statistico_giornaliero_31-07-2020
-2020-08-15,Algeria,DZ,750,cruscotto_statistico_giornaliero_15-08-2020
-2020-08-15,Bangladesh,BD,2365,cruscotto_statistico_giornaliero_15-08-2020
-2020-08-15,Costa d'Avorio,CI,872,cruscotto_statistico_giornaliero_15-08-2020
-2020-08-15,Egitto,EG,331,cruscotto_statistico_giornaliero_15-08-2020
-2020-08-15,Guinea,GN,301,cruscotto_statistico_giornaliero_15-08-2020
-2020-08-15,Marocco,MA,504,cruscotto_statistico_giornaliero_15-08-2020
-2020-08-15,Pakistan,PK,568,cruscotto_statistico_giornaliero_15-08-2020
-2020-08-15,Somalia,SO,356,cruscotto_statistico_giornaliero_15-08-2020
-2020-08-15,Sudan,SD,546,cruscotto_statistico_giornaliero_15-08-2020
-2020-08-15,Tunisia,TN,6473,cruscotto_statistico_giornaliero_15-08-2020
-2020-08-15,altre,,2385,cruscotto_statistico_giornaliero_15-08-2020
-2020-08-31,Algeria,DZ,858,cruscotto_statistico_giornaliero_31-08-2020
-2020-08-31,Bangladesh,BD,3041,cruscotto_statistico_giornaliero_31-08-2020
-2020-08-31,Costa d'Avorio,CI,911,cruscotto_statistico_giornaliero_31-08-2020
-2020-08-31,Egitto,EG,494,cruscotto_statistico_giornaliero_31-08-2020
-2020-08-31,Guinea,GN,355,cruscotto_statistico_giornaliero_31-08-2020
-2020-08-31,Marocco,MA,569,cruscotto_statistico_giornaliero_31-08-2020
-2020-08-31,Pakistan,PK,667,cruscotto_statistico_giornaliero_31-08-2020
-2020-08-31,Somalia,SO,549,cruscotto_statistico_giornaliero_31-08-2020
-2020-08-31,Sudan,SD,643,cruscotto_statistico_giornaliero_31-08-2020
-2020-08-31,Tunisia,TN,7885,cruscotto_statistico_giornaliero_31-08-2020
-2020-08-31,altre,,3222,cruscotto_statistico_giornaliero_31-08-2020
-2020-09-15,Afghanistan,AF,501,cruscotto_statistico_giornaliero_15-09-2020_1
-2020-09-15,Algeria,DZ,921,cruscotto_statistico_giornaliero_15-09-2020_1
-2020-09-15,Bangladesh,BD,3058,cruscotto_statistico_giornaliero_15-09-2020_1
-2020-09-15,Costa d'Avorio,CI,1006,cruscotto_statistico_giornaliero_15-09-2020_1
-2020-09-15,Egitto,EG,524,cruscotto_statistico_giornaliero_15-09-2020_1
-2020-09-15,Marocco,MA,587,cruscotto_statistico_giornaliero_15-09-2020_1
-2020-09-15,Pakistan,PK,800,cruscotto_statistico_giornaliero_15-09-2020_1
-2020-09-15,Somalia,SO,569,cruscotto_statistico_giornaliero_15-09-2020_1
-2020-09-15,Sudan,SD,740,cruscotto_statistico_giornaliero_15-09-2020_1
-2020-09-15,Tunisia,TN,8623,cruscotto_statistico_giornaliero_15-09-2020_1
-2020-09-15,altre,,3716,cruscotto_statistico_giornaliero_15-09-2020_1
-2020-09-30,Afghanistan,AF,516,cruscotto_statistico_giornaliero_30-09-2020
-2020-09-30,Algeria,DZ,1125,cruscotto_statistico_giornaliero_30-09-2020
-2020-09-30,Bangladesh,BD,3175,cruscotto_statistico_giornaliero_30-09-2020
-2020-09-30,Costa d'Avorio,CI,1031,cruscotto_statistico_giornaliero_30-09-2020
-2020-09-30,Egitto,EG,598,cruscotto_statistico_giornaliero_30-09-2020
-2020-09-30,Marocco,MA,619,cruscotto_statistico_giornaliero_30-09-2020
-2020-09-30,Pakistan,PK,948,cruscotto_statistico_giornaliero_30-09-2020
-2020-09-30,Somalia,SO,587,cruscotto_statistico_giornaliero_30-09-2020
-2020-09-30,Sudan,SD,799,cruscotto_statistico_giornaliero_30-09-2020
-2020-09-30,Tunisia,TN,9878,cruscotto_statistico_giornaliero_30-09-2020
-2020-09-30,altre,,4444,cruscotto_statistico_giornaliero_30-09-2020
-2020-10-15,Afghanistan,AF,676,cruscotto_statistico_giornaliero_15-10-2020
-2020-10-15,Algeria,DZ,1166,cruscotto_statistico_giornaliero_15-10-2020
-2020-10-15,Bangladesh,BD,3333,cruscotto_statistico_giornaliero_15-10-2020
-2020-10-15,Costa d'Avorio,CI,1112,cruscotto_statistico_giornaliero_15-10-2020
-2020-10-15,Egitto,EG,758,cruscotto_statistico_giornaliero_15-10-2020
-2020-10-15,Marocco,MA,691,cruscotto_statistico_giornaliero_15-10-2020
-2020-10-15,Pakistan,PK,1076,cruscotto_statistico_giornaliero_15-10-2020
-2020-10-15,Somalia,SO,618,cruscotto_statistico_giornaliero_15-10-2020
-2020-10-15,Sudan,SD,791,cruscotto_statistico_giornaliero_15-10-2020
-2020-10-15,Tunisia,TN,10745,cruscotto_statistico_giornaliero_15-10-2020
-2020-10-15,altre,,4954,cruscotto_statistico_giornaliero_15-10-2020
-2020-10-31,Afghanistan,AF,794,cruscotto_statistico_giornaliero_31-10-2020
-2020-10-31,Algeria,DZ,1205,cruscotto_statistico_giornaliero_31-10-2020
-2020-10-31,Bangladesh,BD,3391,cruscotto_statistico_giornaliero_31-10-2020
-2020-10-31,Costa d'Avorio,CI,1234,cruscotto_statistico_giornaliero_31-10-2020
-2020-10-31,Egitto,EG,914,cruscotto_statistico_giornaliero_31-10-2020
-2020-10-31,Iran,IR,653,cruscotto_statistico_giornaliero_31-10-2020
-2020-10-31,Marocco,MA,719,cruscotto_statistico_giornaliero_31-10-2020
-2020-10-31,Pakistan,PK,1275,cruscotto_statistico_giornaliero_31-10-2020
-2020-10-31,Sudan,SD,884,cruscotto_statistico_giornaliero_31-10-2020
-2020-10-31,Tunisia,TN,11195,cruscotto_statistico_giornaliero_31-10-2020
-2020-10-31,altre,,4926,cruscotto_statistico_giornaliero_31-10-2020
-2020-11-15,Afghanistan,AF,794,cruscotto_statistico_giornaliero_15-11-2020
-2020-11-15,Algeria,DZ,1376,cruscotto_statistico_giornaliero_15-11-2020
-2020-11-15,Bangladesh,BD,3714,cruscotto_statistico_giornaliero_15-11-2020
-2020-11-15,Costa d'Avorio,CI,1401,cruscotto_statistico_giornaliero_15-11-2020
-2020-11-15,Egitto,EG,1063,cruscotto_statistico_giornaliero_15-11-2020
-2020-11-15,Marocco,MA,957,cruscotto_statistico_giornaliero_15-11-2020
-2020-11-15,Pakistan,PK,1345,cruscotto_statistico_giornaliero_15-11-2020
-2020-11-15,Somalia,SO,772,cruscotto_statistico_giornaliero_15-11-2020
-2020-11-15,Sudan,SD,979,cruscotto_statistico_giornaliero_15-11-2020
-2020-11-15,Tunisia,TN,12430,cruscotto_statistico_giornaliero_15-11-2020
-2020-11-15,altre,,7206,cruscotto_statistico_giornaliero_15-11-2020
-2020-11-30,Afghanistan,AF,949,cruscotto_statistico_giornaliero_30-11-2020_0
-2020-11-30,Algeria,DZ,1379,cruscotto_statistico_giornaliero_30-11-2020_0
-2020-11-30,Bangladesh,BD,4132,cruscotto_statistico_giornaliero_30-11-2020_0
-2020-11-30,Costa d'Avorio,CI,1739,cruscotto_statistico_giornaliero_30-11-2020_0
-2020-11-30,Egitto,EG,1155,cruscotto_statistico_giornaliero_30-11-2020_0
-2020-11-30,Marocco,MA,995,cruscotto_statistico_giornaliero_30-11-2020_0
-2020-11-30,Pakistan,PK,1358,cruscotto_statistico_giornaliero_30-11-2020_0
-2020-11-30,Somalia,SO,809,cruscotto_statistico_giornaliero_30-11-2020_0
-2020-11-30,Sudan,SD,1043,cruscotto_statistico_giornaliero_30-11-2020_0
-2020-11-30,Tunisia,TN,12490,cruscotto_statistico_giornaliero_30-11-2020_0
-2020-11-30,altre,,6514,cruscotto_statistico_giornaliero_30-11-2020_0
-2020-12-15,Afghanistan,AF,950,cruscotto_statistico_giornaliero_15-12-2020
-2020-12-15,Algeria,DZ,1379,cruscotto_statistico_giornaliero_15-12-2020
-2020-12-15,Bangladesh,BD,4132,cruscotto_statistico_giornaliero_15-12-2020
-2020-12-15,Costa d'Avorio,CI,1807,cruscotto_statistico_giornaliero_15-12-2020
-2020-12-15,Egitto,EG,1206,cruscotto_statistico_giornaliero_15-12-2020
-2020-12-15,Marocco,MA,996,cruscotto_statistico_giornaliero_15-12-2020
-2020-12-15,Pakistan,PK,1358,cruscotto_statistico_giornaliero_15-12-2020
-2020-12-15,Somalia,SO,876,cruscotto_statistico_giornaliero_15-12-2020
-2020-12-15,Sudan,SD,1099,cruscotto_statistico_giornaliero_15-12-2020
-2020-12-15,Tunisia,TN,12542,cruscotto_statistico_giornaliero_15-12-2020
-2020-12-15,altre,,6574,cruscotto_statistico_giornaliero_15-12-2020
-2020-12-31,Afghanistan,AF,1009,cruscotto_statistico_giornaliero_31-12-2020_1
-2020-12-31,Algeria,DZ,1458,cruscotto_statistico_giornaliero_31-12-2020_1
-2020-12-31,Bangladesh,BD,4141,cruscotto_statistico_giornaliero_31-12-2020_1
-2020-12-31,Costa d'Avorio,CI,1950,cruscotto_statistico_giornaliero_31-12-2020_1
-2020-12-31,Egitto,EG,1264,cruscotto_statistico_giornaliero_31-12-2020_1
-2020-12-31,Iran,IR,970,cruscotto_statistico_giornaliero_31-12-2020_1
-2020-12-31,Marocco,MA,1030,cruscotto_statistico_giornaliero_31-12-2020_1
-2020-12-31,Pakistan,PK,1400,cruscotto_statistico_giornaliero_31-12-2020_1
-2020-12-31,Sudan,SD,1125,cruscotto_statistico_giornaliero_31-12-2020_1
-2020-12-31,Tunisia,TN,12883,cruscotto_statistico_giornaliero_31-12-2020_1
-2020-12-31,altre,,6924,cruscotto_statistico_giornaliero_31-12-2020_1
-2021-01-15,Afghanistan,AF,50,cruscotto_statistico_giornaliero_15-01-2021_0
-2021-01-15,Bangladesh,BD,0,cruscotto_statistico_giornaliero_15-01-2021_0
-2021-01-15,Costa d'Avorio,CI,0,cruscotto_statistico_giornaliero_15-01-2021_0
-2021-01-15,Egitto,EG,0,cruscotto_statistico_giornaliero_15-01-2021_0
-2021-01-15,Iran,IR,1,cruscotto_statistico_giornaliero_15-01-2021_0
-2021-01-15,Marocco,MA,0,cruscotto_statistico_giornaliero_15-01-2021_0
-2021-01-15,Pakistan,PK,0,cruscotto_statistico_giornaliero_15-01-2021_0
-2021-01-15,Sudan,SD,0,cruscotto_statistico_giornaliero_15-01-2021_0
-2021-01-15,Tunisia,TN,22,cruscotto_statistico_giornaliero_15-01-2021_0
-2021-01-15,Turchia,TR,2,cruscotto_statistico_giornaliero_15-01-2021_0
-2021-01-15,altre,,265,cruscotto_statistico_giornaliero_15-01-2021_0
-2021-01-31,Afghanistan,AF,50,cruscotto_statistico_giornaliero_31-01-2021
-2021-01-31,Costa d'Avorio,CI,11,cruscotto_statistico_giornaliero_31-01-2021
-2021-01-31,Egitto,EG,20,cruscotto_statistico_giornaliero_31-01-2021
-2021-01-31,Eritrea,ER,217,cruscotto_statistico_giornaliero_31-01-2021
-2021-01-31,Etiopia,ET,17,cruscotto_statistico_giornaliero_31-01-2021
-2021-01-31,Guinea,GN,29,cruscotto_statistico_giornaliero_31-01-2021
-2021-01-31,Mali,ML,24,cruscotto_statistico_giornaliero_31-01-2021
-2021-01-31,Senegal,SN,8,cruscotto_statistico_giornaliero_31-01-2021
-2021-01-31,Sudan,SD,33,cruscotto_statistico_giornaliero_31-01-2021
-2021-01-31,Tunisia,TN,61,cruscotto_statistico_giornaliero_31-01-2021
-2021-01-31,altre,,569,cruscotto_statistico_giornaliero_31-01-2021
-2021-02-15,Afghanistan,AF,76,cruscotto_statistico_giornaliero_15-02-2021_0
-2021-02-15,Algeria,DZ,125,cruscotto_statistico_giornaliero_15-02-2021_0
-2021-02-15,Bangladesh,BD,83,cruscotto_statistico_giornaliero_15-02-2021_0
-2021-02-15,Camerun,CM,64,cruscotto_statistico_giornaliero_15-02-2021_0
-2021-02-15,Costa d'Avorio,CI,249,cruscotto_statistico_giornaliero_15-02-2021_0
-2021-02-15,Eritrea,ER,217,cruscotto_statistico_giornaliero_15-02-2021_0
-2021-02-15,Guinea,GN,254,cruscotto_statistico_giornaliero_15-02-2021_0
-2021-02-15,Mali,ML,129,cruscotto_statistico_giornaliero_15-02-2021_0
-2021-02-15,Sudan,SD,94,cruscotto_statistico_giornaliero_15-02-2021_0
-2021-02-15,Tunisia,TN,334,cruscotto_statistico_giornaliero_15-02-2021_0
-2021-02-15,altre,,716,cruscotto_statistico_giornaliero_15-02-2021_0
-2021-02-28,Algeria,DZ,229,cruscotto_statistico_giornaliero_28-02-2021
-2021-02-28,Bangladesh,BD,364,cruscotto_statistico_giornaliero_28-02-2021
-2021-02-28,Costa d'Avorio,CI,470,cruscotto_statistico_giornaliero_28-02-2021
-2021-02-28,Egitto,EG,200,cruscotto_statistico_giornaliero_28-02-2021
-2021-02-28,Eritrea,ER,239,cruscotto_statistico_giornaliero_28-02-2021
-2021-02-28,Guinea,GN,305,cruscotto_statistico_giornaliero_28-02-2021
-2021-02-28,Mali,ML,155,cruscotto_statistico_giornaliero_28-02-2021
-2021-02-28,Marocco,MA,131,cruscotto_statistico_giornaliero_28-02-2021
-2021-02-28,Sudan,SD,194,cruscotto_statistico_giornaliero_28-02-2021
-2021-02-28,Tunisia,TN,699,cruscotto_statistico_giornaliero_28-02-2021
-2021-02-28,altre,,1937,cruscotto_statistico_giornaliero_28-02-2021
-2021-03-15,Algeria,DZ,291,cruscotto_statistico_giornaliero_15-03-2021_0
-2021-03-15,Bangladesh,BD,493,cruscotto_statistico_giornaliero_15-03-2021_0
-2021-03-15,Camerun,CM,164,cruscotto_statistico_giornaliero_15-03-2021_0
-2021-03-15,Costa d'Avorio,CI,960,cruscotto_statistico_giornaliero_15-03-2021_0
-2021-03-15,Egitto,EG,232,cruscotto_statistico_giornaliero_15-03-2021_0
-2021-03-15,Eritrea,ER,343,cruscotto_statistico_giornaliero_15-03-2021_0
-2021-03-15,Guinea,GN,598,cruscotto_statistico_giornaliero_15-03-2021_0
-2021-03-15,Mali,ML,271,cruscotto_statistico_giornaliero_15-03-2021_0
-2021-03-15,Sudan,SD,381,cruscotto_statistico_giornaliero_15-03-2021_0
-2021-03-15,Tunisia,TN,819,cruscotto_statistico_giornaliero_15-03-2021_0
-2021-03-15,altre,,1490,cruscotto_statistico_giornaliero_15-03-2021_0
-2021-03-31,Algeria,DZ,304,cruscotto_statistico_giornaliero_31-03-2021
-2021-03-31,Bangladesh,BD,493,cruscotto_statistico_giornaliero_31-03-2021
-2021-03-31,Camerun,CM,174,cruscotto_statistico_giornaliero_31-03-2021
-2021-03-31,Costa d'Avorio,CI,1019,cruscotto_statistico_giornaliero_31-03-2021
-2021-03-31,Egitto,EG,233,cruscotto_statistico_giornaliero_31-03-2021
-2021-03-31,Eritrea,ER,343,cruscotto_statistico_giornaliero_31-03-2021
-2021-03-31,Guinea,GN,697,cruscotto_statistico_giornaliero_31-03-2021
-2021-03-31,Mali,ML,302,cruscotto_statistico_giornaliero_31-03-2021
-2021-03-31,Sudan,SD,388,cruscotto_statistico_giornaliero_31-03-2021
-2021-03-31,Tunisia,TN,1055,cruscotto_statistico_giornaliero_31-03-2021
-2021-03-31,altre,,1989,cruscotto_statistico_giornaliero_31-03-2021
-2021-04-15,Algeria,DZ,320,cruscotto_statistico_giornaliero_15-04-2021
-2021-04-15,Bangladesh,BD,931,cruscotto_statistico_giornaliero_15-04-2021
-2021-04-15,Costa d'Avorio,CI,1192,cruscotto_statistico_giornaliero_15-04-2021
-2021-04-15,Egitto,EG,452,cruscotto_statistico_giornaliero_15-04-2021
-2021-04-15,Eritrea,ER,436,cruscotto_statistico_giornaliero_15-04-2021
-2021-04-15,Guinea,GN,812,cruscotto_statistico_giornaliero_15-04-2021
-2021-04-15,Mali,ML,447,cruscotto_statistico_giornaliero_15-04-2021
-2021-04-15,Marocco,MA,336,cruscotto_statistico_giornaliero_15-04-2021
-2021-04-15,Sudan,SD,559,cruscotto_statistico_giornaliero_15-04-2021
-2021-04-15,Tunisia,TN,1240,cruscotto_statistico_giornaliero_15-04-2021
-2021-04-15,altre,,1780,cruscotto_statistico_giornaliero_15-04-2021
-2021-04-30,Algeria,DZ,345,cruscotto_statistico_giornaliero_30-04-2021
-2021-04-30,Bangladesh,BD,939,cruscotto_statistico_giornaliero_30-04-2021
-2021-04-30,Costa d'Avorio,CI,1207,cruscotto_statistico_giornaliero_30-04-2021
-2021-04-30,Egitto,EG,580,cruscotto_statistico_giornaliero_30-04-2021
-2021-04-30,Eritrea,ER,436,cruscotto_statistico_giornaliero_30-04-2021
-2021-04-30,Guinea,GN,814,cruscotto_statistico_giornaliero_30-04-2021
-2021-04-30,Mali,ML,447,cruscotto_statistico_giornaliero_30-04-2021
-2021-04-30,Marocco,MA,336,cruscotto_statistico_giornaliero_30-04-2021
-2021-04-30,Sudan,SD,559,cruscotto_statistico_giornaliero_30-04-2021
-2021-04-30,Tunisia,TN,1385,cruscotto_statistico_giornaliero_30-04-2021
-2021-04-30,altre,,1965,cruscotto_statistico_giornaliero_30-04-2021
-2021-05-15,Algeria,DZ,385,cruscotto_statistico_giornaliero_15-05-2021
-2021-05-15,Bangladesh,BD,2165,cruscotto_statistico_giornaliero_15-05-2021
-2021-05-15,Costa d'Avorio,CI,1301,cruscotto_statistico_giornaliero_15-05-2021
-2021-05-15,Egitto,EG,784,cruscotto_statistico_giornaliero_15-05-2021
-2021-05-15,Eritrea,ER,795,cruscotto_statistico_giornaliero_15-05-2021
-2021-05-15,Guinea,GN,860,cruscotto_statistico_giornaliero_15-05-2021
-2021-05-15,Mali,ML,506,cruscotto_statistico_giornaliero_15-05-2021
-2021-05-15,Marocco,MA,488,cruscotto_statistico_giornaliero_15-05-2021
-2021-05-15,Sudan,SD,773,cruscotto_statistico_giornaliero_15-05-2021
-2021-05-15,Tunisia,TN,1738,cruscotto_statistico_giornaliero_15-05-2021
-2021-05-15,altre,,3337,cruscotto_statistico_giornaliero_15-05-2021
-2021-05-31,Algeria,DZ,413,cruscotto_statistico_giornaliero_31-05-2021
-2021-05-31,Bangladesh,BD,2520,cruscotto_statistico_giornaliero_31-05-2021
-2021-05-31,Costa d'Avorio,CI,1379,cruscotto_statistico_giornaliero_31-05-2021
-2021-05-31,Egitto,EG,914,cruscotto_statistico_giornaliero_31-05-2021
-2021-05-31,Eritrea,ER,969,cruscotto_statistico_giornaliero_31-05-2021
-2021-05-31,Guinea,GN,914,cruscotto_statistico_giornaliero_31-05-2021
-2021-05-31,Mali,ML,557,cruscotto_statistico_giornaliero_31-05-2021
-2021-05-31,Marocco,MA,572,cruscotto_statistico_giornaliero_31-05-2021
-2021-05-31,Sudan,SD,878,cruscotto_statistico_giornaliero_31-05-2021
-2021-05-31,Tunisia,TN,1981,cruscotto_statistico_giornaliero_31-05-2021
-2021-05-31,altre,,3315,cruscotto_statistico_giornaliero_31-05-2021
-2021-06-15,Algeria,DZ,550,cruscotto_statistico_giornaliero_15-06-2021
-2021-06-15,Bangladesh,BD,2704,cruscotto_statistico_giornaliero_15-06-2021
-2021-06-15,Costa d'Avorio,CI,1417,cruscotto_statistico_giornaliero_15-06-2021
-2021-06-15,Egitto,EG,1066,cruscotto_statistico_giornaliero_15-06-2021
-2021-06-15,Eritrea,ER,1009,cruscotto_statistico_giornaliero_15-06-2021
-2021-06-15,Guinea,GN,952,cruscotto_statistico_giornaliero_15-06-2021
-2021-06-15,Mali,ML,572,cruscotto_statistico_giornaliero_15-06-2021
-2021-06-15,Marocco,MA,632,cruscotto_statistico_giornaliero_15-06-2021
-2021-06-15,Sudan,SD,911,cruscotto_statistico_giornaliero_15-06-2021
-2021-06-15,Tunisia,TN,2627,cruscotto_statistico_giornaliero_15-06-2021
-2021-06-15,altre,,5258,cruscotto_statistico_giornaliero_15-06-2021
-2021-06-30,Bangladesh,BD,3144,cruscotto_statistico_giornaliero_30-06-2021
-2021-06-30,Costa d'Avorio,CI,1618,cruscotto_statistico_giornaliero_30-06-2021
-2021-06-30,Egitto,EG,1543,cruscotto_statistico_giornaliero_30-06-2021
-2021-06-30,Eritrea,ER,1195,cruscotto_statistico_giornaliero_30-06-2021
-2021-06-30,Guinea,GN,1065,cruscotto_statistico_giornaliero_30-06-2021
-2021-06-30,Iran,IR,821,cruscotto_statistico_giornaliero_30-06-2021
-2021-06-30,Mali,ML,661,cruscotto_statistico_giornaliero_30-06-2021
-2021-06-30,Marocco,MA,924,cruscotto_statistico_giornaliero_30-06-2021
-2021-06-30,Sudan,SD,1142,cruscotto_statistico_giornaliero_30-06-2021
-2021-06-30,Tunisia,TN,2962,cruscotto_statistico_giornaliero_30-06-2021
-2021-06-30,altre,,5284,cruscotto_statistico_giornaliero_30-06-2021
-2021-07-31,Bangladesh,BD,4176,cruscotto_statistico_giornaliero_31-07-2021
-2021-07-31,Costa d'Avorio,CI,2031,cruscotto_statistico_giornaliero_31-07-2021
-2021-07-31,Egitto,EG,2291,cruscotto_statistico_giornaliero_31-07-2021
-2021-07-31,Eritrea,ER,1428,cruscotto_statistico_giornaliero_31-07-2021
-2021-07-31,Guinea,GN,1408,cruscotto_statistico_giornaliero_31-07-2021
-2021-07-31,Iran,IR,1268,cruscotto_statistico_giornaliero_31-07-2021
-2021-07-31,Iraq,IQ,836,cruscotto_statistico_giornaliero_31-07-2021
-2021-07-31,Marocco,MA,1081,cruscotto_statistico_giornaliero_31-07-2021
-2021-07-31,Sudan,SD,1309,cruscotto_statistico_giornaliero_31-07-2021
-2021-07-31,Tunisia,TN,6869,cruscotto_statistico_giornaliero_31-07-2021
-2021-07-31,altre,,6173,cruscotto_statistico_giornaliero_31-07-2021
-2021-08-15,Bangladesh,BD,4656,cruscotto_statistico_giornaliero_15-08-2021
-2021-08-15,Costa d'Avorio,CI,2266,cruscotto_statistico_giornaliero_15-08-2021
-2021-08-15,Egitto,EG,2532,cruscotto_statistico_giornaliero_15-08-2021
-2021-08-15,Eritrea,ER,1452,cruscotto_statistico_giornaliero_15-08-2021
-2021-08-15,Guinea,GN,1520,cruscotto_statistico_giornaliero_15-08-2021
-2021-08-15,Iran,IR,1398,cruscotto_statistico_giornaliero_15-08-2021
-2021-08-15,Iraq,IQ,941,cruscotto_statistico_giornaliero_15-08-2021
-2021-08-15,Marocco,MA,1129,cruscotto_statistico_giornaliero_15-08-2021
-2021-08-15,Sudan,SD,1347,cruscotto_statistico_giornaliero_15-08-2021
-2021-08-15,Tunisia,TN,8809,cruscotto_statistico_giornaliero_15-08-2021
-2021-08-15,altre,,7924,cruscotto_statistico_giornaliero_15-08-2021
-2021-08-31,Bangladesh,BD,5275,cruscotto_statistico_giornaliero_31-08-2021
-2021-08-31,Costa d'Avorio,CI,2651,cruscotto_statistico_giornaliero_31-08-2021
-2021-08-31,Egitto,EG,3504,cruscotto_statistico_giornaliero_31-08-2021
-2021-08-31,Eritrea,ER,1557,cruscotto_statistico_giornaliero_31-08-2021
-2021-08-31,Guinea,GN,1630,cruscotto_statistico_giornaliero_31-08-2021
-2021-08-31,Iran,IR,1679,cruscotto_statistico_giornaliero_31-08-2021
-2021-08-31,Iraq,IQ,1132,cruscotto_statistico_giornaliero_31-08-2021
-2021-08-31,Marocco,MA,1464,cruscotto_statistico_giornaliero_31-08-2021
-2021-08-31,Sudan,SD,1459,cruscotto_statistico_giornaliero_31-08-2021
-2021-08-31,Tunisia,TN,10801,cruscotto_statistico_giornaliero_31-08-2021
-2021-08-31,altre,,7930,cruscotto_statistico_giornaliero_31-08-2021
-2021-09-15,Bangladesh,BD,5342,cruscotto_statistico_giornaliero_15-09-2021
-2021-09-15,Costa d'Avorio,CI,2791,cruscotto_statistico_giornaliero_15-09-2021
-2021-09-15,Egitto,EG,3754,cruscotto_statistico_giornaliero_15-09-2021
-2021-09-15,Eritrea,ER,1557,cruscotto_statistico_giornaliero_15-09-2021
-2021-09-15,Guinea,GN,1688,cruscotto_statistico_giornaliero_15-09-2021
-2021-09-15,Iran,IR,1978,cruscotto_statistico_giornaliero_15-09-2021
-2021-09-15,Iraq,IQ,1447,cruscotto_statistico_giornaliero_15-09-2021
-2021-09-15,Marocco,MA,1464,cruscotto_statistico_giornaliero_15-09-2021
-2021-09-15,Sudan,SD,1459,cruscotto_statistico_giornaliero_15-09-2021
-2021-09-15,Tunisia,TN,12511,cruscotto_statistico_giornaliero_15-09-2021
-2021-09-15,altre,,8195,cruscotto_statistico_giornaliero_15-09-2021
-2021-09-30,Bangladesh,BD,5560,cruscotto_statistico_giornaliero_30-09-2021_0
-2021-09-30,Costa d'Avorio,CI,2872,cruscotto_statistico_giornaliero_30-09-2021_0
-2021-09-30,Egitto,EG,4432,cruscotto_statistico_giornaliero_30-09-2021_0
-2021-09-30,Eritrea,ER,1604,cruscotto_statistico_giornaliero_30-09-2021_0
-2021-09-30,Guinea,GN,1841,cruscotto_statistico_giornaliero_30-09-2021_0
-2021-09-30,Iran,IR,2377,cruscotto_statistico_giornaliero_30-09-2021_0
-2021-09-30,Iraq,IQ,1723,cruscotto_statistico_giornaliero_30-09-2021_0
-2021-09-30,Marocco,MA,1483,cruscotto_statistico_giornaliero_30-09-2021_0
-2021-09-30,Sudan,SD,1528,cruscotto_statistico_giornaliero_30-09-2021_0
-2021-09-30,Tunisia,TN,12834,cruscotto_statistico_giornaliero_30-09-2021_0
-2021-09-30,altre,,9913,cruscotto_statistico_giornaliero_30-09-2021_0
-2021-10-15,Bangladesh,BD,6242,cruscotto_statistico_giornaliero_15-10-2021
-2021-10-15,Costa d'Avorio,CI,3003,cruscotto_statistico_giornaliero_15-10-2021
-2021-10-15,Egitto,EG,5136,cruscotto_statistico_giornaliero_15-10-2021
-2021-10-15,Eritrea,ER,1709,cruscotto_statistico_giornaliero_15-10-2021
-2021-10-15,Guinea,GN,1889,cruscotto_statistico_giornaliero_15-10-2021
-2021-10-15,Iran,IR,2926,cruscotto_statistico_giornaliero_15-10-2021
-2021-10-15,Iraq,IQ,2072,cruscotto_statistico_giornaliero_15-10-2021
-2021-10-15,Marocco,MA,1592,cruscotto_statistico_giornaliero_15-10-2021
-2021-10-15,Sudan,SD,1551,cruscotto_statistico_giornaliero_15-10-2021
-2021-10-15,Tunisia,TN,13637,cruscotto_statistico_giornaliero_15-10-2021
-2021-10-15,altre,,9478,cruscotto_statistico_giornaliero_15-10-2021
-2021-10-31,Bangladesh,BD,6448,cruscotto_statistico_giornaliero_31-10-2021
-2021-10-31,Costa d'Avorio,CI,3194,cruscotto_statistico_giornaliero_31-10-2021
-2021-10-31,Egitto,EG,6212,cruscotto_statistico_giornaliero_31-10-2021
-2021-10-31,Eritrea,ER,1720,cruscotto_statistico_giornaliero_31-10-2021
-2021-10-31,Guinea,GN,1961,cruscotto_statistico_giornaliero_31-10-2021
-2021-10-31,Iran,IR,3337,cruscotto_statistico_giornaliero_31-10-2021
-2021-10-31,Iraq,IQ,2276,cruscotto_statistico_giornaliero_31-10-2021
-2021-10-31,Marocco,MA,1621,cruscotto_statistico_giornaliero_31-10-2021
-2021-10-31,Sudan,SD,1579,cruscotto_statistico_giornaliero_31-10-2021
-2021-10-31,Tunisia,TN,14187,cruscotto_statistico_giornaliero_31-10-2021
-2021-10-31,altre,,10740,cruscotto_statistico_giornaliero_31-10-2021
-2021-11-15,Bangladesh,BD,6934,cruscotto_statistico_giornaliero_15-11-2021
-2021-11-15,Costa d'Avorio,CI,3309,cruscotto_statistico_giornaliero_15-11-2021
-2021-11-15,Egitto,EG,6573,cruscotto_statistico_giornaliero_15-11-2021
-2021-11-15,Eritrea,ER,1798,cruscotto_statistico_giornaliero_15-11-2021
-2021-11-15,Guinea,GN,2050,cruscotto_statistico_giornaliero_15-11-2021
-2021-11-15,Iran,IR,3587,cruscotto_statistico_giornaliero_15-11-2021
-2021-11-15,Iraq,IQ,2456,cruscotto_statistico_giornaliero_15-11-2021
-2021-11-15,Marocco,MA,2088,cruscotto_statistico_giornaliero_15-11-2021
-2021-11-15,Sudan,SD,1652,cruscotto_statistico_giornaliero_15-11-2021
-2021-11-15,Tunisia,TN,14770,cruscotto_statistico_giornaliero_15-11-2021
-2021-11-15,altre,,13918,cruscotto_statistico_giornaliero_15-11-2021
-2021-11-30,Bangladesh,BD,7542,cruscotto_statistico_giornaliero_30-11-2021
-2021-11-30,Costa d'Avorio,CI,3564,cruscotto_statistico_giornaliero_30-11-2021
-2021-11-30,Egitto,EG,7834,cruscotto_statistico_giornaliero_30-11-2021
-2021-11-30,Eritrea,ER,2112,cruscotto_statistico_giornaliero_30-11-2021
-2021-11-30,Guinea,GN,2311,cruscotto_statistico_giornaliero_30-11-2021
-2021-11-30,Iran,IR,3755,cruscotto_statistico_giornaliero_30-11-2021
-2021-11-30,Iraq,IQ,2500,cruscotto_statistico_giornaliero_30-11-2021
-2021-11-30,Marocco,MA,2162,cruscotto_statistico_giornaliero_30-11-2021
-2021-11-30,Siria,SY,1909,cruscotto_statistico_giornaliero_30-11-2021
-2021-11-30,Tunisia,TN,15055,cruscotto_statistico_giornaliero_30-11-2021
-2021-11-30,altre,,14197,cruscotto_statistico_giornaliero_30-11-2021
-2021-12-15,Bangladesh,BD,7567,cruscotto_statistico_giornaliero_15-12-2021
-2021-12-15,Costa d'Avorio,CI,3634,cruscotto_statistico_giornaliero_15-12-2021
-2021-12-15,Egitto,EG,8109,cruscotto_statistico_giornaliero_15-12-2021
-2021-12-15,Eritrea,ER,2187,cruscotto_statistico_giornaliero_15-12-2021
-2021-12-15,Guinea,GN,2348,cruscotto_statistico_giornaliero_15-12-2021
-2021-12-15,Iran,IR,3848,cruscotto_statistico_giornaliero_15-12-2021
-2021-12-15,Iraq,IQ,2534,cruscotto_statistico_giornaliero_15-12-2021
-2021-12-15,Marocco,MA,2167,cruscotto_statistico_giornaliero_15-12-2021
-2021-12-15,Siria,SY,2192,cruscotto_statistico_giornaliero_15-12-2021
-2021-12-15,Tunisia,TN,15036,cruscotto_statistico_giornaliero_15-12-2021
-2021-12-15,altre,,13454,cruscotto_statistico_giornaliero_15-12-2021
-2021-12-31,Bangladesh,BD,7824,cruscotto_statistico_giornaliero_31-12-2021
-2021-12-31,Costa d'Avorio,CI,3807,cruscotto_statistico_giornaliero_31-12-2021
-2021-12-31,Egitto,EG,8352,cruscotto_statistico_giornaliero_31-12-2021
-2021-12-31,Eritrea,ER,2328,cruscotto_statistico_giornaliero_31-12-2021
-2021-12-31,Guinea,GN,2446,cruscotto_statistico_giornaliero_31-12-2021
-2021-12-31,Iran,IR,3915,cruscotto_statistico_giornaliero_31-12-2021
-2021-12-31,Iraq,IQ,2645,cruscotto_statistico_giornaliero_31-12-2021
-2021-12-31,Marocco,MA,2193,cruscotto_statistico_giornaliero_31-12-2021
-2021-12-31,Siria,SY,2266,cruscotto_statistico_giornaliero_31-12-2021
-2021-12-31,Tunisia,TN,15671,cruscotto_statistico_giornaliero_31-12-2021
-2021-12-31,altre,,15593,cruscotto_statistico_giornaliero_31-12-2021
-2022-01-15,Afghanistan,AF,91,cruscotto_statistico_giornaliero_15-01-2022
-2022-01-15,Algeria,DZ,55,cruscotto_statistico_giornaliero_15-01-2022
-2022-01-15,Bangladesh,BD,82,cruscotto_statistico_giornaliero_15-01-2022
-2022-01-15,Costa d'Avorio,CI,29,cruscotto_statistico_giornaliero_15-01-2022
-2022-01-15,Egitto,EG,23,cruscotto_statistico_giornaliero_15-01-2022
-2022-01-15,Eritrea,ER,3,cruscotto_statistico_giornaliero_15-01-2022
-2022-01-15,Guinea,GN,22,cruscotto_statistico_giornaliero_15-01-2022
-2022-01-15,Pakistan,PK,9,cruscotto_statistico_giornaliero_15-01-2022
-2022-01-15,Sudan,SD,3,cruscotto_statistico_giornaliero_15-01-2022
-2022-01-15,Tunisia,TN,53,cruscotto_statistico_giornaliero_15-01-2022
-2022-01-15,altre,,8,cruscotto_statistico_giornaliero_15-01-2022
-2022-01-31,Afghanistan,AF,91,cruscotto_statistico_giornaliero_31-01-2022
-2022-01-31,Algeria,DZ,56,cruscotto_statistico_giornaliero_31-01-2022
-2022-01-31,Bangladesh,BD,713,cruscotto_statistico_giornaliero_31-01-2022
-2022-01-31,Camerun,CM,68,cruscotto_statistico_giornaliero_31-01-2022
-2022-01-31,Costa d'Avorio,CI,151,cruscotto_statistico_giornaliero_31-01-2022
-2022-01-31,Egitto,EG,405,cruscotto_statistico_giornaliero_31-01-2022
-2022-01-31,Eritrea,ER,71,cruscotto_statistico_giornaliero_31-01-2022
-2022-01-31,Guinea,GN,84,cruscotto_statistico_giornaliero_31-01-2022
-2022-01-31,Siria,SY,31,cruscotto_statistico_giornaliero_31-01-2022
-2022-01-31,Tunisia,TN,339,cruscotto_statistico_giornaliero_31-01-2022
-2022-01-31,altre,,1026,cruscotto_statistico_giornaliero_31-01-2022
-2022-02-15,Afghanistan,AF,91,cruscotto_statistico_giornaliero_15-02-2022
-2022-02-15,Bangladesh,BD,904,cruscotto_statistico_giornaliero_15-02-2022
-2022-02-15,Camerun,CM,74,cruscotto_statistico_giornaliero_15-02-2022
-2022-02-15,Costa d'Avorio,CI,213,cruscotto_statistico_giornaliero_15-02-2022
-2022-02-15,Egitto,EG,658,cruscotto_statistico_giornaliero_15-02-2022
-2022-02-15,Eritrea,ER,187,cruscotto_statistico_giornaliero_15-02-2022
-2022-02-15,Guinea,GN,131,cruscotto_statistico_giornaliero_15-02-2022
-2022-02-15,Pakistan,PK,98,cruscotto_statistico_giornaliero_15-02-2022
-2022-02-15,Sudan,SD,88,cruscotto_statistico_giornaliero_15-02-2022
-2022-02-15,Tunisia,TN,596,cruscotto_statistico_giornaliero_15-02-2022
-2022-02-15,altre,,1040,cruscotto_statistico_giornaliero_15-02-2022
-2022-02-28,Afghanistan,AF,331,cruscotto_statistico_giornaliero_28-02-2022_0
-2022-02-28,Bangladesh,BD,1238,cruscotto_statistico_giornaliero_28-02-2022_0
-2022-02-28,Camerun,CM,106,cruscotto_statistico_giornaliero_28-02-2022_0
-2022-02-28,Costa d'Avorio,CI,273,cruscotto_statistico_giornaliero_28-02-2022_0
-2022-02-28,Egitto,EG,1383,cruscotto_statistico_giornaliero_28-02-2022_0
-2022-02-28,Eritrea,ER,213,cruscotto_statistico_giornaliero_28-02-2022_0
-2022-02-28,Guinea,GN,147,cruscotto_statistico_giornaliero_28-02-2022_0
-2022-02-28,Siria,SY,262,cruscotto_statistico_giornaliero_28-02-2022_0
-2022-02-28,Sudan,SD,118,cruscotto_statistico_giornaliero_28-02-2022_0
-2022-02-28,Tunisia,TN,690,cruscotto_statistico_giornaliero_28-02-2022_0
-2022-02-28,altre,,713,cruscotto_statistico_giornaliero_28-02-2022_0
-2022-03-15,Afghanistan,AF,469,cruscotto_statistico_giornaliero_15-03-2022
-2022-03-15,Bangladesh,BD,1241,cruscotto_statistico_giornaliero_15-03-2022
-2022-03-15,Camerun,CM,108,cruscotto_statistico_giornaliero_15-03-2022
-2022-03-15,Costa d'Avorio,CI,295,cruscotto_statistico_giornaliero_15-03-2022
-2022-03-15,Egitto,EG,1518,cruscotto_statistico_giornaliero_15-03-2022
-2022-03-15,Eritrea,ER,315,cruscotto_statistico_giornaliero_15-03-2022
-2022-03-15,Guinea,GN,191,cruscotto_statistico_giornaliero_15-03-2022
-2022-03-15,Siria,SY,277,cruscotto_statistico_giornaliero_15-03-2022
-2022-03-15,Sudan,SD,133,cruscotto_statistico_giornaliero_15-03-2022
-2022-03-15,Tunisia,TN,870,cruscotto_statistico_giornaliero_15-03-2022
-2022-03-15,altre,,846,cruscotto_statistico_giornaliero_15-03-2022
-2022-03-31,Afghanistan,AF,469,cruscotto_statistico_giornaliero_31-03-2022
-2022-03-31,Bangladesh,BD,1276,cruscotto_statistico_giornaliero_31-03-2022
-2022-03-31,Camerun,CM,145,cruscotto_statistico_giornaliero_31-03-2022
-2022-03-31,Costa d'Avorio,CI,393,cruscotto_statistico_giornaliero_31-03-2022
-2022-03-31,Egitto,EG,1621,cruscotto_statistico_giornaliero_31-03-2022
-2022-03-31,Eritrea,ER,341,cruscotto_statistico_giornaliero_31-03-2022
-2022-03-31,Guinea,GN,234,cruscotto_statistico_giornaliero_31-03-2022
-2022-03-31,Siria,SY,291,cruscotto_statistico_giornaliero_31-03-2022
-2022-03-31,Sudan,SD,140,cruscotto_statistico_giornaliero_31-03-2022
-2022-03-31,Tunisia,TN,918,cruscotto_statistico_giornaliero_31-03-2022
-2022-03-31,altre,,942,cruscotto_statistico_giornaliero_31-03-2022
-2022-04-15,Afghanistan,AF,586,cruscotto_statistico_giornaliero_15-04-2022
-2022-04-15,Bangladesh,BD,1422,cruscotto_statistico_giornaliero_15-04-2022
-2022-04-15,Camerun,CM,186,cruscotto_statistico_giornaliero_15-04-2022
-2022-04-15,Costa d'Avorio,CI,525,cruscotto_statistico_giornaliero_15-04-2022
-2022-04-15,Egitto,EG,1877,cruscotto_statistico_giornaliero_15-04-2022
-2022-04-15,Eritrea,ER,370,cruscotto_statistico_giornaliero_15-04-2022
-2022-04-15,Guinea,GN,320,cruscotto_statistico_giornaliero_15-04-2022
-2022-04-15,Siria,SY,303,cruscotto_statistico_giornaliero_15-04-2022
-2022-04-15,Sudan,SD,245,cruscotto_statistico_giornaliero_15-04-2022
-2022-04-15,Tunisia,TN,997,cruscotto_statistico_giornaliero_15-04-2022
-2022-04-15,altre,,1610,cruscotto_statistico_giornaliero_15-04-2022
-2022-04-30,Afghanistan,AF,690,cruscotto_statistico_giornaliero_30-04-2022_0
-2022-04-30,Bangladesh,BD,1545,cruscotto_statistico_giornaliero_30-04-2022_0
-2022-04-30,Costa d'Avorio,CI,576,cruscotto_statistico_giornaliero_30-04-2022_0
-2022-04-30,Egitto,EG,2000,cruscotto_statistico_giornaliero_30-04-2022_0
-2022-04-30,Eritrea,ER,370,cruscotto_statistico_giornaliero_30-04-2022_0
-2022-04-30,Guinea,GN,393,cruscotto_statistico_giornaliero_30-04-2022_0
-2022-04-30,Nigeria,NG,239,cruscotto_statistico_giornaliero_30-04-2022_0
-2022-04-30,Siria,SY,370,cruscotto_statistico_giornaliero_30-04-2022_0
-2022-04-30,Sudan,SD,247,cruscotto_statistico_giornaliero_30-04-2022_0
-2022-04-30,Tunisia,TN,1234,cruscotto_statistico_giornaliero_30-04-2022_0
-2022-04-30,altre,,2789,cruscotto_statistico_giornaliero_30-04-2022_0
-2022-05-15,Afghanistan,AF,1240,cruscotto_statistico_giornaliero_15-05-2022
-2022-05-15,Bangladesh,BD,2176,cruscotto_statistico_giornaliero_15-05-2022
-2022-05-15,Costa d'Avorio,CI,692,cruscotto_statistico_giornaliero_15-05-2022
-2022-05-15,Egitto,EG,2464,cruscotto_statistico_giornaliero_15-05-2022
-2022-05-15,Eritrea,ER,485,cruscotto_statistico_giornaliero_15-05-2022
-2022-05-15,Guinea,GN,481,cruscotto_statistico_giornaliero_15-05-2022
-2022-05-15,Iran,IR,349,cruscotto_statistico_giornaliero_15-05-2022
-2022-05-15,Siria,SY,889,cruscotto_statistico_giornaliero_15-05-2022
-2022-05-15,Sudan,SD,314,cruscotto_statistico_giornaliero_15-05-2022
-2022-05-15,Tunisia,TN,1607,cruscotto_statistico_giornaliero_15-05-2022
-2022-05-15,altre,,3379,cruscotto_statistico_giornaliero_15-05-2022
-2022-05-31,Afghanistan,AF,2031,cruscotto_statistico_giornaliero_31-05-2022
-2022-05-31,Bangladesh,BD,3084,cruscotto_statistico_giornaliero_31-05-2022
-2022-05-31,Costa d'Avorio,CI,887,cruscotto_statistico_giornaliero_31-05-2022
-2022-05-31,Egitto,EG,3388,cruscotto_statistico_giornaliero_31-05-2022
-2022-05-31,Eritrea,ER,571,cruscotto_statistico_giornaliero_31-05-2022
-2022-05-31,Guinea,GN,625,cruscotto_statistico_giornaliero_31-05-2022
-2022-05-31,Iran,IR,619,cruscotto_statistico_giornaliero_31-05-2022
-2022-05-31,Siria,SY,1315,cruscotto_statistico_giornaliero_31-05-2022
-2022-05-31,Sudan,SD,426,cruscotto_statistico_giornaliero_31-05-2022
-2022-05-31,Tunisia,TN,2206,cruscotto_statistico_giornaliero_31-05-2022
-2022-05-31,altre,,4264,cruscotto_statistico_giornaliero_31-05-2022
-2022-06-15,Afghanistan,AF,2421,cruscotto_statistico_giornaliero_15-06-2022
-2022-06-15,Bangladesh,BD,4120,cruscotto_statistico_giornaliero_15-06-2022
-2022-06-15,Costa d'Avorio,CI,931,cruscotto_statistico_giornaliero_15-06-2022
-2022-06-15,Egitto,EG,3935,cruscotto_statistico_giornaliero_15-06-2022
-2022-06-15,Eritrea,ER,616,cruscotto_statistico_giornaliero_15-06-2022
-2022-06-15,Guinea,GN,640,cruscotto_statistico_giornaliero_15-06-2022
-2022-06-15,Iran,IR,678,cruscotto_statistico_giornaliero_15-06-2022
-2022-06-15,Siria,SY,1462,cruscotto_statistico_giornaliero_15-06-2022
-2022-06-15,Sudan,SD,466,cruscotto_statistico_giornaliero_15-06-2022
-2022-06-15,Tunisia,TN,2757,cruscotto_statistico_giornaliero_15-06-2022
-2022-06-15,altre,,4152,cruscotto_statistico_giornaliero_15-06-2022
-2022-06-30,Afghanistan,AF,2724,cruscotto_statistico_giornaliero_30-06-2022
-2022-06-30,Bangladesh,BD,4688,cruscotto_statistico_giornaliero_30-06-2022
-2022-06-30,Costa d'Avorio,CI,1057,cruscotto_statistico_giornaliero_30-06-2022
-2022-06-30,Egitto,EG,4267,cruscotto_statistico_giornaliero_30-06-2022
-2022-06-30,Eritrea,ER,786,cruscotto_statistico_giornaliero_30-06-2022
-2022-06-30,Guinea,GN,688,cruscotto_statistico_giornaliero_30-06-2022
-2022-06-30,Iran,IR,703,cruscotto_statistico_giornaliero_30-06-2022
-2022-06-30,Siria,SY,1551,cruscotto_statistico_giornaliero_30-06-2022
-2022-06-30,Sudan,SD,500,cruscotto_statistico_giornaliero_30-06-2022
-2022-06-30,Tunisia,TN,3996,cruscotto_statistico_giornaliero_30-06-2022
-2022-06-30,altre,,6464,cruscotto_statistico_giornaliero_30-06-2022
-2022-07-15,Afghanistan,AF,3292,cruscotto_statistico_giornaliero_15-07-2022
-2022-07-15,Bangladesh,BD,5730,cruscotto_statistico_giornaliero_15-07-2022
-2022-07-15,Costa d'Avorio,CI,1210,cruscotto_statistico_giornaliero_15-07-2022
-2022-07-15,Egitto,EG,5391,cruscotto_statistico_giornaliero_15-07-2022
-2022-07-15,Eritrea,ER,939,cruscotto_statistico_giornaliero_15-07-2022
-2022-07-15,Guinea,GN,872,cruscotto_statistico_giornaliero_15-07-2022
-2022-07-15,Iran,IR,761,cruscotto_statistico_giornaliero_15-07-2022
-2022-07-15,Pakistan,PK,645,cruscotto_statistico_giornaliero_15-07-2022
-2022-07-15,Siria,SY,1922,cruscotto_statistico_giornaliero_15-07-2022
-2022-07-15,Tunisia,TN,5003,cruscotto_statistico_giornaliero_15-07-2022
-2022-07-15,altre,,6182,cruscotto_statistico_giornaliero_15-07-2022
-2022-07-31,Afghanistan,AF,3306,cruscotto_statistico_giornaliero_31-07-2022
-2022-07-31,Bangladesh,BD,5996,cruscotto_statistico_giornaliero_31-07-2022
-2022-07-31,Costa d'Avorio,CI,1390,cruscotto_statistico_giornaliero_31-07-2022
-2022-07-31,Egitto,EG,6636,cruscotto_statistico_giornaliero_31-07-2022
-2022-07-31,Eritrea,ER,989,cruscotto_statistico_giornaliero_31-07-2022
-2022-07-31,Guinea,GN,978,cruscotto_statistico_giornaliero_31-07-2022
-2022-07-31,Iran,IR,762,cruscotto_statistico_giornaliero_31-07-2022
-2022-07-31,Pakistan,PK,713,cruscotto_statistico_giornaliero_31-07-2022
-2022-07-31,Siria,SY,2365,cruscotto_statistico_giornaliero_31-07-2022
-2022-07-31,Tunisia,TN,7427,cruscotto_statistico_giornaliero_31-07-2022
-2022-07-31,altre,,10608,cruscotto_statistico_giornaliero_31-07-2022
-2022-08-15,Afghanistan,AF,3586,cruscotto_statistico_giornaliero_15-08-2022
-2022-08-15,Bangladesh,BD,7639,cruscotto_statistico_giornaliero_15-08-2022
-2022-08-15,Costa d'Avorio,CI,1849,cruscotto_statistico_giornaliero_15-08-2022
-2022-08-15,Egitto,EG,8823,cruscotto_statistico_giornaliero_15-08-2022
-2022-08-15,Eritrea,ER,1470,cruscotto_statistico_giornaliero_15-08-2022
-2022-08-15,Guinea,GN,1237,cruscotto_statistico_giornaliero_15-08-2022
-2022-08-15,Iran,IR,871,cruscotto_statistico_giornaliero_15-08-2022
-2022-08-15,Pakistan,PK,944,cruscotto_statistico_giornaliero_15-08-2022
-2022-08-15,Siria,SY,2832,cruscotto_statistico_giornaliero_15-08-2022
-2022-08-15,Tunisia,TN,9506,cruscotto_statistico_giornaliero_15-08-2022
-2022-08-15,altre,,9334,cruscotto_statistico_giornaliero_15-08-2022
-2022-08-31,Afghanistan,AF,4256,cruscotto_statistico_giornaliero_31-08-2022
-2022-08-31,Bangladesh,BD,8727,cruscotto_statistico_giornaliero_31-08-2022
-2022-08-31,Costa d'Avorio,CI,1917,cruscotto_statistico_giornaliero_31-08-2022
-2022-08-31,Egitto,EG,9958,cruscotto_statistico_giornaliero_31-08-2022
-2022-08-31,Eritrea,ER,1563,cruscotto_statistico_giornaliero_31-08-2022
-2022-08-31,Guinea,GN,1303,cruscotto_statistico_giornaliero_31-08-2022
-2022-08-31,Iran,IR,1175,cruscotto_statistico_giornaliero_31-08-2022
-2022-08-31,Pakistan,PK,1271,cruscotto_statistico_giornaliero_31-08-2022
-2022-08-31,Siria,SY,3118,cruscotto_statistico_giornaliero_31-08-2022
-2022-08-31,Tunisia,TN,11742,cruscotto_statistico_giornaliero_31-08-2022
-2022-08-31,altre,,12138,cruscotto_statistico_giornaliero_31-08-2022
-2022-09-15,Afghanistan,AF,5271,cruscotto_statistico_giornaliero_15-09-2022_1
-2022-09-15,Bangladesh,BD,10016,cruscotto_statistico_giornaliero_15-09-2022_1
-2022-09-15,Costa d'Avorio,CI,2100,cruscotto_statistico_giornaliero_15-09-2022_1
-2022-09-15,Egitto,EG,12697,cruscotto_statistico_giornaliero_15-09-2022_1
-2022-09-15,Eritrea,ER,1662,cruscotto_statistico_giornaliero_15-09-2022_1
-2022-09-15,Guinea,GN,1492,cruscotto_statistico_giornaliero_15-09-2022_1
-2022-09-15,Iran,IR,1513,cruscotto_statistico_giornaliero_15-09-2022_1
-2022-09-15,Pakistan,PK,1486,cruscotto_statistico_giornaliero_15-09-2022_1
-2022-09-15,Siria,SY,4204,cruscotto_statistico_giornaliero_15-09-2022_1
-2022-09-15,Tunisia,TN,14036,cruscotto_statistico_giornaliero_15-09-2022_1
-2022-09-15,altre,,11685,cruscotto_statistico_giornaliero_15-09-2022_1
-2022-09-30,Afghanistan,AF,5445,cruscotto_statistico_giornaliero_30-09-2022
-2022-09-30,Bangladesh,BD,10886,cruscotto_statistico_giornaliero_30-09-2022
-2022-09-30,Costa d'Avorio,CI,2320,cruscotto_statistico_giornaliero_30-09-2022
-2022-09-30,Egitto,EG,14194,cruscotto_statistico_giornaliero_30-09-2022
-2022-09-30,Eritrea,ER,1904,cruscotto_statistico_giornaliero_30-09-2022
-2022-09-30,Guinea,GN,1682,cruscotto_statistico_giornaliero_30-09-2022
-2022-09-30,Iran,IR,1586,cruscotto_statistico_giornaliero_30-09-2022
-2022-09-30,Pakistan,PK,1691,cruscotto_statistico_giornaliero_30-09-2022
-2022-09-30,Siria,SY,5316,cruscotto_statistico_giornaliero_30-09-2022
-2022-09-30,Tunisia,TN,14600,cruscotto_statistico_giornaliero_30-09-2022
-2022-09-30,altre,,11701,cruscotto_statistico_giornaliero_30-09-2022
-2022-10-15,Afghanistan,AF,5746,cruscotto_statistico_giornaliero_15-10-2022
-2022-10-15,Bangladesh,BD,11126,cruscotto_statistico_giornaliero_15-10-2022
-2022-10-15,Costa d'Avorio,CI,2514,cruscotto_statistico_giornaliero_15-10-2022
-2022-10-15,Egitto,EG,15958,cruscotto_statistico_giornaliero_15-10-2022
-2022-10-15,Eritrea,ER,1920,cruscotto_statistico_giornaliero_15-10-2022
-2022-10-15,Guinea,GN,1964,cruscotto_statistico_giornaliero_15-10-2022
-2022-10-15,Iran,IR,1723,cruscotto_statistico_giornaliero_15-10-2022
-2022-10-15,Pakistan,PK,1815,cruscotto_statistico_giornaliero_15-10-2022
-2022-10-15,Siria,SY,5831,cruscotto_statistico_giornaliero_15-10-2022
-2022-10-15,Tunisia,TN,15558,cruscotto_statistico_giornaliero_15-10-2022
-2022-10-15,altre,,11211,cruscotto_statistico_giornaliero_15-10-2022
-2022-10-31,Afghanistan,AF,5878,cruscotto_statistico_giornaliero_31-10-2022
-2022-10-31,Bangladesh,BD,11845,cruscotto_statistico_giornaliero_31-10-2022
-2022-10-31,Costa d'Avorio,CI,2972,cruscotto_statistico_giornaliero_31-10-2022
-2022-10-31,Egitto,EG,16415,cruscotto_statistico_giornaliero_31-10-2022
-2022-10-31,Eritrea,ER,1925,cruscotto_statistico_giornaliero_31-10-2022
-2022-10-31,Guinea,GN,2478,cruscotto_statistico_giornaliero_31-10-2022
-2022-10-31,Iran,IR,1909,cruscotto_statistico_giornaliero_31-10-2022
-2022-10-31,Pakistan,PK,1882,cruscotto_statistico_giornaliero_31-10-2022
-2022-10-31,Siria,SY,6090,cruscotto_statistico_giornaliero_31-10-2022
-2022-10-31,Tunisia,TN,16699,cruscotto_statistico_giornaliero_31-10-2022
-2022-10-31,altre,,16948,cruscotto_statistico_giornaliero_31-10-2022
-2022-11-15,Afghanistan,AF,6625,cruscotto_statistico_giornaliero_15-11-2022
-2022-11-15,Bangladesh,BD,13007,cruscotto_statistico_giornaliero_15-11-2022
-2022-11-15,Costa d'Avorio,CI,4076,cruscotto_statistico_giornaliero_15-11-2022
-2022-11-15,Egitto,EG,18841,cruscotto_statistico_giornaliero_15-11-2022
-2022-11-15,Eritrea,ER,2053,cruscotto_statistico_giornaliero_15-11-2022
-2022-11-15,Guinea,GN,3159,cruscotto_statistico_giornaliero_15-11-2022
-2022-11-15,Iran,IR,2181,cruscotto_statistico_giornaliero_15-11-2022
-2022-11-15,Pakistan,PK,2410,cruscotto_statistico_giornaliero_15-11-2022
-2022-11-15,Siria,SY,7007,cruscotto_statistico_giornaliero_15-11-2022
-2022-11-15,Tunisia,TN,17295,cruscotto_statistico_giornaliero_15-11-2022
-2022-11-15,altre,,16263,cruscotto_statistico_giornaliero_15-11-2022
-2022-11-30,Afghanistan,AF,6809,cruscotto_statistico_giornaliero_30-11-2022_0
-2022-11-30,Bangladesh,BD,14028,cruscotto_statistico_giornaliero_30-11-2022_0
-2022-11-30,Costa d'Avorio,CI,4794,cruscotto_statistico_giornaliero_30-11-2022_0
-2022-11-30,Egitto,EG,20020,cruscotto_statistico_giornaliero_30-11-2022_0
-2022-11-30,Eritrea,ER,2054,cruscotto_statistico_giornaliero_30-11-2022_0
-2022-11-30,Guinea,GN,3685,cruscotto_statistico_giornaliero_30-11-2022_0
-2022-11-30,Iran,IR,2261,cruscotto_statistico_giornaliero_30-11-2022_0
-2022-11-30,Pakistan,PK,2705,cruscotto_statistico_giornaliero_30-11-2022_0
-2022-11-30,Siria,SY,7934,cruscotto_statistico_giornaliero_30-11-2022_0
-2022-11-30,Tunisia,TN,17443,cruscotto_statistico_giornaliero_30-11-2022_0
-2022-11-30,altre,,12608,cruscotto_statistico_giornaliero_30-11-2022_0
-2022-12-15,Afghanistan,AF,7161,cruscotto_statistico_giornaliero_15-12-2022
-2022-12-15,Bangladesh,BD,14299,cruscotto_statistico_giornaliero_15-12-2022
-2022-12-15,Costa d'Avorio,CI,5311,cruscotto_statistico_giornaliero_15-12-2022
-2022-12-15,Egitto,EG,20290,cruscotto_statistico_giornaliero_15-12-2022
-2022-12-15,Eritrea,ER,2060,cruscotto_statistico_giornaliero_15-12-2022
-2022-12-15,Guinea,GN,4074,cruscotto_statistico_giornaliero_15-12-2022
-2022-12-15,Iran,IR,2308,cruscotto_statistico_giornaliero_15-12-2022
-2022-12-15,Pakistan,PK,3065,cruscotto_statistico_giornaliero_15-12-2022
-2022-12-15,Siria,SY,8337,cruscotto_statistico_giornaliero_15-12-2022
-2022-12-15,Tunisia,TN,17617,cruscotto_statistico_giornaliero_15-12-2022
-2022-12-15,altre,,14130,cruscotto_statistico_giornaliero_15-12-2022
-2022-12-31,Afghanistan,AF,7241,cruscotto_statistico_giornaliero_31-12-2022-rev
-2022-12-31,Bangladesh,BD,14982,cruscotto_statistico_giornaliero_31-12-2022-rev
-2022-12-31,Costa d'Avorio,CI,5973,cruscotto_statistico_giornaliero_31-12-2022-rev
-2022-12-31,Egitto,EG,20542,cruscotto_statistico_giornaliero_31-12-2022-rev
-2022-12-31,Eritrea,ER,2101,cruscotto_statistico_giornaliero_31-12-2022-rev
-2022-12-31,Guinea,GN,4473,cruscotto_statistico_giornaliero_31-12-2022-rev
-2022-12-31,Iran,IR,2326,cruscotto_statistico_giornaliero_31-12-2022-rev
-2022-12-31,Pakistan,PK,3188,cruscotto_statistico_giornaliero_31-12-2022-rev
-2022-12-31,Siria,SY,8594,cruscotto_statistico_giornaliero_31-12-2022-rev
-2022-12-31,Tunisia,TN,18148,cruscotto_statistico_giornaliero_31-12-2022-rev
-2022-12-31,altre,,17561,cruscotto_statistico_giornaliero_31-12-2022-rev
-2023-01-15,Afghanistan,AF,334,cruscotto_statistico_giornaliero_15-01-2023
-2023-01-15,Bangladesh,BD,188,cruscotto_statistico_giornaliero_15-01-2023
-2023-01-15,Camerun,CM,131,cruscotto_statistico_giornaliero_15-01-2023
-2023-01-15,Costa d'Avorio,CI,725,cruscotto_statistico_giornaliero_15-01-2023
-2023-01-15,Egitto,EG,357,cruscotto_statistico_giornaliero_15-01-2023
-2023-01-15,Eritrea,ER,190,cruscotto_statistico_giornaliero_15-01-2023
-2023-01-15,Guinea,GN,364,cruscotto_statistico_giornaliero_15-01-2023
-2023-01-15,Pakistan,PK,414,cruscotto_statistico_giornaliero_15-01-2023
-2023-01-15,Siria,SY,249,cruscotto_statistico_giornaliero_15-01-2023
-2023-01-15,Tunisia,TN,134,cruscotto_statistico_giornaliero_15-01-2023
-2023-01-15,altre,,722,cruscotto_statistico_giornaliero_15-01-2023
-2023-01-31,Afghanistan,AF,334,cruscotto_statistico_giornaliero_31-01-2023
-2023-01-31,Bangladesh,BD,232,cruscotto_statistico_giornaliero_31-01-2023
-2023-01-31,Camerun,CM,145,cruscotto_statistico_giornaliero_31-01-2023
-2023-01-31,Costa d'Avorio,CI,799,cruscotto_statistico_giornaliero_31-01-2023
-2023-01-31,Egitto,EG,358,cruscotto_statistico_giornaliero_31-01-2023
-2023-01-31,Eritrea,ER,213,cruscotto_statistico_giornaliero_31-01-2023
-2023-01-31,Guinea,GN,502,cruscotto_statistico_giornaliero_31-01-2023
-2023-01-31,Pakistan,PK,414,cruscotto_statistico_giornaliero_31-01-2023
-2023-01-31,Siria,SY,253,cruscotto_statistico_giornaliero_31-01-2023
-2023-01-31,Tunisia,TN,341,cruscotto_statistico_giornaliero_31-01-2023
-2023-01-31,altre,,1368,cruscotto_statistico_giornaliero_31-01-2023
-2023-02-15,Afghanistan,AF,336,cruscotto_statistico_giornaliero_15-02-2023
-2023-02-15,Bangladesh,BD,253,cruscotto_statistico_giornaliero_15-02-2023
-2023-02-15,Camerun,CM,225,cruscotto_statistico_giornaliero_15-02-2023
-2023-02-15,Costa d'Avorio,CI,1032,cruscotto_statistico_giornaliero_15-02-2023
-2023-02-15,Egitto,EG,430,cruscotto_statistico_giornaliero_15-02-2023
-2023-02-15,Eritrea,ER,236,cruscotto_statistico_giornaliero_15-02-2023
-2023-02-15,Guinea,GN,912,cruscotto_statistico_giornaliero_15-02-2023
-2023-02-15,Pakistan,PK,967,cruscotto_statistico_giornaliero_15-02-2023
-2023-02-15,Siria,SY,338,cruscotto_statistico_giornaliero_15-02-2023
-2023-02-15,Tunisia,TN,373,cruscotto_statistico_giornaliero_15-02-2023
-2023-02-15,altre,,1732,cruscotto_statistico_giornaliero_15-02-2023
-2023-02-28,Bangladesh,BD,1066,cruscotto_statistico_giornaliero_28-02-2023
-2023-02-28,Burkina Faso,BF,447,cruscotto_statistico_giornaliero_28-02-2023
-2023-02-28,Camerun,CM,508,cruscotto_statistico_giornaliero_28-02-2023
-2023-02-28,Costa d'Avorio,CI,2020,cruscotto_statistico_giornaliero_28-02-2023
-2023-02-28,Egitto,EG,621,cruscotto_statistico_giornaliero_28-02-2023
-2023-02-28,Eritrea,ER,462,cruscotto_statistico_giornaliero_28-02-2023
-2023-02-28,Guinea,GN,2050,cruscotto_statistico_giornaliero_28-02-2023
-2023-02-28,Mali,ML,495,cruscotto_statistico_giornaliero_28-02-2023
-2023-02-28,Pakistan,PK,1107,cruscotto_statistico_giornaliero_28-02-2023
-2023-02-28,Tunisia,TN,1117,cruscotto_statistico_giornaliero_28-02-2023
-2023-02-28,altre,,4540,cruscotto_statistico_giornaliero_28-02-2023
-2023-03-15,Bangladesh,BD,1506,cruscotto_statistico_giornaliero_15-03-2023_0
-2023-03-15,Burkina Faso,BF,601,cruscotto_statistico_giornaliero_15-03-2023_0
-2023-03-15,Camerun,CM,826,cruscotto_statistico_giornaliero_15-03-2023_0
-2023-03-15,Costa d'Avorio,CI,3002,cruscotto_statistico_giornaliero_15-03-2023_0
-2023-03-15,Egitto,EG,769,cruscotto_statistico_giornaliero_15-03-2023_0
-2023-03-15,Eritrea,ER,542,cruscotto_statistico_giornaliero_15-03-2023_0
-2023-03-15,Guinea,GN,2806,cruscotto_statistico_giornaliero_15-03-2023_0
-2023-03-15,Mali,ML,666,cruscotto_statistico_giornaliero_15-03-2023_0
-2023-03-15,Pakistan,PK,1541,cruscotto_statistico_giornaliero_15-03-2023_0
-2023-03-15,Tunisia,TN,1421,cruscotto_statistico_giornaliero_15-03-2023_0
-2023-03-15,altre,,6341,cruscotto_statistico_giornaliero_15-03-2023_0
-2023-03-31,Bangladesh,BD,1941,cruscotto_statistico_giornaliero_31-03-2023
-2023-03-31,Burkina Faso,BF,732,cruscotto_statistico_giornaliero_31-03-2023
-2023-03-31,Camerun,CM,1083,cruscotto_statistico_giornaliero_31-03-2023
-2023-03-31,Costa d'Avorio,CI,4047,cruscotto_statistico_giornaliero_31-03-2023
-2023-03-31,Egitto,EG,1860,cruscotto_statistico_giornaliero_31-03-2023
-2023-03-31,Guinea,GN,3352,cruscotto_statistico_giornaliero_31-03-2023
-2023-03-31,Mali,ML,814,cruscotto_statistico_giornaliero_31-03-2023
-2023-03-31,Pakistan,PK,2221,cruscotto_statistico_giornaliero_31-03-2023
-2023-03-31,Siria,SY,938,cruscotto_statistico_giornaliero_31-03-2023
-2023-03-31,Tunisia,TN,1888,cruscotto_statistico_giornaliero_31-03-2023
-2023-03-31,altre,,8404,cruscotto_statistico_giornaliero_31-03-2023
-2023-04-15,Bangladesh,BD,2339,cruscotto_statistico_giornaliero_15-04-2023
-2023-04-15,Burkina Faso,BF,966,cruscotto_statistico_giornaliero_15-04-2023
-2023-04-15,Camerun,CM,1590,cruscotto_statistico_giornaliero_15-04-2023
-2023-04-15,Costa d'Avorio,CI,5568,cruscotto_statistico_giornaliero_15-04-2023
-2023-04-15,Egitto,EG,2685,cruscotto_statistico_giornaliero_15-04-2023
-2023-04-15,Guinea,GN,4208,cruscotto_statistico_giornaliero_15-04-2023
-2023-04-15,Mali,ML,1053,cruscotto_statistico_giornaliero_15-04-2023
-2023-04-15,Pakistan,PK,3412,cruscotto_statistico_giornaliero_15-04-2023
-2023-04-15,Siria,SY,1330,cruscotto_statistico_giornaliero_15-04-2023
-2023-04-15,Tunisia,TN,2764,cruscotto_statistico_giornaliero_15-04-2023
-2023-04-15,altre,,7565,cruscotto_statistico_giornaliero_15-04-2023
-2023-04-30,Bangladesh,BD,3154,cruscotto_statistico_giornaliero_30-04-2023
-2023-04-30,Burkina Faso,BF,1219,cruscotto_statistico_giornaliero_30-04-2023
-2023-04-30,Camerun,CM,1629,cruscotto_statistico_giornaliero_30-04-2023
-2023-04-30,Costa d'Avorio,CI,5894,cruscotto_statistico_giornaliero_30-04-2023
-2023-04-30,Egitto,EG,4414,cruscotto_statistico_giornaliero_30-04-2023
-2023-04-30,Guinea,GN,4608,cruscotto_statistico_giornaliero_30-04-2023
-2023-04-30,Mali,ML,1098,cruscotto_statistico_giornaliero_30-04-2023
-2023-04-30,Pakistan,PK,3851,cruscotto_statistico_giornaliero_30-04-2023
-2023-04-30,Siria,SY,2185,cruscotto_statistico_giornaliero_30-04-2023
-2023-04-30,Tunisia,TN,2935,cruscotto_statistico_giornaliero_30-04-2023
-2023-04-30,altre,,11087,cruscotto_statistico_giornaliero_30-04-2023
-2023-05-15,Bangladesh,BD,3671,cruscotto_statistico_giornaliero_15-05-2023_0
-2023-05-15,Burkina Faso,BF,2015,cruscotto_statistico_giornaliero_15-05-2023_0
-2023-05-15,Camerun,CM,1958,cruscotto_statistico_giornaliero_15-05-2023_0
-2023-05-15,Costa d'Avorio,CI,7371,cruscotto_statistico_giornaliero_15-05-2023_0
-2023-05-15,Egitto,EG,4694,cruscotto_statistico_giornaliero_15-05-2023_0
-2023-05-15,Guinea,GN,5988,cruscotto_statistico_giornaliero_15-05-2023_0
-2023-05-15,Mali,ML,1462,cruscotto_statistico_giornaliero_15-05-2023_0
-2023-05-15,Pakistan,PK,3949,cruscotto_statistico_giornaliero_15-05-2023_0
-2023-05-15,Siria,SY,2480,cruscotto_statistico_giornaliero_15-05-2023_0
-2023-05-15,Tunisia,TN,3291,cruscotto_statistico_giornaliero_15-05-2023_0
-2023-05-15,altre,,8631,cruscotto_statistico_giornaliero_15-05-2023_0
-2023-05-31,Bangladesh,BD,4628,cruscotto_statistico_giornaliero_31-05-2023
-2023-05-31,Burkina Faso,BF,2015,cruscotto_statistico_giornaliero_31-05-2023
-2023-05-31,Camerun,CM,1959,cruscotto_statistico_giornaliero_31-05-2023
-2023-05-31,Costa d'Avorio,CI,7380,cruscotto_statistico_giornaliero_31-05-2023
-2023-05-31,Egitto,EG,5478,cruscotto_statistico_giornaliero_31-05-2023
-2023-05-31,Guinea,GN,5996,cruscotto_statistico_giornaliero_31-05-2023
-2023-05-31,Mali,ML,1466,cruscotto_statistico_giornaliero_31-05-2023
-2023-05-31,Pakistan,PK,4630,cruscotto_statistico_giornaliero_31-05-2023
-2023-05-31,Siria,SY,2752,cruscotto_statistico_giornaliero_31-05-2023
-2023-05-31,Tunisia,TN,3432,cruscotto_statistico_giornaliero_31-05-2023
-2023-05-31,altre,,9957,cruscotto_statistico_giornaliero_31-05-2023
-2023-06-15,Bangladesh,BD,5660,cruscotto_statistico_giornaliero_15-06-2023
-2023-06-15,Burkina Faso,BF,2391,cruscotto_statistico_giornaliero_15-06-2023
-2023-06-15,Camerun,CM,2005,cruscotto_statistico_giornaliero_15-06-2023
-2023-06-15,Costa d'Avorio,CI,7570,cruscotto_statistico_giornaliero_15-06-2023
-2023-06-15,Egitto,EG,6986,cruscotto_statistico_giornaliero_15-06-2023
-2023-06-15,Guinea,GN,6374,cruscotto_statistico_giornaliero_15-06-2023
-2023-06-15,Mali,ML,1611,cruscotto_statistico_giornaliero_15-06-2023
-2023-06-15,Pakistan,PK,5915,cruscotto_statistico_giornaliero_15-06-2023
-2023-06-15,Siria,SY,3430,cruscotto_statistico_giornaliero_15-06-2023
-2023-06-15,Tunisia,TN,3901,cruscotto_statistico_giornaliero_15-06-2023
-2023-06-15,altre,,9819,cruscotto_statistico_giornaliero_15-06-2023
-2023-06-30,Bangladesh,BD,5910,cruscotto_statistico_giornaliero_30-06-2023
-2023-06-30,Burkina Faso,BF,3018,cruscotto_statistico_giornaliero_30-06-2023
-2023-06-30,Camerun,CM,2141,cruscotto_statistico_giornaliero_30-06-2023
-2023-06-30,Costa d'Avorio,CI,7921,cruscotto_statistico_giornaliero_30-06-2023
-2023-06-30,Egitto,EG,7128,cruscotto_statistico_giornaliero_30-06-2023
-2023-06-30,Guinea,GN,7155,cruscotto_statistico_giornaliero_30-06-2023
-2023-06-30,Mali,ML,1901,cruscotto_statistico_giornaliero_30-06-2023
-2023-06-30,Pakistan,PK,5943,cruscotto_statistico_giornaliero_30-06-2023
-2023-06-30,Siria,SY,3665,cruscotto_statistico_giornaliero_30-06-2023
-2023-06-30,Tunisia,TN,4318,cruscotto_statistico_giornaliero_30-06-2023
-2023-06-30,altre,,15830,cruscotto_statistico_giornaliero_30-06-2023
-2023-07-15,Bangladesh,BD,6603,cruscotto_statistico_giornaliero_15-07-2023
-2023-07-15,Burkina Faso,BF,4568,cruscotto_statistico_giornaliero_15-07-2023
-2023-07-15,Camerun,CM,2634,cruscotto_statistico_giornaliero_15-07-2023
-2023-07-15,Costa d'Avorio,CI,9350,cruscotto_statistico_giornaliero_15-07-2023
-2023-07-15,Egitto,EG,7705,cruscotto_statistico_giornaliero_15-07-2023
-2023-07-15,Guinea,GN,8957,cruscotto_statistico_giornaliero_15-07-2023
-2023-07-15,Mali,ML,2502,cruscotto_statistico_giornaliero_15-07-2023
-2023-07-15,Pakistan,PK,6086,cruscotto_statistico_giornaliero_15-07-2023
-2023-07-15,Siria,SY,4027,cruscotto_statistico_giornaliero_15-07-2023
-2023-07-15,Tunisia,TN,5166,cruscotto_statistico_giornaliero_15-07-2023
-2023-07-15,altre,,18223,cruscotto_statistico_giornaliero_15-07-2023
-2023-07-31,Bangladesh,BD,6729,cruscotto_statistico_giornaliero_31-07-2023
-2023-07-31,Burkina Faso,BF,5361,cruscotto_statistico_giornaliero_31-07-2023
-2023-07-31,Camerun,CM,3084,cruscotto_statistico_giornaliero_31-07-2023
-2023-07-31,Costa d'Avorio,CI,10998,cruscotto_statistico_giornaliero_31-07-2023
-2023-07-31,Egitto,EG,7792,cruscotto_statistico_giornaliero_31-07-2023
-2023-07-31,Guinea,GN,10858,cruscotto_statistico_giornaliero_31-07-2023
-2023-07-31,Mali,ML,3042,cruscotto_statistico_giornaliero_31-07-2023
-2023-07-31,Pakistan,PK,6575,cruscotto_statistico_giornaliero_31-07-2023
-2023-07-31,Siria,SY,4149,cruscotto_statistico_giornaliero_31-07-2023
-2023-07-31,Tunisia,TN,6087,cruscotto_statistico_giornaliero_31-07-2023
-2023-07-31,altre,,24199,cruscotto_statistico_giornaliero_31-07-2023
-2023-08-15,Bangladesh,BD,6912,cruscotto_statistico_giornaliero_15-08-2023
-2023-08-15,Burkina Faso,BF,5621,cruscotto_statistico_giornaliero_15-08-2023
-2023-08-15,Camerun,CM,3433,cruscotto_statistico_giornaliero_15-08-2023
-2023-08-15,Costa d'Avorio,CI,11870,cruscotto_statistico_giornaliero_15-08-2023
-2023-08-15,Egitto,EG,7821,cruscotto_statistico_giornaliero_15-08-2023
-2023-08-15,Guinea,GN,11989,cruscotto_statistico_giornaliero_15-08-2023
-2023-08-15,Mali,ML,3360,cruscotto_statistico_giornaliero_15-08-2023
-2023-08-15,Pakistan,PK,6173,cruscotto_statistico_giornaliero_15-08-2023
-2023-08-15,Siria,SY,4258,cruscotto_statistico_giornaliero_15-08-2023
-2023-08-15,Tunisia,TN,7775,cruscotto_statistico_giornaliero_15-08-2023
-2023-08-15,altre,,31726,cruscotto_statistico_giornaliero_15-08-2023
-2023-08-31,Bangladesh,BD,7035,cruscotto_statistico_giornaliero_31-08-2023
-2023-08-31,Burkina Faso,BF,6076,cruscotto_statistico_giornaliero_31-08-2023
-2023-08-31,Camerun,CM,3797,cruscotto_statistico_giornaliero_31-08-2023
-2023-08-31,Costa d'Avorio,CI,12763,cruscotto_statistico_giornaliero_31-08-2023
-2023-08-31,Egitto,EG,8058,cruscotto_statistico_giornaliero_31-08-2023
-2023-08-31,Guinea,GN,13052,cruscotto_statistico_giornaliero_31-08-2023
-2023-08-31,Mali,ML,3604,cruscotto_statistico_giornaliero_31-08-2023
-2023-08-31,Pakistan,PK,6175,cruscotto_statistico_giornaliero_31-08-2023
-2023-08-31,Siria,SY,4428,cruscotto_statistico_giornaliero_31-08-2023
-2023-08-31,Tunisia,TN,9283,cruscotto_statistico_giornaliero_31-08-2023
-2023-08-31,altre,,40255,cruscotto_statistico_giornaliero_31-08-2023
-2023-09-15,Bangladesh,BD,7575,cruscotto_statistico_giornaliero_15-09-2023_0
-2023-09-15,Burkina Faso,BF,6783,cruscotto_statistico_giornaliero_15-09-2023_0
-2023-09-15,Camerun,CM,4279,cruscotto_statistico_giornaliero_15-09-2023_0
-2023-09-15,Costa d'Avorio,CI,14208,cruscotto_statistico_giornaliero_15-09-2023_0
-2023-09-15,Egitto,EG,8420,cruscotto_statistico_giornaliero_15-09-2023_0
-2023-09-15,Guinea,GN,15088,cruscotto_statistico_giornaliero_15-09-2023_0
-2023-09-15,Mali,ML,4274,cruscotto_statistico_giornaliero_15-09-2023_0
-2023-09-15,Pakistan,PK,6321,cruscotto_statistico_giornaliero_15-09-2023_0
-2023-09-15,Siria,SY,5071,cruscotto_statistico_giornaliero_15-09-2023_0
-2023-09-15,Tunisia,TN,11530,cruscotto_statistico_giornaliero_15-09-2023_0
-2023-09-15,altre,,43658,cruscotto_statistico_giornaliero_15-09-2023_0
-2023-09-30,Bangladesh,BD,7882,cruscotto_statistico_giornaliero_30-09-2023
-2023-09-30,Burkina Faso,BF,7584,cruscotto_statistico_giornaliero_30-09-2023
-2023-09-30,Camerun,CM,4689,cruscotto_statistico_giornaliero_30-09-2023
-2023-09-30,Costa d'Avorio,CI,14998,cruscotto_statistico_giornaliero_30-09-2023
-2023-09-30,Egitto,EG,8693,cruscotto_statistico_giornaliero_30-09-2023
-2023-09-30,Guinea,GN,16431,cruscotto_statistico_giornaliero_30-09-2023
-2023-09-30,Mali,ML,4965,cruscotto_statistico_giornaliero_30-09-2023
-2023-09-30,Pakistan,PK,6350,cruscotto_statistico_giornaliero_30-09-2023
-2023-09-30,Siria,SY,5665,cruscotto_statistico_giornaliero_30-09-2023
-2023-09-30,Tunisia,TN,14097,cruscotto_statistico_giornaliero_30-09-2023
-2023-09-30,altre,,42263,cruscotto_statistico_giornaliero_30-09-2023
-2023-10-15,Bangladesh,BD,8091,cruscotto_statistico_giornaliero_15-10-2023
-2023-10-15,Burkina Faso,BF,7949,cruscotto_statistico_giornaliero_15-10-2023
-2023-10-15,Camerun,CM,4813,cruscotto_statistico_giornaliero_15-10-2023
-2023-10-15,Costa d'Avorio,CI,15490,cruscotto_statistico_giornaliero_15-10-2023
-2023-10-15,Egitto,EG,8807,cruscotto_statistico_giornaliero_15-10-2023
-2023-10-15,Guinea,GN,17150,cruscotto_statistico_giornaliero_15-10-2023
-2023-10-15,Mali,ML,5299,cruscotto_statistico_giornaliero_15-10-2023
-2023-10-15,Pakistan,PK,6430,cruscotto_statistico_giornaliero_15-10-2023
-2023-10-15,Siria,SY,5777,cruscotto_statistico_giornaliero_15-10-2023
-2023-10-15,Tunisia,TN,14837,cruscotto_statistico_giornaliero_15-10-2023
-2023-10-15,altre,,45363,cruscotto_statistico_giornaliero_15-10-2023
+Data_Report,Nazione,ISO_3166-1,Valore
+2019-09-30,Algeria,DZ,723
+2019-09-30,Bangladesh,BD,259
+2019-09-30,Costa d'Avorio,CI,864
+2019-09-30,Guinea,GN,187
+2019-09-30,Iran,IR,188
+2019-09-30,Iraq,IQ,582
+2019-09-30,Marocco,MA,132
+2019-09-30,Pakistan,PK,922
+2019-09-30,Sudan,SD,344
+2019-09-30,Tunisia,TN,2087
+2019-09-30,altre,,1233
+2019-10-15,Algeria,DZ,786
+2019-10-15,Bangladesh,BD,325
+2019-10-15,Costa d'Avorio,CI,942
+2019-10-15,Guinea,GN,190
+2019-10-15,Iran,IR,214
+2019-10-15,Iraq,IQ,620
+2019-10-15,Marocco,MA,152
+2019-10-15,Pakistan,PK,997
+2019-10-15,Sudan,SD,344
+2019-10-15,Tunisia,TN,2349
+2019-10-15,altre,,1536
+2019-10-31,Algeria,DZ,944
+2019-10-31,Bangladesh,BD,383
+2019-10-31,Costa d'Avorio,CI,973
+2019-10-31,Guinea,GN,208
+2019-10-31,Iran,IR,375
+2019-10-31,Iraq,IQ,777
+2019-10-31,Marocco,MA,190
+2019-10-31,Pakistan,PK,1094
+2019-10-31,Sudan,SD,356
+2019-10-31,Tunisia,TN,2555
+2019-10-31,altre,,1793
+2019-11-15,Algeria,DZ,952
+2019-11-15,Bangladesh,BD,435
+2019-11-15,Costa d'Avorio,CI,1044
+2019-11-15,Guinea,GN,236
+2019-11-15,Iran,IR,388
+2019-11-15,Iraq,IQ,805
+2019-11-15,Nigeria,NG,206
+2019-11-15,Pakistan,PK,1142
+2019-11-15,Sudan,SD,358
+2019-11-15,Tunisia,TN,2557
+2019-11-15,altre,,1821
+2019-11-30,Algeria,DZ,982
+2019-11-30,Bangladesh,BD,520
+2019-11-30,Costa d'Avorio,CI,1120
+2019-11-30,Guinea,GN,277
+2019-11-30,Iran,IR,403
+2019-11-30,Iraq,IQ,821
+2019-11-30,Nigeria,NG,230
+2019-11-30,Pakistan,PK,1180
+2019-11-30,Sudan,SD,440
+2019-11-30,Tunisia,TN,2642
+2019-11-30,altre,,2258
+2019-12-15,Algeria,DZ,1005
+2019-12-15,Bangladesh,BD,581
+2019-12-15,Costa d'Avorio,CI,1135
+2019-12-15,Guinea,GN,281
+2019-12-15,Iran,IR,434
+2019-12-15,Iraq,IQ,871
+2019-12-15,Marocco,MA,253
+2019-12-15,Pakistan,PK,1180
+2019-12-15,Sudan,SD,444
+2019-12-15,Tunisia,TN,2654
+2019-12-15,altre,,2259
+2019-12-31,Algeria,DZ,1009
+2019-12-31,Bangladesh,BD,602
+2019-12-31,Costa d'Avorio,CI,1139
+2019-12-31,Guinea,GN,295
+2019-12-31,Iran,IR,481
+2019-12-31,Iraq,IQ,972
+2019-12-31,Pakistan,PK,1180
+2019-12-31,Somalia,SO,270
+2019-12-31,Sudan,SD,446
+2019-12-31,Tunisia,TN,2654
+2019-12-31,altre,,2423
+2020-01-15,Afghanistan,AF,4
+2020-01-15,Algeria,DZ,111
+2020-01-15,Camerun,CM,1
+2020-01-15,Costa d'Avorio,CI,73
+2020-01-15,Guinea,GN,16
+2020-01-15,Iran,IR,48
+2020-01-15,Iraq,IQ,62
+2020-01-15,Mali,ML,4
+2020-01-15,Tunisia,TN,17
+2020-01-15,Ucraina,UA,3
+2020-01-15,altre,,3
+2020-01-31,Algeria,DZ,249
+2020-01-31,Bangladesh,BD,91
+2020-01-31,Costa d'Avorio,CI,126
+2020-01-31,Guinea,GN,58
+2020-01-31,Iran,IR,48
+2020-01-31,Iraq,IQ,62
+2020-01-31,Mali,ML,27
+2020-01-31,Marocco,MA,46
+2020-01-31,Nigeria,NG,25
+2020-01-31,Tunisia,TN,40
+2020-01-31,altre,,503
+2020-02-15,Algeria,DZ,256
+2020-02-15,Bangladesh,BD,226
+2020-02-15,Costa d'Avorio,CI,218
+2020-02-15,Guinea,GN,105
+2020-02-15,Iraq,IQ,62
+2020-02-15,Mali,ML,57
+2020-02-15,Marocco,MA,75
+2020-02-15,Somalia,SO,86
+2020-02-15,Sudan,SD,238
+2020-02-15,Tunisia,TN,84
+2020-02-15,altre,,603
+2020-02-29,Algeria,DZ,308
+2020-02-29,Bangladesh,BD,440
+2020-02-29,Costa d'Avorio,CI,283
+2020-02-29,Guinea,GN,121
+2020-02-29,Mali,ML,115
+2020-02-29,Marocco,MA,112
+2020-02-29,Nigeria,NG,70
+2020-02-29,Somalia,SO,172
+2020-02-29,Sudan,SD,245
+2020-02-29,Tunisia,TN,94
+2020-02-29,altre,,593
+2020-03-15,Algeria,DZ,308
+2020-03-15,Bangladesh,BD,440
+2020-03-15,Costa d'Avorio,CI,283
+2020-03-15,Guinea,GN,121
+2020-03-15,Mali,ML,115
+2020-03-15,Marocco,MA,143
+2020-03-15,Nigeria,NG,70
+2020-03-15,Somalia,SO,172
+2020-03-15,Sudan,SD,245
+2020-03-15,Tunisia,TN,133
+2020-03-15,altre,,708
+2020-03-31,Algeria,DZ,312
+2020-03-31,Bangladesh,BD,455
+2020-03-31,Costa d'Avorio,CI,310
+2020-03-31,Guinea,GN,129
+2020-03-31,Iraq,IQ,72
+2020-03-31,Mali,ML,122
+2020-03-31,Marocco,MA,145
+2020-03-31,Somalia,SO,172
+2020-03-31,Sudan,SD,248
+2020-03-31,Tunisia,TN,154
+2020-03-31,altre,,675
+2020-04-15,Algeria,DZ,319
+2020-04-15,Bangladesh,BD,493
+2020-04-15,Costa d'Avorio,CI,345
+2020-04-15,Guinea,GN,145
+2020-04-15,Mali,ML,144
+2020-04-15,Marocco,MA,234
+2020-04-15,Nigeria,NG,75
+2020-04-15,Somalia,SO,207
+2020-04-15,Sudan,SD,290
+2020-04-15,Tunisia,TN,178
+2020-04-15,altre,,801
+2020-04-30,Algeria,DZ,319
+2020-04-30,Bangladesh,BD,494
+2020-04-30,Costa d'Avorio,CI,407
+2020-04-30,Egitto,EG,84
+2020-04-30,Guinea,GN,165
+2020-04-30,Mali,ML,152
+2020-04-30,Marocco,MA,237
+2020-04-30,Somalia,SO,208
+2020-04-30,Sudan,SD,357
+2020-04-30,Tunisia,TN,186
+2020-04-30,altre,,856
+2020-05-15,Algeria,DZ,323
+2020-05-15,Bangladesh,BD,830
+2020-05-15,Costa d'Avorio,CI,571
+2020-05-15,Egitto,EG,88
+2020-05-15,Guinea,GN,206
+2020-05-15,Mali,ML,162
+2020-05-15,Marocco,MA,309
+2020-05-15,Somalia,SO,211
+2020-05-15,Sudan,SD,390
+2020-05-15,Tunisia,TN,270
+2020-05-15,altre,,877
+2020-05-31,Algeria,DZ,372
+2020-05-31,Bangladesh,BD,974
+2020-05-31,Costa d'Avorio,CI,665
+2020-05-31,Guinea,GN,214
+2020-05-31,Mali,ML,165
+2020-05-31,Marocco,MA,322
+2020-05-31,Nigeria,NG,117
+2020-05-31,Somalia,SO,228
+2020-05-31,Sudan,SD,396
+2020-05-31,Tunisia,TN,590
+2020-05-31,altre,,1076
+2020-06-15,Algeria,DZ,377
+2020-06-15,Bangladesh,BD,1050
+2020-06-15,Costa d'Avorio,CI,776
+2020-06-15,Guinea,GN,233
+2020-06-15,Mali,ML,167
+2020-06-15,Marocco,MA,322
+2020-06-15,Nigeria,NG,123
+2020-06-15,Somalia,SO,228
+2020-06-15,Sudan,SD,456
+2020-06-15,Tunisia,TN,892
+2020-06-15,altre,,1015
+2020-06-30,Algeria,DZ,427
+2020-06-30,Bangladesh,BD,1237
+2020-06-30,Costa d'Avorio,CI,777
+2020-06-30,Guinea,GN,243
+2020-06-30,Mali,ML,168
+2020-06-30,Marocco,MA,335
+2020-06-30,Nigeria,NG,123
+2020-06-30,Somalia,SO,230
+2020-06-30,Sudan,SD,457
+2020-06-30,Tunisia,TN,1303
+2020-06-30,altre,,1512
+2020-07-15,Algeria,DZ,503
+2020-07-15,Bangladesh,BD,1733
+2020-07-15,Costa d'Avorio,CI,795
+2020-07-15,Egitto,EG,174
+2020-07-15,Guinea,GN,245
+2020-07-15,Marocco,MA,365
+2020-07-15,Pakistan,PK,230
+2020-07-15,Somalia,SO,233
+2020-07-15,Sudan,SD,461
+2020-07-15,Tunisia,TN,2830
+2020-07-15,altre,,2137
+2020-07-31,Algeria,DZ,630
+2020-07-31,Bangladesh,BD,1830
+2020-07-31,Costa d'Avorio,CI,819
+2020-07-31,Egitto,EG,220
+2020-07-31,Guinea,GN,252
+2020-07-31,Marocco,MA,377
+2020-07-31,Pakistan,PK,358
+2020-07-31,Somalia,SO,273
+2020-07-31,Sudan,SD,466
+2020-07-31,Tunisia,TN,5357
+2020-07-31,altre,,3128
+2020-08-15,Algeria,DZ,750
+2020-08-15,Bangladesh,BD,2365
+2020-08-15,Costa d'Avorio,CI,872
+2020-08-15,Egitto,EG,331
+2020-08-15,Guinea,GN,301
+2020-08-15,Marocco,MA,504
+2020-08-15,Pakistan,PK,568
+2020-08-15,Somalia,SO,356
+2020-08-15,Sudan,SD,546
+2020-08-15,Tunisia,TN,6473
+2020-08-15,altre,,2385
+2020-08-31,Algeria,DZ,858
+2020-08-31,Bangladesh,BD,3041
+2020-08-31,Costa d'Avorio,CI,911
+2020-08-31,Egitto,EG,494
+2020-08-31,Guinea,GN,355
+2020-08-31,Marocco,MA,569
+2020-08-31,Pakistan,PK,667
+2020-08-31,Somalia,SO,549
+2020-08-31,Sudan,SD,643
+2020-08-31,Tunisia,TN,7885
+2020-08-31,altre,,3222
+2020-09-15,Afghanistan,AF,501
+2020-09-15,Algeria,DZ,921
+2020-09-15,Bangladesh,BD,3058
+2020-09-15,Costa d'Avorio,CI,1006
+2020-09-15,Egitto,EG,524
+2020-09-15,Marocco,MA,587
+2020-09-15,Pakistan,PK,800
+2020-09-15,Somalia,SO,569
+2020-09-15,Sudan,SD,740
+2020-09-15,Tunisia,TN,8623
+2020-09-15,altre,,3716
+2020-09-30,Afghanistan,AF,516
+2020-09-30,Algeria,DZ,1125
+2020-09-30,Bangladesh,BD,3175
+2020-09-30,Costa d'Avorio,CI,1031
+2020-09-30,Egitto,EG,598
+2020-09-30,Marocco,MA,619
+2020-09-30,Pakistan,PK,948
+2020-09-30,Somalia,SO,587
+2020-09-30,Sudan,SD,799
+2020-09-30,Tunisia,TN,9878
+2020-09-30,altre,,4444
+2020-10-15,Afghanistan,AF,676
+2020-10-15,Algeria,DZ,1166
+2020-10-15,Bangladesh,BD,3333
+2020-10-15,Costa d'Avorio,CI,1112
+2020-10-15,Egitto,EG,758
+2020-10-15,Marocco,MA,691
+2020-10-15,Pakistan,PK,1076
+2020-10-15,Somalia,SO,618
+2020-10-15,Sudan,SD,791
+2020-10-15,Tunisia,TN,10745
+2020-10-15,altre,,4954
+2020-10-31,Afghanistan,AF,794
+2020-10-31,Algeria,DZ,1205
+2020-10-31,Bangladesh,BD,3391
+2020-10-31,Costa d'Avorio,CI,1234
+2020-10-31,Egitto,EG,914
+2020-10-31,Iran,IR,653
+2020-10-31,Marocco,MA,719
+2020-10-31,Pakistan,PK,1275
+2020-10-31,Sudan,SD,884
+2020-10-31,Tunisia,TN,11195
+2020-10-31,altre,,4926
+2020-11-15,Afghanistan,AF,794
+2020-11-15,Algeria,DZ,1376
+2020-11-15,Bangladesh,BD,3714
+2020-11-15,Costa d'Avorio,CI,1401
+2020-11-15,Egitto,EG,1063
+2020-11-15,Marocco,MA,957
+2020-11-15,Pakistan,PK,1345
+2020-11-15,Somalia,SO,772
+2020-11-15,Sudan,SD,979
+2020-11-15,Tunisia,TN,12430
+2020-11-15,altre,,7206
+2020-11-30,Afghanistan,AF,949
+2020-11-30,Algeria,DZ,1379
+2020-11-30,Bangladesh,BD,4132
+2020-11-30,Costa d'Avorio,CI,1739
+2020-11-30,Egitto,EG,1155
+2020-11-30,Marocco,MA,995
+2020-11-30,Pakistan,PK,1358
+2020-11-30,Somalia,SO,809
+2020-11-30,Sudan,SD,1043
+2020-11-30,Tunisia,TN,12490
+2020-11-30,altre,,6514
+2020-12-15,Afghanistan,AF,950
+2020-12-15,Algeria,DZ,1379
+2020-12-15,Bangladesh,BD,4132
+2020-12-15,Costa d'Avorio,CI,1807
+2020-12-15,Egitto,EG,1206
+2020-12-15,Marocco,MA,996
+2020-12-15,Pakistan,PK,1358
+2020-12-15,Somalia,SO,876
+2020-12-15,Sudan,SD,1099
+2020-12-15,Tunisia,TN,12542
+2020-12-15,altre,,6574
+2020-12-31,Afghanistan,AF,1009
+2020-12-31,Algeria,DZ,1458
+2020-12-31,Bangladesh,BD,4141
+2020-12-31,Costa d'Avorio,CI,1950
+2020-12-31,Egitto,EG,1264
+2020-12-31,Iran,IR,970
+2020-12-31,Marocco,MA,1030
+2020-12-31,Pakistan,PK,1400
+2020-12-31,Sudan,SD,1125
+2020-12-31,Tunisia,TN,12883
+2020-12-31,altre,,6924
+2021-01-15,Afghanistan,AF,50
+2021-01-15,Bangladesh,BD,0
+2021-01-15,Costa d'Avorio,CI,0
+2021-01-15,Egitto,EG,0
+2021-01-15,Iran,IR,1
+2021-01-15,Marocco,MA,0
+2021-01-15,Pakistan,PK,0
+2021-01-15,Sudan,SD,0
+2021-01-15,Tunisia,TN,22
+2021-01-15,Turchia,TR,2
+2021-01-15,altre,,265
+2021-01-31,Afghanistan,AF,50
+2021-01-31,Costa d'Avorio,CI,11
+2021-01-31,Egitto,EG,20
+2021-01-31,Eritrea,ER,217
+2021-01-31,Etiopia,ET,17
+2021-01-31,Guinea,GN,29
+2021-01-31,Mali,ML,24
+2021-01-31,Senegal,SN,8
+2021-01-31,Sudan,SD,33
+2021-01-31,Tunisia,TN,61
+2021-01-31,altre,,569
+2021-02-15,Afghanistan,AF,76
+2021-02-15,Algeria,DZ,125
+2021-02-15,Bangladesh,BD,83
+2021-02-15,Camerun,CM,64
+2021-02-15,Costa d'Avorio,CI,249
+2021-02-15,Eritrea,ER,217
+2021-02-15,Guinea,GN,254
+2021-02-15,Mali,ML,129
+2021-02-15,Sudan,SD,94
+2021-02-15,Tunisia,TN,334
+2021-02-15,altre,,716
+2021-02-28,Algeria,DZ,229
+2021-02-28,Bangladesh,BD,364
+2021-02-28,Costa d'Avorio,CI,470
+2021-02-28,Egitto,EG,200
+2021-02-28,Eritrea,ER,239
+2021-02-28,Guinea,GN,305
+2021-02-28,Mali,ML,155
+2021-02-28,Marocco,MA,131
+2021-02-28,Sudan,SD,194
+2021-02-28,Tunisia,TN,699
+2021-02-28,altre,,1937
+2021-03-15,Algeria,DZ,291
+2021-03-15,Bangladesh,BD,493
+2021-03-15,Camerun,CM,164
+2021-03-15,Costa d'Avorio,CI,960
+2021-03-15,Egitto,EG,232
+2021-03-15,Eritrea,ER,343
+2021-03-15,Guinea,GN,598
+2021-03-15,Mali,ML,271
+2021-03-15,Sudan,SD,381
+2021-03-15,Tunisia,TN,819
+2021-03-15,altre,,1490
+2021-03-31,Algeria,DZ,304
+2021-03-31,Bangladesh,BD,493
+2021-03-31,Camerun,CM,174
+2021-03-31,Costa d'Avorio,CI,1019
+2021-03-31,Egitto,EG,233
+2021-03-31,Eritrea,ER,343
+2021-03-31,Guinea,GN,697
+2021-03-31,Mali,ML,302
+2021-03-31,Sudan,SD,388
+2021-03-31,Tunisia,TN,1055
+2021-03-31,altre,,1989
+2021-04-15,Algeria,DZ,320
+2021-04-15,Bangladesh,BD,931
+2021-04-15,Costa d'Avorio,CI,1192
+2021-04-15,Egitto,EG,452
+2021-04-15,Eritrea,ER,436
+2021-04-15,Guinea,GN,812
+2021-04-15,Mali,ML,447
+2021-04-15,Marocco,MA,336
+2021-04-15,Sudan,SD,559
+2021-04-15,Tunisia,TN,1240
+2021-04-15,altre,,1780
+2021-04-30,Algeria,DZ,345
+2021-04-30,Bangladesh,BD,939
+2021-04-30,Costa d'Avorio,CI,1207
+2021-04-30,Egitto,EG,580
+2021-04-30,Eritrea,ER,436
+2021-04-30,Guinea,GN,814
+2021-04-30,Mali,ML,447
+2021-04-30,Marocco,MA,336
+2021-04-30,Sudan,SD,559
+2021-04-30,Tunisia,TN,1385
+2021-04-30,altre,,1965
+2021-05-15,Algeria,DZ,385
+2021-05-15,Bangladesh,BD,2165
+2021-05-15,Costa d'Avorio,CI,1301
+2021-05-15,Egitto,EG,784
+2021-05-15,Eritrea,ER,795
+2021-05-15,Guinea,GN,860
+2021-05-15,Mali,ML,506
+2021-05-15,Marocco,MA,488
+2021-05-15,Sudan,SD,773
+2021-05-15,Tunisia,TN,1738
+2021-05-15,altre,,3337
+2021-05-31,Algeria,DZ,413
+2021-05-31,Bangladesh,BD,2520
+2021-05-31,Costa d'Avorio,CI,1379
+2021-05-31,Egitto,EG,914
+2021-05-31,Eritrea,ER,969
+2021-05-31,Guinea,GN,914
+2021-05-31,Mali,ML,557
+2021-05-31,Marocco,MA,572
+2021-05-31,Sudan,SD,878
+2021-05-31,Tunisia,TN,1981
+2021-05-31,altre,,3315
+2021-06-15,Algeria,DZ,550
+2021-06-15,Bangladesh,BD,2704
+2021-06-15,Costa d'Avorio,CI,1417
+2021-06-15,Egitto,EG,1066
+2021-06-15,Eritrea,ER,1009
+2021-06-15,Guinea,GN,952
+2021-06-15,Mali,ML,572
+2021-06-15,Marocco,MA,632
+2021-06-15,Sudan,SD,911
+2021-06-15,Tunisia,TN,2627
+2021-06-15,altre,,5258
+2021-06-30,Bangladesh,BD,3144
+2021-06-30,Costa d'Avorio,CI,1618
+2021-06-30,Egitto,EG,1543
+2021-06-30,Eritrea,ER,1195
+2021-06-30,Guinea,GN,1065
+2021-06-30,Iran,IR,821
+2021-06-30,Mali,ML,661
+2021-06-30,Marocco,MA,924
+2021-06-30,Sudan,SD,1142
+2021-06-30,Tunisia,TN,2962
+2021-06-30,altre,,5284
+2021-07-31,Bangladesh,BD,4176
+2021-07-31,Costa d'Avorio,CI,2031
+2021-07-31,Egitto,EG,2291
+2021-07-31,Eritrea,ER,1428
+2021-07-31,Guinea,GN,1408
+2021-07-31,Iran,IR,1268
+2021-07-31,Iraq,IQ,836
+2021-07-31,Marocco,MA,1081
+2021-07-31,Sudan,SD,1309
+2021-07-31,Tunisia,TN,6869
+2021-07-31,altre,,6173
+2021-08-15,Bangladesh,BD,4656
+2021-08-15,Costa d'Avorio,CI,2266
+2021-08-15,Egitto,EG,2532
+2021-08-15,Eritrea,ER,1452
+2021-08-15,Guinea,GN,1520
+2021-08-15,Iran,IR,1398
+2021-08-15,Iraq,IQ,941
+2021-08-15,Marocco,MA,1129
+2021-08-15,Sudan,SD,1347
+2021-08-15,Tunisia,TN,8809
+2021-08-15,altre,,7924
+2021-08-31,Bangladesh,BD,5275
+2021-08-31,Costa d'Avorio,CI,2651
+2021-08-31,Egitto,EG,3504
+2021-08-31,Eritrea,ER,1557
+2021-08-31,Guinea,GN,1630
+2021-08-31,Iran,IR,1679
+2021-08-31,Iraq,IQ,1132
+2021-08-31,Marocco,MA,1464
+2021-08-31,Sudan,SD,1459
+2021-08-31,Tunisia,TN,10801
+2021-08-31,altre,,7930
+2021-09-15,Bangladesh,BD,5342
+2021-09-15,Costa d'Avorio,CI,2791
+2021-09-15,Egitto,EG,3754
+2021-09-15,Eritrea,ER,1557
+2021-09-15,Guinea,GN,1688
+2021-09-15,Iran,IR,1978
+2021-09-15,Iraq,IQ,1447
+2021-09-15,Marocco,MA,1464
+2021-09-15,Sudan,SD,1459
+2021-09-15,Tunisia,TN,12511
+2021-09-15,altre,,8195
+2021-09-30,Bangladesh,BD,5560
+2021-09-30,Costa d'Avorio,CI,2872
+2021-09-30,Egitto,EG,4432
+2021-09-30,Eritrea,ER,1604
+2021-09-30,Guinea,GN,1841
+2021-09-30,Iran,IR,2377
+2021-09-30,Iraq,IQ,1723
+2021-09-30,Marocco,MA,1483
+2021-09-30,Sudan,SD,1528
+2021-09-30,Tunisia,TN,12834
+2021-09-30,altre,,9913
+2021-10-15,Bangladesh,BD,6242
+2021-10-15,Costa d'Avorio,CI,3003
+2021-10-15,Egitto,EG,5136
+2021-10-15,Eritrea,ER,1709
+2021-10-15,Guinea,GN,1889
+2021-10-15,Iran,IR,2926
+2021-10-15,Iraq,IQ,2072
+2021-10-15,Marocco,MA,1592
+2021-10-15,Sudan,SD,1551
+2021-10-15,Tunisia,TN,13637
+2021-10-15,altre,,9478
+2021-10-31,Bangladesh,BD,6448
+2021-10-31,Costa d'Avorio,CI,3194
+2021-10-31,Egitto,EG,6212
+2021-10-31,Eritrea,ER,1720
+2021-10-31,Guinea,GN,1961
+2021-10-31,Iran,IR,3337
+2021-10-31,Iraq,IQ,2276
+2021-10-31,Marocco,MA,1621
+2021-10-31,Sudan,SD,1579
+2021-10-31,Tunisia,TN,14187
+2021-10-31,altre,,10740
+2021-11-15,Bangladesh,BD,6934
+2021-11-15,Costa d'Avorio,CI,3309
+2021-11-15,Egitto,EG,6573
+2021-11-15,Eritrea,ER,1798
+2021-11-15,Guinea,GN,2050
+2021-11-15,Iran,IR,3587
+2021-11-15,Iraq,IQ,2456
+2021-11-15,Marocco,MA,2088
+2021-11-15,Sudan,SD,1652
+2021-11-15,Tunisia,TN,14770
+2021-11-15,altre,,13918
+2021-11-30,Bangladesh,BD,7542
+2021-11-30,Costa d'Avorio,CI,3564
+2021-11-30,Egitto,EG,7834
+2021-11-30,Eritrea,ER,2112
+2021-11-30,Guinea,GN,2311
+2021-11-30,Iran,IR,3755
+2021-11-30,Iraq,IQ,2500
+2021-11-30,Marocco,MA,2162
+2021-11-30,Siria,SY,1909
+2021-11-30,altre,,14197
+2021-12-15,Bangladesh,BD,7567
+2021-12-15,Costa d'Avorio,CI,3634
+2021-12-15,Egitto,EG,8109
+2021-12-15,Eritrea,ER,2187
+2021-12-15,Guinea,GN,2348
+2021-12-15,Iran,IR,3848
+2021-12-15,Iraq,IQ,2534
+2021-12-15,Marocco,MA,2167
+2021-12-15,Siria,SY,2192
+2021-12-15,altre,,13454
+2021-12-31,Bangladesh,BD,7824
+2021-12-31,Costa d'Avorio,CI,3807
+2021-12-31,Egitto,EG,8352
+2021-12-31,Eritrea,ER,2328
+2021-12-31,Guinea,GN,2446
+2021-12-31,Iran,IR,3915
+2021-12-31,Iraq,IQ,2645
+2021-12-31,Marocco,MA,2193
+2021-12-31,Siria,SY,2266
+2021-12-31,altre,,15593
+2022-01-15,Algeria,DZ,55
+2022-01-15,Bangladesh,BD,82
+2022-01-15,Costa d'Avorio,CI,29
+2022-01-15,Egitto,EG,23
+2022-01-15,Eritrea,ER,3
+2022-01-15,Guinea,GN,22
+2022-01-15,Pakistan,PK,9
+2022-01-15,Sudan,SD,3
+2022-01-15,Tunisia,TN,53
+2022-01-15,altre,,8
+2022-01-31,Afghanistan,AF,91
+2022-01-31,Algeria,DZ,56
+2022-01-31,Camerun,CM,68
+2022-01-31,Costa d'Avorio,CI,151
+2022-01-31,Egitto,EG,405
+2022-01-31,Eritrea,ER,71
+2022-01-31,Guinea,GN,84
+2022-01-31,Siria,SY,31
+2022-01-31,Tunisia,TN,339
+2022-01-31,altre,,1026
+2022-02-15,Afghanistan,AF,91
+2022-02-15,Camerun,CM,74
+2022-02-15,Costa d'Avorio,CI,213
+2022-02-15,Egitto,EG,658
+2022-02-15,Eritrea,ER,187
+2022-02-15,Guinea,GN,131
+2022-02-15,Pakistan,PK,98
+2022-02-15,Sudan,SD,88
+2022-02-15,Tunisia,TN,596
+2022-02-15,altre,,1040
+2022-02-28,Afghanistan,AF,331
+2022-02-28,Bangladesh,BD,1238
+2022-02-28,Camerun,CM,106
+2022-02-28,Costa d'Avorio,CI,273
+2022-02-28,Eritrea,ER,213
+2022-02-28,Guinea,GN,147
+2022-02-28,Siria,SY,262
+2022-02-28,Sudan,SD,118
+2022-02-28,Tunisia,TN,690
+2022-02-28,altre,,713
+2022-03-15,Afghanistan,AF,469
+2022-03-15,Bangladesh,BD,1241
+2022-03-15,Camerun,CM,108
+2022-03-15,Costa d'Avorio,CI,295
+2022-03-15,Eritrea,ER,315
+2022-03-15,Guinea,GN,191
+2022-03-15,Siria,SY,277
+2022-03-15,Sudan,SD,133
+2022-03-15,Tunisia,TN,870
+2022-03-15,altre,,846
+2022-03-31,Afghanistan,AF,469
+2022-03-31,Bangladesh,BD,1276
+2022-03-31,Camerun,CM,145
+2022-03-31,Costa d'Avorio,CI,393
+2022-03-31,Eritrea,ER,341
+2022-03-31,Guinea,GN,234
+2022-03-31,Siria,SY,291
+2022-03-31,Sudan,SD,140
+2022-03-31,Tunisia,TN,918
+2022-03-31,altre,,942
+2022-04-15,Afghanistan,AF,586
+2022-04-15,Bangladesh,BD,1422
+2022-04-15,Camerun,CM,186
+2022-04-15,Costa d'Avorio,CI,525
+2022-04-15,Eritrea,ER,370
+2022-04-15,Guinea,GN,320
+2022-04-15,Siria,SY,303
+2022-04-15,Sudan,SD,245
+2022-04-15,Tunisia,TN,997
+2022-04-15,altre,,1610
+2022-04-30,Afghanistan,AF,690
+2022-04-30,Bangladesh,BD,1545
+2022-04-30,Costa d'Avorio,CI,576
+2022-04-30,Eritrea,ER,370
+2022-04-30,Guinea,GN,393
+2022-04-30,Nigeria,NG,239
+2022-04-30,Siria,SY,370
+2022-04-30,Sudan,SD,247
+2022-04-30,Tunisia,TN,1234
+2022-04-30,altre,,2789
+2022-05-15,Afghanistan,AF,1240
+2022-05-15,Bangladesh,BD,2176
+2022-05-15,Costa d'Avorio,CI,692
+2022-05-15,Eritrea,ER,485
+2022-05-15,Guinea,GN,481
+2022-05-15,Iran,IR,349
+2022-05-15,Siria,SY,889
+2022-05-15,Sudan,SD,314
+2022-05-15,Tunisia,TN,1607
+2022-05-15,altre,,3379
+2022-05-31,Afghanistan,AF,2031
+2022-05-31,Bangladesh,BD,3084
+2022-05-31,Costa d'Avorio,CI,887
+2022-05-31,Eritrea,ER,571
+2022-05-31,Guinea,GN,625
+2022-05-31,Iran,IR,619
+2022-05-31,Siria,SY,1315
+2022-05-31,Sudan,SD,426
+2022-05-31,Tunisia,TN,2206
+2022-05-31,altre,,4264
+2022-06-15,Afghanistan,AF,2421
+2022-06-15,Costa d'Avorio,CI,931
+2022-06-15,Egitto,EG,3935
+2022-06-15,Eritrea,ER,616
+2022-06-15,Guinea,GN,640
+2022-06-15,Iran,IR,678
+2022-06-15,Siria,SY,1462
+2022-06-15,Sudan,SD,466
+2022-06-15,Tunisia,TN,2757
+2022-06-15,altre,,4152
+2022-06-30,Afghanistan,AF,2724
+2022-06-30,Costa d'Avorio,CI,1057
+2022-06-30,Egitto,EG,4267
+2022-06-30,Eritrea,ER,786
+2022-06-30,Guinea,GN,688
+2022-06-30,Iran,IR,703
+2022-06-30,Siria,SY,1551
+2022-06-30,Sudan,SD,500
+2022-06-30,Tunisia,TN,3996
+2022-06-30,altre,,6464
+2022-07-15,Afghanistan,AF,3292
+2022-07-15,Costa d'Avorio,CI,1210
+2022-07-15,Egitto,EG,5391
+2022-07-15,Eritrea,ER,939
+2022-07-15,Guinea,GN,872
+2022-07-15,Iran,IR,761
+2022-07-15,Pakistan,PK,645
+2022-07-15,Siria,SY,1922
+2022-07-15,Tunisia,TN,5003
+2022-07-15,altre,,6182
+2022-07-31,Afghanistan,AF,3306
+2022-07-31,Bangladesh,BD,5996
+2022-07-31,Costa d'Avorio,CI,1390
+2022-07-31,Egitto,EG,6636
+2022-07-31,Eritrea,ER,989
+2022-07-31,Guinea,GN,978
+2022-07-31,Iran,IR,762
+2022-07-31,Pakistan,PK,713
+2022-07-31,Siria,SY,2365
+2022-07-31,altre,,10608
+2022-08-15,Afghanistan,AF,3586
+2022-08-15,Bangladesh,BD,7639
+2022-08-15,Costa d'Avorio,CI,1849
+2022-08-15,Egitto,EG,8823
+2022-08-15,Eritrea,ER,1470
+2022-08-15,Guinea,GN,1237
+2022-08-15,Iran,IR,871
+2022-08-15,Pakistan,PK,944
+2022-08-15,Siria,SY,2832
+2022-08-15,altre,,9334
+2022-08-31,Afghanistan,AF,4256
+2022-08-31,Bangladesh,BD,8727
+2022-08-31,Costa d'Avorio,CI,1917
+2022-08-31,Egitto,EG,9958
+2022-08-31,Eritrea,ER,1563
+2022-08-31,Guinea,GN,1303
+2022-08-31,Iran,IR,1175
+2022-08-31,Pakistan,PK,1271
+2022-08-31,Siria,SY,3118
+2022-08-31,altre,,12138
+2022-09-15,Afghanistan,AF,5271
+2022-09-15,Bangladesh,BD,10016
+2022-09-15,Costa d'Avorio,CI,2100
+2022-09-15,Egitto,EG,12697
+2022-09-15,Eritrea,ER,1662
+2022-09-15,Guinea,GN,1492
+2022-09-15,Iran,IR,1513
+2022-09-15,Pakistan,PK,1486
+2022-09-15,Siria,SY,4204
+2022-09-15,altre,,11685
+2022-09-30,Afghanistan,AF,5445
+2022-09-30,Bangladesh,BD,10886
+2022-09-30,Costa d'Avorio,CI,2320
+2022-09-30,Egitto,EG,14194
+2022-09-30,Eritrea,ER,1904
+2022-09-30,Guinea,GN,1682
+2022-09-30,Iran,IR,1586
+2022-09-30,Pakistan,PK,1691
+2022-09-30,Siria,SY,5316
+2022-09-30,altre,,11701
+2022-10-15,Afghanistan,AF,5746
+2022-10-15,Bangladesh,BD,11126
+2022-10-15,Costa d'Avorio,CI,2514
+2022-10-15,Eritrea,ER,1920
+2022-10-15,Guinea,GN,1964
+2022-10-15,Iran,IR,1723
+2022-10-15,Pakistan,PK,1815
+2022-10-15,Siria,SY,5831
+2022-10-15,Tunisia,TN,15558
+2022-10-15,altre,,11211
+2022-10-31,Afghanistan,AF,5878
+2022-10-31,Bangladesh,BD,11845
+2022-10-31,Costa d'Avorio,CI,2972
+2022-10-31,Egitto,EG,16415
+2022-10-31,Eritrea,ER,1925
+2022-10-31,Guinea,GN,2478
+2022-10-31,Iran,IR,1909
+2022-10-31,Pakistan,PK,1882
+2022-10-31,Siria,SY,6090
+2022-10-31,altre,,16948
+2022-11-15,Afghanistan,AF,6625
+2022-11-15,Bangladesh,BD,13007
+2022-11-15,Costa d'Avorio,CI,4076
+2022-11-15,Eritrea,ER,2053
+2022-11-15,Guinea,GN,3159
+2022-11-15,Iran,IR,2181
+2022-11-15,Pakistan,PK,2410
+2022-11-15,Siria,SY,7007
+2022-11-15,Tunisia,TN,17295
+2022-11-15,altre,,16263
+2022-11-30,Afghanistan,AF,6809
+2022-11-30,Bangladesh,BD,14028
+2022-11-30,Costa d'Avorio,CI,4794
+2022-11-30,Eritrea,ER,2054
+2022-11-30,Guinea,GN,3685
+2022-11-30,Iran,IR,2261
+2022-11-30,Pakistan,PK,2705
+2022-11-30,Siria,SY,7934
+2022-11-30,Tunisia,TN,17443
+2022-11-30,altre,,12608
+2022-12-15,Afghanistan,AF,7161
+2022-12-15,Bangladesh,BD,14299
+2022-12-15,Costa d'Avorio,CI,5311
+2022-12-15,Eritrea,ER,2060
+2022-12-15,Guinea,GN,4074
+2022-12-15,Iran,IR,2308
+2022-12-15,Pakistan,PK,3065
+2022-12-15,Siria,SY,8337
+2022-12-15,Tunisia,TN,17617
+2022-12-15,altre,,14130
+2022-12-31,Afghanistan,AF,7241
+2022-12-31,Bangladesh,BD,14982
+2022-12-31,Costa d'Avorio,CI,5973
+2022-12-31,Eritrea,ER,2101
+2022-12-31,Guinea,GN,4473
+2022-12-31,Iran,IR,2326
+2022-12-31,Pakistan,PK,3188
+2022-12-31,Siria,SY,8594
+2022-12-31,Tunisia,TN,18148
+2022-12-31,altre,,17561
+2023-01-15,Afghanistan,AF,334
+2023-01-15,Bangladesh,BD,188
+2023-01-15,Camerun,CM,131
+2023-01-15,Egitto,EG,357
+2023-01-15,Eritrea,ER,190
+2023-01-15,Guinea,GN,364
+2023-01-15,Pakistan,PK,414
+2023-01-15,Siria,SY,249
+2023-01-15,Tunisia,TN,134
+2023-01-15,altre,,722
+2023-01-31,Afghanistan,AF,334
+2023-01-31,Bangladesh,BD,232
+2023-01-31,Camerun,CM,145
+2023-01-31,Egitto,EG,358
+2023-01-31,Eritrea,ER,213
+2023-01-31,Guinea,GN,502
+2023-01-31,Pakistan,PK,414
+2023-01-31,Siria,SY,253
+2023-01-31,Tunisia,TN,341
+2023-01-31,altre,,1368
+2023-02-15,Afghanistan,AF,336
+2023-02-15,Bangladesh,BD,253
+2023-02-15,Camerun,CM,225
+2023-02-15,Egitto,EG,430
+2023-02-15,Eritrea,ER,236
+2023-02-15,Guinea,GN,912
+2023-02-15,Pakistan,PK,967
+2023-02-15,Siria,SY,338
+2023-02-15,Tunisia,TN,373
+2023-02-15,altre,,1732
+2023-02-28,Bangladesh,BD,1066
+2023-02-28,Burkina Faso,BF,447
+2023-02-28,Camerun,CM,508
+2023-02-28,Costa d'Avorio,CI,2020
+2023-02-28,Egitto,EG,621
+2023-02-28,Eritrea,ER,462
+2023-02-28,Mali,ML,495
+2023-02-28,Pakistan,PK,1107
+2023-02-28,Tunisia,TN,1117
+2023-02-28,altre,,4540
+2023-03-15,Bangladesh,BD,1506
+2023-03-15,Burkina Faso,BF,601
+2023-03-15,Camerun,CM,826
+2023-03-15,Egitto,EG,769
+2023-03-15,Eritrea,ER,542
+2023-03-15,Guinea,GN,2806
+2023-03-15,Mali,ML,666
+2023-03-15,Pakistan,PK,1541
+2023-03-15,Tunisia,TN,1421
+2023-03-15,altre,,6341
+2023-03-31,Bangladesh,BD,1941
+2023-03-31,Burkina Faso,BF,732
+2023-03-31,Camerun,CM,1083
+2023-03-31,Egitto,EG,1860
+2023-03-31,Guinea,GN,3352
+2023-03-31,Mali,ML,814
+2023-03-31,Pakistan,PK,2221
+2023-03-31,Siria,SY,938
+2023-03-31,Tunisia,TN,1888
+2023-03-31,altre,,8404
+2023-04-15,Bangladesh,BD,2339
+2023-04-15,Burkina Faso,BF,966
+2023-04-15,Camerun,CM,1590
+2023-04-15,Egitto,EG,2685
+2023-04-15,Guinea,GN,4208
+2023-04-15,Mali,ML,1053
+2023-04-15,Pakistan,PK,3412
+2023-04-15,Siria,SY,1330
+2023-04-15,Tunisia,TN,2764
+2023-04-15,altre,,7565
+2023-04-30,Bangladesh,BD,3154
+2023-04-30,Burkina Faso,BF,1219
+2023-04-30,Camerun,CM,1629
+2023-04-30,Egitto,EG,4414
+2023-04-30,Guinea,GN,4608
+2023-04-30,Mali,ML,1098
+2023-04-30,Pakistan,PK,3851
+2023-04-30,Siria,SY,2185
+2023-04-30,Tunisia,TN,2935
+2023-04-30,altre,,11087
+2023-05-15,Bangladesh,BD,3671
+2023-05-15,Burkina Faso,BF,2015
+2023-05-15,Camerun,CM,1958
+2023-05-15,Egitto,EG,4694
+2023-05-15,Guinea,GN,5988
+2023-05-15,Mali,ML,1462
+2023-05-15,Pakistan,PK,3949
+2023-05-15,Siria,SY,2480
+2023-05-15,Tunisia,TN,3291
+2023-05-15,altre,,8631
+2023-05-31,Bangladesh,BD,4628
+2023-05-31,Burkina Faso,BF,2015
+2023-05-31,Camerun,CM,1959
+2023-05-31,Egitto,EG,5478
+2023-05-31,Guinea,GN,5996
+2023-05-31,Mali,ML,1466
+2023-05-31,Pakistan,PK,4630
+2023-05-31,Siria,SY,2752
+2023-05-31,Tunisia,TN,3432
+2023-05-31,altre,,9957
+2023-06-15,Bangladesh,BD,5660
+2023-06-15,Burkina Faso,BF,2391
+2023-06-15,Camerun,CM,2005
+2023-06-15,Egitto,EG,6986
+2023-06-15,Guinea,GN,6374
+2023-06-15,Mali,ML,1611
+2023-06-15,Pakistan,PK,5915
+2023-06-15,Siria,SY,3430
+2023-06-15,Tunisia,TN,3901
+2023-06-15,altre,,9819
+2023-06-30,Bangladesh,BD,5910
+2023-06-30,Burkina Faso,BF,3018
+2023-06-30,Camerun,CM,2141
+2023-06-30,Egitto,EG,7128
+2023-06-30,Guinea,GN,7155
+2023-06-30,Mali,ML,1901
+2023-06-30,Pakistan,PK,5943
+2023-06-30,Siria,SY,3665
+2023-06-30,Tunisia,TN,4318
+2023-06-30,altre,,15830
+2023-07-15,Bangladesh,BD,6603
+2023-07-15,Burkina Faso,BF,4568
+2023-07-15,Camerun,CM,2634
+2023-07-15,Egitto,EG,7705
+2023-07-15,Guinea,GN,8957
+2023-07-15,Mali,ML,2502
+2023-07-15,Pakistan,PK,6086
+2023-07-15,Siria,SY,4027
+2023-07-15,Tunisia,TN,5166
+2023-07-15,altre,,18223
+2023-07-31,Bangladesh,BD,6729
+2023-07-31,Burkina Faso,BF,5361
+2023-07-31,Camerun,CM,3084
+2023-07-31,Egitto,EG,7792
+2023-07-31,Guinea,GN,10858
+2023-07-31,Mali,ML,3042
+2023-07-31,Pakistan,PK,6575
+2023-07-31,Siria,SY,4149
+2023-07-31,Tunisia,TN,6087
+2023-07-31,altre,,24199
+2023-08-15,Bangladesh,BD,6912
+2023-08-15,Burkina Faso,BF,5621
+2023-08-15,Camerun,CM,3433
+2023-08-15,Costa d'Avorio,CI,11870
+2023-08-15,Egitto,EG,7821
+2023-08-15,Mali,ML,3360
+2023-08-15,Pakistan,PK,6173
+2023-08-15,Siria,SY,4258
+2023-08-15,Tunisia,TN,7775
+2023-08-15,altre,,31726
+2023-08-31,Bangladesh,BD,7035
+2023-08-31,Burkina Faso,BF,6076
+2023-08-31,Camerun,CM,3797
+2023-08-31,Costa d'Avorio,CI,12763
+2023-08-31,Egitto,EG,8058
+2023-08-31,Mali,ML,3604
+2023-08-31,Pakistan,PK,6175
+2023-08-31,Siria,SY,4428
+2023-08-31,Tunisia,TN,9283
+2023-08-31,altre,,40255
+2023-09-15,Bangladesh,BD,7575
+2023-09-15,Burkina Faso,BF,6783
+2023-09-15,Camerun,CM,4279
+2023-09-15,Costa d'Avorio,CI,14208
+2023-09-15,Egitto,EG,8420
+2023-09-15,Mali,ML,4274
+2023-09-15,Pakistan,PK,6321
+2023-09-15,Siria,SY,5071
+2023-09-15,Tunisia,TN,11530
+2023-09-15,altre,,43658
+2023-09-30,Bangladesh,BD,7882
+2023-09-30,Burkina Faso,BF,7584
+2023-09-30,Camerun,CM,4689
+2023-09-30,Costa d'Avorio,CI,14998
+2023-09-30,Egitto,EG,8693
+2023-09-30,Mali,ML,4965
+2023-09-30,Pakistan,PK,6350
+2023-09-30,Siria,SY,5665
+2023-09-30,Tunisia,TN,14097
+2023-09-30,altre,,42263
+2023-10-15,Bangladesh,BD,8091
+2023-10-15,Burkina Faso,BF,7949
+2023-10-15,Camerun,CM,4813
+2023-10-15,Costa d'Avorio,CI,15490
+2023-10-15,Egitto,EG,8807
+2023-10-15,Mali,ML,5299
+2023-10-15,Pakistan,PK,6430
+2023-10-15,Siria,SY,5777
+2023-10-15,Tunisia,TN,14837
+2023-10-15,altre,,45363
+2023-10-31,Bangladesh,BD,8335
+2023-10-31,Burkina Faso,BF,8253
+2023-10-31,Camerun,CM,4959
+2023-10-31,Costa d'Avorio,CI,15797
+2023-10-31,Egitto,EG,9167
+2023-10-31,Mali,ML,5492
+2023-10-31,Pakistan,PK,6470
+2023-10-31,Siria,SY,6307
+2023-10-31,Tunisia,TN,15769
+2023-10-31,altre,,45782
