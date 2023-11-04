@@ -46,7 +46,6 @@ if [[ $estrai_dati == "sì" ]]; then
     fi
     fi
 
-  #done < "$folder"/data/tmp.jsonl
   done < "$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
 else
   echo "non estrarre"
