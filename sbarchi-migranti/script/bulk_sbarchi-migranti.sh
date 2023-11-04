@@ -18,6 +18,8 @@ URL="http://www.libertaciviliimmigrazione.dlci.interno.gov.it/it/documentazione/
 # estrai la lista dei file pdf presenti nella pagina
 curl -kL "$URL" | scrape -be "//div[contains(@class, 'field-item')]//a[contains(@href, '.pdf')]" | tail -n +2 | xq -c '.html.body.a[]' >"$folder"/data/cruscotto-statistico-giornaliero_lista_raw.jsonl
 
+exit 0
+
 # aggiungi la data di pubblicazione del report, in formato YYYY-MM-DD. Se non è presente, usa la data di default 30-08-2000
 mlrgo --jsonl put '$data=strftime(strptime(regextract_or_else(${@title},"[0-9]{2}-[0-9]{2}-[0-9]{4}","30-08-2000"),"%d-%m-%Y"),"%Y-%m-%d")' "$folder"/data/cruscotto-statistico-giornaliero_lista_raw.jsonl >"$folder"/data/cruscotto-statistico-giornaliero_lista.jsonl
 
