@@ -81,8 +81,6 @@ while read -r line; do
   elif [ "$data" = "2023-06-30" ]; then
     mlrgo -I --csv put 'if($Data=="2023-06-29"){$Valore=2307}else{$Valore=$Valore}' "$folder"/data/"$data"_migranti_sbarcati_per_giorno.csv
   fi
-  # check
-  # daff --output "$folder"/tmp/check/"$data".html ../rawdata/csv/"$data"_migranti_sbarcati_per_giorno.csv "$folder"/data/"$data"_migranti_sbarcati_per_giorno.csv
 done < "$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
 
 find "$folder" -type f -name 'tmp*.png' -exec rm {} \;
