@@ -59,10 +59,10 @@ find "$folder"/../rawdata/pdf/ -name "*nazionalita.csv" -type f -delete
 # for every file csv thats ends whit nazionalita.csv in "$folder"/nazionalita-accoglienza/process
 for file in "$folder"/tmp/nazionalita/*-nazionalita.csv; do
   #echo "$file"
-  mlrgo -I -S --csv clean-whitespace then remove-empty-columns then skip-trivial-records "$file"
-  sed -i '1d' "$file"
   nome=$(basename "$file")
-  mlrgo -S -N --csv filter -x '$1=~"Tota.+"' then remove-empty-columns then put '$file=strftime(strptime(regextract(FILENAME,"[0-9]{2}-[0-9]{2}-[0-9]{4}"),"%d-%m-%Y"),"%Y-%m-%d")' "$file" >"$folder"/../rawdata/csv/nazionalita/"$nome"
+  mlrgo -S --csv clean-whitespace then remove-empty-columns then skip-trivial-records "$file" >"$folder"/../rawdata/csv/nazionalita/"$nome"
+  sed -i '1d' "$folder"/../rawdata/csv/nazionalita/"$nome"
+  mlrgo -I -S -N --csv filter -x '$1=~"Tota.+"' then remove-empty-columns then put '$file=strftime(strptime(regextract(FILENAME,"[0-9]{2}-[0-9]{2}-[0-9]{4}"),"%d-%m-%Y"),"%Y-%m-%d")' "$folder"/../rawdata/csv/nazionalita/"$nome"
 done
 
 

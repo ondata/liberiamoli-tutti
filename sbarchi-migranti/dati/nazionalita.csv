@@ -569,6 +569,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2021-11-30,Iraq,IQ,2500
 2021-11-30,Marocco,MA,2162
 2021-11-30,Siria,SY,1909
+2021-11-30,Tunisia,TN,15055
 2021-11-30,altre,,14197
 2021-12-15,Bangladesh,BD,7567
 2021-12-15,Costa d'Avorio,CI,3634
@@ -579,6 +580,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2021-12-15,Iraq,IQ,2534
 2021-12-15,Marocco,MA,2167
 2021-12-15,Siria,SY,2192
+2021-12-15,Tunisia,TN,15036
 2021-12-15,altre,,13454
 2021-12-31,Bangladesh,BD,7824
 2021-12-31,Costa d'Avorio,CI,3807
@@ -589,7 +591,9 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2021-12-31,Iraq,IQ,2645
 2021-12-31,Marocco,MA,2193
 2021-12-31,Siria,SY,2266
+2021-12-31,Tunisia,TN,15671
 2021-12-31,altre,,15593
+2022-01-15,Afghanistan,AF,91
 2022-01-15,Algeria,DZ,55
 2022-01-15,Bangladesh,BD,82
 2022-01-15,Costa d'Avorio,CI,29
@@ -602,6 +606,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-01-15,altre,,8
 2022-01-31,Afghanistan,AF,91
 2022-01-31,Algeria,DZ,56
+2022-01-31,Bangladesh,BD,713
 2022-01-31,Camerun,CM,68
 2022-01-31,Costa d'Avorio,CI,151
 2022-01-31,Egitto,EG,405
@@ -611,6 +616,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-01-31,Tunisia,TN,339
 2022-01-31,altre,,1026
 2022-02-15,Afghanistan,AF,91
+2022-02-15,Bangladesh,BD,904
 2022-02-15,Camerun,CM,74
 2022-02-15,Costa d'Avorio,CI,213
 2022-02-15,Egitto,EG,658
@@ -624,6 +630,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-02-28,Bangladesh,BD,1238
 2022-02-28,Camerun,CM,106
 2022-02-28,Costa d'Avorio,CI,273
+2022-02-28,Egitto,EG,1383
 2022-02-28,Eritrea,ER,213
 2022-02-28,Guinea,GN,147
 2022-02-28,Siria,SY,262
@@ -634,6 +641,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-03-15,Bangladesh,BD,1241
 2022-03-15,Camerun,CM,108
 2022-03-15,Costa d'Avorio,CI,295
+2022-03-15,Egitto,EG,1518
 2022-03-15,Eritrea,ER,315
 2022-03-15,Guinea,GN,191
 2022-03-15,Siria,SY,277
@@ -644,6 +652,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-03-31,Bangladesh,BD,1276
 2022-03-31,Camerun,CM,145
 2022-03-31,Costa d'Avorio,CI,393
+2022-03-31,Egitto,EG,1621
 2022-03-31,Eritrea,ER,341
 2022-03-31,Guinea,GN,234
 2022-03-31,Siria,SY,291
@@ -654,6 +663,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-04-15,Bangladesh,BD,1422
 2022-04-15,Camerun,CM,186
 2022-04-15,Costa d'Avorio,CI,525
+2022-04-15,Egitto,EG,1877
 2022-04-15,Eritrea,ER,370
 2022-04-15,Guinea,GN,320
 2022-04-15,Siria,SY,303
@@ -663,6 +673,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-04-30,Afghanistan,AF,690
 2022-04-30,Bangladesh,BD,1545
 2022-04-30,Costa d'Avorio,CI,576
+2022-04-30,Egitto,EG,2000
 2022-04-30,Eritrea,ER,370
 2022-04-30,Guinea,GN,393
 2022-04-30,Nigeria,NG,239
@@ -673,6 +684,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-05-15,Afghanistan,AF,1240
 2022-05-15,Bangladesh,BD,2176
 2022-05-15,Costa d'Avorio,CI,692
+2022-05-15,Egitto,EG,2464
 2022-05-15,Eritrea,ER,485
 2022-05-15,Guinea,GN,481
 2022-05-15,Iran,IR,349
@@ -683,6 +695,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-05-31,Afghanistan,AF,2031
 2022-05-31,Bangladesh,BD,3084
 2022-05-31,Costa d'Avorio,CI,887
+2022-05-31,Egitto,EG,3388
 2022-05-31,Eritrea,ER,571
 2022-05-31,Guinea,GN,625
 2022-05-31,Iran,IR,619
@@ -691,6 +704,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-05-31,Tunisia,TN,2206
 2022-05-31,altre,,4264
 2022-06-15,Afghanistan,AF,2421
+2022-06-15,Bangladesh,BD,4120
 2022-06-15,Costa d'Avorio,CI,931
 2022-06-15,Egitto,EG,3935
 2022-06-15,Eritrea,ER,616
@@ -701,6 +715,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-06-15,Tunisia,TN,2757
 2022-06-15,altre,,4152
 2022-06-30,Afghanistan,AF,2724
+2022-06-30,Bangladesh,BD,4688
 2022-06-30,Costa d'Avorio,CI,1057
 2022-06-30,Egitto,EG,4267
 2022-06-30,Eritrea,ER,786
@@ -711,6 +726,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-06-30,Tunisia,TN,3996
 2022-06-30,altre,,6464
 2022-07-15,Afghanistan,AF,3292
+2022-07-15,Bangladesh,BD,5730
 2022-07-15,Costa d'Avorio,CI,1210
 2022-07-15,Egitto,EG,5391
 2022-07-15,Eritrea,ER,939
@@ -729,6 +745,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-07-31,Iran,IR,762
 2022-07-31,Pakistan,PK,713
 2022-07-31,Siria,SY,2365
+2022-07-31,Tunisia,TN,7427
 2022-07-31,altre,,10608
 2022-08-15,Afghanistan,AF,3586
 2022-08-15,Bangladesh,BD,7639
@@ -739,6 +756,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-08-15,Iran,IR,871
 2022-08-15,Pakistan,PK,944
 2022-08-15,Siria,SY,2832
+2022-08-15,Tunisia,TN,9506
 2022-08-15,altre,,9334
 2022-08-31,Afghanistan,AF,4256
 2022-08-31,Bangladesh,BD,8727
@@ -749,6 +767,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-08-31,Iran,IR,1175
 2022-08-31,Pakistan,PK,1271
 2022-08-31,Siria,SY,3118
+2022-08-31,Tunisia,TN,11742
 2022-08-31,altre,,12138
 2022-09-15,Afghanistan,AF,5271
 2022-09-15,Bangladesh,BD,10016
@@ -759,6 +778,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-09-15,Iran,IR,1513
 2022-09-15,Pakistan,PK,1486
 2022-09-15,Siria,SY,4204
+2022-09-15,Tunisia,TN,14036
 2022-09-15,altre,,11685
 2022-09-30,Afghanistan,AF,5445
 2022-09-30,Bangladesh,BD,10886
@@ -769,10 +789,12 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-09-30,Iran,IR,1586
 2022-09-30,Pakistan,PK,1691
 2022-09-30,Siria,SY,5316
+2022-09-30,Tunisia,TN,14600
 2022-09-30,altre,,11701
 2022-10-15,Afghanistan,AF,5746
 2022-10-15,Bangladesh,BD,11126
 2022-10-15,Costa d'Avorio,CI,2514
+2022-10-15,Egitto,EG,15958
 2022-10-15,Eritrea,ER,1920
 2022-10-15,Guinea,GN,1964
 2022-10-15,Iran,IR,1723
@@ -789,10 +811,12 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-10-31,Iran,IR,1909
 2022-10-31,Pakistan,PK,1882
 2022-10-31,Siria,SY,6090
+2022-10-31,Tunisia,TN,16699
 2022-10-31,altre,,16948
 2022-11-15,Afghanistan,AF,6625
 2022-11-15,Bangladesh,BD,13007
 2022-11-15,Costa d'Avorio,CI,4076
+2022-11-15,Egitto,EG,18841
 2022-11-15,Eritrea,ER,2053
 2022-11-15,Guinea,GN,3159
 2022-11-15,Iran,IR,2181
@@ -803,6 +827,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-11-30,Afghanistan,AF,6809
 2022-11-30,Bangladesh,BD,14028
 2022-11-30,Costa d'Avorio,CI,4794
+2022-11-30,Egitto,EG,20020
 2022-11-30,Eritrea,ER,2054
 2022-11-30,Guinea,GN,3685
 2022-11-30,Iran,IR,2261
@@ -813,6 +838,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-12-15,Afghanistan,AF,7161
 2022-12-15,Bangladesh,BD,14299
 2022-12-15,Costa d'Avorio,CI,5311
+2022-12-15,Egitto,EG,20290
 2022-12-15,Eritrea,ER,2060
 2022-12-15,Guinea,GN,4074
 2022-12-15,Iran,IR,2308
@@ -823,6 +849,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2022-12-31,Afghanistan,AF,7241
 2022-12-31,Bangladesh,BD,14982
 2022-12-31,Costa d'Avorio,CI,5973
+2022-12-31,Egitto,EG,20542
 2022-12-31,Eritrea,ER,2101
 2022-12-31,Guinea,GN,4473
 2022-12-31,Iran,IR,2326
@@ -833,6 +860,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-01-15,Afghanistan,AF,334
 2023-01-15,Bangladesh,BD,188
 2023-01-15,Camerun,CM,131
+2023-01-15,Costa d'Avorio,CI,725
 2023-01-15,Egitto,EG,357
 2023-01-15,Eritrea,ER,190
 2023-01-15,Guinea,GN,364
@@ -843,6 +871,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-01-31,Afghanistan,AF,334
 2023-01-31,Bangladesh,BD,232
 2023-01-31,Camerun,CM,145
+2023-01-31,Costa d'Avorio,CI,799
 2023-01-31,Egitto,EG,358
 2023-01-31,Eritrea,ER,213
 2023-01-31,Guinea,GN,502
@@ -853,6 +882,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-02-15,Afghanistan,AF,336
 2023-02-15,Bangladesh,BD,253
 2023-02-15,Camerun,CM,225
+2023-02-15,Costa d'Avorio,CI,1032
 2023-02-15,Egitto,EG,430
 2023-02-15,Eritrea,ER,236
 2023-02-15,Guinea,GN,912
@@ -866,6 +896,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-02-28,Costa d'Avorio,CI,2020
 2023-02-28,Egitto,EG,621
 2023-02-28,Eritrea,ER,462
+2023-02-28,Guinea,GN,2050
 2023-02-28,Mali,ML,495
 2023-02-28,Pakistan,PK,1107
 2023-02-28,Tunisia,TN,1117
@@ -873,6 +904,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-03-15,Bangladesh,BD,1506
 2023-03-15,Burkina Faso,BF,601
 2023-03-15,Camerun,CM,826
+2023-03-15,Costa d'Avorio,CI,3002
 2023-03-15,Egitto,EG,769
 2023-03-15,Eritrea,ER,542
 2023-03-15,Guinea,GN,2806
@@ -883,6 +915,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-03-31,Bangladesh,BD,1941
 2023-03-31,Burkina Faso,BF,732
 2023-03-31,Camerun,CM,1083
+2023-03-31,Costa d'Avorio,CI,4047
 2023-03-31,Egitto,EG,1860
 2023-03-31,Guinea,GN,3352
 2023-03-31,Mali,ML,814
@@ -893,6 +926,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-04-15,Bangladesh,BD,2339
 2023-04-15,Burkina Faso,BF,966
 2023-04-15,Camerun,CM,1590
+2023-04-15,Costa d'Avorio,CI,5568
 2023-04-15,Egitto,EG,2685
 2023-04-15,Guinea,GN,4208
 2023-04-15,Mali,ML,1053
@@ -903,6 +937,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-04-30,Bangladesh,BD,3154
 2023-04-30,Burkina Faso,BF,1219
 2023-04-30,Camerun,CM,1629
+2023-04-30,Costa d'Avorio,CI,5894
 2023-04-30,Egitto,EG,4414
 2023-04-30,Guinea,GN,4608
 2023-04-30,Mali,ML,1098
@@ -913,6 +948,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-05-15,Bangladesh,BD,3671
 2023-05-15,Burkina Faso,BF,2015
 2023-05-15,Camerun,CM,1958
+2023-05-15,Costa d'Avorio,CI,7371
 2023-05-15,Egitto,EG,4694
 2023-05-15,Guinea,GN,5988
 2023-05-15,Mali,ML,1462
@@ -923,6 +959,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-05-31,Bangladesh,BD,4628
 2023-05-31,Burkina Faso,BF,2015
 2023-05-31,Camerun,CM,1959
+2023-05-31,Costa d'Avorio,CI,7380
 2023-05-31,Egitto,EG,5478
 2023-05-31,Guinea,GN,5996
 2023-05-31,Mali,ML,1466
@@ -933,6 +970,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-06-15,Bangladesh,BD,5660
 2023-06-15,Burkina Faso,BF,2391
 2023-06-15,Camerun,CM,2005
+2023-06-15,Costa d'Avorio,CI,7570
 2023-06-15,Egitto,EG,6986
 2023-06-15,Guinea,GN,6374
 2023-06-15,Mali,ML,1611
@@ -943,6 +981,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-06-30,Bangladesh,BD,5910
 2023-06-30,Burkina Faso,BF,3018
 2023-06-30,Camerun,CM,2141
+2023-06-30,Costa d'Avorio,CI,7921
 2023-06-30,Egitto,EG,7128
 2023-06-30,Guinea,GN,7155
 2023-06-30,Mali,ML,1901
@@ -953,6 +992,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-07-15,Bangladesh,BD,6603
 2023-07-15,Burkina Faso,BF,4568
 2023-07-15,Camerun,CM,2634
+2023-07-15,Costa d'Avorio,CI,9350
 2023-07-15,Egitto,EG,7705
 2023-07-15,Guinea,GN,8957
 2023-07-15,Mali,ML,2502
@@ -963,6 +1003,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-07-31,Bangladesh,BD,6729
 2023-07-31,Burkina Faso,BF,5361
 2023-07-31,Camerun,CM,3084
+2023-07-31,Costa d'Avorio,CI,10998
 2023-07-31,Egitto,EG,7792
 2023-07-31,Guinea,GN,10858
 2023-07-31,Mali,ML,3042
@@ -975,6 +1016,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-08-15,Camerun,CM,3433
 2023-08-15,Costa d'Avorio,CI,11870
 2023-08-15,Egitto,EG,7821
+2023-08-15,Guinea,GN,11989
 2023-08-15,Mali,ML,3360
 2023-08-15,Pakistan,PK,6173
 2023-08-15,Siria,SY,4258
@@ -985,6 +1027,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-08-31,Camerun,CM,3797
 2023-08-31,Costa d'Avorio,CI,12763
 2023-08-31,Egitto,EG,8058
+2023-08-31,Guinea,GN,13052
 2023-08-31,Mali,ML,3604
 2023-08-31,Pakistan,PK,6175
 2023-08-31,Siria,SY,4428
@@ -995,6 +1038,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-09-15,Camerun,CM,4279
 2023-09-15,Costa d'Avorio,CI,14208
 2023-09-15,Egitto,EG,8420
+2023-09-15,Guinea,GN,15088
 2023-09-15,Mali,ML,4274
 2023-09-15,Pakistan,PK,6321
 2023-09-15,Siria,SY,5071
@@ -1005,6 +1049,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-09-30,Camerun,CM,4689
 2023-09-30,Costa d'Avorio,CI,14998
 2023-09-30,Egitto,EG,8693
+2023-09-30,Guinea,GN,16431
 2023-09-30,Mali,ML,4965
 2023-09-30,Pakistan,PK,6350
 2023-09-30,Siria,SY,5665
@@ -1015,6 +1060,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-10-15,Camerun,CM,4813
 2023-10-15,Costa d'Avorio,CI,15490
 2023-10-15,Egitto,EG,8807
+2023-10-15,Guinea,GN,17150
 2023-10-15,Mali,ML,5299
 2023-10-15,Pakistan,PK,6430
 2023-10-15,Siria,SY,5777
@@ -1025,6 +1071,7 @@ Data_Report,Nazione,ISO_3166-1,Valore
 2023-10-31,Camerun,CM,4959
 2023-10-31,Costa d'Avorio,CI,15797
 2023-10-31,Egitto,EG,9167
+2023-10-31,Guinea,GN,17708
 2023-10-31,Mali,ML,5492
 2023-10-31,Pakistan,PK,6470
 2023-10-31,Siria,SY,6307
