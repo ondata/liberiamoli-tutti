@@ -71,7 +71,7 @@ for file in "$folder"/tmp/accoglienza/*-accoglienza.csv; do
   fi
 done
 
-
+# aggiungi data report, rimuovi righe con totale, rimuovi separatore migliaia, rimuovi colonna totale
 mlrgo -S --csv unsparsify then cut -x -r -f "percent" then \
 put '$data=strftime(strptime(regextract_or_else($file,"([0-9]{2})-([0-9]{2})-([0-9]{4})","30-08-2000"),"%d-%m-%Y"),"%Y-%m-%d")' then \
 reorder -e -f file then \
@@ -86,3 +86,16 @@ rename data,Data_Report then \
 cut -x -f file then \
 cut -r -x -f "otale" "$folder"/../rawdata/csv/accoglienza/*-accoglienza.csv >"$folder"/../dati/accoglienza.csv
 
+# estrai in nomi delle regioni presenti nei dati di accoglienza
+mlrgo --csv cut -f Regione then uniq -a "$folder"/../dati/accoglienza.csv >"$folder"/tmp/accoglienza_regioni.csv
+
+# associa al nome regione il nome regione ufficiale e il codice regione dell'ISTAT
+duckdb -csv -c "SELECT *,LEVENSHTEIN(t1.Regione, t2.DenominazioneRegione) distanza
+FROM read_csv_auto('"$folder"/tmp/accoglienza_regioni.csv',header=true) t1
+JOIN read_csv_auto('"$folder"/../../risorse/Elenco-regioni.csv',header=true) t2
+ON LEVENSHTEIN(t1.Regione, t2.DenominazioneRegione) < 40;" | mlr --csv top --min -a -f distanza -g DenominazioneRegione then cut -x -f distanza >"$folder"/tmp/accoglienza_regioni_stele.csv
+
+# associa ai dati nome regione ufficiale e codice regione dell'ISTAT
+mlrgo --csv join --ul -j Regione -f "$folder"/../dati/accoglienza.csv then unsparsify then sort -f Data_Report,Regione  "$folder"/tmp/accoglienza_regioni_stele.csv >"$folder"/tmp/tmp-accoglienza.csv
+
+mv "$folder"/tmp/tmp-accoglienza.csv "$folder"/../dati/accoglienza.csv
