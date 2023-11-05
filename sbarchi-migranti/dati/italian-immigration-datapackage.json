@@ -1,0 +1,138 @@
+{
+  "profile": "data-package",
+  "description": "Questo datapackage contiene dati su sbarchi, nazionalità e accoglienza delle persone migranti. La fonte è il Cruscotto statistico del Ministero dell'Interno.",
+  "name": "italian-immigration-data-package",
+  "license": {
+    "type": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "resources": [
+    {
+      "name": "accoglienza",
+      "path": "accoglienza.csv",
+      "description": "Si tratta dei numeri dell'accoglienza, per regione di accoglienza e per tipologia.",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "type": "table",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Regione",
+            "type": "string",
+            "description": "La regione di accoglienza"
+          },
+          {
+            "name": "Data_Report",
+            "type": "date",
+            "description": "La data del report"
+          },
+          {
+            "name": "Immigrati presenti negli hot spot",
+            "type": "integer",
+            "description": "Il numero persone migranti presenti negli hotspot nella regione"
+          },
+          {
+            "name": "Immigrati presenti nei centri di accoglienza",
+            "type": "integer",
+            "description": "Il numero persone migranti presenti nei centri di accoglienza nella regione"
+          },
+          {
+            "name": "Immigrati presenti nei centri SIPROIMI",
+            "type": "integer",
+            "description": "Il numero persone migranti presenti nei centri SIPROIMI (Sistema di Protezione per Richiedenti Asilo e Rifugiati) nella regione"
+          },
+          {
+            "name": "Immigrati presenti nei centri SAI",
+            "type": "integer",
+            "description": "Il numero persone migranti presenti nei centri SAI (Sistema di Accoglienza e Integrazione) nella regione"
+          },
+          {
+            "name": "CodiceRegione",
+            "type": "string",
+            "description": "Il codice identificativo della regione"
+          },
+          {
+            "name": "DenominazioneRegione",
+            "type": "string",
+            "description": "Il nome completo della regione"
+          }
+        ]
+      }
+    },
+    {
+      "name": "nazionalita",
+      "path": "nazionalita.csv",
+      "description": "Si tratta delle nazionalità dichiarate al momento dello sbarco per l'anno del report, alla data del report.",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "type": "table",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Data_Report",
+            "type": "date",
+            "description": "La data del report"
+          },
+          {
+            "name": "Nazione",
+            "type": "string",
+            "description": "Il nome della nazione di origine degli immigrati"
+          },
+          {
+            "name": "ISO_3166-1",
+            "type": "string",
+            "description": "Il codice ISO 3166-1 alfa-3 della nazione"
+          },
+          {
+            "name": "Valore",
+            "type": "integer",
+            "description": "Il numero persone migranti provenienti dalla nazione"
+          }
+        ]
+      }
+    },
+    {
+      "name": "sbarchi-per-giorno",
+      "path": "sbarchi-per-giorno.csv",
+      "description": "Si tratta dei numeri degli sbarchi giornalieri per anno, mese e giorno.",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "type": "table",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Data",
+            "type": "date",
+            "description": "La data dello sbarco"
+          },
+          {
+            "name": "Valore",
+            "type": "integer",
+            "description": "Il numero persone migranti sbarcate quel giorno"
+          },
+          {
+            "name": "Note",
+            "type": "string",
+            "description": "Note aggiuntive sullo sbarco"
+          },
+          {
+            "name": "Fonte",
+            "type": "string",
+            "description": "La fonte dei dati dello sbarco"
+          },
+          {
+            "name": "Data_Report",
+            "type": "string",
+            "description": "La data in cui il report è stato generato"
+          }
+        ]
+      }
+    }
+  ]
+}
