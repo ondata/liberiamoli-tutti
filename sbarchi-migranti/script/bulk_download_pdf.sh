@@ -36,3 +36,6 @@ while read -r line; do
   url_file=$(echo "$line" | jq -r '."@href"')
   wget -nc -P "$folder"/../../"$progetto"/rawdata/pdf/ "$url_file"
 done < "$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
+
+# crea anagrafica dei report
+mlrgo --ijsonl --ocsv cut -f "@href","data" then label URL,Data_Report then reorder -f Data_Report,URL then sort -f Data_Report "$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl >"$folder"/../dati/anagrafica-report.csv
