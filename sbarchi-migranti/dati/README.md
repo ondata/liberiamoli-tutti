@@ -35,7 +35,7 @@ Il file è [`nazionalita.csv`](https://raw.githubusercontent.com/ondata/liberiam
 | ---- | ---- | ----------- |
 | Data_Report | date | La data del report PDF, da cui sono estratti i dati |
 | Nazione | string | Nazionalità dichiarate al momento dello sbarco, per l'anno della data del report, espressa come nome della nazione, così come riportate nel report |
-| ISO_3166-1 | string | Il codice [`ISO 3166-1 alpha-2`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/https://it.wikipedia.org/wiki/ISO_3166-1_alpha-2) della nazione. È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più "usabili" |
+| ISO_3166-1 | string | Il codice [`ISO 3166-1 alpha-2`](https://it.wikipedia.org/wiki/ISO_3166-1_alpha-2) della nazione. È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più "usabili" |
 | Valore | integer | Il numero di persone migranti provenienti dalla nazione |
 
 
@@ -43,7 +43,7 @@ Il file è [`nazionalita.csv`](https://raw.githubusercontent.com/ondata/liberiam
 
 Si tratta dei numeri degli **sbarchi giornalieri** per anno, mese e giorno.
 
-Il file è [`sbarchi-per-giorno.csv`](sbarchi-per-giorno.csv), ed è composto dalle colonne descritte a seguire.
+Il file è [`sbarchi-per-giorno.csv`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/sbarchi-per-giorno.csv), ed è composto dalle colonne descritte a seguire.
 
 | Nome colonna | Tipologia colonna | Descrizione colonna |
 | ---- | ---- | ----------- |
