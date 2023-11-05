@@ -22,8 +22,8 @@ Il file è [`accoglienza.csv`](https://raw.githubusercontent.com/ondata/liberiam
 | Immigrati presenti nei centri di accoglienza | integer | Il numero di persone migranti presenti nei centri di accoglienza nella regione |
 | Immigrati presenti nei centri SIPROIMI | integer | Il numero di persone migranti presenti nei centri SIPROIMI (Sistema di Protezione per Richiedenti Asilo e Rifugiati) nella regione |
 | Immigrati presenti nei centri SAI | integer | Il numero di persone migranti presenti nei centri SAI (Sistema di Accoglienza e Integrazione) nella regione |
-| CodiceRegione | string | Il codice identificativo Istat della regione |
-| DenominazioneRegione | string | La denominazione ufficiale della Regione |
+| CodiceRegione | string | Il codice identificativo Istat della regione. È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più "usabili" |
+| DenominazioneRegione | string | La denominazione ufficiale della Regione. È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più "usabili" |
 
 ### Nazionalità
 
@@ -34,8 +34,8 @@ Il file è [`nazionalita.csv`](https://raw.githubusercontent.com/ondata/liberiam
 | Nome colonna | Tipologia colonna | Descrizione colonna |
 | ---- | ---- | ----------- |
 | Data_Report | date | La data del report PDF, da cui sono estratti i dati |
-| Nazione | string | Nazionalità dichiarate al momento dello sbarco, per l'anno della data del report, espressa come nome della nazione |
-| ISO_3166-1 | string | Il codice [`ISO 3166-1 alpha-2`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/https://it.wikipedia.org/wiki/ISO_3166-1_alpha-2) della nazione |
+| Nazione | string | Nazionalità dichiarate al momento dello sbarco, per l'anno della data del report, espressa come nome della nazione, così come riportate nel report |
+| ISO_3166-1 | string | Il codice [`ISO 3166-1 alpha-2`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/https://it.wikipedia.org/wiki/ISO_3166-1_alpha-2) della nazione. È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più "usabili" |
 | Valore | integer | Il numero di persone migranti provenienti dalla nazione |
 
 
