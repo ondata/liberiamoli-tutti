@@ -12,7 +12,7 @@ La fonte è il "[Cruscotto statistico](http://www.libertaciviliimmigrazione.dlci
 
 Si tratta dei numeri dell'**accoglienza**, per **regione** di accoglienza e per tipologia.
 
-Il file è [`accoglienza.csv`](accoglienza.csv), ed è composto dalle colonne descritte a seguire.
+Il file è [`accoglienza.csv`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/accoglienza.csv), ed è composto dalle colonne descritte a seguire.
 
 | Nome colonna | Tipologia colonna | Descrizione colonna |
 | ---- | ---- | ----------- |
@@ -29,13 +29,13 @@ Il file è [`accoglienza.csv`](accoglienza.csv), ed è composto dalle colonne de
 
 Si tratta delle **nazionalità** dichiarate al momento dello sbarco per l'anno del report, alla data del report.
 
-Il file è [`nazionalita.csv`](nazionalita.csv), ed è composto dalle colonne descritte a seguire.
+Il file è [`nazionalita.csv`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/nazionalita.csv), ed è composto dalle colonne descritte a seguire.
 
 | Nome colonna | Tipologia colonna | Descrizione colonna |
 | ---- | ---- | ----------- |
 | Data_Report | date | La data del report PDF, da cui sono estratti i dati |
 | Nazione | string | Nazionalità dichiarate al momento dello sbarco, per l'anno della data del report, espressa come nome della nazione |
-| ISO_3166-1 | string | Il codice `ISO 3166-1 alpha-2` della nazione |
+| ISO_3166-1 | string | Il codice [`ISO 3166-1 alpha-2`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/https://it.wikipedia.org/wiki/ISO_3166-1_alpha-2) della nazione |
 | Valore | integer | Il numero di persone migranti provenienti dalla nazione |
 
 
