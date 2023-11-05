@@ -1,5 +1,9 @@
-# Lorem ipsum
+# Liberiamoli Tutti
 
-## Struttura del progetto
+Liberiamoli Tutti è un'iniziativa della **campagna [datiBeneComune](https://datibenecomune.it/)** per **individuare**, **ottenere**, **riformattare**, **pulire**, **documentare**, **pubblicare** e **diffondere dati** di **interesse pubblico**.
 
-**Ogni dataset** è contenuto **in una cartella** con il nome del dataset stesso. Il **nome** della cartella è in **minuscolo** e senza spazi, e al posto dello spazio è presente il carattere `-`.
+Questo è uno spazio a supporto, dove verranno raccolti dati e le informazioni utili per l'iniziativa.
+
+---
+
+**"Liberiamoli tutti"** di **datiBeneComune** è promossa da [ActionAid Italia](https://www.actionaid.it/), [OnData](http://ondata.it/) e [Transparency International Italia](https://www.transparency.it/).
