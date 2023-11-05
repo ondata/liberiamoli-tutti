@@ -4,7 +4,7 @@ Questo è un insieme di dati pubblicati nel contesto del progetto "**Liberiamoli
 
 ## Dati
 
-Sono in formato `CSV`, con separatore `,` e con codifica `UTF-8`. Li abbiamo resi disponibili anche in [formato Google Sheet](https://docs.google.com/spreadsheets/d/1dNlByw2cMoqGorp4zPN6OULtG_jVRCe5xpl0YdKJxFE/edit?usp=sharing), ma la fonte più affidabile è il file `CSV`.
+Sono in formato `CSV`, con separatore `,` e con codifica `UTF-8`. Li abbiamo resi disponibili anche in [formato Google Sheet](https://docs.google.com/spreadsheets/d/1dNlByw2cMoqGorp4zPN6OULtG_jVRCe5xpl0YdKJxFE/edit?usp=sharing), ma la fonte più affidabile è quella dei file `CSV`.
 
 La fonte è il "[Cruscotto statistico](http://www.libertaciviliimmigrazione.dlci.interno.gov.it/it/documentazione/statistica/cruscotto-statistico-giornaliero)" del Ministero dell'Interno.
 
@@ -24,6 +24,21 @@ Il file è [`accoglienza.csv`](https://raw.githubusercontent.com/ondata/liberiam
 | Immigrati presenti nei centri SAI | integer | Il numero di persone migranti presenti nei centri SAI (Sistema di Accoglienza e Integrazione) nella regione |
 | CodiceRegione | string | Il codice identificativo Istat della regione. È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più "usabili" |
 | DenominazioneRegione | string | La denominazione ufficiale della Regione. È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più "usabili" |
+
+Alcune note sulle tipologie di accoglienza:
+
+- **SIPROIMI (Sistema di Protezione per Richiedenti Asilo e Rifugiati)**
+  - È il sistema italiano che si occupa di accoglienza e integrazione per i beneficiari di protezione internazionale e per i richiedenti asilo.
+  - Offre un insieme di servizi che vanno dall'assistenza abitativa all'integrazione socio-economica.
+- **SAI (Sistema di Accoglienza e Integrazione)**
+  - Sostituisce e amplia il precedente SPRAR (Sistema di Protezione per Richiedenti Asilo e Rifugiati).
+  - Fornisce un percorso personalizzato per l'integrazione, che include formazione linguistica, inserimento lavorativo, e educazione civica.
+- **Centri di accoglienza**
+  - Sono strutture temporanee che offrono ospitalità immediata e servizi di prima necessità ai migranti.
+  - Il loro obiettivo è garantire una prima assistenza in attesa che vengano identificate soluzioni abitative più stabili.
+- **Hotspot**
+  - Strutture presenti in diverse località italiane, create per l'identificazione e la registrazione dei migranti appena sbarcati.
+  - Hanno il compito di distinguere tra richiedenti asilo e migranti economici, prima del trasferimento in altre strutture o del rimpatrio.
 
 ### Nazionalità
 
