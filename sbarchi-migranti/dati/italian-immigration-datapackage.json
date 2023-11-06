@@ -51,12 +51,12 @@
           {
             "name": "CodiceRegione",
             "type": "string",
-            "description": "Il codice identificativo della regione. È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più usabili"
+            "description": "Il codice identificativo della regione. È un'informazione non presente nel report, che è stata aggiunta per rendere i dati più usabili"
           },
           {
             "name": "DenominazioneRegione",
             "type": "string",
-            "description": "Il nome completo della regione. È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più usabili"
+            "description": "Il nome completo della regione. È un'informazione non presente nel report, che è stata aggiunta per rendere i dati più usabili"
           }
         ]
       }
@@ -85,7 +85,7 @@
           {
             "name": "ISO_3166-1",
             "type": "string",
-            "description": "Il codice ISO 3166-1 alfa-3 della nazione. È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più usabili"
+            "description": "Il codice ISO 3166-1 alfa-3 della nazione. È un'informazione non presente nel report, che è stata aggiunta per rendere i dati più usabili"
           },
           {
             "name": "Valore",
