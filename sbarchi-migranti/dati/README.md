@@ -6,7 +6,8 @@ Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamol
 
 Sono in formato `CSV`, con separatore `,` e con codifica `UTF-8`. Li abbiamo resi disponibili anche in [formato Google Sheet](https://docs.google.com/spreadsheets/d/1dNlByw2cMoqGorp4zPN6OULtG_jVRCe5xpl0YdKJxFE/edit?usp=sharing), ma la fonte più affidabile è quella dei file `CSV`.
 
-La fonte è il "[Cruscotto statistico](http://www.libertaciviliimmigrazione.dlci.interno.gov.it/it/documentazione/statistica/cruscotto-statistico-giornaliero)" del Ministero dell'Interno.
+La fonte è il "[Cruscotto statistico](http://www.libertaciviliimmigrazione.dlci.interno.gov.it/it/documentazione/statistica/cruscotto-statistico-giornaliero)" del Ministero dell'Interno.<br>
+Copia dei PDF del cruscotto è disponibile in [questa cartella](https://github.com/ondata/liberiamoli-tutti/tree/main/sbarchi-migranti/rawdata/pdf).
 
 ### Accoglienza
 
