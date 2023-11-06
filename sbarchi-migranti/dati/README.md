@@ -1,6 +1,6 @@
 # Introduzione
 
-Questo è un insieme di dati pubblicati nel contesto del progetto "**Liberiamoli tutti**".
+Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamoli tutti**](https://datibenecomune.substack.com/about)".
 
 ## Dati
 
