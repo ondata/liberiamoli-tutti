@@ -28,18 +28,15 @@ Il file è [`accoglienza.csv`](https://raw.githubusercontent.com/ondata/liberiam
 
 Alcune note sulle tipologie di accoglienza:
 
-- **SIPROIMI (Sistema di Protezione per Richiedenti Asilo e Rifugiati)**
-  - È il sistema italiano che si occupa di accoglienza e integrazione per i beneficiari di protezione internazionale e per i richiedenti asilo.
-  - Offre un insieme di servizi che vanno dall'assistenza abitativa all'integrazione socio-economica.
-- **SAI (Sistema di Accoglienza e Integrazione)**
-  - Sostituisce e amplia il precedente SPRAR (Sistema di Protezione per Richiedenti Asilo e Rifugiati).
-  - Fornisce un percorso personalizzato per l'integrazione, che include formazione linguistica, inserimento lavorativo, e educazione civica.
-- **Centri di accoglienza**
-  - Sono strutture temporanee che offrono ospitalità immediata e servizi di prima necessità ai migranti.
-  - Il loro obiettivo è garantire una prima assistenza in attesa che vengano identificate soluzioni abitative più stabili.
 - **Hotspot**
-  - Strutture presenti in diverse località italiane, create per l'identificazione e la registrazione dei migranti appena sbarcati.
-  - Hanno il compito di distinguere tra richiedenti asilo e migranti economici, prima del trasferimento in altre strutture o del rimpatrio.
+  - Sono i cosiddetti "centri di crisi", ossia centri governativi situati presso le aree di sbarco con lo scopo di fornire una primissima assistenza sanitaria, di effettuare e procedure di pre-identificazione e fotosegnalamento e per la somministrazione delle informazioni sulle procedure dell'asilo
+- **Centri di accoglienza**, si dividono in:
+  - CENTRI GOVERNATIVI: centri dedicati ai richiedenti asilo, con funzioni di assistenza sanitaria, sociale e mediazione linguistica/culturale. Questi centri sono atti ad avviare la procedura di verifica della domanda di protezione internazionale;
+  - CENTRI DI ACCOGLIENZA STRAORDINARIA (CAS): centri attivati dalle prefetture in caso di esaurimento dei posti nei centri governativi i cui servizi di prima accoglienza ricalcano questi ultimi.
+- **SAI (Sistema di Accoglienza e Integrazione)**
+  - Sistema dedicato quasi esclusivamente ai titolari di protezione e ad alcune categoria di migranti (minori stranieri non accompagnati, vulnerabili, richiedenti ucraini e afghani, ecc.). Il sistema è gestito dal Servizio Centrale dell'ANCI e i progetti sono assegnati agli enti locali, con funzioni di orientamento lavorativo e integrazione.
+- **SIPROIMI (Sistema di Protezione per Richiedenti Asilo e Rifugiati)**
+  - Era costituito dalla rete degli enti locali per la realizzazione di progetti di accoglienza integrata. Il sistema, ad oggi sostituito dal SAI, escludeva la possibilità di accogliere anche i richiedenti asilo, essendo dedicato solo a coloro che beneficiavano già di protezione o a categorie particolari (come i minori non accompagnati anche se richiedenti asilo).
 
 ### Nazionalità
 
