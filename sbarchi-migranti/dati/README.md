@@ -9,6 +9,8 @@ Sono in formato `CSV`, con separatore `,` e con codifica `UTF-8`. Li abbiamo res
 La fonte è il "[Cruscotto statistico](http://www.libertaciviliimmigrazione.dlci.interno.gov.it/it/documentazione/statistica/cruscotto-statistico-giornaliero)" del Ministero dell'Interno.<br>
 Copia dei PDF del cruscotto è disponibile in [questa cartella](https://github.com/ondata/liberiamoli-tutti/tree/main/sbarchi-migranti/rawdata/pdf).
 
+👉 **Nota Bene**: questi sono rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it). **Puoi usarli liberamente**, anche per scopi commerciali, ma devi **citare la fonte**, scrivendo semplicemente "Fonte: [Liberiamoli Tutti!](https://datibenecomune.substack.com/)" e inserendo il link ipertestuale a `https://datibenecomune.substack.com/`.
+
 ### Accoglienza
 
 Si tratta dei numeri dell'**accoglienza**, per **regione** di accoglienza e per tipologia.
