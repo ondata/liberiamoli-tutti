@@ -1,0 +1,90 @@
+{
+  "profile": "data-package",
+  "description": "Questo datapackage le informazioni relative al registro pubblico degli edifici con presenza di amianto di un'area della Regione Lombardia",
+  "name": "notifiche_amianto_milano_ovest",
+  "license": {
+    "type": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "resources": [
+    {
+      "name": "notifiche_amianto_milano_ovest",
+      "path": "notifiche_amianto_milano_ovest.csv",
+      "description": "I dati suddivisi per Comune, indirizzo, destinazione, condizione materiale, stato conservazione, tipo supporto, superficie esposta, quantità in kg, metri quadrati e metri cubi",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "type": "table",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "comune",
+            "type": "string",
+            "description": "Nome del Comune"
+          },
+          {
+            "name": "indirizzo",
+            "type": "string",
+            "description": "Indirizzo dell'edificio"
+          },
+          {
+            "name": "civico",
+            "type": "string",
+            "description": "numero civico"
+          },
+          {
+            "name": "destinazione",
+            "type": "string",
+            "description": "destinazione d'uso dell'edificio"
+          },
+          {
+            "name": "condizione_materiale",
+            "type": "string",
+            "description": "Condizione del materiale"
+          },
+          {
+            "name": "stato_conservazione",
+            "type": "string",
+            "description": "Stato di conservazione del materiale"
+          },
+          {
+            "name": "tipo_supporto",
+            "type": "string",
+            "description": "Tipo di supporto"
+          },
+          {
+            "name": "superfice_esposta",
+            "type": "number",
+            "decimalChar": ".",
+            "description": "Superficie esposta in metri quadrati"
+          },
+          {
+            "name": "quantita_kg",
+            "type": "number",
+            "decimalChar": ".",
+            "description": "Quantità in chilogrammi"
+          },
+          {
+            "name": "quantita_m2",
+            "type": "number",
+            "decimalChar": ".",
+            "description": "Quantità in metri quadrati"
+          },
+          {
+            "name": "quantita_m3",
+            "type": "number",
+            "decimalChar": ".",
+            "description": "Quantità in metri cubi"
+          },
+          {
+            "name": "comune_istat",
+            "type": "number",
+            "decimalChar": ".",
+            "description": "Codice Istat del Comune"
+          }
+        ]
+      }
+    }
+  ]
+}
