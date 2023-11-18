@@ -31,12 +31,12 @@
           {
             "name": "civico",
             "type": "string",
-            "description": "numero civico"
+            "description": "Numero civico"
           },
           {
             "name": "destinazione",
             "type": "string",
-            "description": "destinazione d'uso dell'edificio"
+            "description": "Destinazione d'uso dell'edificio"
           },
           {
             "name": "condizione_materiale",
@@ -79,8 +79,7 @@
           },
           {
             "name": "comune_istat",
-            "type": "number",
-            "decimalChar": ".",
+            "type": "string",
             "description": "Codice Istat del Comune"
           }
         ]
