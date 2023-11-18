@@ -18,7 +18,7 @@ La fonte è ...
 
 Si tratta dell'elenco dei luoghi elencati nel registro, con le informazioni su Comune, indirizzo, destinazione d'uso, condizione del materiale, stato di conservazione, tipo di supporto, superficie esposta e quantità di amianto presente.
 
-Il file è [`notifiche_amianto_milano_ovest.csv`](notifiche_amianto_milano_ovest.csv), ed è composto dalle colonne descritte a seguire.
+Il file è [`notifiche_amianto_milano_ovest.csv`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/amianto_lombardia/dati/notifiche_amianto_milano_ovest.csv), ed è composto dalle colonne descritte a seguire.
 
 | Nome colonna | Tipo colonna | Descrizione |
 | --- | --- | --- |
