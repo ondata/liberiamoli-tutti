@@ -1,6 +1,6 @@
 {
   "profile": "data-package",
-  "description": "Questo datapackage le informazioni relative al registro pubblico degli edifici con presenza di amianto di un'area della Regione Lombardia",
+  "description": "Questo dataset contiene le informazioni relative al registro pubblico degli edifici con presenza di amianto di un'area della Regione Lombardia, per l'anno 2022",
   "name": "notifiche_amianto_milano_ovest",
   "license": {
     "type": "CC-BY-4.0",
