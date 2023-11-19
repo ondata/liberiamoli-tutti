@@ -3,7 +3,7 @@
 **NOTA BENE**: gli script sono ancora da documentare. Al momento sono usabili bene soltanto da chi li ha creati.
 
 ```bash
-./bulk_download_pdf && ./bulk_sbarchi-migranti.sh && ./bulk_sbarchi-migranti_accoglienza && ./bulk_sbarchi-migranti_nazionalita
+./bulk_download_pdf.sh && ./bulk_sbarchi-migranti.sh && ./bulk_sbarchi-migranti_accoglienza.sh && ./bulk_sbarchi-migranti_nazionalita.sh
 ```
 
 ## bulk_download_pdf.sh
