@@ -70,7 +70,7 @@ Il file è [`sbarchi-per-giorno.csv`](https://raw.githubusercontent.com/ondata/l
 
 ### Anagrafica report
 
-Abbiamo inserito anche il file [`anagrafica_report.csv`](anagrafica_report.csv), che contiene i dati di anagrafica dei report PDF: per ogni data di report, l'URL del report PDF.
+Abbiamo inserito anche il file [`anagrafica-report.csv`](anagrafica-report.csv), che contiene i dati di anagrafica dei report PDF: per ogni data di report, l'URL del report PDF.
 
 | Nome colonna | Tipologia colonna | Descrizione colonna |
 | ---- | ---- | ----------- |
