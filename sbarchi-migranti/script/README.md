@@ -14,3 +14,10 @@ Scarica i PDF dal sito del Ministero dell'Interno.
 
 Estrai i dati sugli sbarchi giornalieri dai PDF.
 
+## bulk_sbarchi-migranti_accoglienza.sh
+
+Estrai i dati sull'accoglienza dai PDF.
+
+## bulk_sbarchi-migranti_nazionalita.sh
+
+Estrai i dati sulle nazionalità dai PDF.
