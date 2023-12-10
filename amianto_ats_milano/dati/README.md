@@ -55,8 +55,7 @@ Purtroppo non è documentata e non è costante lungo le 4.000 pagine.
 
 ### Tipologia dati
 
-La colonna `Tipologia dati` indica il tipo di dato presente nella colonna. I tipi di dato sono:
+La colonna `Tipologia dati`, nel paragrafo precedente in cui è descritto il file `CSV`, indica il tipo di dato presente nella colonna. I tipi di dato sono:
 
-- `date`: Questo tipo di campo è utilizzato per contenere date e/o orari. Nel contesto di questo dati si tratte di date in formato anno-mese-giorno (YYYY-MM-DD), come ad esempio `2020-01-18`;
 - `number`: Il campo contiene numeri di qualsiasi tipo, compresi i decimali;
 - `string`: Questo tipo di campo è utilizzato per testo o combinazioni di caratteri. Può contenere lettere, numeri e simboli.
