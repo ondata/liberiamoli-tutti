@@ -50,7 +50,7 @@ A ogni Comune andrebbe associato anche il codice Istat di ciascuno, per consenti
 Per la grandissima parte dei dati, emerge una possibile struttura di righe a gruppi di 4 righe (vedi immaginie a seguire). Come se una singola osservazione, fosse composta da 4 righe.
 Purtroppo non è documentata e non è costante lungo le 4.000 pagine.
 
-![](./risorse/struttura-gruppi4.png)
+![](../risorse/struttura-gruppi4.png)
 
 
 ### Tipologia dati
