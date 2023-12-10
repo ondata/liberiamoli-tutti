@@ -5,6 +5,12 @@ set -e
 set -u
 set -o pipefail
 
+### requisiti ###
+# pdftk https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
+# tabula-java https://github.com/tabulapdf/tabula-java
+# Miller versione 6, che nello script è rinominato mlrgo https://github.com/johnkerl/miller
+### requisiti ###
+
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # extract the total pages of a pdf file
