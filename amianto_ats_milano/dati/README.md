@@ -40,12 +40,12 @@ Il file è [`notifiche_amianto_2012-2022.csv`](https://raw.githubusercontent.com
 
 ## Note
 
-Questi dati dovrebbero essere pubblicati anche in formati "leggibile meccanicamente", come CSV o JSON, e non solo in PDF. Lo prevedono le norme e linee guida italiane sui dati della Pubblica Amministrazione. Tra questi l'[articolo 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig~art6) del Decreto Legislativo 24 gennaio 2006, n. 36, che rimanda a sua volta all'[articolo 2](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig~art2), che stabilisce che gli enti pubblici devono utilizzare formati di dati che favoriscano la loro riutilizzazione, che siano appunto in formato leggibile meccanicamente
+Questi dati dovrebbero essere pubblicati anche in formati "leggibile meccanicamente", come `CSV` o `JSON`, e non solo in `PDF`. Lo prevedono le norme e linee guida italiane sui dati della Pubblica Amministrazione. Tra questi l'[articolo 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig~art6) del Decreto Legislativo 24 gennaio 2006, n. 36, che rimanda a sua volta all'[articolo 2](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig~art2), che stabilisce che gli enti pubblici devono utilizzare formati di dati che favoriscano la loro riutilizzazione, che siano appunto in formato leggibile meccanicamente
 
-Il [file PDF](https://www.ats-milano.it/sites/default/files/2023-11/Registro%20Pubblico%20LR17-2003_dal%202012%20al%202022.pdf) di origine è composto da circa 4.000 pagine e 100.000 righe, per 10 anni di dati (dal 2012 al 2022), ma tra le colonne non ce ne è una con la data dell'osservazione.<br>
+Il [file PDF](https://www.ats-milano.it/sites/default/files/2023-11/Registro%20Pubblico%20LR17-2003_dal%202012%20al%202022.pdf) di origine è composto da circa 4.000 pagine e 100.000 righe, per 10 anni di dati (dal 2012 al 2022), ma **tra le colonne non ce ne è una con la data dell'osservazione**.<br>
 È quindi purtroppo impossibile fare un'analisi temporale, valutare emergenze, fare correlazioni con altri eventi, monitorare gli interventi di bonifica.
 
-A ogni Comune andrebbe associato anche il codice Istat di ciascuno, per consentire la correlazione immediata con altri dati. Non era presente nel report, ma lo abbiamo aggiunto noi.
+A ogni Comune andrebbe associato anche il codice Istat di ciascuno, per consentire la correlazione immediata con altri dati. Non era presente nel report e lo abbiamo aggiunto noi.
 
 Per la grandissima parte dei dati, emerge una possibile struttura di righe a gruppi di 4 righe (vedi immaginie a seguire). Come se una singola osservazione, fosse composta da 4 righe.
 Purtroppo non è documentata e non è costante lungo le 4.000 pagine.
