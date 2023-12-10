@@ -1,0 +1,109 @@
+{
+  "profile": "tabular-data-package",
+  "description": "Edifici segnalati con presenza di amianto, nel territorio gestito dall'Agenzia di Tutela della Salute (ATS) della Città Metropolitana di Milano, ovvero le province di Milano e Lodi, dal 2012 al 2022.",
+  "name": "amianto_ats_milano-datapackage",
+  "id": "amianto_ats_milano-datapackage",
+  "title": "Territorio ATS Milano Città Metropolitana: edifici segnalati con presenza di amianto",
+  "sources": [{
+    "title": "Registro pubblico degli edifici industriali e ad uso abitativo con presenza di amianto (L.R.17/2003) - Anni dal 2012 al 2022",
+    "path": "https://www.ats-milano.it/sites/default/files/2023-11/Registro%20Pubblico%20LR17-2003_dal%202012%20al%202022.pdf"
+  }],
+  "temporal": {
+    "start": "2012-01-01",
+    "end": "2022-12-31"
+  },
+  "license": {
+    "type": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "resources": [
+    {
+      "name": "notifiche_amianto_2012-2022",
+      "path": "notifiche_amianto_2012-2022.csv",
+      "description": "Si tratta dei numeri dell'accoglienza, per regione di accoglienza e per tipologia.",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "type": "table",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "localita_struttura_luogo",
+            "type": "string",
+            "description": "Nome del comune in cui si trova l'edificio"
+          },
+          {
+            "name": "indirizzo_struttura_luogo",
+            "type": "string",
+            "description": "Indirizzo dell'edificio"
+          },
+          {
+            "name": "civico_struttura_luogo",
+            "type": "string",
+            "description": "Numero civico dell'edificio"
+          },
+          {
+            "name": "destinazione_d_uso",
+            "type": "string",
+            "description": "Destinazione d'uso dell'edificio"
+          },
+          {
+            "name": "tipologia_materiale",
+            "type": "string",
+            "description": "Se il materiale contenente amianto è friabile o no"
+          },
+          {
+            "name": "stato_conservazione",
+            "type": "string",
+            "description": "Lo stato di conservazione"
+          },
+          {
+            "name": "tipo_supporto",
+            "type": "string",
+            "description": "Tipo di supporto del materiale contenente amianto"
+          },
+          {
+            "name": "superficie_esposta",
+            "type": "number",
+            "decimalChar": ".",
+            "description": "Superficie esposta in metri quadrati"
+          },
+          {
+            "name": "quantita_kg",
+            "type": "number",
+            "decimalChar": ".",
+            "description": "Quantità in chilogrammi"
+          },
+          {
+            "name": "quantita_m2",
+            "type": "number",
+            "decimalChar": ".",
+            "description": "Quantità in metri quadrati"
+          },
+          {
+            "name": "quantita_m3",
+            "type": "number",
+            "decimalChar": ".",
+            "description": "Quantità in metri cubi"
+          },
+          {
+            "name": "pagina",
+            "type": "integer",
+            "description": "Pagina del PDF da cui sono stati estratti i dati"
+          },
+          {
+            "name": "comune_nome_attuale",
+            "type": "string",
+            "description": "Il nome Comune attuale (alcuni Comuni hanno cambiato nome)"
+          },
+          {
+            "name": "comune_istat",
+            "type": "string",
+            "description": "I codice Istat attuale del Comune"
+          }
+        ]
+      }
+    }
+  ]
+}
