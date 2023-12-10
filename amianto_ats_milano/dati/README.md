@@ -9,7 +9,7 @@ Le [Legge Regionale n° 17 del 2003](https://normelombardia.consiglio.regione.lo
 Per il territorio dell'Agenzia di Tutela della Salute (ATS) della Città Metropolitana di Milano (province di Milano e Lodi) sono informazioni pubblicate nella sezione ["Amianto negli ambienti di vita](https://www.ats-milano.it/ats/carta-servizi/guida-servizi/ambiente/amianto/amianto-ambienti-vita)".<br>
 Al momento (10 dicembre 2023) i dati sono pubblicati in [questo file PDF](https://www.ats-milano.it/sites/default/files/2023-11/Registro%20Pubblico%20LR17-2003_dal%202012%20al%202022.pdf)
 
-Li abbiamo estratti dal PDF e ripubblicati in [formato `CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/amianto_ats_milano/dati/notifiche_amianto_2012-2022.csv), con separatore `,` e con codifica `UTF-8`.
+Li abbiamo estratti dal PDF e ripubblicati in [formato `CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/amianto_ats_milano/dati/notifiche_amianto_2012-2022.csv), con separatore `,`, con codifica `UTF-8` e con il `.` come separatore decimale.
 
 👉 **Nota Bene**: questi sono rilasciati con **licenza** [**CC-BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed.it): li **puoi usare liberamente**, anche per scopi commerciali, ma devi **citare la fonte**, scrivendo semplicemente "Fonte: [Liberiamoli tutti!](https://datibenecomune.substack.com/)" e inserendo il link ipertestuale a `https://datibenecomune.substack.com/`.
 
