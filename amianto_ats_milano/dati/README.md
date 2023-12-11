@@ -1,6 +1,6 @@
 # Introduzione
 
-Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamoli tutti!**](https://datibenecomune.substack.com/about)", e in particolare nel "**numero 1**" della newsletter di progetto.
+Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamoli tutti!**](https://datibenecomune.substack.com/about)", e in particolare [nel "**numero 1**"](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-1) della newsletter di progetto.
 
 ## Dati
 
@@ -11,7 +11,7 @@ Al momento (10 dicembre 2023) i dati sono pubblicati in [questo file PDF](https:
 
 Li abbiamo estratti dal PDF e ripubblicati in [formato `CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/amianto_ats_milano/dati/notifiche_amianto_2012-2022.csv), con separatore `,`, con codifica `UTF-8` e con il `.` come separatore decimale.
 
-👉 **Nota Bene**: questi sono rilasciati con **licenza** [**CC-BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed.it): li **puoi usare liberamente**, anche per scopi commerciali, ma devi **citare la fonte**, scrivendo semplicemente "Fonte: [Liberiamoli tutti!](https://datibenecomune.substack.com/)" e inserendo il link ipertestuale a `https://datibenecomune.substack.com/`.
+👉 **Nota Bene**: sono rilasciati con **licenza** [**CC-BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed.it). Li **puoi usare liberamente**, anche per scopi commerciali, ma devi **citare la fonte**, scrivendo semplicemente "Fonte: [Liberiamoli tutti!](https://datibenecomune.substack.com/)" e inserendo il link ipertestuale a `https://datibenecomune.substack.com/`.
 
 ### Registro pubblico degli edifici industriali ed ad uso abitativo con presenza di amianto - Anni dal 2012 al 2022
 
@@ -38,6 +38,12 @@ Il file è [`notifiche_amianto_2012-2022.csv`](https://raw.githubusercontent.com
 | comune_nome_attuale | string | Il nome Comune attuale (alcuni Comuni hanno cambiato nome). È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più "usabili" |
 | comune_istat | string | I codice Istat attuale del Comune. È un'informazione non presente nel report, che abbiamo aggiunto per rendere i dati più "usabili" |
 
+La colonna `Tipologia colonna`, indica il tipo di dato presente nella colonna. I tipi qui sono:
+
+- `number`: Il campo contiene numeri di qualsiasi tipo, compresi i decimali;
+- `integer`: Il campo contiene numeri interi;
+- `string`: Questo tipo di campo è utilizzato per testo o combinazioni di caratteri. Può contenere lettere, numeri e simboli.
+
 ## Note
 
 Questi dati dovrebbero essere pubblicati anche in formati "leggibile meccanicamente", come `CSV` o `JSON`, e non solo in `PDF`. Lo prevedono le norme e linee guida italiane sui dati della Pubblica Amministrazione. Tra questi l'[articolo 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig~art6) del Decreto Legislativo 24 gennaio 2006, n. 36, che rimanda a sua volta all'[articolo 2](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig~art2), che stabilisce che gli enti pubblici devono utilizzare formati di dati che favoriscano la loro riutilizzazione, che siano appunto in formato leggibile meccanicamente
@@ -51,11 +57,3 @@ Per la grandissima parte dei dati, emerge una possibile struttura di righe a gru
 Purtroppo non è documentata e non è costante lungo le 4.000 pagine.
 
 ![](../risorse/struttura-gruppi4.png)
-
-
-### Tipologia dati
-
-La colonna `Tipologia dati`, nel paragrafo precedente in cui è descritto il file `CSV`, indica il tipo di dato presente nella colonna. I tipi di dato sono:
-
-- `number`: Il campo contiene numeri di qualsiasi tipo, compresi i decimali;
-- `string`: Questo tipo di campo è utilizzato per testo o combinazioni di caratteri. Può contenere lettere, numeri e simboli.

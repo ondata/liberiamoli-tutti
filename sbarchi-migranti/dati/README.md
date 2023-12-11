@@ -81,7 +81,7 @@ Abbiamo inserito anche il file [`anagrafica-report.csv`](anagrafica-report.csv),
 
 ### Tipologia dati
 
-La colonna `Tipologia dati` indica il tipo di dato presente nella colonna. I tipi di dato sono:
+La colonna `Tipologia colonna` indica il tipo di dato presente nella colonna. I tipi sono:
 
 - `date`: Questo tipo di campo è utilizzato per contenere date e/o orari. Nel contesto di questo dati si tratte di date in formato anno-mese-giorno (YYYY-MM-DD), come ad esempio `2020-01-18`;
 - `integer`: Un campo di tipo integer contiene numeri interi, senza decimali;
