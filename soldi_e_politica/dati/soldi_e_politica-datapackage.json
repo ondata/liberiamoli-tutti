@@ -1,6 +1,6 @@
 {
   "profile": "data-package",
-  "description": "Questo datapackage contiene alcuni dei dati più importanti che Transparency International Italia ha usato per l'aggiornamento della piattaforma soldiepolitica.it e riferibili ai finanziamenti alla politica a livello nazionale negli anni 2022 e 2021",
+  "description": "Erogazioni ai partiti politici iscritti nel registro nazionale. Questo datapackage contiene alcuni dei dati più importanti che Transparency International Italia ha usato per l'aggiornamento della piattaforma soldiepolitica.it e riferibili ai finanziamenti alla politica a livello nazionale negli anni 2022 e 2021. Il dataset comprende anche i dati relativi agli anni 2018-2020, oggetto della precedente pubblicazione su soldiepolitica.it",
   "name": "soldi_e_politica-datapackage",
   "license": {
     "type": "CC-BY-4.0",
