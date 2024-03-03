@@ -10,7 +10,7 @@
     {
       "name": "persons",
       "path": "persons.csv",
-      "description": "Il dataset contenente i membri del Parlamento e del Governo, ricavati da fonti pubbliche e consultabili sui siti della Camera dei deputati e del Senato (dati.camera.it e dati.senato.it)",
+      "description": "Tabella contenente i membri del Parlamento e del Governo, ricavati da fonti pubbliche e consultabili sui siti della Camera dei deputati e del Senato (dati.camera.it e dati.senato.it)",
       "type": "table",
       "scheme": "file",
       "format": "csv",
@@ -114,6 +114,7 @@
     {
       "name": "political_finance",
       "type": "table",
+      "description": "Tabella contenente i contributi forniti da persone fisiche, giuridiche, associazioni, fondazioni o altri enti a partiti o movimenti politici e a soggetti a loro collegati, raccolti manualmente da Transparency International Italia attraverso l’analisi degli elenchi delle erogazioni ricevute pubblicati sul sito del Parlamento e delle dichiarazioni presenti nei siti dei partiti.",
       "path": "political_finance.csv",
       "scheme": "file",
       "format": "csv",
