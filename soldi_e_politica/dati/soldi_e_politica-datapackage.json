@@ -35,8 +35,8 @@
           },
           {
             "name": "person_date_of_birth",
-            "type": "string",
-            "description": "Data di nascita della persona"
+            "type": "date",
+            "description": "Data di nascita della persona (anno-mese-giorno)"
           },
           {
             "name": "person_place_of_birth",
@@ -90,23 +90,23 @@
           },
           {
             "name": "person_date_of_entry_into_office",
-            "type": "string",
+            "type": "date",
             "description": "Data di inizio dell'incarico della persona"
           },
           {
             "name": "person_date_of_entry_into_group",
-            "type": "string",
-            "description": "Data di inizio del gruppo di appartenenza della persona"
+            "type": "date",
+            "description": "Data di inizio del gruppo di appartenenza della persona (anno-mese-giorno)"
           },
           {
             "name": "person_date_of_end_of_office",
-            "type": "string",
-            "description": "Eventuale data di fine dell'incarico della persona"
+            "type": "date",
+            "description": "Eventuale data di fine dell'incarico della persona (anno-mese-giorno)"
           },
           {
             "name": "person_date_of_end_of_group",
-            "type": "string",
-            "description": "Eventuale data di fine del gruppo di appartenenza della persona"
+            "type": "date",
+            "description": "Eventuale data di fine del gruppo di appartenenza della persona (anno-mese-giorno)"
           }
         ]
       }
@@ -128,91 +128,123 @@
           },
           {
             "name": "donation_id_transparency",
-            "type": "string"
+            "type": "string",
+            "description": "Codice identificativo della donazione, nel dataset di Transparency International Italia"
           },
           {
             "name": "donation_amount",
-            "type": "string"
+            "type": "number",
+            "description": "Importo della donazione in euro"
           },
           {
             "name": "donation_range",
-            "type": "string"
+            "type": "string",
+            "description": "Intervallo di importo della donazione in euro"
           },
           {
             "name": "donation_year",
-            "type": "integer"
+            "type": "integer",
+            "description": "Anno della donazione"
           },
           {
             "name": "donation_date",
-            "type": "any"
+            "type": "date",
+            "description": "Data della donazione (anno-mese-giorno)"
           },
           {
             "name": "recipient_id_transparency",
-            "type": "string"
+            "type": "string",
+            "description": "Codice identificativo del destinatario della donazione, nel dataset di Transparency International Italia"
           },
           {
             "name": "person_id_transparency",
-            "type": "string"
+            "type": "string",
+            "description": "Codice identificativo della persona, nel dataset di Transparency International Italia. I dettagli nella tabella 'persons'"
           },
           {
             "name": "recipient_type",
-            "type": "string"
+            "type": "string",
+            "description": "Tipo di destinatario della donazione"
           },
           {
             "name": "recipient_last_name",
-            "type": "string"
+            "type": "string",
+            "description": "Cognome del destinatario della donazione"
           },
           {
             "name": "recipient_name",
-            "type": "string"
+            "type": "string",
+            "description": "Nome del destinatario della donazione"
           },
           {
             "name": "recipient_party",
-            "type": "string"
+            "type": "string",
+            "description": "Partito di appartenenza del destinatario della donazione"
           },
           {
             "name": "donor_id_transparency",
-            "type": "string"
+            "type": "string",
+            "description": "Codice identificativo del donatore, nel dataset di Transparency International Italia"
           },
           {
             "name": "donor_person_id_transparency",
-            "type": "string"
+            "type": "string",
+            "description": "Codice identificativo della persona donatrice, nel dataset di Transparency International Italia"
           },
           {
             "name": "donor_type",
-            "type": "string"
+            "type": "string",
+            "description": "Tipo di donatore"
           },
           {
             "name": "donor_last_name_01",
-            "type": "string"
+            "type": "string",
+            "description": "Cognome del donatore (presenza di più donatori)"
           },
           {
             "name": "donor_name_01",
-            "type": "string"
+            "type": "string",
+            "description": "Nome del donatore (presenza di più donatori)"
           },
           {
             "name": "donor_gender_01",
-            "type": "string"
+            "type": "string",
+            "description": "Sesso del donatore (presenza di più donatori)"
           },
           {
             "name": "donor_last_name_02",
-            "type": "string"
+            "type": "string",
+            "description": "Cognome del donatore (presenza di più donatori)"
           },
           {
             "name": "donor_name_02",
-            "type": "string"
+            "type": "string",
+            "description": "Nome del donatore (presenza di più donatori)"
           },
           {
             "name": "donor_gender_02",
-            "type": "string"
+            "type": "string",
+            "description": "Sesso del donatore (presenza di più donatori)"
           },
           {
             "name": "source_name",
-            "type": "string"
+            "type": "string",
+            "description": "Nome della fonte della dichiarazione"
           },
           {
             "name": "record_date_of_entry",
-            "type": "any"
+            "type": "date",
+            "description": "Data di presa in carico di Transparency International Italia (anno-mese-giorno)"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "fields": "person_id_transparency",
+            "reference": {
+              "resource": "persons",
+              "fields": "person_id_transparency"
+            }
+
           }
         ]
       }
