@@ -1,0 +1,221 @@
+{
+  "profile": "data-package",
+  "description": "Questo datapackage contiene alcuni dei dati più importanti che Transparency International Italia ha usato per l'aggiornamento della piattaforma soldiepolitica.it e riferibili ai finanziamenti alla politica a livello nazionale negli anni 2022 e 2021",
+  "name": "soldi_e_politica-datapackage",
+  "license": {
+    "type": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "resources": [
+    {
+      "name": "persons",
+      "path": "persons.csv",
+      "description": "Il dataset contenente i membri del Parlamento e del Governo, ricavati da fonti pubbliche e consultabili sui siti della Camera dei deputati e del Senato (dati.camera.it e dati.senato.it)",
+      "type": "table",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "person_id_transparency",
+            "type": "string",
+            "description": "Codice identificativo della persona, nel dataset di Transparency International Italia"
+          },
+          {
+            "name": "person_last_name",
+            "type": "string",
+            "description": "Cognome della persona"
+          },
+          {
+            "name": "person_name",
+            "type": "string",
+            "description": "Nome della persona"
+          },
+          {
+            "name": "person_date_of_birth",
+            "type": "string",
+            "description": "Data di nascita della persona"
+          },
+          {
+            "name": "person_place_of_birth",
+            "type": "string",
+            "description": "Luogo di nascita della persona"
+          },
+          {
+            "name": "person_province_of_birth",
+            "type": "string",
+            "description": "Provincia di nascita della persona"
+          },
+          {
+            "name": "person_gender",
+            "type": "string",
+            "description": "Sesso della persona"
+          },
+          {
+            "name": "person_institution",
+            "type": "string",
+            "description": "Istituzione di appartenenza della persona"
+          },
+          {
+            "name": "government_or_legislature",
+            "type": "string",
+            "description": "Governo o legislatura di appartenenza della persona"
+          },
+          {
+            "name": "person_institutional_role",
+            "type": "string",
+            "description": "Ruolo istituzionale della persona"
+          },
+          {
+            "name": "person_political_group",
+            "type": "string",
+            "description": "Gruppo politico di appartenenza della persona"
+          },
+          {
+            "name": "person_political_party",
+            "type": "string",
+            "description": "Partito politico di appartenenza della persona"
+          },
+          {
+            "name": "person_list_of_election",
+            "type": "string",
+            "description": "Lista di elezione della persona"
+          },
+          {
+            "name": "person_district_of_election",
+            "type": "string",
+            "description": "Distretto di elezione della persona (da Eligendo)"
+          },
+          {
+            "name": "person_date_of_entry_into_office",
+            "type": "string",
+            "description": "Data di inizio dell'incarico della persona"
+          },
+          {
+            "name": "person_date_of_entry_into_group",
+            "type": "string",
+            "description": "Data di inizio del gruppo di appartenenza della persona"
+          },
+          {
+            "name": "person_date_of_end_of_office",
+            "type": "string",
+            "description": "Eventuale data di fine dell'incarico della persona"
+          },
+          {
+            "name": "person_date_of_end_of_group",
+            "type": "string",
+            "description": "Eventuale data di fine del gruppo di appartenenza della persona"
+          }
+        ]
+      }
+    },
+    {
+      "name": "political_finance",
+      "type": "table",
+      "path": "political_finance.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "declaration_id",
+            "type": "string",
+            "description": "Codice identificativo della dichiarazione"
+          },
+          {
+            "name": "donation_id_transparency",
+            "type": "string"
+          },
+          {
+            "name": "donation_amount",
+            "type": "string"
+          },
+          {
+            "name": "donation_range",
+            "type": "string"
+          },
+          {
+            "name": "donation_year",
+            "type": "integer"
+          },
+          {
+            "name": "donation_date",
+            "type": "any"
+          },
+          {
+            "name": "recipient_id_transparency",
+            "type": "string"
+          },
+          {
+            "name": "person_id_transparency",
+            "type": "string"
+          },
+          {
+            "name": "recipient_type",
+            "type": "string"
+          },
+          {
+            "name": "recipient_last_name",
+            "type": "string"
+          },
+          {
+            "name": "recipient_name",
+            "type": "string"
+          },
+          {
+            "name": "recipient_party",
+            "type": "string"
+          },
+          {
+            "name": "donor_id_transparency",
+            "type": "string"
+          },
+          {
+            "name": "donor_person_id_transparency",
+            "type": "string"
+          },
+          {
+            "name": "donor_type",
+            "type": "string"
+          },
+          {
+            "name": "donor_last_name_01",
+            "type": "string"
+          },
+          {
+            "name": "donor_name_01",
+            "type": "string"
+          },
+          {
+            "name": "donor_gender_01",
+            "type": "string"
+          },
+          {
+            "name": "donor_last_name_02",
+            "type": "string"
+          },
+          {
+            "name": "donor_name_02",
+            "type": "string"
+          },
+          {
+            "name": "donor_gender_02",
+            "type": "string"
+          },
+          {
+            "name": "source_name",
+            "type": "string"
+          },
+          {
+            "name": "record_date_of_entry",
+            "type": "any"
+          }
+        ]
+      }
+    }
+  ]
+}
