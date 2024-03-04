@@ -78,7 +78,7 @@ Il file è [`political_finance.csv`](political_finance.csv) ed è composto dalle
 La colonna `Tipologia colonna` indica il tipo di dato presente nella colonna. I tipi sono:
 
 - `date`: questo tipo di campo è utilizzato per contenere date e/o orari. Nel contesto di questo dati si tratte di date in formato anno-mese-giorno (YYYY-MM-DD), come ad esempio `2020-01-18`;
-- `integer`: il campo contiene numeri di qualsiasi tipo, compresi i decimali;
+- `number`: il campo contiene numeri di qualsiasi tipo, compresi i decimali;
 - `string`: questo tipo di campo è utilizzato per testo o combinazioni di caratteri. Può contenere lettere, numeri e simboli.
 
 ### Come scaricare i CSV
