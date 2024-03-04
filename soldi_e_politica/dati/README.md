@@ -1,6 +1,6 @@
 # Introduzione
 
-Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamoli tutti**](https://datibenecomune.substack.com/about)", e in particolare nel "[numero #3](https://datibenecomune.substack.com/p/aa612d81-6be2-4e8b-b6b9-667460300db1)".
+Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamoli tutti**](https://datibenecomune.substack.com/about)", e in particolare nel "[numero #3](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-3)".
 
 
 ## Dati
