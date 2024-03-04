@@ -7,7 +7,8 @@ Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamol
 
 Si tratta delle **erogazioni ai partiti politici** iscritti nel registro nazionale. Sono alcuni dei dati più importanti che **Transparency International Italia** ha usato per l'aggiornamento della piattaforma [**soldiepolitica.it**](https://soldiepolitica.it/) e riferibili ai **finanziamenti** alla **politica** a livello nazionale negli **anni 2022** e **2021**. Il dataset comprende anche i dati relativi agli anni 2018-2020, oggetto della precedente pubblicazione su soldiepolitica.it.
 
-👉 **Nota Bene**: questi sono rilasciati con **licenza** [**CC-BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed.it): li **puoi usare liberamente**, anche per scopi commerciali, ma devi **citare la fonte**, scrivendo semplicemente "Fonte: [Soldi e Politica](https://soldiepolitica.it/)" e inserendo il link ipertestuale a `https://soldiepolitica.it/`.
+👉 **Nota Bene**: questi sono rilasciati con **licenza** [**CC-BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed.it).<br>
+Li **puoi usare liberamente**, anche per scopi commerciali, ma devi **citare la fonte**, scrivendo semplicemente "Fonte: [Soldi e Politica](https://soldiepolitica.it/)" e inserendo il link ipertestuale a `https://soldiepolitica.it/`.
 
 Sono in formato `CSV`, con separatore `,` e con codifica `UTF-8`.
 
@@ -79,3 +80,9 @@ La colonna `Tipologia colonna` indica il tipo di dato presente nella colonna. I 
 - `date`: questo tipo di campo è utilizzato per contenere date e/o orari. Nel contesto di questo dati si tratte di date in formato anno-mese-giorno (YYYY-MM-DD), come ad esempio `2020-01-18`;
 - `integer`: il campo contiene numeri di qualsiasi tipo, compresi i decimali;
 - `string`: questo tipo di campo è utilizzato per testo o combinazioni di caratteri. Può contenere lettere, numeri e simboli.
+
+### Come scaricare i CSV
+
+Dal tuo *personal computer*, fai click su [`persons.csv`](persons.csv) o su [`political_finance.csv`](political_finance.csv) e poi fai click sul pulsante "*Download raw file*", che trovi in alto a destra.
+
+![](images/download.png)
