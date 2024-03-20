@@ -66,16 +66,18 @@ find "$folder"/../tmp/ -name "*.csv" | sort | while read -r file; do
   fi
 done
 
+# correggi nomi colonne
 sed -i '1s/__//g' "$folder"/../dati/cinque_per_mille.csv
 
+# converti campi numerici da stringhe a numeri
 mlrgo -S -I --csv sort -t file,pagina,prog then \
 gsub -f numero_scelte,importo_delle_scelte_espresse,importo_proporzionale_per_le_scelte_generiche,importo_proporzionale_per_ripartizione_importi_inferiori_a_1,importo_totale_erogabile "\." "" then \
 gsub -f numero_scelte,importo_delle_scelte_espresse,importo_proporzionale_per_le_scelte_generiche,importo_proporzionale_per_ripartizione_importi_inferiori_a_1,importo_totale_erogabile "," "." "$folder"/../dati/cinque_per_mille.csv
 
-duckdb -c "COPY (select * from read_csv('$folder/../dati/cinque_per_mille.csv')) TO '$folder/../dati/cinque_per_mille.parquet' (FORMAT 'parquet', COMPRESSION 'zstd', ROW_GROUP_SIZE 100_000)"
-
+# estrai pr e comune, e rimuovi dai nomi dei comuni il doppio nome in lingua diversa
 mlrgo --csv cut -f pr,comune then sub -f comune " \..+" "" then uniq -a "$folder"/../dati/cinque_per_mille.csv >"$folder"/../tmp/comuni_cinque_per_mille.csv
 
+# aggiungi campo con nome comune corretto, e fai copia del vecchio nome
 mlrgo -I --csv put '$old_name=$comune' then sub -f comune "^BAIARDO$" "Bajardo" then \
 sub -f comune "^TONENGO$" "Moransengo-Tonengo" then \
 sub -f comune "^MORANSENGO$" "Moransengo-Tonengo" then \
@@ -89,17 +91,27 @@ sub -f comune "^MALGESSO$" "Bardello con Malgesso e Bregano" then \
 sub -f comune "^SAN GIOVANNI DI FASSA-SEN JAN$" "San Giovanni di Fassa" then \
 put '$comune=toupper($comune)' then uniq -a "$folder"/../tmp/comuni_cinque_per_mille.csv
 
+# estrai da nomi comune Istat nome, codice e provincia
 mlrgo --csv cut -f "Codice Comune formato alfanumerico","Denominazione in italiano","Sigla automobilistica" then label codice_comune,comune,pr "$folder"/../../risorse/Elenco-comuni-italiani.csv >"$folder"/../tmp/comuni.csv
 
+# fai join tra elenco comuni 5 per mille e dati istat, per associare codice istat comune
 csvmatch "$folder"/../tmp/comuni_cinque_per_mille.csv "$folder"/../tmp/comuni.csv --fields1 comune pr --fields2 comune pr --fuzzy levenshtein -r 0.90 -i -a -n --join left-outer --output 1.comune 1.pr 1.old_name 2.codice_comune >"$folder"/../tmp/codifica_comuni.csv
 
+# correggi manualmente i codici comune per Cercenasco e Mercenasco
 mlrgo -I --csv put 'if($comune=="CERCENASCO"){$codice_comune="001071"}else{$codice_comune=$codice_comune}' then \
 put 'if($comune=="MERCENASCO"){$codice_comune="001150"}else{$codice_comune=$codice_comune}' then uniq -a "$folder"/../tmp/codifica_comuni.csv
 
+# rinomina comune in nome_comune e old_name in comune
 mlrgo -I --csv rename comune,nome_comune,old_name,comune "$folder"/../tmp/codifica_comuni.csv
 
+# rimuovi dai nomi dei comuni il doppio nome in lingua diversa
 mlrgo -I --csv put '$old_name=$comune' then sub -f comune " \..+" "" "$folder"/../dati/cinque_per_mille.csv
 
+# fai il join tra i dati 5 per mille e la codifica dei comuni generata
 mlrgo --csv join --ul -j comune,pr -f "$folder"/../dati/cinque_per_mille.csv then unsparsify then reorder -e -f pr,comune then sort -t file,pagina,prog then reorder -f prog,codice_fiscale,denominazione,regione,pr,nome_comune,codice_comune then cut -x -f comune then rename old_name,old_nome_comune "$folder"/../tmp/codifica_comuni.csv >"$folder"/tmp.csv
 
+# rinomina file
 mv "$folder"/tmp.csv "$folder"/../dati/cinque_per_mille.csv
+
+# crea parquet
+duckdb -c "COPY (select * from read_csv('$folder/../dati/cinque_per_mille.csv')) TO '$folder/../dati/cinque_per_mille.parquet' (FORMAT 'parquet', COMPRESSION 'zstd', ROW_GROUP_SIZE 100_000)"
