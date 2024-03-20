@@ -23,7 +23,10 @@ fi
 while read -r line; do
   url=$(echo "$line" | jq -r '.href')
   file=$(echo "$line" | jq -r '.file')
-  if [ ! -f "$folder"/../dati/risorse/"$file".pdf ]; then
-    curl -kL "$url" >"$folder"/../dati/risorse/"$file".pdf
+  if [ ! -f "$folder"/../dati/risorse/"$file" ]; then
+    curl -kL "$url" >"$folder"/../dati/risorse/"$file"
   fi
 done < "$folder"/../dati/risorse/lista_pdf.jsonl
+
+# estrai pagine test
+pdftk "$folder"/../dati/risorse/P01.pdf cat 1-3 output "$folder"/../tmp/tmp.pdf
