@@ -74,4 +74,32 @@ gsub -f numero_scelte,importo_delle_scelte_espresse,importo_proporzionale_per_le
 
 duckdb -c "COPY (select * from read_csv('$folder/../dati/cinque_per_mille.csv')) TO '$folder/../dati/cinque_per_mille.parquet' (FORMAT 'parquet', COMPRESSION 'zstd', ROW_GROUP_SIZE 100_000)"
 
-gzip "$folder"/../dati/cinque_per_mille.csv
+mlrgo --csv cut -f pr,comune then sub -f comune " \..+" "" then uniq -a "$folder"/../dati/cinque_per_mille.csv >"$folder"/../tmp/comuni_cinque_per_mille.csv
+
+mlrgo -I --csv put '$old_name=$comune' then sub -f comune "^BAIARDO$" "Bajardo" then \
+sub -f comune "^TONENGO$" "Moransengo-Tonengo" then \
+sub -f comune "^MORANSENGO$" "Moransengo-Tonengo" then \
+sub -f comune "^TRODENA$" "Trodena nel parco naturale" then \
+sub -f comune "^BREGANO$" "Bardello con Malgesso e Bregano" then \
+sub -f comune "^BARDELLO$" "Bardello con Malgesso e Bregano" then \
+sub -f comune "^CASTELBELLO CIARDES$" "Castelbello-Ciardes" then \
+sub -f comune "^MONTAGNA$" "Montagna sulla Strada del Vino" then \
+sub -f comune "^SALORNO$" "Salorno sulla strada del vino" then \
+sub -f comune "^MALGESSO$" "Bardello con Malgesso e Bregano" then \
+sub -f comune "^SAN GIOVANNI DI FASSA-SEN JAN$" "San Giovanni di Fassa" then \
+put '$comune=toupper($comune)' then uniq -a "$folder"/../tmp/comuni_cinque_per_mille.csv
+
+mlrgo --csv cut -f "Codice Comune formato alfanumerico","Denominazione in italiano","Sigla automobilistica" then label codice_comune,comune,pr "$folder"/../../risorse/Elenco-comuni-italiani.csv >"$folder"/../tmp/comuni.csv
+
+csvmatch "$folder"/../tmp/comuni_cinque_per_mille.csv "$folder"/../tmp/comuni.csv --fields1 comune pr --fields2 comune pr --fuzzy levenshtein -r 0.90 -i -a -n --join left-outer --output 1.comune 1.pr 1.old_name 2.codice_comune >"$folder"/../tmp/codifica_comuni.csv
+
+mlrgo -I --csv put 'if($comune=="CERCENASCO"){$codice_comune="001071"}else{$codice_comune=$codice_comune}' then \
+put 'if($comune=="MERCENASCO"){$codice_comune="001150"}else{$codice_comune=$codice_comune}' then uniq -a "$folder"/../tmp/codifica_comuni.csv
+
+mlrgo -I --csv rename comune,nome_comune,old_name,comune "$folder"/../tmp/codifica_comuni.csv
+
+mlrgo -I --csv put '$old_name=$comune' then sub -f comune " \..+" "" "$folder"/../dati/cinque_per_mille.csv
+
+mlrgo --csv join --ul -j comune,pr -f "$folder"/../dati/cinque_per_mille.csv then unsparsify then reorder -e -f pr,comune then sort -t file,pagina,prog then reorder -f prog,codice_fiscale,denominazione,regione,pr,nome_comune,codice_comune then cut -x -f comune then rename old_name,old_nome_comune "$folder"/../tmp/codifica_comuni.csv >"$folder"/tmp.csv
+
+mv "$folder"/tmp.csv "$folder"/../dati/cinque_per_mille.csv
