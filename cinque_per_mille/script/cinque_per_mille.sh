@@ -72,5 +72,6 @@ mlrgo -S -I --csv sort -t file,pagina,prog then \
 gsub -f numero_scelte,importo_delle_scelte_espresse,importo_proporzionale_per_le_scelte_generiche,importo_proporzionale_per_ripartizione_importi_inferiori_a_1,importo_totale_erogabile "\." "" then \
 gsub -f numero_scelte,importo_delle_scelte_espresse,importo_proporzionale_per_le_scelte_generiche,importo_proporzionale_per_ripartizione_importi_inferiori_a_1,importo_totale_erogabile "," "." "$folder"/../dati/cinque_per_mille.csv
 
-
 duckdb -c "COPY (select * from read_csv('$folder/../dati/cinque_per_mille.csv')) TO '$folder/../dati/cinque_per_mille.parquet' (FORMAT 'parquet', COMPRESSION 'zstd', ROW_GROUP_SIZE 100_000)"
+
+gzip "$folder"/../dati/cinque_per_mille.csv
