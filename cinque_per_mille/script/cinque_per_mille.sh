@@ -113,5 +113,8 @@ mlrgo --csv join --ul -j comune,pr -f "$folder"/../dati/cinque_per_mille.csv the
 # rinomina file
 mv "$folder"/tmp.csv "$folder"/../dati/cinque_per_mille.csv
 
+# correggi nome campo
+mlrgo -I -S --csv rename -r 'inferiori_a_.+,inferiori_a_100' "$folder"/../dati/cinque_per_mille.csv
+
 # crea parquet
 duckdb -c "COPY (select * from read_csv('$folder/../dati/cinque_per_mille.csv')) TO '$folder/../dati/cinque_per_mille.parquet' (FORMAT 'parquet', COMPRESSION 'zstd', ROW_GROUP_SIZE 100_000)"
