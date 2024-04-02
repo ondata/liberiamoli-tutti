@@ -62,7 +62,7 @@ for file in "$folder"/tmp/nazionalita/*-nazionalita.csv; do
   nome=$(basename "$file")
   mlrgo -S --csv clean-whitespace then remove-empty-columns then skip-trivial-records "$file" >"$folder"/../rawdata/csv/nazionalita/"$nome"
   sed -i '1d' "$folder"/../rawdata/csv/nazionalita/"$nome"
-  mlrgo -I -S -N --csv filter -x '$1=~"Tota.+"' then remove-empty-columns then put '$file=strftime(strptime(regextract(FILENAME,"[0-9]{2}.[0-9]{2}.[0-9]{4}"),"%d-%m-%Y"),"%Y-%m-%d")' "$folder"/../rawdata/csv/nazionalita/"$nome"
+  mlrgo -I -S -N --csv filter -x '$1=~"Tota.+"' then remove-empty-columns then put '$file=strftime(strptime(gsub(regextract(FILENAME,"[0-9]{2}.[0-9]{2}.[0-9]{4}"),"\.","-"),"%d-%m-%Y"),"%Y-%m-%d")' "$folder"/../rawdata/csv/nazionalita/"$nome"
 done
 
 
