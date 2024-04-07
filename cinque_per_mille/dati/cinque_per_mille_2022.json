@@ -1,0 +1,143 @@
+{
+  "profile": "tabular-data-package",
+  "description": "L'elenco comprende tutti gli enti destinatari del contributo ammessi in una o più categorie di beneficiari per l'anno finanziario 2022.",
+  "name": "cinque_per_mille_2022",
+  "id": "cinque_per_mille_2022",
+  "title": "Elenco complessivo dei beneficiari del 5 per mille, 2022",
+  "sources": [
+    {
+      "title": "Sito Agenzia delle Entrate",
+      "path": "https://www.agenziaentrate.gov.it/portale/elenco-complessivo-degli-enti-ammessi-in-una-o-piu-categorie-di-beneficiari"
+    }
+  ],
+  "license": {
+    "type": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "resources": [
+    {
+      "name": "cinque_per_mille",
+      "path": "cinque_per_mille.csv",
+      "description": "Elenco di tutti gli enti destinatari",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "type": "table",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "prog",
+            "type": "integer",
+            "description": "Numero progressivo dell'ente beneficiario nella lista"
+          },
+          {
+            "name": "codice_fiscale",
+            "type": "string",
+            "description": "Codice fiscale dell'ente beneficiario, utilizzato per identificarlo univocamente"
+          },
+          {
+            "name": "denominazione",
+            "type": "string",
+            "description": "Nome ufficiale dell'ente beneficiario, come riconosciuto dalla legge italiana"
+          },
+          {
+            "name": "regione",
+            "type": "string",
+            "description": "Regione italiana in cui l'ente beneficiario ha la sua sede principale"
+          },
+          {
+            "name": "pr",
+            "type": "string",
+            "description": "Sigla della provincia italiana in cui l'ente beneficiario ha la sua sede principale, indicata tramite la sua sigla ufficiale"
+          },
+          {
+            "name": "nome_comune",
+            "type": "string",
+            "description": "Nome del Comune italiano in cui l'ente beneficiario ha la sua sede principale"
+          },
+          {
+            "name": "codice_comune",
+            "type": "string",
+            "description": "Codice ISTAT che identifica univocamente il Comune italiano in cui l'ente beneficiario ha la sua sede principale"
+          },
+          {
+            "name": "ets_e_onlus",
+            "type": "string",
+            "description": "Indica se l'ente è una Entità Terzo Settore (ETS) o una Organizzazione Non Lucrativa di Utilità Sociale (ONLUS)"
+          },
+          {
+            "name": "asd",
+            "type": "string",
+            "description": "Indica se l'ente è un'Associazione Sportiva Dilettantistica"
+          },
+          {
+            "name": "ricerca_scientifica",
+            "type": "string",
+            "description": "Indica se l'ente si occupa di ricerca scientifica"
+          },
+          {
+            "name": "ricerca_sanitaria",
+            "type": "string",
+            "description": "Indica se l'ente si occupa di ricerca sanitaria"
+          },
+          {
+            "name": "comuni",
+            "type": "string",
+            "description": "Indica se l'ente beneficiario è un Comune italiano"
+          },
+          {
+            "name": "beni_culturali_e_paesaggistici",
+            "type": "string",
+            "description": "Indica se l'ente gestisce beni culturali e/o paesaggistici"
+          },
+          {
+            "name": "enti_gestori_aree_protette",
+            "type": "string",
+            "description": "Indica se l'ente gestisce aree naturali protette"
+          },
+          {
+            "name": "numero_scelte",
+            "type": "integer",
+            "description": "Numero totale di scelte fatte dai contribuenti a favore dell'ente"
+          },
+          {
+            "name": "importo_delle_scelte_espresse",
+            "type": "number",
+            "description": "Totale dell'importo espresso dai contribuenti a favore dell'ente, in euro"
+          },
+          {
+            "name": "importo_proporzionale_per_le_scelte_generiche",
+            "type": "number",
+            "description": "Importo assegnato all'ente in base alle scelte generiche, calcolato proporzionalmente, in euro"
+          },
+          {
+            "name": "importo_proporzionale_per_ripartizione_importi_inferiori_a_100",
+            "type": "number",
+            "description": "Importo assegnato all'ente dalla ripartizione degli importi inferiori a 100 euro, calcolato proporzionalmente"
+          },
+          {
+            "name": "importo_totale_erogabile",
+            "type": "number",
+            "description": "Somma totale che l'ente può ricevere attraverso il 5 per mille, in euro"
+          },
+          {
+            "name": "pagina",
+            "type": "integer",
+            "description": "Pagina del file PDF da cui è estratta l'informazione"
+          },
+          {
+            "name": "file",
+            "type": "string",
+            "description": "Riferimento al nome del file PDF da cui è estratta l'informazione"
+          },
+          {
+            "name": "old_nome_comune",
+            "type": "string",
+            "description": "Nome comune presente nel file PDF originale. Alcuni nomi sono errati. La versione corretta è in 'nome_comune'"
+          }
+        ]
+      }
+    }
+  ]
+}
