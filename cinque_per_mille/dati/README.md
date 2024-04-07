@@ -4,8 +4,7 @@ Questo è un dataset di dati pubblicati nel contesto del progetto "[**Liberiamol
 
 ## Dati
 
-Si tratta dell'elenco complessivo dei beneficiari del cinque per mille (5x1000) 2022.
-
+Si tratta dell'elenco complessivo dei beneficiari del cinque per mille (5x1000) 2022.<br>
 La fonte dei dati è [questa pagina](https://www.agenziaentrate.gov.it/portale/elenco-complessivo-degli-enti-ammessi-in-una-o-piu-categorie-di-beneficiari) del sito dell'Agenzia delle Entrate.
 
 Il file è [`cinque_per_mille.csv`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/cinque_per_mille/dati/cinque_per_mille.csv), ed è composto dalle colonne descritte a seguire.
@@ -45,4 +44,4 @@ La colonna `Tipologia colonna`, indica il tipo di dato presente nella colonna. I
 
 Questi dati dovrebbero essere pubblicati anche in formati "leggibile meccanicamente", come `CSV` o `JSON`, e non solo in `PDF`. Lo prevedono le norme e linee guida italiane sui dati della Pubblica Amministrazione. Tra questi l'[articolo 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig~art6) del Decreto Legislativo 24 gennaio 2006, n. 36, che rimanda a sua volta all'[articolo 2](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig~art2), che stabilisce che gli enti pubblici devono utilizzare formati di dati che favoriscano la loro riutilizzazione, che siano appunto in formato leggibile meccanicamente
 
-
+Nei file originale ci sono i nomi dei Comuni, ma non il loro codice Istat. Questo rende più complesso il confronto e l’incrocio con altri dati: per questa ragione, abbiamo **aggiunto i codici comunali**.
