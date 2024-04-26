@@ -3642,15 +3642,15 @@
 2;06;031;031;031019;31019;San Floriano del Collio-Števerjan;San Floriano del Collio-Števerjan;Števerjan;Nord-est;Friuli-Venezia Giulia;Gorizia;5;0;0;GO;H845;80002870311;ITH;ITH4;ITH43
 2;06;031;031;031020;31020;San Lorenzo Isontino;San Lorenzo Isontino;;Nord-est;Friuli-Venezia Giulia;Gorizia;5;0;0;GO;H964;00123480311;ITH;ITH4;ITH43
 2;06;031;031;031021;31021;San Pier d'Isonzo;San Pier d'Isonzo;;Nord-est;Friuli-Venezia Giulia;Gorizia;5;0;0;GO;I082;00123390312;ITH;ITH4;ITH43
-2;06;031;031;031022;31022;Savogna d'Isonzo-Sovodnje ob Soči;Savogna d'Isonzo-Sovodnje ob Soči;Sovodnje ob Soči;Nord-est;Friuli-Venezia Giulia;Gorizia;5;0;0;GO;I479;80002990317;ITH;ITH4;ITH43
+2;06;031;031;031022;31022;Savogna d'Isonzo-Sovodnje ob Soči;Savogna d'Isonzo;Sovodnje ob Soči;Nord-est;Friuli-Venezia Giulia;Gorizia;5;0;0;GO;I479;80002990317;ITH;ITH4;ITH43
 2;06;031;031;031023;31023;Staranzano;Staranzano;;Nord-est;Friuli-Venezia Giulia;Gorizia;5;0;0;GO;I939;00123080319;ITH;ITH4;ITH43
 2;06;031;031;031024;31024;Turriaco;Turriaco;;Nord-est;Friuli-Venezia Giulia;Gorizia;5;0;0;GO;L474;00122480312;ITH;ITH4;ITH43
 2;06;031;031;031025;31025;Villesse;Villesse;;Nord-est;Friuli-Venezia Giulia;Gorizia;5;0;0;GO;M043;80002350314;ITH;ITH4;ITH43
-2;06;032;032;032001;32001;Duino Aurisina-Devin Nabrežina;Duino Aurisina-Devin Nabrežina;Devin Nabrežina;Nord-est;Friuli-Venezia Giulia;Trieste;5;0;0;TS;D383;00157190323;ITH;ITH4;ITH44
-2;06;032;032;032002;32002;Monrupino-Repentabor;Monrupino-Repentabor;Repentabor;Nord-est;Friuli-Venezia Giulia;Trieste;5;0;0;TS;F378;80016380323;ITH;ITH4;ITH44
+2;06;032;032;032001;32001;Duino Aurisina-Devin Nabrežina;Duino Aurisina;Devin Nabrežina;Nord-est;Friuli-Venezia Giulia;Trieste;5;0;0;TS;D383;00157190323;ITH;ITH4;ITH44
+2;06;032;032;032002;32002;Monrupino-Repentabor;Monrupino;Repentabor;Nord-est;Friuli-Venezia Giulia;Trieste;5;0;0;TS;F378;80016380323;ITH;ITH4;ITH44
 2;06;032;032;032003;32003;Muggia;Muggia;;Nord-est;Friuli-Venezia Giulia;Trieste;5;0;0;TS;F795;00111990321;ITH;ITH4;ITH44
 2;06;032;032;032004;32004;San Dorligo della Valle-Dolina;San Dorligo della Valle-Dolina;Dolina;Nord-est;Friuli-Venezia Giulia;Trieste;5;0;0;TS;D324;80009970320;ITH;ITH4;ITH44
-2;06;032;032;032005;32005;Sgonico-Zgonik;Sgonico-Zgonik;Zgonik;Nord-est;Friuli-Venezia Giulia;Trieste;5;0;0;TS;I715;80010070326;ITH;ITH4;ITH44
+2;06;032;032;032005;32005;Sgonico-Zgonik;Sgonico;Zgonik;Nord-est;Friuli-Venezia Giulia;Trieste;5;0;0;TS;I715;80010070326;ITH;ITH4;ITH44
 2;06;032;032;032006;32006;Trieste;Trieste;;Nord-est;Friuli-Venezia Giulia;Trieste;5;1;1;TS;L424;00210240321;ITH;ITH4;ITH44
 2;08;033;033;033001;33001;Agazzano;Agazzano;;Nord-est;Emilia-Romagna;Piacenza;1;0;0;PC;A067;00290460336;ITH;ITH5;ITH51
 2;08;033;033;033002;33002;Alseno;Alseno;;Nord-est;Emilia-Romagna;Piacenza;1;0;0;PC;A223;00215780339;ITH;ITH5;ITH51
