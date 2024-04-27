@@ -1,5 +1,12 @@
 #!/bin/bash
 
+### requisiti ###
+# duckdb https://duckdb.org/
+# Miller versione 6, che nello script è rinominato mlrgo https://github.com/johnkerl/miller
+# qsv https://github.com/jqnatividad/qsv
+# csvmatch 1.24 https://github.com/maxharlow/csvmatch
+### requisiti ###
+
 set -x
 set -e
 set -u
