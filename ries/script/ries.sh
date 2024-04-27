@@ -48,13 +48,14 @@ if [ "$estrai_dati" == "si" ]; then
     mkdir -p "$folder"/tmp/province/"$provincia"
     # scarica pagina 1
     curl -kL "https://www.adm.gov.it/portale/monopoli/giochi/apparecchi_intr/elenco_soggetti_ries?p_p_id=it_sogei_wda_web_portlet_WebDisplayAamsPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_pagina=1&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_comune=0&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_el=2&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_id_pagina=2&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_form_elenco_soggetti_esercizi=1&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_prov=$provincia" >"$folder"/tmp/province/"$provincia"/"$provincia".html
+
     # estrai numero pagine
-    #numero_pagine=$(<"$folder"/tmp/province/"$provincia"/"$provincia".html grep -m 1 -P 'Per una migliore visualizzazione' | grep -oP '[0-9]+')
     numero_pagine=$(grep -m 1 -P 'Per una migliore visualizzazione' "$folder"/tmp/province/"$provincia"/"$provincia".html | grep -oP '[0-9]+' || true)
 
-
     if [ -z "$numero_pagine" ] || [ "$numero_pagine" -eq 0 ]; then
-      echo "numero_pagine vuoto"
+      # se c'è una sola pagina
+      curl -kL "https://www.adm.gov.it/portale/monopoli/giochi/apparecchi_intr/elenco_soggetti_ries?p_p_id=it_sogei_wda_web_portlet_WebDisplayAamsPortlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_pagina=1&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_comune=0&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_el=2&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_id_pagina=2&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_form_elenco_soggetti_esercizi=1&_it_sogei_wda_web_portlet_WebDisplayAamsPortlet_prov=$provincia" >"$folder"/tmp/province/"$provincia"/"$provincia"_1.html
+      vd -b "$folder"/tmp/province/"$provincia"/"$provincia"_1.html +:table_0:: --save-filetype jsonl -o - >>"$folder"/tmp/province/"$provincia".jsonl
     else
       for ((i=1; i<=numero_pagine; i++));do
         echo "$i"
