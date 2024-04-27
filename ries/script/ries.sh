@@ -75,10 +75,13 @@ put '$provincia=gsub(regextract($comune_e_provincia,"\(([^)]+)\)"),"[\(|\)]","")
 put '$comune=sub($comune_e_provincia," *\(.+","")' "$folder"/../data/ries.csv
 
 # fai il join con i nomi comuni e province corretti e correggi i nomi comuni e province
+# imposta anagrafica_modificata a 1 se ci sono modifiche in comune e/o provincia
+# imposta il separatore decimale a punto
 mlrgo -S --csv join --ul -j provincia,comune -f "$folder"/../data/ries.csv then \
 unsparsify then \
-put 'if(is_null($nome_comune_corretto)) {$comune=$comune} else {$comune=$nome_comune_corretto};if(is_null($provincia_corretta)) {$provincia=$provincia} else {$provincia=$provincia_corretta}' then \
-sort -f provincia,comune then cut -x -f provincia_corretta,nome_comune_corretto "$folder"/../risorse/comuni_correggere.csv >"$folder"/tmp/ries_comuni_corretti.csv
+put '$anagrafica_modificata=0;if(is_null($nome_comune_corretto)) {$comune=$comune} else {$comune=$nome_comune_corretto;$anagrafica_modificata=1};if(is_null($provincia_corretta)) {$provincia=$provincia} else {$provincia=$provincia_corretta;$anagrafica_modificata=1}' then \
+sort -f provincia,comune then cut -x -f provincia_corretta,nome_comune_corretto then \
+sub -f superficie_del_locale_in_mq "," "." "$folder"/../risorse/comuni_correggere.csv >"$folder"/tmp/ries_comuni_corretti.csv
 
 mv "$folder"/tmp/ries_comuni_corretti.csv "$folder"/../data/ries.csv
 
@@ -98,7 +101,7 @@ mlrgo -S --csv cut -f provincia,comune then uniq -a then clean-whitespace "$fold
 csvmatch "$folder"/tmp/comuni_reis.csv "$folder"/tmp/comuni.csv --fields1 provincia comune --fields2 provincia comune  -i -a -n --join left-outer --output 1.provincia 1.comune 2.codice_comune_alfanumerico >"${folder}"/tmp/tmp_join.csv
 
 # Associa i codici Istat ai dati Ries
-mlrgo -S --csv join --ul -j provincia,comune -f -f "$folder"/../data/ries.csv then \
+mlrgo -S --csv join --ul -j provincia,comune -f "$folder"/../data/ries.csv then \
 unsparsify "${folder}"/tmp/tmp_join.csv >"$folder"/tmp.csv
 
 mv "$folder"/tmp.csv "$folder"/../data/ries.csv
