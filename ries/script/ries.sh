@@ -5,6 +5,7 @@
 # Miller versione 6, che nello script è rinominato mlrgo https://github.com/johnkerl/miller
 # qsv https://github.com/jqnatividad/qsv
 # csvmatch 1.24 https://github.com/maxharlow/csvmatch
+# jq https://jqlang.github.io/jq/
 ### requisiti ###
 
 set -x
@@ -111,5 +112,18 @@ csvmatch "$folder"/tmp/comuni_reis.csv "$folder"/tmp/comuni.csv --fields1 provin
 # Associa i codici Istat ai dati Ries
 mlrgo -S --csv join --ul -j provincia,comune -f "$folder"/../data/ries.csv then \
 unsparsify "${folder}"/tmp/tmp_join.csv >"$folder"/tmp.csv
+
+mv "$folder"/tmp.csv "$folder"/../data/ries.csv
+
+# estrai dimensioni comuni
+
+<"$folder"/../risorse/comuni_dimensioni.json jq -c '.resultset[]' | mlrgo -S --ijsonl --ocsv cut -o -f PRO_COM_T,COMUNE,AREA_KMQ,POP_RES then sub -f AREA_KMQ "," "." then rename COMUNE,istat_comune_nome >"${folder}"/tmp/comuni_dimensioni.csv
+
+cp "${folder}"/tmp/comuni_dimensioni.csv "$folder"/../data/comuni_dimensioni.csv
+
+# aggiungi colonna nomi Istat comuni
+mlrgo -S --csv cut -f PRO_COM_T,istat_comune_nome "$folder"/../data/comuni_dimensioni.csv >"${folder}"/tmp/comuni_nomi_istat.csv
+
+mlrgo -S --csv join --ul -j codice_comune_alfanumerico -r PRO_COM_T -f "$folder"/../data/ries.csv then unsparsify then sort -f provincia,comune "${folder}"/tmp/comuni_nomi_istat.csv >"$folder"/tmp.csv
 
 mv "$folder"/tmp.csv "$folder"/../data/ries.csv
