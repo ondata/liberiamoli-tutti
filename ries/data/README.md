@@ -12,7 +12,7 @@ Li abbiamo estratti il 26 aprile 2024 dal sito di origine, e ripubblicati in [fo
 
 👉 **Nota Bene**: sono rilasciati con **licenza** [**CC-BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed.it). Li **puoi usare liberamente**, anche per scopi commerciali, ma devi **citare la fonte**, scrivendo semplicemente "Fonte: [Liberiamoli tutti!](https://datibenecomune.substack.com/)" e inserendo il link ipertestuale a `https://datibenecomune.substack.com/`.
 
-### Elenco dei soggetti abilitati alle attività funzionali alla raccolta del gioco mediante apparecchi con vincita in denaro
+### Elenco degli esercizi dei soggetti abilitati alle attività funzionali alla raccolta del gioco mediante apparecchi con vincita in denaro
 
 Il file è [`ries.csv`](ries.csv), ed è composto dalle colonne descritte a seguire:
 
