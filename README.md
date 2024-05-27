@@ -13,7 +13,7 @@ Questo è uno spazio a supporto, dove verranno raccolti dati e le informazioni u
 - [Numero 2](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-2), i dati sugli studenti che hanno scelto di non avvalersi dell’insegnamento della religione cattolica.
 - [Numero 3](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-3), i dati sulle erogazioni ai partiti politici, del progetto Soldi e Politica.
 - [Numero 4](https://open.substack.com/pub/datibenecomune/p/liberiamoli-tutti-numero-4), l'elenco complessivo dei beneficiari del 5 per mille 2022.
-- [Numero 5](https://datibenecomune.substack.com/p/ed16af7c-e0fc-4f6d-ae1c-e686df49f7a5), l'elenco dei soggetti abilitati alle attività funzionali alla raccolta del gioco mediante apparecchi con vincita in denaro (il cosiddetto albo Ries).
+- [Numero 5](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-5), l'elenco dei soggetti abilitati alle attività funzionali alla raccolta del gioco mediante apparecchi con vincita in denaro (il cosiddetto albo Ries).
 
 ---
 
