@@ -1,0 +1,97 @@
+{
+  "profile": "tabular-data-package",
+  "description": "Elenco dei soggetti abilitati alle attività funzionali alla raccolta del gioco mediante apparecchi con vincita in denaro",
+  "name": "ries",
+  "id": "ries",
+  "title": "Elenco esercizi abilitati raccolta del gioco mediante apparecchi con vincita in denaro",
+  "sources": [
+    {
+      "title": "Agenzia delle Dogane e dei Monopoli",
+      "path": "https://www.adm.gov.it/portale/monopoli/giochi/apparecchi_intr/elenco_soggetti_ries?el=2"
+    }
+  ],
+  "license": {
+    "type": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "resources": [
+    {
+      "name": "ries",
+      "type": "table",
+      "path": "ries.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "codice_comune_alfanumerico",
+            "type": "string",
+            "description": "Codice comune Istat"
+          },
+          {
+            "name": "provincia",
+            "type": "string",
+            "description": "Sigla provincia"
+          },
+          {
+            "name": "comune",
+            "type": "string",
+            "description": "Nome del Comune, così come riportato sul sito dell'Agenzia delle Dogane e dei Monopoli"
+          },
+          {
+            "name": "codice_censimento_esercizio",
+            "type": "string",
+            "description": "Codice di censimento dell'esercizio"
+          },
+          {
+            "name": "denominazione",
+            "type": "string",
+            "description": "Denominazione dell'esercizio"
+          },
+          {
+            "name": "indirizzo",
+            "type": "string",
+            "description": "Indirizzo dell'esercizio"
+          },
+          {
+            "name": "comune_e_provincia",
+            "type": "string",
+            "description": "Comune e provincia"
+          },
+          {
+            "name": "tipologia_esercizio",
+            "type": "string",
+            "description": "Tipologia dell'esercizio"
+          },
+          {
+            "name": "superficie_del_locale_in_mq",
+            "type": "number",
+            "description": "Superficie del locale in metri quadrato"
+          },
+          {
+            "name": "codice_iscrizione_soggetto",
+            "type": "string",
+            "description": "Codice di iscrizione del soggetto titolare dell'esercizio"
+          },
+          {
+            "name": "tipologia_apparecchio",
+            "type": "string",
+            "description": "Tipologia di apparecchio"
+          },
+          {
+            "name": "anagrafica_modificata",
+            "type": "integer",
+            "description": "Due valori possibili: 0 quando l'anagrafica di nome Comune e/o Provincia non è stata modificata/corretta, 1 quando lo è stata"
+          },
+          {
+            "name": "istat_comune_nome",
+            "type": "string",
+            "description": "Nome del Comune secondo Istat"
+          }
+        ]
+      }
+    }
+  ]
+}
