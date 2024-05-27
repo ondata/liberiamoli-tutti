@@ -19,8 +19,8 @@
       "name": "ries",
       "type": "table",
       "path": "ries.csv",
-      "scheme": "file",
       "format": "csv",
+      "profile": "tabular-data-resource",
       "mediatype": "text/csv",
       "encoding": "utf-8",
       "schema": {
