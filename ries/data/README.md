@@ -4,9 +4,9 @@ Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamol
 
 ## Dati
 
-L'Agenzia delle Dogane e dei Monopoli, pubblica in centinaia di pagine HTML l'elenco dei soggetti abilitati alle attività funzionali alla raccolta del gioco mediante apparecchi con vincita in denaro (cosiddetto albo Ries).
+L'Agenzia delle Dogane e dei Monopoli, pubblica in centinaia di pagine HTML l'elenco dei soggetti abilitati alle attività funzionali alla raccolta del gioco mediante apparecchi con vincita in denaro.
 
-Questi dati sono in particolare quelli relativi all'"[Elenco soggetti per esercizi](https://www.adm.gov.it/portale/monopoli/giochi/apparecchi_intr/elenco_soggetti_ries?el=2)", con informazioni su denominazione, indirizzo, comune, provincia, tipologia eseercizio, superficie del locale in metri quadrati e i codici di censimento esercizio e iscrizione soggetto.
+Questi dati sono in particolare quelli relativi all'"[Elenco soggetti per esercizi](https://www.adm.gov.it/portale/monopoli/giochi/apparecchi_intr/elenco_soggetti_ries?el=2)", con informazioni su denominazione, indirizzo, comune, provincia, tipologia esercizio, superficie del locale in metri quadrati e i codici di censimento esercizio e iscrizione soggetto.
 
 Li abbiamo estratti il 26 aprile 2024 dal sito di origine, e ripubblicati in [formato `CSV`](ries.csv), con separatore `,`, con codifica `UTF-8` e con il `.` come separatore dei decimali.
 
@@ -42,4 +42,5 @@ La colonna `Tipologia colonna`, indica il tipo di dato presente nella colonna. I
 
 Questi dati dovrebbero essere pubblicati anche in formati "leggibile meccanicamente", come `CSV` o `JSON`, e non solo come pagine  `HTML`. Lo prevedono le norme e linee guida italiane sui dati della Pubblica Amministrazione. Tra questi l'[articolo 6](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig~art6) del Decreto Legislativo 24 gennaio 2006, n. 36, che rimanda a sua volta all'[articolo 2](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-01-24;36!vig~art2), che stabilisce che gli enti pubblici devono utilizzare formati di dati che favoriscano la loro riutilizzazione, che siano appunto in formato leggibile meccanicamente.
 
-A ogni Comune andrebbe associato anche il codice Istat di ciascuno, per consentire la correlazione immediata con altri dati. Non era presente nelle pagine e lo abbiamo aggiunto. Abbiamo anche corretto alcuni nomi di Comuni e qualche associazione di Comune a Provincia.
+A ogni Comune andrebbe associato anche il codice Istat di ciascuno, per consentire la correlazione immediata con altri dati. Non era presente nelle pagine e lo abbiamo aggiunto. Abbiamo anche corretto alcuni nomi di Comuni e qualche associazione di Comune a Provincia.<br>
+Un elenco di modifiche e errori è in [questo file](../risorse/comuni_correggere.csv).
