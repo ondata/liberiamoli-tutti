@@ -28,7 +28,7 @@ Il file è [`ries.csv`](ries.csv), ed è composto dalle colonne descritte a segu
 | tipologia_esercizio | string | Tipologia dell'esercizio |
 | superficie_del_locale_in_mq | number | Superficie del locale in metri quadrato |
 | codice_iscrizione_soggetto | string | Codice di iscrizione del soggetto titolare dell'esercizio |
-| tipologia_apparecchio | string | Tipologia di apparecchio |
+| tipologia_apparecchio | string | Tipologia di apparecchio: A o B, o A/B (entrambi), secondo la descrizione del comma 6a e 6b dell'articolo 110 del [testo unico delle leggi di pubblica sicurezza](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1931-06-18;773!vig=2024-05-28) |
 | anagrafica_modificata | integer | Due valori possibili: 0 quando l'anagrafica di nome Comune e/o Provincia non è stata modificata/corretta, 1 quando lo è stata |
 | istat_comune_nome | string | Nome del Comune secondo Istat |
 
@@ -37,6 +37,20 @@ La colonna `Tipologia colonna`, indica il tipo di dato presente nella colonna. I
 - `number`: Il campo contiene numeri di qualsiasi tipo, compresi i decimali;
 - `integer`: Il campo contiene numeri interi;
 - `string`: Questo tipo di campo è utilizzato per testo o combinazioni di caratteri. Può contenere lettere, numeri e simboli.
+
+#### Tipologia apparecchi
+
+La tipologia di apparecchi è definita nella colonna `tipologia_apparecchio` e può assumere i seguenti valori, secondo la descrizione del comma 6a e 6b dell'articolo 110 del [testo unico delle leggi di pubblica sicurezza](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1931-06-18;773!vig=2024-05-28):
+
+- A, quelli che, dotati di attestato di conformità alle disposizioni vigenti rilasciato dal Ministero dell'economia e delle finanze - Amministrazione autonoma dei Monopoli di Stato e obbligatoriamente collegati alla rete telematica di cui all'[articolo 14-bis, comma 4, del decreto del Presidente della Repubblica 26 ottobre 1972, n. 640](https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:1972-10-26;640~art14bis-com4), e successive modificazioni, si attivano con l'introduzione di moneta metallica ovvero con appositi strumenti di pagamento elettronico definiti con provvedimenti del Ministero dell'economia e delle finanze - Amministrazione autonoma dei monopoli di Stato, nei quali insieme con l'elemento aleatorio sono presenti anche elementi di abilità, che consentono al giocatore la possibilità di scegliere, all'avvio o nel corso della partita, la propria strategia, selezionando appositamente le opzioni di gara ritenute più favorevoli tra quelle proposte dal gioco, il costo della partita non supera 1 euro, la durata minima della partita è di quattro secondi e che distribuiscono vincite in denaro, ciascuna comunque di valore non superiore a 100 euro, erogate dalla macchina.
+- B, quelli, facenti parte della rete telematica di cui all'[articolo 14-bis, comma 4, del decreto del Presidente della Repubblica 26 ottobre 1972, n. 640](https://www.normattiva.it/uri-res/N2Ls?urn:nir:presidente.repubblica:decreto:1972-10-26;640~art14bis-com4), e successive modificazioni, che si attivano esclusivamente in presenza di un collegamento ad un sistema di elaborazione della rete stessa.
+- A/B, quando nell'esercizio sono presenti entrambe le tipologie di apparecchi.
+
+
+In termini più semplici:
+
+- A = in pubblici esercizi come accessorio di altra attività prevalente;
+- B = Sale Videolottery Terminal (VLT) dedicate.
 
 ### Note
 
