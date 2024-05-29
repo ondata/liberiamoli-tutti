@@ -78,7 +78,7 @@
           {
             "name": "tipologia_apparecchio",
             "type": "string",
-            "description": "Tipologia di apparecchio, A o B, o A/B (entrambi), secondo la descrizione del comma 6a e 6b dell'articolo 110 del testo unico delle leggi di pubblica sicurezza (REGIO DECRETO 18 giugno 1931, n. 773)"
+            "description": "Tipologia di apparecchio, A o B, o A/B (entrambi), secondo la descrizione dei comma 6a e 6b dell'articolo 110 del testo unico delle leggi di pubblica sicurezza (REGIO DECRETO 18 giugno 1931, n. 773)"
           },
           {
             "name": "anagrafica_modificata",
