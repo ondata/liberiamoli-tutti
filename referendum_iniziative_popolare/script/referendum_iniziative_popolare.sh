@@ -30,4 +30,4 @@ mlrgo -I --jsonl uniq -a then sort -n id -t datetime  "${folder}"/../data/refere
 
 mlrgo --ijsonl --ocsv cat "${folder}"/../data/referendum_iniziative_popolare_log.jsonl >"${folder}"/../data/referendum_iniziative_popolare_log.csv
 
-
+mlrgo --csv filter '$id==500020' "${folder}"/../data/referendum_iniziative_popolare_log.csv >"${folder}"/../data/referendum_iniziative_popolare_500020_log.csv
