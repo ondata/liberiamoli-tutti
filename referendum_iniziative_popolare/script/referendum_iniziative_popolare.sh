@@ -26,7 +26,7 @@ datetime=$(date '+%Y-%m-%dT%H:%M:%S')
 
 mlrgo --jsonl cut -f id,sostenitori then put '$datetime="'"$datetime"'"'  then sort -f id,datetime "${folder}"/../data/referendum_iniziative_popolare.jsonl>> "${folder}"/../data/referendum_iniziative_popolare_log.jsonl
 
-mlrgo -I --jsonl uniq -a "${folder}"/../data/referendum_iniziative_popolare_log.jsonl
+mlrgo -I --jsonl uniq -a then sort -n id -t datetime  "${folder}"/../data/referendum_iniziative_popolare_log.jsonl
 
 mlrgo --ijsonl --ocsv cat "${folder}"/../data/referendum_iniziative_popolare_log.jsonl >"${folder}"/../data/referendum_iniziative_popolare_log.csv
 
