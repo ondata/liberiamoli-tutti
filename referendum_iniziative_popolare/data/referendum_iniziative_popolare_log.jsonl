@@ -49,6 +49,7 @@
 {"id": 500004, "sostenitori": 25423, "datetime": "2024-07-31T20:19:43"}
 {"id": 500004, "sostenitori": 25567, "datetime": "2024-07-31T21:19:28"}
 {"id": 500004, "sostenitori": 25676, "datetime": "2024-07-31T22:19:14"}
+{"id": 500004, "sostenitori": 25720, "datetime": "2024-07-31T23:19:26"}
 {"id": 500005, "sostenitori": 2964, "datetime": "2024-07-29T22:16:02"}
 {"id": 500005, "sostenitori": 2980, "datetime": "2024-07-29T23:19:33"}
 {"id": 500005, "sostenitori": 2981, "datetime": "2024-07-30T00:28:14"}
@@ -100,6 +101,7 @@
 {"id": 500005, "sostenitori": 4296, "datetime": "2024-07-31T20:19:43"}
 {"id": 500005, "sostenitori": 4327, "datetime": "2024-07-31T21:19:28"}
 {"id": 500005, "sostenitori": 4348, "datetime": "2024-07-31T22:19:14"}
+{"id": 500005, "sostenitori": 4361, "datetime": "2024-07-31T23:19:26"}
 {"id": 500006, "sostenitori": 4554, "datetime": "2024-07-29T22:16:02"}
 {"id": 500006, "sostenitori": 4574, "datetime": "2024-07-29T23:19:33"}
 {"id": 500006, "sostenitori": 4584, "datetime": "2024-07-30T00:28:14"}
@@ -151,6 +153,7 @@
 {"id": 500006, "sostenitori": 6532, "datetime": "2024-07-31T20:19:43"}
 {"id": 500006, "sostenitori": 6574, "datetime": "2024-07-31T21:19:28"}
 {"id": 500006, "sostenitori": 6608, "datetime": "2024-07-31T22:19:14"}
+{"id": 500006, "sostenitori": 6627, "datetime": "2024-07-31T23:19:26"}
 {"id": 500008, "sostenitori": 7874, "datetime": "2024-07-29T22:16:02"}
 {"id": 500008, "sostenitori": 7912, "datetime": "2024-07-29T23:19:33"}
 {"id": 500008, "sostenitori": 7928, "datetime": "2024-07-30T00:28:14"}
@@ -202,6 +205,7 @@
 {"id": 500008, "sostenitori": 11385, "datetime": "2024-07-31T20:19:43"}
 {"id": 500008, "sostenitori": 11460, "datetime": "2024-07-31T21:19:28"}
 {"id": 500008, "sostenitori": 11508, "datetime": "2024-07-31T22:19:14"}
+{"id": 500008, "sostenitori": 11535, "datetime": "2024-07-31T23:19:26"}
 {"id": 500013, "sostenitori": 2205, "datetime": "2024-07-29T22:16:02"}
 {"id": 500013, "sostenitori": 2212, "datetime": "2024-07-29T23:19:33"}
 {"id": 500013, "sostenitori": 2216, "datetime": "2024-07-30T00:28:14"}
@@ -253,6 +257,7 @@
 {"id": 500013, "sostenitori": 3105, "datetime": "2024-07-31T20:19:43"}
 {"id": 500013, "sostenitori": 3127, "datetime": "2024-07-31T21:19:28"}
 {"id": 500013, "sostenitori": 3145, "datetime": "2024-07-31T22:19:14"}
+{"id": 500013, "sostenitori": 3151, "datetime": "2024-07-31T23:19:26"}
 {"id": 500020, "sostenitori": 265318, "datetime": "2024-07-29T22:16:02"}
 {"id": 500020, "sostenitori": 266507, "datetime": "2024-07-29T23:19:33"}
 {"id": 500020, "sostenitori": 266922, "datetime": "2024-07-30T00:28:14"}
@@ -304,6 +309,7 @@
 {"id": 500020, "sostenitori": 364581, "datetime": "2024-07-31T20:19:43"}
 {"id": 500020, "sostenitori": 366858, "datetime": "2024-07-31T21:19:28"}
 {"id": 500020, "sostenitori": 368496, "datetime": "2024-07-31T22:19:14"}
+{"id": 500020, "sostenitori": 369137, "datetime": "2024-07-31T23:19:26"}
 {"id": 500022, "sostenitori": 1073, "datetime": "2024-07-29T22:16:02"}
 {"id": 500022, "sostenitori": 1081, "datetime": "2024-07-29T23:19:33"}
 {"id": 500022, "sostenitori": 1083, "datetime": "2024-07-30T00:28:14"}
@@ -355,6 +361,7 @@
 {"id": 500022, "sostenitori": 1555, "datetime": "2024-07-31T20:19:43"}
 {"id": 500022, "sostenitori": 1569, "datetime": "2024-07-31T21:19:28"}
 {"id": 500022, "sostenitori": 1577, "datetime": "2024-07-31T22:19:14"}
+{"id": 500022, "sostenitori": 1579, "datetime": "2024-07-31T23:19:26"}
 {"id": 500023, "sostenitori": 851, "datetime": "2024-07-29T22:16:02"}
 {"id": 500023, "sostenitori": 859, "datetime": "2024-07-29T23:19:33"}
 {"id": 500023, "sostenitori": 861, "datetime": "2024-07-30T00:28:14"}
@@ -406,6 +413,7 @@
 {"id": 500023, "sostenitori": 1253, "datetime": "2024-07-31T20:19:43"}
 {"id": 500023, "sostenitori": 1264, "datetime": "2024-07-31T21:19:28"}
 {"id": 500023, "sostenitori": 1273, "datetime": "2024-07-31T22:19:14"}
+{"id": 500023, "sostenitori": 1274, "datetime": "2024-07-31T23:19:26"}
 {"id": 500025, "sostenitori": 15907, "datetime": "2024-07-29T22:16:02"}
 {"id": 500025, "sostenitori": 16018, "datetime": "2024-07-29T23:19:33"}
 {"id": 500025, "sostenitori": 16069, "datetime": "2024-07-30T00:28:14"}
@@ -457,6 +465,7 @@
 {"id": 500025, "sostenitori": 24279, "datetime": "2024-07-31T20:19:43"}
 {"id": 500025, "sostenitori": 24471, "datetime": "2024-07-31T21:19:28"}
 {"id": 500025, "sostenitori": 24595, "datetime": "2024-07-31T22:19:14"}
+{"id": 500025, "sostenitori": 24651, "datetime": "2024-07-31T23:19:26"}
 {"id": 500026, "sostenitori": 7584, "datetime": "2024-07-29T22:16:02"}
 {"id": 500026, "sostenitori": 7644, "datetime": "2024-07-29T23:19:33"}
 {"id": 500026, "sostenitori": 7666, "datetime": "2024-07-30T00:28:14"}
@@ -508,6 +517,7 @@
 {"id": 500026, "sostenitori": 11781, "datetime": "2024-07-31T20:19:43"}
 {"id": 500026, "sostenitori": 11886, "datetime": "2024-07-31T21:19:28"}
 {"id": 500026, "sostenitori": 11953, "datetime": "2024-07-31T22:19:14"}
+{"id": 500026, "sostenitori": 11976, "datetime": "2024-07-31T23:19:26"}
 {"id": 500030, "sostenitori": 3093, "datetime": "2024-07-29T22:16:02"}
 {"id": 500030, "sostenitori": 3117, "datetime": "2024-07-29T23:19:33"}
 {"id": 500030, "sostenitori": 3127, "datetime": "2024-07-30T00:28:14"}
@@ -559,6 +569,7 @@
 {"id": 500030, "sostenitori": 4861, "datetime": "2024-07-31T20:19:43"}
 {"id": 500030, "sostenitori": 4905, "datetime": "2024-07-31T21:19:28"}
 {"id": 500030, "sostenitori": 4933, "datetime": "2024-07-31T22:19:14"}
+{"id": 500030, "sostenitori": 4943, "datetime": "2024-07-31T23:19:26"}
 {"id": 500032, "sostenitori": 5999, "datetime": "2024-07-29T22:16:02"}
 {"id": 500032, "sostenitori": 6051, "datetime": "2024-07-29T23:19:33"}
 {"id": 500032, "sostenitori": 6080, "datetime": "2024-07-30T00:28:14"}
@@ -610,6 +621,7 @@
 {"id": 500032, "sostenitori": 9344, "datetime": "2024-07-31T20:19:43"}
 {"id": 500032, "sostenitori": 9429, "datetime": "2024-07-31T21:19:28"}
 {"id": 500032, "sostenitori": 9477, "datetime": "2024-07-31T22:19:14"}
+{"id": 500032, "sostenitori": 9496, "datetime": "2024-07-31T23:19:26"}
 {"id": 500033, "sostenitori": 3895, "datetime": "2024-07-29T22:16:02"}
 {"id": 500033, "sostenitori": 3926, "datetime": "2024-07-29T23:19:33"}
 {"id": 500033, "sostenitori": 3941, "datetime": "2024-07-30T00:28:14"}
@@ -661,6 +673,7 @@
 {"id": 500033, "sostenitori": 6130, "datetime": "2024-07-31T20:19:43"}
 {"id": 500033, "sostenitori": 6186, "datetime": "2024-07-31T21:19:28"}
 {"id": 500033, "sostenitori": 6221, "datetime": "2024-07-31T22:19:14"}
+{"id": 500033, "sostenitori": 6226, "datetime": "2024-07-31T23:19:26"}
 {"id": 500036, "sostenitori": 712, "datetime": "2024-07-29T22:16:02"}
 {"id": 500036, "sostenitori": 736, "datetime": "2024-07-29T23:19:33"}
 {"id": 500036, "sostenitori": 748, "datetime": "2024-07-30T00:28:14"}
@@ -712,3 +725,4 @@
 {"id": 500036, "sostenitori": 2238, "datetime": "2024-07-31T20:19:43"}
 {"id": 500036, "sostenitori": 2274, "datetime": "2024-07-31T21:19:28"}
 {"id": 500036, "sostenitori": 2311, "datetime": "2024-07-31T22:19:14"}
+{"id": 500036, "sostenitori": 2319, "datetime": "2024-07-31T23:19:26"}
