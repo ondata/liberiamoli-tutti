@@ -31,3 +31,11 @@ mlrgo -I --jsonl uniq -a then sort -n id -t datetime  "${folder}"/../data/refere
 mlrgo --ijsonl --ocsv cat "${folder}"/../data/referendum_iniziative_popolare_log.jsonl >"${folder}"/../data/referendum_iniziative_popolare_log.csv
 
 mlrgo --csv filter '$id==500020' "${folder}"/../data/referendum_iniziative_popolare_log.csv >"${folder}"/../data/referendum_iniziative_popolare_500020_log.csv
+
+# allerta 500000
+soglia=$(mlrgo --csv filter '$sostenitori>499999' "${folder}"/../data/referendum_iniziative_popolare_500020_log.csv | wc -l)
+
+if [ "$soglia" -gt 0 ]; then
+  echo "Allerta 500000"
+  echo "stop" "${folder}"/../data/alert.txt
+fi
