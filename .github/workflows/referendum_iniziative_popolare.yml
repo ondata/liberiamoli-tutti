@@ -2,7 +2,7 @@ name: Extract PA files
 
 on:
   schedule:
-    - cron: '15 * * * *'
+    - cron: '0 23 * * *'
   push:
     branches:
       - main
