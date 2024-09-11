@@ -53,6 +53,8 @@ mlrgo --icsv --ojsonl  count-similar -g n -o numero_partiti "$folder"/../data/it
 # crea jsonl con i metadati dei sondaggi
 mlrgo --jsonl cut -f n,data_inserimento,realizzatore,committente,titolo,_text,domanda,national_poll,numero_partiti then uniq -a then sort -n n "$folder"/../data/italian_polls_clean.jsonl >"$folder"/../data/italian_polls_metadata.jsonl
 
+python3 "$folder"/normalizza_realizzatore.py "$folder"/../data/italian_polls_metadata.jsonl
+
 # crea csv con i soli valori di voto, la data e l'id sondaggio
 mlrgo --jsonl -I cut -x -f realizzatore,committente,titolo,_text,domanda,national_poll,numero_partiti "$folder"/../data/italian_polls_clean.jsonl
 

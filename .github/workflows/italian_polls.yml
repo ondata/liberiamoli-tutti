@@ -16,6 +16,14 @@ jobs:
       uses: actions/checkout@v3
       with:
         fetch-depth: 0
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+        python3 -m pip install --upgrade pip
+        pip install -r italian_poll/script/requirements.txt
     - name: crea cartella utente bin, copia dentro l'eseguibile scrape e mlr
       run: |-
         mkdir -p ~/bin
