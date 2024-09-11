@@ -32,7 +32,6 @@ mlrgo -I --jsonl --from "$folder"/tmp/italian_polls_long.jsonl sub -f valore "%+
 
 # salva il file
 mv "$folder"/tmp/italian_polls_long.jsonl "$folder"/../data/italian_polls.jsonl
-
 mlrgo -I --jsonl uniq -a then sort -n n "$folder"/../data/italian_polls.jsonl
 
 # salva elenco record con errori in valori numerici
