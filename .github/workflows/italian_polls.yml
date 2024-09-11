@@ -3,9 +3,9 @@ name: Sondaggi politici italiani
 on:
   schedule:
     - cron: '30 12 * * *'
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
   workflow_dispatch:
 
 jobs:
