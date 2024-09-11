@@ -16,6 +16,7 @@ mkdir -p "$folder"/../data
 # scarica il file
 curl -ksL "https://raw.githubusercontent.com/ruggsea/llm_italian_poll_scraper/main/italian_polls.jsonl" > "$folder"/tmp/italian_polls.jsonl
 
+# rimuovi eventuali righe duplicate
 mlrgo -I --jsonl uniq -a "$folder"/tmp/italian_polls.jsonl
 
 campi=$(<"$folder"/tmp/italian_polls.jsonl head -n 1 | jq -r 'to_entries[] | .key' | mlrgo --csv -N put 'if(NR<9){$n="f_".$1}else{$n=$1}' then cut -f n | paste -sd ',' -)
