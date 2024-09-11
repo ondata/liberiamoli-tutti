@@ -7,6 +7,9 @@ set -o pipefail
 
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+# Aggiorna il repository
+git pull origin main
+
 mkdir -p "$folder"/tmp
 mkdir -p "$folder"/../data
 
