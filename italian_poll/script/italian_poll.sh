@@ -16,14 +16,12 @@ mkdir -p "$folder"/../data
 # scarica il file
 curl -ksL "https://raw.githubusercontent.com/ruggsea/llm_italian_poll_scraper/main/italian_polls.jsonl" > "$folder"/tmp/italian_polls.jsonl
 
-
 mlrgo -I --jsonl uniq -a "$folder"/tmp/italian_polls.jsonl
 
 campi=$(<"$folder"/tmp/italian_polls.jsonl head -n 1 | jq -r 'to_entries[] | .key' | mlrgo --csv -N put 'if(NR<9){$n="f_".$1}else{$n=$1}' then cut -f n | paste -sd ',' -)
 
-
 # rinomina i campi che non sono nomi di partito
-mlrgo --jsonl --from "$folder"/tmp/italian_polls.jsonl label "$campi" then uniq -a then cat -n then cut -x -f f_Row  "$folder"/tmp/italian_polls.jsonl >"$folder"/tmp/italian_polls_long.jsonl
+mlrgo --jsonl --from "$folder"/tmp/italian_polls.jsonl label "$campi" then cat -n then cut -x -f f_Row  >"$folder"/tmp/italian_polls_long.jsonl
 
 # trasforma il file da wide a long
 mlrgo -I --jsonl --from "$folder"/tmp/italian_polls_long.jsonl reshape -r "^[^f][^_]" -o partito,valore then filter -x '$valore=="null"'
