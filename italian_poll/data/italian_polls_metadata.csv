@@ -1,4 +1,31 @@
 n,data_inserimento,realizzatore,committente,titolo,_text,domanda,national_poll,numero_partiti,realizzatore_normalizzato
+1324,2024-09-17,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 30,3
+PARTITO DEMOCRATICO 22,8
+MOVIMENTO 5 STELLE 11,7
+FORZA ITALIA 8,4
+LEGA 8,1
+VERDI E SINISTRA 7,0
+AZIONE 3,0
+ITALIA VIVA 2,6
++EUROPA 1,7
+SUD CHIAMA NORD 1,1
+ALTRE LISTE 3,3
+NON SI ESPRIME 34%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?",1,10,SWG spa
+1323,2024-09-16,Termometro Politico,True Data,"Sondaggio su elezioni politiche, Meloni, Sangiuliano","Partiti %
+Fratelli d'Italia 29,2%
+PD 23,5%
+Movimento 5 Stelle 10,0%
+Forza Italia e Noi Moderati 9,5%
+Lega 8,7%
+Alleanza Verdi Sinistra 6,8%
+Azione 3,0%
+Italia Viva 2,0%
+Pace Terra Dignità 1,8%
+Più Europa 1,7%
+Democrazia Sovrana Popolare 1,3%
+Libertà 0,9%
+Alternativa popolare 0,3%
+Altri 1,3%",Cosa voterebbe se domani ci fossero le elezioni politiche?,1,10,Termometro Politico
 1322,2024-09-16,tecnè srl,agenzia dire,monitor italia,"fdi 29%
 pd 23,6%
 fi 10,9%
