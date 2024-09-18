@@ -66,3 +66,20 @@ mlrgo --ijsonl --ocsv cat "$folder"/../data/italian_polls_clean.jsonl >"$folder"
 
 # crea csv dei metadati dei sondaggi
 mlrgo --ijsonl --ocsv cat "$folder"/../data/italian_polls_metadata.jsonl >"$folder"/../data/italian_polls_metadata.csv
+
+### almeno 5 partiti ###
+
+# estrai i sondaggi con almeno 5 partiti
+mlrgo --jsonl cut -f n,numero_partiti then filter '$numero_partiti>5' then cut -f n "$folder"/../data/italian_polls_metadata.jsonl >"$folder"/../data/tmp_italian_polls_5.jsonl
+# estrai i sondaggi che hanno valori negativi
+mlrgo --jsonl filter '$valore<0' then cut -f n then uniq -a "$folder"/../data/italian_polls_clean.jsonl >"$folder"/../data/tmp_italian_polls_negativi.jsonl
+
+# estrai soltanto i dati dei sondaggi con almeno 5 partiti
+mlrgo --jsonl join -j n -f "$folder"/../data/tmp_italian_polls_5.jsonl then unsparsify then sort -nr n "$folder"/../data/italian_polls_clean.jsonl >"$folder"/../data/italian_polls_clean_5.jsonl
+
+# rimuovi i sondaggi in cui c'è almeno un partito con valori negativi
+mlrgo --jsonl join --ul --np -j n -f "$folder"/../data/italian_polls_clean_5.jsonl then unsparsify then sort -nr n "$folder"/../data/tmp_italian_polls_negativi.jsonl >"$folder"/../data/tmp.jsonl
+
+mv "$folder"/../data/tmp.jsonl "$folder"/../data/italian_polls_clean_5.jsonl
+
+mlrgo --ijsonl --ocsv cat "$folder"/../data/italian_polls_clean_5.jsonl >"$folder"/../data/italian_polls_clean_5.csv
