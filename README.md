@@ -15,6 +15,7 @@ Questo è uno spazio a supporto, dove verranno raccolti dati e le informazioni u
 - [Numero 4](https://open.substack.com/pub/datibenecomune/p/liberiamoli-tutti-numero-4), l'elenco complessivo dei beneficiari del 5 per mille 2022.
 - [Numero 5](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-5), l'elenco degli esercizi dei soggetti abilitati alle attività funzionali alla raccolta del gioco mediante apparecchi con vincita in denaro (il cosiddetto albo Ries);
 - [Numero 6](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-6), alcuni dati sulle elezioni europee 2024.
+- [Numero 7](https://open.substack.com/pub/datibenecomune/p/liberiamoli-tutti-numero-7?r=1wj20s&utm_campaign=post&utm_medium=web), alcuni dati sugli interventi Ecobonus (PNRR), più quelli sul Superbonus 110%.
 
 ---
 
