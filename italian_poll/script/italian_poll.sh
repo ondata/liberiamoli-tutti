@@ -21,10 +21,11 @@ mlrgo -I --jsonl uniq -a "$folder"/tmp/italian_polls.jsonl
 
 mlrgo -I --jsonl tac "$folder"/tmp/italian_polls.jsonl
 
-campi=$(<"$folder"/tmp/italian_polls.jsonl head -n 1 | jq -r 'to_entries[] | .key' | mlrgo --csv -N put 'if(NR<9){$n="f_".$1}else{$n=$1}' then cut -f n | paste -sd ',' -)
+campi=$(<"$folder"/tmp/italian_polls.jsonl head -n 1 | jq -r 'to_entries[] | .key' | mlrgo --csv -N put 'if(NR<10){$n="f_".$1}else{$n=$1}' then cut -f n | paste -sd ',' -)
 
 # rinomina i campi che non sono nomi di partito
 mlrgo --jsonl --from "$folder"/tmp/italian_polls.jsonl label "$campi" then cat -n then cut -x -f f_Row then sort -nr n >"$folder"/tmp/italian_polls_long.jsonl
+
 
 # trasforma il file da wide a long
 mlrgo -I --jsonl --from "$folder"/tmp/italian_polls_long.jsonl reshape -r "^[^f][^_]" -o partito,valore then filter -x '$valore=="null"'
@@ -52,14 +53,15 @@ mlrgo --ijsonl --ocsv cat "$folder"/../data/italian_polls_clean.jsonl | duckdb -
 # crea jsonl a partire dal csv
 mlrgo --icsv --ojsonl  count-similar -g n -o numero_partiti "$folder"/../data/italian_polls_clean.csv >"$folder"/../data/italian_polls_clean.jsonl
 
+
 # crea jsonl con i metadati dei sondaggi
-mlrgo --jsonl cut -f n,data_inserimento,realizzatore,committente,titolo,_text,domanda,national_poll,numero_partiti then uniq -a then sort -n nr "$folder"/../data/italian_polls_clean.jsonl >"$folder"/../data/italian_polls_metadata.jsonl
+mlrgo --jsonl cut -f n,data_inserimento,realizzatore,committente,titolo,_text,domanda,national_poll_rationale,national_poll,numero_partiti then uniq -a then sort -n nr "$folder"/../data/italian_polls_clean.jsonl >"$folder"/../data/italian_polls_metadata.jsonl
 
 # normalizza i nomi dei realizzatori
 python3 "$folder"/normalizza_realizzatore.py
 
 # crea csv con i soli valori di voto, la data e l'id sondaggio
-mlrgo --jsonl -I cut -x -f realizzatore,committente,titolo,_text,domanda,national_poll,numero_partiti "$folder"/../data/italian_polls_clean.jsonl
+mlrgo --jsonl -I cut -x -f realizzatore,committente,titolo,_text,domanda,national_poll_rationale,national_poll,numero_partiti "$folder"/../data/italian_polls_clean.jsonl
 
 # crea csv dei valori di voto dei sondaggi
 mlrgo --ijsonl --ocsv cat "$folder"/../data/italian_polls_clean.jsonl >"$folder"/../data/italian_polls_clean.csv
