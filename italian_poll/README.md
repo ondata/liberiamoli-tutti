@@ -6,8 +6,8 @@ Qui pubblichiamo i dati sui sondaggi politici nazionali, derivati da quelli estr
 
 Ruggero pubblica **un solo dataset**, in **due formati**: [`JSON Lines`](https://raw.githubusercontent.com/ruggsea/llm_italian_poll_scraper/refs/heads/main/italian_polls.jsonl) e [`CSV`](https://raw.githubusercontent.com/ruggsea/llm_italian_poll_scraper/refs/heads/main/italian_polls.csv).
 
-Ha scelto una rappresentazione *wide* dei dati, in cui per ogni sondaggio ci sono prima i relativi metadati e poi una colonna per ogni partito politico, con il relativo risultato.<br>
-Per dare soltanto un'idea, non è la struttura esatta, sono - in rappresentazione a "tabella" - come nel seguente esempio.
+Ha scelto una **rappresentazione _wide_** dei dati, in cui per ogni sondaggio ci sono i relativi metadati e una colonna per ogni partito politico, con il relativo risultato.<br>
+Per dare soltanto un'idea, non è la struttura esatta, sono come nel seguente esempio:
 
 | Data Inserimento | Realizzatore | Committente | Titolo | domanda | Partito 1 | Partito 2 | Partito 3 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -71,7 +71,10 @@ Nella tabella dei metadati abbiamo aggiunto una colonna con il numero di partiti
 
 ### Normalizzazione nome "Realizzatore"
 
-Abbiamo applicato una normalizzazione al campo `realizzatore`, perché spesso il nome della stessa azienda è scritto in modi diversi, per un carattere maiuscolo o minuscolo in più o in meno, per la presenza o meno di spazi, ecc.. Non è una normalizzazione completa, ma è una prima scrematura.
+Abbiamo applicato una normalizzazione al campo `realizzatore`, perché spesso il nome della stessa azienda è scritto in modi diversi, per un carattere maiuscolo o minuscolo in più o in meno, per la presenza o meno di spazi, ecc.: "Istituto ABC", "istituto ABC", "Istituto    Abc", "Istituto ABC ", "Istituto ABC.", ecc..
+
+Non è una normalizzazione completa, ma è una prima scrematura.
+
 È realizzata nel campo `realizzatore_normalizzato`, presente nella tabella dei metadati.
 
 ## I dati estratti
