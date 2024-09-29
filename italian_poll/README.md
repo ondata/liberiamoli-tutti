@@ -96,4 +96,4 @@ Questi file:
 
 Sono dati aperti, rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it), quindi puoi usarli come vuoi, anche per scopi commerciali, ma citando la fonte.
 
-Se li usi, cita la fonte scrivendo qualcosa come: "dati raccolti da Ruggero Marino Lazzaroni e [rielaborati da OnData](https://github.com/ondata/liberiamoli-tutti/blob/main/italian_poll/README.md#L87)".
+Se li usi, cita la fonte scrivendo qualcosa come: "dati raccolti da [Ruggero Marino Lazzaroni](https://github.com/ruggsea/llm_italian_poll_scraper) e [rielaborati da OnData](https://github.com/ondata/liberiamoli-tutti/blob/main/italian_poll/README.md#L87)".
