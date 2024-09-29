@@ -19,7 +19,7 @@ Per dare soltanto un'idea, non è la struttura esatta, sono - in rappresentazion
 
 Noi abbiamo scelto di **suddividere** la **tabella** originale **in due** - una per i metadati e una per i risultati - e di passare **da** una rappresentazione ***wide*** a una ***long***.
 
-Quindi rispetto al dataset originale, è disponibile una prima **tabella** con i **metadati**:
+Quindi rispetto al dataset originale, è disponibile una prima **tabella** con soltanto i **metadati**:
 
 | id_sondaggio | Data Inserimento | Realizzatore | Committente | Titolo | domanda |
 | --- | --- | --- | --- | --- | --- |
