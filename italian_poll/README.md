@@ -1,6 +1,6 @@
 # Introduzione
 
-Qui pubblichiamo i dati sui sondaggi politici nazionali, derivati da quelli estratti da **Ruggero Marino Lazzaroni** (grazie mille), e descritti nel [numero 8 di Liberiamoli tutti!](https://datibenecomune.substack.com/p/305694d9-dd32-472f-b23a-8ebbd87129d1).
+Qui pubblichiamo i dati sui sondaggi politici nazionali, derivati da quelli estratti da **Ruggero Marino Lazzaroni** (grazie mille), descritti nel [**numero 8 di Liberiamoli tutti!**](https://datibenecomune.substack.com/p/305694d9-dd32-472f-b23a-8ebbd87129d1) e pubblicati in [questo *repository*](https://github.com/ruggsea/llm_italian_poll_scraper).
 
 ## Modifiche introdotte
 
@@ -91,3 +91,9 @@ Questi file:
 - i risultati
   - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/italian_polls_clean.jsonl)
   - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/italian_polls_clean.csv)
+
+## Se usi questi dati
+
+Sono dati aperti, rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it), quindi puoi usarli come vuoi, anche per scopi commerciali, ma citando la fonte.
+
+Se li usi, cita la fonte scrivendo qualcosa come: "dati raccolti da Ruggero Marino Lazzaroni e [rielaborati da OnData](https://github.com/ondata/liberiamoli-tutti/blob/main/italian_poll/README.md#L87)".
