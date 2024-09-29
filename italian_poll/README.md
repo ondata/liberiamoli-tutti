@@ -1,3 +1,13 @@
+- [Introduzione](#introduzione)
+  - [Modifiche introdotte](#modifiche-introdotte)
+  - [Altre modifiche introdotte](#altre-modifiche-introdotte)
+    - [Date in formato AAAA-MM-GG](#date-in-formato-aaaa-mm-gg)
+    - [Normalizzazione dei nomi dei campi](#normalizzazione-dei-nomi-dei-campi)
+    - [Numero di partiti per sondaggio](#numero-di-partiti-per-sondaggio)
+    - [Normalizzazione nome "Realizzatore"](#normalizzazione-nome-realizzatore)
+  - [I dati estratti](#i-dati-estratti)
+  - [Se usi questi dati](#se-usi-questi-dati)
+
 # Introduzione
 
 Qui pubblichiamo i dati sui sondaggi politici nazionali, derivati da quelli estratti da **Ruggero Marino Lazzaroni** (grazie mille), descritti nel [**numero 8 di Liberiamoli tutti!**](https://datibenecomune.substack.com/p/305694d9-dd32-472f-b23a-8ebbd87129d1) e pubblicati in [questo *repository*](https://github.com/ruggsea/llm_italian_poll_scraper).
