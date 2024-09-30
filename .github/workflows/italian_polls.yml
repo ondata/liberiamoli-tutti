@@ -23,7 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
-        pip install -r italian_poll/script/requirements.txt
+        pip install -r italian_polls/script/requirements.txt
     - name: crea cartella utente bin, copia dentro l'eseguibile scrape e mlr
       run: |-
         mkdir -p ~/bin
@@ -35,9 +35,9 @@ jobs:
     - name: esegui lo script base
       run: |-
         export PATH=$PATH:~/bin
-        cd ./italian_poll/script
-        chmod +x ./italian_poll.sh
-        ./italian_poll.sh
+        cd ./italian_polls/script
+        chmod +x ./italian_polls.sh
+        ./italian_polls.sh
     - name: Committa e pusha se ci sono variazioni nei dati
       run: |-
         git config user.name "automatico"
