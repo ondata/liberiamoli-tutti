@@ -98,11 +98,11 @@ Per mettere in relazione la tabella dell'anagrafica con quella dei risultati, in
 Questi file:
 
 - l'anagrafica
-  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/italian_polls_metadata.jsonl)
-  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/italian_polls_metadata.csv)
+  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/anagrafica.jsonl)
+  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/anagrafica.csv)
 - i risultati
-  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/italian_polls_clean.jsonl)
-  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/italian_polls_clean.csv)
+  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/risultati.jsonl)
+  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/risultati.csv)
 
 ## Se usi questi dati
 
