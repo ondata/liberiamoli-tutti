@@ -27,9 +27,9 @@ Per dare soltanto un'idea, non è la struttura esatta, sono come nel seguente es
 | 04/09/2024 | Istituto Alfa | Committente W | Preferenze 2024 | Cosa ne pensi di...? | 22 | 38 | 40 |
 | 05/09/2024 | Istituto Beta | Committente V | Elezioni | Chi voti alle ....? | 34 | 30 | 36 |
 
-Noi abbiamo scelto di **suddividere** la **tabella** originale **in due** - una per i metadati e una per i risultati - e di passare **da** una rappresentazione ***wide*** a una ***long***.
+Noi abbiamo scelto di **suddividere** la **tabella** originale **in due** - una per l'anagrafica e una per i risultati - e di passare **da** una rappresentazione ***wide*** a una ***long***.
 
-Quindi rispetto al dataset originale, è disponibile una prima **tabella** con soltanto i **metadati**:
+Quindi rispetto al dataset originale, è disponibile una prima **tabella** con soltanto l' **anagrafica**:
 
 | id_sondaggio | Data Inserimento | Realizzatore | Committente | Titolo | domanda |
 | --- | --- | --- | --- | --- | --- |
@@ -77,7 +77,7 @@ Li abbiamo normalizzati scegliendo lo snake_case, in cui i nomi dei campi sono s
 
 ### Numero di partiti per sondaggio
 
-Nella tabella dei metadati abbiamo aggiunto una colonna con il numero di partiti politici presenti in ogni sondaggio. È il campo `numero_partiti`.
+Nella tabella dell'anagrafica abbiamo aggiunto una colonna con il numero di partiti politici presenti in ogni sondaggio. È il campo `numero_partiti`.
 
 ### Normalizzazione nome "Realizzatore"
 
@@ -85,7 +85,7 @@ Abbiamo applicato una normalizzazione al campo `realizzatore`, perché spesso il
 
 Non è una normalizzazione completa, ma è una prima scrematura.
 
-È realizzata nel campo `realizzatore_normalizzato`, presente nella tabella dei metadati.
+È realizzata nel campo `realizzatore_normalizzato`, presente nella tabella dell'anagrafica.
 
 ## I dati estratti
 
@@ -93,16 +93,16 @@ Anche noi abbiamo scelto i formati [`JSON Lines`](https://jsonlines.org/) e `CSV
 
 Tutti i file hanno codifica dei campi in `UTF-8`. Il separatore di campo per i file `CSV` è la virgola `,` e il separatore decimale è il punto `.`.
 
-Per mettere in relazione la tabella dei metadati con quella dei risultati, in entrambe è stato inserito il campo `n`, che è l'identificativo del sondaggio. Non è un valore fisso nel tempo, ma è sempre coerente tra i due file.
+Per mettere in relazione la tabella dell'anagrafica con quella dei risultati, in entrambe è stato inserito il campo `n`, che è l'identificativo del sondaggio. Non è un valore fisso nel tempo, ma è sempre coerente tra i due file.
 
 Questi file:
 
-- i metadati
-  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/italian_polls_metadata.jsonl)
-  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/italian_polls_metadata.csv)
+- l'anagrafica
+  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/anagrafica.jsonl)
+  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/anagrafica.csv)
 - i risultati
-  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/italian_polls_clean.jsonl)
-  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/italian_polls_clean.csv)
+  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/risultati.jsonl)
+  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/risultati.csv)
 
 ## Se usi questi dati
 
