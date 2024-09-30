@@ -7,6 +7,7 @@
     - [Normalizzazione nome "Realizzatore"](#normalizzazione-nome-realizzatore)
   - [I dati estratti](#i-dati-estratti)
   - [Se usi questi dati](#se-usi-questi-dati)
+  - [Ringraziamenti](#ringraziamenti)
 
 # Introduzione
 
@@ -109,3 +110,7 @@ Questi file:
 Sono dati aperti, rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it), quindi puoi usarli come vuoi, anche per scopi commerciali, ma citando la fonte.
 
 Se li usi, cita la fonte scrivendo qualcosa come: "dati raccolti da [Ruggero Marino Lazzaroni](https://github.com/ruggsea/llm_italian_poll_scraper) e [rielaborati da OnData](https://github.com/ondata/liberiamoli-tutti/blob/main/italian_polls/README.md)".
+
+## Ringraziamenti
+
+Grazie a Dennis Angemi per le [modifiche proposte](https://github.com/ondata/liberiamoli-tutti/pull/4), che hanno reso più chiari i nomi dei file e la loro descrizione.
