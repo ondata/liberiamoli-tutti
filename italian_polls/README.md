@@ -98,14 +98,14 @@ Per mettere in relazione la tabella dell'anagrafica con quella dei risultati, in
 Questi file:
 
 - l'anagrafica
-  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/anagrafica.jsonl)
-  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/anagrafica.csv)
+  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_polls/data/anagrafica.jsonl)
+  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_polls/data/anagrafica.csv)
 - i risultati
-  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/risultati.jsonl)
-  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_poll/data/risultati.csv)
+  - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_polls/data/risultati.jsonl)
+  - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_polls/data/risultati.csv)
 
 ## Se usi questi dati
 
 Sono dati aperti, rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it), quindi puoi usarli come vuoi, anche per scopi commerciali, ma citando la fonte.
 
-Se li usi, cita la fonte scrivendo qualcosa come: "dati raccolti da [Ruggero Marino Lazzaroni](https://github.com/ruggsea/llm_italian_poll_scraper) e [rielaborati da OnData](https://github.com/ondata/liberiamoli-tutti/blob/main/italian_poll/README.md#L87)".
+Se li usi, cita la fonte scrivendo qualcosa come: "dati raccolti da [Ruggero Marino Lazzaroni](https://github.com/ruggsea/llm_italian_poll_scraper) e [rielaborati da OnData](https://github.com/ondata/liberiamoli-tutti/blob/main/italian_polls/README.md)".
