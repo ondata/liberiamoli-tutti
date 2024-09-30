@@ -93,7 +93,7 @@ Anche noi abbiamo scelto i formati [`JSON Lines`](https://jsonlines.org/) e `CSV
 
 Tutti i file hanno codifica dei campi in `UTF-8`. Il separatore di campo per i file `CSV` è la virgola `,` e il separatore decimale è il punto `.`.
 
-Per mettere in relazione la tabella dei metadati con quella dei risultati, è stato inserito il campo `n`, che è l'identificativo del sondaggio. Non è un valore fisso nel tempo, ma è sempre coerente tra i due file.
+Per mettere in relazione la tabella dei metadati con quella dei risultati, in entrambe è stato inserito il campo `n`, che è l'identificativo del sondaggio. Non è un valore fisso nel tempo, ma è sempre coerente tra i due file.
 
 Questi file:
 
