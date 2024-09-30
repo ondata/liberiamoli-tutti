@@ -89,7 +89,7 @@ Non è una normalizzazione completa, ma è una prima scrematura.
 
 ## I dati estratti
 
-Anche noi abbiamo scelto i formati [`JSON Lines`](https://jsonlines.org/) e `CSV` per i nostri dati derivati. Il `JSON Lines` è un file di testo in cui ogni riga è un oggetto JSON, è una sorta di CSV "intelligente" (in sono definiti i tipi di campo).
+Anche noi abbiamo scelto i formati [`JSON Lines`](https://jsonlines.org/) e `CSV` per i nostri dati derivati. Il `JSON Lines` è un file di testo in cui ogni riga è un oggetto JSON, è una sorta di CSV "intelligente" (in cui ad esempio è possibile distinguere un numero decimale da una stringa di testo).
 
 Tutti i file hanno codifica dei campi in `UTF-8`. Il separatore di campo per i file `CSV` è la virgola `,` e il separatore decimale è il punto `.`.
 
