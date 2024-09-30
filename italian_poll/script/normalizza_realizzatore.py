@@ -61,7 +61,7 @@ def write_jsonl(file_path, df):
             f.write('\n')  # Mantieni gli a capo
 
 # Leggi il file JSONL
-input_file_path = '../data/italian_polls_metadata.jsonl'
+input_file_path = '../data/anagrafica.jsonl'
 df_input = read_jsonl(input_file_path)
 
 # Applica la funzione di clustering automatico alla colonna 'realizzatore' senza modificarla
