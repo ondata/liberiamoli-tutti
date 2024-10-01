@@ -27,10 +27,10 @@ jobs:
     - name: crea cartella utente bin, copia dentro l'eseguibile scrape e mlr
       run: |-
         mkdir -p ~/bin
-        cp bin/mlrgo ~/bin
+        cp bin/mlrgo ~/bin/mlr
         cp bin/duckdb ~/bin
         cd ~/bin
-        chmod +x mlrgo
+        chmod +x mlr
         chmod +x duckdb
     - name: esegui lo script base
       run: |-
