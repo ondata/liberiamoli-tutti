@@ -16,7 +16,7 @@ Questo è uno spazio a supporto, dove verranno raccolti dati e le informazioni u
 - [Numero 5](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-5), l'elenco degli esercizi dei soggetti abilitati alle attività funzionali alla raccolta del gioco mediante apparecchi con vincita in denaro (il cosiddetto albo Ries);
 - [Numero 6](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-6), alcuni dati sulle elezioni europee 2024.
 - [Numero 7](https://open.substack.com/pub/datibenecomune/p/liberiamoli-tutti-numero-7?r=1wj20s&utm_campaign=post&utm_medium=web), alcuni dati sugli interventi Ecobonus (PNRR), più quelli sul Superbonus 110%.
-
+- [Numero 8](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-8), i dati sui sondaggi politici nazionali.
 ---
 
 **"Liberiamoli tutti"** di **datiBeneComune** è promossa da [ActionAid Italia](https://www.actionaid.it/), [OnData](http://ondata.it/) e [Transparency International Italia](https://www.transparency.it/).
