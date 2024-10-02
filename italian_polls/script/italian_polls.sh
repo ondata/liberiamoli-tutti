@@ -21,6 +21,9 @@ mlr -I --jsonl uniq -a "$folder"/tmp/risultati_raw.jsonl
 
 mlr -I --jsonl tac "$folder"/tmp/risultati_raw.jsonl
 
+# rinomina il campo text in testo
+mlr -I --jsonl rename text,testo "$folder"/tmp/risultati_raw.jsonl
+
 campi=$(<"$folder"/tmp/risultati_raw.jsonl head -n 1 | jq -r 'to_entries[] | .key' | mlr --csv -N put 'if(NR<10){$n="f_".$1}else{$n=$1}' then cut -f n | paste -sd ',' -)
 
 # rinomina i campi che non sono nomi di partito
@@ -52,13 +55,13 @@ mlr --ijsonl --ocsv cat "$folder"/../data/risultati.jsonl | duckdb --csv -c "sel
 mlr --icsv --ojsonl count-similar -g n -o numero_partiti "$folder"/../data/risultati.csv >"$folder"/../data/risultati.jsonl
 
 # crea jsonl con i metadati dei sondaggi
-mlr --jsonl cut -f n,data_inserimento,realizzatore,committente,titolo,_text,domanda,national_poll_rationale,national_poll,numero_partiti then uniq -a then sort -n nr "$folder"/../data/risultati.jsonl >"$folder"/../data/anagrafica.jsonl
+mlr --jsonl cut -f n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti then uniq -a then sort -n nr "$folder"/../data/risultati.jsonl >"$folder"/../data/anagrafica.jsonl
 
 # normalizza i nomi dei realizzatori
 python3 "$folder"/normalizza_realizzatore.py
 
 # crea csv con i soli valori di voto, la data e l'id sondaggio
-mlr --jsonl -I cut -x -f realizzatore,committente,titolo,_text,domanda,national_poll_rationale,national_poll,numero_partiti "$folder"/../data/risultati.jsonl
+mlr --jsonl -I cut -x -f realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti "$folder"/../data/risultati.jsonl
 
 # crea csv dei valori di voto dei sondaggi
 mlr --ijsonl --ocsv cat "$folder"/../data/risultati.jsonl >"$folder"/../data/risultati.csv
