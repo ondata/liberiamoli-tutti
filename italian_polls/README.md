@@ -62,6 +62,8 @@ E una seconda **tabella** con i **risultati**, in formato *long*, con una sola c
 
 Questa scelta è stata fatta perché per diversi utenti potrà essere più comodo lavorare con i dati rappresentati in questa forma.
 
+È in linea con i preziosi [principi dei](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)***[Tidy Data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)*** di Hadley Wickman, che sono anche [una delle](https://ondata.github.io/linee-guida-opendata/allegato-B.html#utilizza-un-file-per-tabella)**[raccomandazioni](https://ondata.github.io/linee-guida-opendata/allegato-B.html#utilizza-un-file-per-tabella)** delle linee guida open data italiane (grazie a [Dennis Angemi](https://www.linkedin.com/in/dennisangemi/) per il suggerimento).
+
 ## Altre modifiche introdotte
 
 Abbiamo introdotto nei nostri dati derivati altre piccole modifiche.
