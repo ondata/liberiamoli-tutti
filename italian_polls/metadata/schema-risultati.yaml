@@ -1,0 +1,21 @@
+fields:
+  - name: n
+    type: integer
+    title: ID sondaggio
+    description: ID del sondaggio (può cambiare nel tempo ma sarà sempre sincronizzato con la tabella dell'anagrafica)
+  - name: data_inserimento
+    type: date
+    description: Data di inserimento del sondaggio nella piattaforma https://www.sondaggipoliticoelettorali.it/ (vd. sources)
+  - name: partito
+    title: Partito politico
+    type: string
+    description: Nome del partito politico a cui si riferiscono i risultati
+  - name: valore
+    type: number
+    description: Risultato del sondaggio per il partito politico espresso in percentuale. 
+
+foreignKeys:
+  - fields: n
+    reference:
+      resource: anagrafica_distribution_csv
+      fields: n
