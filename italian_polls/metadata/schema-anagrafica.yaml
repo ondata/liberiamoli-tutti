@@ -1,0 +1,38 @@
+fields:
+  - name: n
+    type: integer
+    title: ID sondaggio
+    description: ID del sondaggio (può cambiare nel tempo ma sarà sempre sincronizzato con la tabella dei risultati)
+    primaryKey: true
+  - name: data_inserimento
+    type: date
+    description: Data di inserimento del sondaggio nella piattafoma https://www.sondaggipoliticoelettorali.it/ (vd. sources)
+  - name: realizzatore
+    type: string
+    description: Realizzatore del sondaggio
+  - name: committente
+    type: string
+    description: Committente del sondaggio
+  - name: titolo
+    type: string
+    description: Titolo del sondaggio
+  - name: testo
+    type: string
+    description: Testo non strutturato contenente i risultati del sondaggio (per partito) espressi in percentuale
+  - name: domanda
+    type: string
+    description: Domanda posta nel sondaggio
+  - name: national_poll_rationale
+    type: string
+    description: Motivazione (in lingua inglese) per cui è stato considerato un sondaggio nazionale. I valori di questo campo sono generati da un LLM.
+  - name: national_poll
+    type: integer
+    description: "Indicatore: 1 se il sondaggio è considerato nazionale, 0 altrimenti. I valori di questo campo sono generati da un LLM."
+    constraints:
+      enum: [0, 1]
+  - name: numero_partiti
+    type: integer
+    description: Numero di partiti presenti nel sondaggio
+  - name: realizzatore_normalizzato
+    type: string
+    description: Nome del realizzatore del sondaggio normalizzato tramite tecniche di clustering.

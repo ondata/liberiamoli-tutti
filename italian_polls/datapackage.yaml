@@ -1,0 +1,84 @@
+title: Dati sui sondaggi politici nazionali
+
+description: Questo dataset è il frutto di estrazione automatizzata a partire da dati unstructured a cura di [Ruggero Marino Lazzaroni](https://twitter.com/ruggsea) (per maggiori informazioni puoi leggere il [numero 8 della newsletter di Liberiamoli tutti](https://datibenecomune.substack.com/p/305694d9-dd32-472f-b23a-8ebbd87129d1)). L'ulteriore pulizia e normalizzazione dei dati è stata effettuata dall'[associazione onData](https://www.ondata.it/).
+
+homepage: https://datibenecomune.substack.com/p/305694d9-dd32-472f-b23a-8ebbd87129d1
+
+sources:
+  - title: Il Sito Ufficiale dei Sondaggi Politici ed Elettorali
+    path: https://www.sondaggipoliticoelettorali.it/
+  - title: Repository GitHub ruggsea/llm_italian_poll_scraper
+    path: https://github.com/ruggsea/llm_italian_poll_scraper
+
+contributors:
+  - title: Ruggero Marino Lazzaroni
+    path: https://twitter.com/ruggsea
+    role: creator
+  - title: Andrea Borruso
+    path: https://twitter.com/aborruso
+    role: dataCurator
+
+licenses:
+  - name: CC-BY-4.0
+    title: Creative Commons Attribution 4.0
+    path: https://creativecommons.org/licenses/by/4.0/
+
+resources:
+  - name: anagrafica_distribution_csv
+    title: Anagrafica e metadati dei sondaggi
+    description: Sono presenti i dati di base di ogni sondaggio, come il titolo, la data di inserimento, il realizzatore, il committente, la domanda posta, il testo non strutturato contenente i risultati del sondaggio (per partito) espressi in percentuale, il numero di partiti presenti nel sondaggio...
+    type: table
+    path: data/anagrafica.csv
+    scheme: file
+    format: csv
+    dialect:
+      delimiter: ","
+    mediatype: text/csv
+    encoding: utf-8
+    sources:
+      - title: Il Sito Ufficiale dei Sondaggi Politici ed Elettorali
+        path: https://www.sondaggipoliticoelettorali.it/
+      - title: Repository GitHub ruggsea/llm_italian_poll_scraper
+        path: https://github.com/ruggsea/llm_italian_poll_scraper
+    schema: metadata/schema-anagrafica.yaml
+
+  - name: anagrafica_distribution_jsonl
+    title: Anagrafica e metadati dei sondaggi
+    description: Anagrafica e metadati dei sondaggi. Sono presenti i dati di base di ogni sondaggio, come il titolo, la data di inserimento, il realizzatore, il committente, la domanda posta, il testo non strutturato contenente i risultati del sondaggio (per partito) espressi in percentuale, il numero di partiti presenti nel sondaggio...
+    type: table
+    path: data/anagrafica.jsonl
+    scheme: file
+    format: jsonl
+    encoding: utf-8
+    sources:
+      - title: Il Sito Ufficiale dei Sondaggi Politici ed Elettorali
+        path: https://www.sondaggipoliticoelettorali.it/
+    schema: metadata/schema-anagrafica.yaml
+  
+  - name: risultati_distribution_csv
+    title: Risultati dei sondaggi
+    description: Sono presenti i risultati di ogni sondaggio, espressi in percentuale per partito politico.
+    type: table
+    path: data/risultati.csv
+    scheme: file
+    format: csv
+    dialect:
+      delimiter: ","
+    mediatype: text/csv
+    encoding: utf-8
+    sources:
+      - title: Il Sito Ufficiale dei Sondaggi Politici ed Elettorali
+        path: https://www.sondaggipoliticoelettorali.it/
+    schema: metadata/schema-risultati.yaml
+
+  - name: risultati_distribution_jsonl
+    title: Risultati dei sondaggi
+    type: table
+    path: data/risultati.jsonl
+    scheme: file
+    format: jsonl
+    encoding: utf-8
+    sources:
+      - title: Il Sito Ufficiale dei Sondaggi Politici ed Elettorali
+        path: https://www.sondaggipoliticoelettorali.it/
+    schema: metadata/schema-risultati.yaml

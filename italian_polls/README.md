@@ -107,6 +107,8 @@ Questi file:
   - in formato [`JSON Lines`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_polls/data/risultati.jsonl)
   - in formato [`CSV`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/refs/heads/main/italian_polls/data/risultati.csv)
 
+I file sono descritti secondo le specifiche frictionless data in [`datapackage.yaml`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/italian_polls/datapackage.yaml). Se vuoi leggere i metadati del dataset, è disponibile anche la versione human readable: [METADATA.md](https://github.com/dennisangemi/liberiamoli-tutti/blob/main/italian_polls/METADATA.md).
+
 ## Se usi questi dati
 
 Sono dati aperti, rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it), quindi puoi usarli come vuoi, anche per scopi commerciali, ma citando la fonte.
