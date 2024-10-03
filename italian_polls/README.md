@@ -109,6 +109,8 @@ Questi file:
 
 I file sono descritti secondo le specifiche frictionless data in [`datapackage.yaml`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/italian_polls/datapackage.yaml). Se vuoi leggere i metadati del dataset, è disponibile anche la versione human readable: [METADATA.md](https://github.com/dennisangemi/liberiamoli-tutti/blob/main/italian_polls/METADATA.md).
 
+➡️ [**QUI I METADATI**](METADATA.md) (grazie a [Dennis Angemi](https://www.linkedin.com/in/dennisangemi/)):
+
 ## Se usi questi dati
 
 Sono dati aperti, rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it), quindi puoi usarli come vuoi, anche per scopi commerciali, ma citando la fonte.
