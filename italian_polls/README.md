@@ -7,6 +7,7 @@
     - [Normalizzazione nome "Realizzatore"](#normalizzazione-nome-realizzatore)
   - [I dati estratti](#i-dati-estratti)
   - [Se usi questi dati](#se-usi-questi-dati)
+  - [Chi ha usato questi dati](#chi-ha-usato-questi-dati)
   - [Ringraziamenti](#ringraziamenti)
 
 # Introduzione
@@ -116,6 +117,10 @@ I file sono descritti secondo le specifiche frictionless data in [`datapackage.y
 Sono dati aperti, rilasciati con licenza [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.it), quindi puoi usarli come vuoi, anche per scopi commerciali, ma citando la fonte.
 
 Se li usi, cita la fonte scrivendo qualcosa come: "dati raccolti da [Ruggero Marino Lazzaroni](https://github.com/ruggsea/llm_italian_poll_scraper) e [rielaborati da OnData](https://github.com/ondata/liberiamoli-tutti/blob/main/italian_polls/README.md)".
+
+## Chi ha usato questi dati
+
+- Gianni, nel suo "**[Previsione sondaggi politici in Italia](https://www.kaggle.com/code/gianlab/previsione-sondaggi-politici-in-italia)**"
 
 ## Ringraziamenti
 
