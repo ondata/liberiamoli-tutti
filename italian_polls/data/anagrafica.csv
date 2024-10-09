@@ -1,4 +1,33 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1398,2024-10-08,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 29,5
+PARTITO DEMOCRATICO 22,7
+MOVIMENTO 5 STELLE 11,4
+FORZA ITALIA 8,7
+LEGA 8,5
+VERDI E SINISTRA 6,9
+AZIONE 2,8
+ITALIA VIVA 2,2
++EUROPA 1,9
+SUD CHIAMA NORD 1,2
+NOI MODERATI 1,1
+PACE TERRA DIGNITA' 1,1
+ALTRE LISTE 2,0
+NON SI ESPRIME 33%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, Verdi e Sinistra, Azione, Italia Viva, +Europa, Sud Chiama Nord, and Pace Terra Dignità. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for 'Altri' (other parties) are calculated by summing the percentages of 'NOI MODERATI' (1.1%) and 'ALTRE LISTE' (2.0%), which totals 3.1%.",1,12,SWG spa
+1397,2024-10-07,Termometro Politico,True Data,"Sondaggio su elezioni politiche, Libano","Partiti %
+Fratelli d'Italia 29,2%
+PD 22,8%
+Movimento 5 Stelle 10,2%
+Lega 8,8%
+Forza Italia 8,5%
+Alleanza Verdi Sinistra 6,7%
+Azione 3,0%
+Italia Viva 2,2%
+Più Europa 1,8%
+Pace Terra Dignità 1,6%
+Democrazia Sovrana Popolare 1,6%
+Noi Moderati 1,0%
+Sud Chiama Nord 0,6%
+Altri 2,0%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Lega, Forza Italia, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It does not include any leader approval ratings or regional subsets, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The total percentage of parties not listed (Altri) is calculated as follows: 1.6% (Democrazia Sovrana Popolare) + 1.0% (Noi Moderati) + 0.6% (Sud Chiama Nord) + 2.0% (Altri) = 5.2%.",1,12,Termometro Politico
 1396,2024-10-07,tecnè srl,agenzia dire,monitor italia,"Fratelli d’Italia 29,4%
 Partito Democratico 23,7%
 Forza Italia 11,1%
