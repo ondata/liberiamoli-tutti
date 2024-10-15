@@ -1,4 +1,33 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1401,2024-10-15,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 29,3
+PARTITO DEMOCRATICO 22,3
+MOVIMENTO 5 STELLE 11,7
+FORZA ITALIA 9,0
+LEGA 8,6
+VERDI E SINISTRA 6,8
+AZIONE 2,7
+ITALIA VIVA 2,3
++EUROPA 1,8
+SUD CHIAMA NORD 1,3
+NOI MODERATI 1,1
+PACE TERRA DIGNITà 1,1
+ALTRE LISTE 2,0
+NON SI ESPRIME 34%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for 'Altri' (other parties) are calculated by summing the percentages of parties not listed in the specified major parties, which are Sud Chiama Nord (1.3), Noi Moderati (1.1), Pace Terra Dignità (1.1), and Altro (2.0), totaling 5.5%.",1,12,SWG spa
+1400,2024-10-14,Termometro Politico,True Data,"Sondaggio su elezioni politiche, extraprofitti","Partiti %
+Fratelli d'Italia 29,1%
+PD 23,1%
+Movimento 5 Stelle 10,2%
+Lega 9,0%
+Forza Italia 8,3%
+Alleanza Verdi Sinistra 6,7%
+Azione 2,9%
+Italia Viva 2,1%
+Più Europa 1,6%
+Pace Terra Dignità 1,6%
+Democrazia Sovrana Popolare 1,5%
+Noi Moderati 1,2%
+Sud Chiama Nord 0,6%
+Altri 2,1%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Lega, Forza Italia, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It does not include any leader approval ratings or regional subsets, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The total percentage of parties not listed (Altri) is calculated as follows: 1.5% (Democrazia Sovrana Popolare) + 1.2% (Noi Moderati) + 0.6% (Sud Chiama Nord) = 3.3%.",1,12,Termometro Politico
 1399,2024-10-14,tecnè srl,agenzia dire,monitor italia,"Fratelli d’Italia 29,5%
 Partito Democratico 23,6%
 Forza Italia 11,2%
