@@ -1,5 +1,6 @@
 tmp*
 delete/
+*Zone.Identifier
 
 # quarto
 _site/*
