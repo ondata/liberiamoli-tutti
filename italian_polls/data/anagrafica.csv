@@ -1,4 +1,33 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1410,2024-10-30,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 29,7
+PARTITO DEMOCRATICO 22,5
+MOVIMENTO 5 STELLE 11,6
+FORZA ITALIA 8,8
+LEGA 8,6
+VERDI E SINISTRA 6,7
+AZIONE 2,4
+ITALIA VIVA 2,2
++EUROPA 1,9
+NOI MODERATI 1,2
+SUD CHIAMA NORD 1,1
+PACE TERRA DIGNITà 1,0
+ALTRE LISTE 2,3
+NON SI ESPRIME 33%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, Verdi e Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for 'Altri' (other parties) are calculated by summing the percentages of 'NOI MODERATI' (1.2), 'SUD CHIAMA NORD' (1.1), and 'PACE TERRA DIGNITÀ' (1.0), which totals 3.3%.",1,12,SWG spa
+1409,2024-10-28,Termometro Politico,True Data,"Sondaggio su elezioni politiche, immigrazione, Usa","Partiti %
+Fratelli d'Italia 29,2%
+PD 23,0%
+Movimento 5 Stelle 10,2%
+Lega 8,8%
+Forza Italia 8,6%
+Alleanza Verdi Sinistra 6,9%
+Azione 2,9%
+Italia Viva 2,3%
+Più Europa 1,7%
+Pace Terra Dignità 1,5%
+Democrazia Sovrana Popolare 1,5%
+Noi Moderati 1,1%
+Sud Chiama Nord 0,6%
+Altri 1,7%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Lega, Forza Italia, Alleanza Verdi Sinistra, Azione, Italia Viva, and Più Europa. It does not include any leader approval ratings or regional subsets, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The total percentage of parties listed is 100%, and the 'Altri' category includes the sum of all other parties not specified, which is 1.7%.",1,12,Termometro Politico
 1408,2024-10-28,Ipsos Srl,Corriere della Sera,"Intenzioni di voto, gradimento Governo, gradimento leader","{""(stima % su dichiarazioni valide)"": {"""": """"}, ""FRATELLI D\u2019ITALIA"": {"""": ""26,8""}, ""PARTITO DEMOCRATICO"": {"""": ""21,1""}, ""MOVIMENTO 5 STELLE"": {"""": ""13,9""}, ""FORZA ITALIA"": {"""": ""8,9""}, ""LEGA"": {"""": ""8,6""}, ""ALLEANZA VERDI - SINISTRA"": {"""": ""6,2""}, ""AZIONE"": {"""": ""2,6""}, ""+EUROPA"": {"""": ""2,5""}, ""ITALIA VIVA"": {"""": ""2,3""}, ""NOI MODERATI"": {"""": ""1,0""}, ""SUD CHIAMA NORD (Cateno De Luca)"": {"""": ""1,0""}, ""altre liste"": {"""": ""5,1""}, ""Totale"": {"""": ""100,0""}, ""(stima % su totale elettrici/elettori)"": {"""": """"}, ""indecisi/astensione/bianche/nulle"": {"""": ""41,1""}}","Se si votasse oggi, per quale lista voterebbe alla Camera dei Deputati?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, Alleanza Verdi - Sinistra, Azione, +Europa, and Italia Viva. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The 'Altri' category includes 'NOI MODERATI' and 'SUD CHIAMA NORD' along with 'altre liste', which sums up to 5.1%.",1,11,Ipsos Srl
 1407,2024-10-28,tecnè srl,agenzia dire,monitor italia,"Fratelli d’Italia 29,6%
 Partito Democratico 23,3%
