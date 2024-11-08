@@ -14,13 +14,10 @@ mkdir -p "$folder"/tmp/nazionalita
 mkdir -p "$folder"/tmp/check
 mkdir -p "$folder"/data
 
-
 # estrai la lista dei file pdf, in cui è presente il dato dei sbarchi giornalieri. Ci sono dal report del 15/10/2019
 # rimuovi il report del 15/07/2021, perché il PDF è danneggiato
 # rimuovi la prima riga perché è il dato giornaliero, tieni soltanto i quindicinali
 mlrgo --jsonl filter '$data>"2019-09-16"' then filter -x '$data=="2021-07-15"' then sort -f data "$folder"/data/cruscotto-statistico-giornaliero_lista.jsonl | head -n -0 >"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
-
-
 
 estrai_dati="sì"
 
@@ -46,15 +43,12 @@ if [[ $estrai_dati == "sì" ]]; then
       fi
     fi
 
-  done < "$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
+  done <"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
 fi
-
 
 find "$folder"/../rawdata/pdf/ -name "*nazionalita.csv" -exec cp {} "$folder"/tmp/nazionalita \;
 
 find "$folder"/../rawdata/pdf/ -name "*nazionalita.csv" -type f -delete
-
-
 
 # for every file csv thats ends whit nazionalita.csv in "$folder"/nazionalita-accoglienza/process
 for file in "$folder"/tmp/nazionalita/*-nazionalita.csv; do
@@ -65,13 +59,12 @@ for file in "$folder"/tmp/nazionalita/*-nazionalita.csv; do
   mlrgo -I -S -N --csv filter -x '$1=~"Tota.+"' then remove-empty-columns then put '$file=strftime(strptime(gsub(regextract(FILENAME,"[0-9]{2}.[0-9]{2}.[0-9]{4}"),"\.","-"),"%d-%m-%Y"),"%Y-%m-%d")' "$folder"/../rawdata/csv/nazionalita/"$nome"
 done
 
-
 mlrgo -S --csv --implicit-csv-header unsparsify then \
-remove-empty-columns then \
-put 'for (k in $*) {$[k] = gsub($[k], "\.", "")}' then \
-label Nazione,Valore,Data_Report then \
-reorder -f Data_Report then \
-sort -f Data_Report,Nazione "$folder"/../rawdata/csv/nazionalita/*-nazionalita.csv >"$folder"/../dati/nazionalita.csv
+  remove-empty-columns then \
+  put 'for (k in $*) {$[k] = gsub($[k], "\.", "")}' then \
+  label Nazione,Valore,Data_Report then \
+  reorder -f Data_Report then \
+  sort -f Data_Report,Nazione "$folder"/../rawdata/csv/nazionalita/*-nazionalita.csv >"$folder"/../dati/nazionalita.csv
 
 # normalizza i nomi delle nazioni
 mlrgo --csv join --ul -j Nazione -f "$folder"/../dati/nazionalita.csv then unsparsify then cut -x -f Nazione then reorder -f Data_Report,Nation,ISO_3166-1 then sort -f Data_Report,Nation "$folder"/risorse/nations.csv >"$folder"/../dati/tmp.csv

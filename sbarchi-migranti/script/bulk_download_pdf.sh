@@ -33,12 +33,11 @@ mlrgo --jsonl put '$data=strftime(strptime(regextract_or_else(${@title},"[0-9]{2
 # rimuovi la prima riga perché è quella del giorno. Teniamo soltanto i dati quindicinali
 mlrgo --jsonl filter '$data>"2019-09-16"' then filter -x '$data=="2021-07-15"' then sort -f data "$folder"/data/cruscotto-statistico-giornaliero_lista.jsonl | head -n -0 >"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
 
-
 # scarica i file pdf, se non sono già presenti
 while read -r line; do
   url_file=$(echo "$line" | jq -r '."@href"')
   wget -nc -P "$folder"/../../"$progetto"/rawdata/pdf/ "$url_file"
-done < "$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
+done <"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
 
 # crea anagrafica dei report
 mlrgo --ijsonl --ocsv cut -f "@href","data" then label URL,Data_Report then reorder -f Data_Report,URL then sort -f Data_Report "$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl >"$folder"/../dati/anagrafica-report.csv
