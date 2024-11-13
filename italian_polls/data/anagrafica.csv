@@ -1,4 +1,19 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1417,2024-11-12,Termometro Politico,True Data,"Sondaggio su elezioni politiche, Trump","Partiti %
+Fratelli d'Italia 29,7%
+PD 22,7%
+Movimento 5 Stelle 10,0%
+Lega 8,8%
+Forza Italia 8,4%
+Alleanza Verdi Sinistra 6,7%
+Azione 3,0%
+Italia Viva 2,3%
+Altri 1,9%
+Più Europa 1,8%
+Pace Terra Dignità 1,4%
+Democrazia Sovrana Popolare 1,4%
+Noi Moderati 1,2%
+Sud Chiama Nord 0,7%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Lega, Forza Italia, Alleanza Verdi Sinistra, Azione, Italia Viva, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for the listed parties sum up to 100% when considering the 'Altri' category, which includes all other parties not specified. Therefore, this is a national poll.",1,12,Termometro Politico
 1416,2024-11-12,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 29,8
 PARTITO DEMOCRATICO 22,1
 MOVIMENTO 5 STELLE 11,3
