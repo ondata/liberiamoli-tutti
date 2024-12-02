@@ -57,7 +57,7 @@ for file in "$folder"/tmp/accoglienza/*-accoglienza.csv; do
   nome=$(basename "$file" .csv)
 
   mlrgo -S --csv --implicit-csv-header --headerless-csv-output filter '$4=~"^[^U]"' then put '$f=FILENAME;for (k in $*) {$[k] = gsub($[k], "[*]", "")}' then clean-whitespace then remove-empty-columns then skip-trivial-records "$file" >"$folder"/../rawdata/csv/accoglienza/"$nome".csv
-  mlrgo -I -S --csv rename -r ".+crus.+","file" then put '$file=sub($file,".+/","")' "$folder"/../rawdata/csv/accoglienza/"$nome".csv
+  mlrgo -I -S --csv rename -r ".+crus.+","file" then put '$file=sub($file,".+/","")' then rename -r "Immigrati","Migranti" "$folder"/../rawdata/csv/accoglienza/"$nome".csv
   # correggi errore tabula dei PDF del 31-12-2020 e del 28-02-2022
   if [[ "$file" =~ cruscotto_statistico_giornaliero_31-12-2020_1-accoglienza.csv ]]; then
     sed -i -r 's/tirol,/tirol,,/;s/oste,/oste,,/;s/,,c/,c/' "$folder"/../rawdata/csv/accoglienza/"$nome".csv
