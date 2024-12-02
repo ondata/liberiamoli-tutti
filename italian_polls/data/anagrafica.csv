@@ -1,4 +1,17 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1426,2024-12-02,tecnè srl,agenzia dire,monitor italia,"Fratelli d’Italia 29,1%
+Partito Democratico 23,4%
+Forza Italia 11,4%
+Movimento 5 Stelle 10,7%
+Lega 8,6%
+Verdi e Sinistra 6,1%
+Azione 2,5%
+Italia Viva 2,2%
++ Europa 2,1%
+Altri partiti 3,9%","IL BORSINO DEI PARTITI
+ASTENSIONE/INCERTI: 48,8%
+(rispondenti=100%)","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Forza Italia, Movimento 5 Stelle, Lega, Verdi e Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions and does not focus on leader approval ratings or specific demographics. Therefore, it qualifies as a national voting intention poll. The total percentage of 'Altri' is calculated as 3.9%, which includes all other parties not listed explicitly in the poll.",1,10,tecnè srl
+1425,2024-12-02,Ipsos Srl,Corriere della Sera,"Intenzioni di voto, gradimento Governo, gradimento leader","{""(stima % su dichiarazioni valide)"": {"""": """"}, ""FRATELLI D\u2019ITALIA"": {"""": ""27,7""}, ""PARTITO DEMOCRATICO"": {"""": ""22,6""}, ""MOVIMENTO 5 STELLE"": {"""": ""13,0""}, ""LEGA"": {"""": ""8,7""}, ""FORZA ITALIA"": {"""": ""8,0""}, ""ALLEANZA VERDI - SINISTRA"": {"""": ""6,2""}, ""AZIONE"": {"""": ""2,2""}, ""+EUROPA"": {"""": ""2,2""}, ""ITALIA VIVA"": {"""": ""2,0""}, ""NOI MODERATI"": {"""": ""1,2""}, ""SUD CHIAMA NORD (Cateno De Luca)"": {"""": ""1,0""}, ""altre liste"": {"""": ""5,2""}, ""Totale"": {"""": ""100""}, ""(stima % su totale elettrici/elettori)"": {"""": """"}, ""indecisi/astensione/bianche/nulle"": {"""": ""43,0""}}","Se si votasse oggi, per quale lista voterebbe alla Camera dei Deputati?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Lega, Forza Italia, Alleanza Verdi - Sinistra, Azione, +Europa, and Italia Viva. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The 'Altri' category includes 'NOI MODERATI', 'SUD CHIAMA NORD', and 'altre liste', which sum up to 7.4%.",1,11,Ipsos Srl
 1424,2024-11-26,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 29,4
 PARTITO DEMOCRATICO 22,6
 MOVIMENTO 5 STELLE 11,2
