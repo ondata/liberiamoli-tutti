@@ -29,22 +29,22 @@
             "description": "La data del report"
           },
           {
-            "name": "Immigrati presenti negli hot spot",
+            "name": "Migranti presenti negli hot spot",
             "type": "integer",
             "description": "Il numero persone migranti presenti negli hotspot nella regione"
           },
           {
-            "name": "Immigrati presenti nei centri di accoglienza",
+            "name": "Migranti presenti nei centri di accoglienza",
             "type": "integer",
             "description": "Il numero persone migranti presenti nei centri di accoglienza nella regione"
           },
           {
-            "name": "Immigrati presenti nei centri SIPROIMI",
+            "name": "Migranti presenti nei centri SIPROIMI",
             "type": "integer",
             "description": "Il numero persone migranti presenti nei centri SIPROIMI (Sistema di Protezione per Richiedenti Asilo e Rifugiati) nella regione"
           },
           {
-            "name": "Immigrati presenti nei centri SAI",
+            "name": "Migranti presenti nei centri SAI",
             "type": "integer",
             "description": "Il numero persone migranti presenti nei centri SAI (Sistema di Accoglienza e Integrazione) nella regione"
           },
@@ -80,7 +80,7 @@
           {
             "name": "Nazione",
             "type": "string",
-            "description": "Il nome della nazione di origine degli immigrati"
+            "description": "Il nome della nazione di origine degli migranti"
           },
           {
             "name": "ISO_3166-1",
