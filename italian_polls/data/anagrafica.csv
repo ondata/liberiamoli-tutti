@@ -1,4 +1,29 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1429,2024-12-10,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 28,8
+PARTITO DEMOCRATICO 22,4
+MOVIMENTO 5 STELLE 11,5
+FORZA ITALIA 9,2
+LEGA 8,7
+VERDI E SINISTRA 6,9
+AZIONE 3,2
+ITALIA VIVA 2,4
++EUROPA 2,0
+NOI MODERATI 1,2
+SUD CHIAMA NORD 1,0
+ALTRE LISTE 2,7
+NON SI ESPRIME 34%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for 'Altri' (other parties) are calculated by summing the percentages of parties not listed in the specified major parties, which includes 'NOI MODERATI' and 'ALTRE LISTE'. The total for 'Altri' is 3.9%.",1,11,SWG spa
+1428,2024-12-09,Tecnè Srl,agenzia dire,monitor italia,"fdi 28,9%
+pd 23,6%
+m5s 10,8%
+fi 11,3%
+lega 8,5%
+azione 2,4%
+verdi- si 6,2%
+iv 2,3%
++europa 2%
+altri 4%","IL BORSINO DEI PARTITI
+ASTENSIONE/INCERTI: 48,6% 
+(rispondenti =100%)","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, Azione, Alleanza Verdi Sinistra, Italia Viva, and +Europa. It refers to nationwide voting intentions and does not focus on leader approval ratings or specific demographics. Therefore, it qualifies as a national voting intention poll.",1,10,tecnè srl
 1427,2024-12-03,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 29,1
 PARTITO DEMOCRATICO 22,4
 MOVIMENTO 5 STELLE 11,7
