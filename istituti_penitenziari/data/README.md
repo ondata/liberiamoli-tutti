@@ -1,9 +1,3 @@
----
-html:
-  toc: false
-
----
-
 # Introduzione
 
 Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamoli tutti**](https://datibenecomune.substack.com/about).
@@ -12,7 +6,7 @@ Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamol
 
 Sono in formato `CSV`, con separatore `,` e con codifica `UTF-8`.
 
-La fonte sono le pagine web della [sezione "**Istituti penitenziari**"](https://www.giustizia.it/giustizia/page/it/istituti_penitenziari), presente nel sito del Ministero della Giustizia.
+La fonte sono le pagine web della [sezione "**Istituti penitenziari**"](https://www.giustizia.it/giustizia/page/it/istituti_penitenziari), presente nel sito del **Ministero della Giustizia**.
 
 👉 **Nota Bene**: questi sono rilasciati con **licenza** [**CC-BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed.it): li **puoi usare liberamente**, anche per scopi commerciali, ma devi **citare la fonte**, scrivendo semplicemente "Fonte: [Liberiamoli tutti!](https://datibenecomune.substack.com/)" e inserendo il link ipertestuale a `https://datibenecomune.substack.com/`.
 
@@ -48,7 +42,7 @@ Il file è [`anagrafica.csv`](../data/anagrafica.csv) ed è quello con le princi
 | comune | string | Nome del comune in cui si trova l'istituto |
 | cod_reg | string | Codice regionale ISTAT del Comune |
 
-Alcuni di questi campi sono stati aggiunti, per rendere i dati più utilizzabili e verificabili. Si tratta di:
+Alcuni di questi **campi** sono **stati aggiunti**, per rendere i dati più **utilizzabili** e **verificabili**. Si tratta di:
 
 - `url`, con l'indirizzo web della pagina sorgente dei dati;
 - `data_aggiornamento`, con la data di ultimo aggiornamento dei dati;
