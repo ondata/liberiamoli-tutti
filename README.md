@@ -18,6 +18,8 @@ Questo è uno spazio a supporto, dove verranno raccolti dati e le informazioni u
 - [Numero 7](https://open.substack.com/pub/datibenecomune/p/liberiamoli-tutti-numero-7?r=1wj20s&utm_campaign=post&utm_medium=web), alcuni dati sugli interventi Ecobonus (PNRR), più quelli sul Superbonus 110%.
 - [Numero 8](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-8), i dati sui sondaggi politici nazionali.
 - [Numero 9](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-9), i dati della ricostruzione pubblica e privata in Centro Italia della piattaforma GE.DI.SI.
+- [Numero 10](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-10), la serie storica dei dati su Omicidi volontari e violenza di genere.
+- [Numero 11](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-11), i dati sugli istituti penitenziari.
 
 ---
 
