@@ -20,7 +20,6 @@ L'elenco dei dati è il seguente:
 - [Stanze](#stanze)
 - [Personale](#personale)
 
-
 ### Anagrafica
 
 Il file è [`anagrafica.csv`](../data/anagrafica.csv) ed è quello con le principali informazioni anagrafiche.
@@ -46,9 +45,9 @@ Alcuni di questi **campi** sono **stati aggiunti**, per rendere i dati più **ut
 
 - `url`, con l'indirizzo web della pagina sorgente dei dati;
 - `data_aggiornamento`, con la data di ultimo aggiornamento dei dati;
-- `comune_istat`, con il codice ISTAT del comune in cui si trova l'istituto;
-- `comune`, con il nome del Comune in cui si trova l'istituto;
-- `cod_reg`, con il codice regionale ISTAT del Comune.
+- `comune_istat`, con il codice ISTAT del comune in cui si trova l'istituto. Ricavato a partire dalle coordinate geografiche presenti alla fonte;
+- `comune`, con il nome del Comune in cui si trova l'istituto. Estratto a partire da `comune_istat`;
+- `cod_reg`, con il codice regionale ISTAT del Comune. Estratto a partire da `comune_istat`.
 
 ### Capienza e presenze
 
