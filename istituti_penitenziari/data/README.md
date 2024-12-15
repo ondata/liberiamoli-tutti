@@ -18,12 +18,13 @@ La fonte sono le pagine web della [sezione "**Istituti penitenziari**"](https://
 
 L'elenco dei dati è il seguente:
 
-    - [Anagrafica](#anagrafica)
-    - [Capienza e presenze](#capienza-e-presenze)
-    - [Spazi d'incontro con i visitatori](#spazi-dincontro-con-i-visitatori)
-    - [Spazi comuni e impianti](#spazi-comuni-e-impianti)
-    - [Stanze](#stanze)
-    - [Personale](#personale)
+<!-- no toc -->
+- [Anagrafica](#anagrafica)
+- [Capienza e presenze](#capienza-e-presenze)
+- [Spazi d'incontro con i visitatori](#spazi-dincontro-con-i-visitatori)
+- [Spazi comuni e impianti](#spazi-comuni-e-impianti)
+- [Stanze](#stanze)
+- [Personale](#personale)
 
 
 ### Anagrafica
