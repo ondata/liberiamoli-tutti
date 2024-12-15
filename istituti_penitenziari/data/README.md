@@ -48,6 +48,14 @@ Il file è [`anagrafica.csv`](../data/anagrafica.csv) ed è quello con le princi
 | comune | string | Nome del comune in cui si trova l'istituto |
 | cod_reg | string | Codice regionale ISTAT del Comune |
 
+Alcuni di questi campi sono stati aggiunti, per rendere i dati più utilizzabili e verificabili. Si tratta di:
+
+- `url`, con l'indirizzo web della pagina sorgente dei dati;
+- `data_aggiornamento`, con la data di ultimo aggiornamento dei dati;
+- `comune_istat`, con il codice ISTAT del comune in cui si trova l'istituto;
+- `comune`, con il nome del Comune in cui si trova l'istituto;
+- `cod_reg`, con il codice regionale ISTAT del Comune.
+
 ### Capienza e presenze
 
 Il file è [`capienza_presenze.csv`](../data/capienza_presenze.csv) ed è composto dalle colonne descritte a seguire.
