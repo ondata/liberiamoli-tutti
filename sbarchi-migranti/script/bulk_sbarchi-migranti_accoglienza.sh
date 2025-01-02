@@ -112,3 +112,5 @@ mlrgo --csv join --ul -j Regione -f "$folder"/../dati/accoglienza.csv then unspa
 
 # Move final result to destination
 mv "$folder"/tmp/tmp-accoglienza.csv "$folder"/../dati/accoglienza.csv
+
+mlrgo -I --csv --from "$folder"/../dati/accoglienza.csv filter -x '$Data_Report=="2000-08-30"'
