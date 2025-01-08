@@ -1,4 +1,16 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1438,2025-01-08,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 29,1
+PARTITO DEMOCRATICO 22,5
+MOVIMENTO 5 STELLE 11,4
+FORZA ITALIA 9,4
+LEGA 8,6
+VERDI E SINISTRA 6,5
+AZIONE 3,3
+ITALIA VIVA 2,5
++EUROPA 2,1
+NOI MODERATI 1,1
+SUD CHIAMA NORD 1,0
+ALTRE LISTE 2,5","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for 'Altri' (other parties) are calculated by summing the percentages of parties not listed in the specified major parties, which in this case is 'Noi Moderati' (1.1%) and 'Sud Chiama Nord' (1.0%) and 'Altre Liste' (2.5%), totaling 4.6%.",1,11,SWG spa
 1437,2025-01-02,Ipsos Srl,Corriere della Sera,Scenario politico di fine anno 2024,"{""(stima % su dichiarazioni valide)"": {"""": """"}, ""FRATELLI D\u2019ITALIA"": {"""": ""27,6""}, ""PARTITO DEMOCRATICO"": {"""": ""22,5""}, ""MOVIMENTO 5 STELLE"": {"""": ""13,3""}, ""LEGA"": {"""": ""8,6""}, ""FORZA ITALIA"": {"""": ""8,1""}, ""ALLEANZA VERDI - SINISTRA"": {"""": ""6,0""}, ""+EUROPA"": {"""": ""2,3""}, ""ITALIA VIVA"": {"""": ""2,0""}, ""AZIONE"": {"""": ""2,0""}, ""NOI MODERATI"": {"""": ""1,0""}, ""SUD CHIAMA NORD (Cateno De Luca)"": {"""": ""1,0""}, ""ALTRE LISTE"": {"""": ""5,6""}, ""Totale"": {"""": ""100""}, ""(stima % su totale elettrici/elettori)"": {"""": """"}, ""indecisi/astensione/bianche/nulle"": {"""": ""43,5""}}","Se si votasse oggi, per quale lista voterebbe alla Camera dei Deputati?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Lega, Forza Italia, Alleanza Verdi - Sinistra, +Europa, Italia Viva, and Azione. It does not include any leader approval ratings or regional subsets, and it refers to nationwide voting intentions. The presence of 'ALTRE LISTE' indicates that there are other parties not specified, which will be summed up in the 'Altri' field. Therefore, this is a national voting intention poll.",1,11,Ipsos Srl
 1436,2024-12-24,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 29,1
 PARTITO DEMOCRATICO 22,2
