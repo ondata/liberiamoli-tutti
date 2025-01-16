@@ -114,3 +114,5 @@ mlrgo --csv join --ul -j Regione -f "$folder"/../dati/accoglienza.csv then unspa
 mv "$folder"/tmp/tmp-accoglienza.csv "$folder"/../dati/accoglienza.csv
 
 mlrgo -I --csv --from "$folder"/../dati/accoglienza.csv filter -x '$Data_Report=="2000-08-30"'
+
+mlr -I --csv uniq -a then sort -t Data_Report,Regione "$folder"/../dati/accoglienza.csv
