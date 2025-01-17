@@ -17,3 +17,4 @@ soldi_e_politica/dati/rawdata/*
 # istituti_penitenziari
 istituti_penitenziari/data/raw/*
 .aider*
+soldi_e_politica/script/*/*.csv
