@@ -1,6 +1,10 @@
 #!/bin/bash
 
-set -x
+# Abilita debug solo se non stiamo mostrando l'help
+if [[ "$1" != "-h" && "$1" != "--help" ]]; then
+    set -x
+fi
+
 set -e
 set -u
 set -o pipefail
@@ -45,17 +49,17 @@ show_help() {
     exit 1
 }
 
-# Verifica che sia stato passato un argomento (file PDF)
-if [ $# -eq 0 ]; then
+# Mostra help se richiesto o se non ci sono argomenti
+if [ $# -eq 0 ] || [[ "$1" == "-h" || "$1" == "--help" ]]; then
     show_help
 fi
 
-# Mostra help se richiesto
-if [[ "$1" == "-h" || "$1" == "--help" ]]; then
-    show_help
-fi
-
+# Verifica che il file esista
 pdf_file="$1"
+if [ ! -f "$pdf_file" ]; then
+    echo "Errore: il file '$pdf_file' non esiste o non è un file regolare" >&2
+    exit 1
+fi
 
 # Ottieni il numero totale di pagine
 total_pages=$(pdfinfo "$pdf_file" | grep 'Pages:' | awk '{print $2}')
