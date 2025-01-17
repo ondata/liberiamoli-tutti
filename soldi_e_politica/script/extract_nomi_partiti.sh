@@ -61,6 +61,24 @@ if [ ! -f "$pdf_file" ]; then
     exit 1
 fi
 
+# Crea directory di output se non esiste
+output_dir="$(dirname "$pdf_file")/output"
+mkdir -p "$output_dir"
+
+# Definisci file di output
+output_file="$output_dir/$(basename "$pdf_file" .pdf)_nomi_partiti.jsonl"
+
+# Verifica se il file esiste e chiedi conferma sovrascrittura
+if [ -f "$output_file" ]; then
+    echo "Attenzione: il file '$output_file' esiste già."
+    read -p "Vuoi sovrascriverlo? (s/n) " -n 1 -r
+    echo
+    if [[ ! $REPLY =~ ^[Ss]$ ]]; then
+        echo "Operazione annullata."
+        exit 0
+    fi
+fi
+
 # Ottieni il numero totale di pagine
 total_pages=$(pdfinfo "$pdf_file" | grep 'Pages:' | awk '{print $2}')
 
@@ -70,4 +88,6 @@ total_pages=$(pdfinfo "$pdf_file" | grep 'Pages:' | awk '{print $2}')
 # -j determina il numero di job paralleli (auto per rilevamento automatico)
 seq 1 "$total_pages" | \
     parallel --keep-order --line-buffer \
-    "process_page {} '$pdf_file'"
+    "process_page {} '$pdf_file'" > "$output_file"
+
+echo "Estrazione completata. Risultati salvati in: $output_file"
