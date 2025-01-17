@@ -35,8 +35,8 @@ export -f process_page  # Esporta la funzione per GNU Parallel
 show_help() {
     echo "Uso: $(basename "$0") FILE_PDF"
     echo
-    echo "Estrae i nomi dei partiti da un file PDF contenente dati finanziari politici."
-    echo "Il file PDF deve essere quello ufficiale del Ministero dell'Interno."
+    echo "Estrae i nomi dei partiti e la pagina da un file PDF contenente dati sull'erogazione ai partiti."
+    echo "Non è utilizzabile per tutti i file pubblicati allo scopo."
     echo
     echo "Argomenti:"
     echo "  FILE_PDF    Percorso al file PDF da elaborare"
