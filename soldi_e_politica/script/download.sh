@@ -15,5 +15,10 @@ curl -kL "https://parlamento18.camera.it/199" | scrape -be '.pdf' | xq -c '.html
 
 while read -r line; do
     url=$(echo "${line}" | jq -r '."@href"')
-    curl -L -o "${folder}"/../raw_data/$(basename "${base_url}${url}") "${base_url}${url}"
+    output_file="${folder}/../raw_data/$(basename "${base_url}${url}")"
+    if [ ! -f "$output_file" ]; then
+        curl -L -o "$output_file" "${base_url}${url}"
+    else
+        echo "File $output_file already exists, skipping download"
+    fi
 done < "${folder}"/../raw_data/lista.jsonl
