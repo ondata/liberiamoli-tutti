@@ -27,10 +27,32 @@ process_page() {
 }
 export -f process_page  # Esporta la funzione per GNU Parallel
 
+# Funzione per mostrare l'help
+show_help() {
+    echo "Uso: $(basename "$0") FILE_PDF"
+    echo
+    echo "Estrae i nomi dei partiti da un file PDF contenente dati finanziari politici."
+    echo "Il file PDF deve essere quello ufficiale del Ministero dell'Interno."
+    echo
+    echo "Argomenti:"
+    echo "  FILE_PDF    Percorso al file PDF da elaborare"
+    echo
+    echo "Esempio:"
+    echo "  $(basename "$0") ART_5_DL_149_2013_L_3_2019_fino_31072020_agg.07092023.pdf"
+    echo
+    echo "Output:"
+    echo "  JSON con pagina e testo estratto per ogni partito trovato"
+    exit 1
+}
+
 # Verifica che sia stato passato un argomento (file PDF)
 if [ $# -eq 0 ]; then
-    echo "Errore: specificare il file PDF da elaborare"
-    exit 1
+    show_help
+fi
+
+# Mostra help se richiesto
+if [[ "$1" == "-h" || "$1" == "--help" ]]; then
+    show_help
 fi
 
 pdf_file="$1"
