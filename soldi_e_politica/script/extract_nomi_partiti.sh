@@ -61,21 +61,27 @@ if [ ! -f "$pdf_file" ]; then
     exit 1
 fi
 
-# Crea directory di output se non esiste
-output_dir="$(dirname "$pdf_file")/output"
-mkdir -p "$output_dir"
-
-# Definisci file di output
-output_file="$output_dir/$(basename "$pdf_file" .pdf)_nomi_partiti.jsonl"
-
-# Verifica se il file esiste e chiedi conferma sovrascrittura
-if [ -f "$output_file" ]; then
-    echo "Attenzione: il file '$output_file' esiste già."
-    read -p "Vuoi sovrascriverlo? (s/n) " -n 1 -r
-    echo
-    if [[ ! $REPLY =~ ^[Ss]$ ]]; then
-        echo "Operazione annullata."
-        exit 0
+# Se l'output è reindirizzato a un file
+if [ -t 1 ]; then
+    echo "Attenzione: l'output verrà mostrato a schermo."
+    echo "Per salvare su file usa: $0 FILE_PDF > /percorso/file.jsonl"
+else
+    # Ottieni il percorso del file di output
+    output_file=$(readlink /proc/$$/fd/1)
+    
+    # Crea la directory se non esiste
+    output_dir=$(dirname "$output_file")
+    mkdir -p "$output_dir"
+    
+    # Verifica se il file esiste e chiedi conferma sovrascrittura
+    if [ -f "$output_file" ]; then
+        echo "Attenzione: il file '$output_file' esiste già." >&2
+        read -p "Vuoi sovrascriverlo? (s/n) " -n 1 -r >&2
+        echo >&2
+        if [[ ! $REPLY =~ ^[Ss]$ ]]; then
+            echo "Operazione annullata." >&2
+            exit 0
+        fi
     fi
 fi
 
@@ -88,6 +94,8 @@ total_pages=$(pdfinfo "$pdf_file" | grep 'Pages:' | awk '{print $2}')
 # -j determina il numero di job paralleli (auto per rilevamento automatico)
 seq 1 "$total_pages" | \
     parallel --keep-order --line-buffer \
-    "process_page {} '$pdf_file'" > "$output_file"
+    "process_page {} '$pdf_file'"
 
-echo "Estrazione completata. Risultati salvati in: $output_file"
+if [ ! -t 1 ]; then
+    echo "Estrazione completata. Risultati salvati in: $output_file" >&2
+fi
