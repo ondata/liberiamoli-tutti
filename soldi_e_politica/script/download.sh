@@ -9,6 +9,12 @@ folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 base_url="https://parlamento18.camera.it"
 
+# Verifica se il sito è raggiungibile
+if ! curl -s --head --fail "$base_url" >/dev/null; then
+    echo "Errore: il sito $base_url non è raggiungibile"
+    exit 1
+fi
+
 mkdir -p "${folder}"/../raw_data
 
 curl -kL "https://parlamento18.camera.it/199" | scrape -be '.pdf' | xq -c '.html.body.a[]' > "${folder}"/../raw_data/lista.jsonl
