@@ -52,6 +52,8 @@ seq 1 "$total_pages" | \
 
 echo "Elaborazione completata. Output salvato in $output_jsonl"
 
+exit 0
+
 mlr -S --csv --implicit-csv-header cut -x -f 1 then clean-whitespace then skip-trivial-records then cat -n then put '$p=FILENAME;if(is_not_null($7)){$valore=sub(regextract_or_else($7,"[0-9]+,*[0-9]*","alert"),",",".")}else{$valore=""}' then remove-empty-columns then sort -t p then put '$p=sub($p,"_tab.+","");$p=sub($p,".*o/","");$p=gsub($p,"^0+","")' then label n,data_erogazione,anno,data_trasmissione,soggetto_erogante,n_eroganti,importo,non_in_denaro,annotazioni,pagina ./o/*.csv >"$folder"/output/erogazioni_comunicate_dal_1_gennaio_2024.csv
 
 cp "$output_jsonl" "$folder"/output/partiti.jsonl
