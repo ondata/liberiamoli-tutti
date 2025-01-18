@@ -26,7 +26,7 @@ mlr -S --csv --implicit-csv-header cut -x -f 1 then clean-whitespace then skip-t
 
 mlr --ijsonl --ocsv cat "${folder}"/../raw_data/output/"${nome_output}"_nomi_partiti.jsonl >"${folder}"/../processing/nomi_partiti.csv
 
-mlr -S --csv join --ul -j pagina -f "${folder}"/../processing/tmp.csv then unsparsify then sort -t pagina,n then rename testo,partito then reorder -f partito "${folder}"/../processing/nomi_partiti.csv >"${folder}"/../output/"${nome_output}".csv
+mlr -S --csv join --ul -j pagina -f "${folder}"/../processing/tmp.csv then unsparsify then sort -t pagina,n then rename testo,partito "${folder}"/../processing/nomi_partiti.csv >"${folder}"/../output/"${nome_output}".csv
 
 rm "${folder}"/../processing/tmp.csv
 rm "${folder}"/../processing/nomi_partiti.csv
