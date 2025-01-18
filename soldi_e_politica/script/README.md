@@ -39,6 +39,22 @@ Come usarlo:
 Opzioni:
 - `-h` o `--help`: mostra l'aiuto sull'uso dello script
 
+### merge.sh
+
+Unisce i dati estratti dai CSV con i nomi dei partiti estratti dai PDF.
+
+Cosa fa:
+1. Prende in input una cartella contenente i file CSV
+2. Unisce i dati con i nomi dei partiti estratti
+3. Produce un file CSV finale con tutte le informazioni
+
+Come usarlo:
+```bash
+./merge.sh /path/to/input_folder
+```
+
+Il nome del file di output sarà basato sul nome della cartella di input.
+
 ## Dipendenze
 
 Gli script richiedono:
@@ -47,10 +63,11 @@ Gli script richiedono:
 - `pdf2txt` (da poppler-utils) per estrarre testo da PDF
 - `parallel` per l'elaborazione parallela
 - `pdfinfo` per ottenere informazioni sui PDF
+- `mlr` (Miller) per l'elaborazione di file CSV
 
 Per installare le dipendenze su Debian/Ubuntu:
 ```bash
-sudo apt install curl jq poppler-utils parallel
+sudo apt install curl jq poppler-utils parallel miller
 ```
 
 ## Note
