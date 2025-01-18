@@ -1,6 +1,7 @@
 tmp*
 delete/
 *Zone.Identifier
+.aider*
 
 # quarto
 _site/*
@@ -16,5 +17,6 @@ soldi_e_politica/dati/rawdata/*
 
 # istituti_penitenziari
 istituti_penitenziari/data/raw/*
-.aider*
-soldi_e_politica/script/*/*.csv
+
+# soldi e politica
+soldi_e_politica/processing/*/*.csv
