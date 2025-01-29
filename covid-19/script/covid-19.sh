@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# Script per scaricare e processare i dati COVID-19 dalle API di ArcGIS 
+# e convertirli in formato CSV per regioni e province italiane
+#
+# Requisiti:
+# - ogr2ogr (pacchetto gdal-bin)
+# - duckdb
+
+# Verifica presenza dei requisiti
+command -v ogr2ogr >/dev/null 2>&1 || { echo "Richiesto ogr2ogr ma non è installato. Installare il pacchetto gdal-bin."; exit 1; }
+command -v duckdb >/dev/null 2>&1 || { echo "Richiesto duckdb ma non è installato. Vedi https://duckdb.org/docs/installation/"; exit 1; }
+
 set -x
 set -e
 set -u
