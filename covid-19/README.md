@@ -8,3 +8,5 @@ Due i dataset, resi disponibili per come sono forniti dal Ministero della Salute
 
 - [`province.csv`](data/province.csv);
 - [`regioni.csv`](data/regioni.csv).
+
+Lo schema di questi dati della dashboard è diverso da quello del repository del Dipartimento della Protezione Civile.
