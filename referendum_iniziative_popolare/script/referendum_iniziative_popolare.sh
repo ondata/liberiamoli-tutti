@@ -12,10 +12,12 @@ mkdir -p "${folder}"/tmp
 
 # check if I have code 200 from 'https://pnri.firmereferendum.giustizia.it/referendum/api-portal/iniziativa/public'
 # if not, exit
-curl -s -o /dev/null -w "%{http_code}" https://pnri.firmereferendum.giustizia.it/referendum/api-portal/iniziativa/public | grep 200 || exit 1
+curl -s -o /dev/null -w "%{http_code}" https://firmereferendum.giustizia.it/referendum/api-portal/iniziativa/public | grep 200 || exit 1
+
+
 
 # download the json file
-curl -s https://pnri.firmereferendum.giustizia.it/referendum/api-portal/iniziativa/public >"${folder}"/../data/referendum_iniziative_popolare.json
+curl -s https://firmereferendum.giustizia.it/referendum/api-portal/iniziativa/public >"${folder}"/../data/referendum_iniziative_popolare.json
 
 <"${folder}"/../data/referendum_iniziative_popolare.json jq -c '.content[]' >"${folder}"/../data/referendum_iniziative_popolare.jsonl
 
