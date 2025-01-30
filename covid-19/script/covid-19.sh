@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script per scaricare e processare i dati COVID-19 dalle API di ArcGIS 
+# Script per scaricare e processare i dati COVID-19 dalle API di ArcGIS
 # e convertirli in formato CSV per regioni e province italiane
 #
 # Requisiti:
@@ -22,6 +22,9 @@ folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Crea le directory necessarie se non esistono
 mkdir -p "${folder}"/../data
 mkdir -p "${folder}"/tmp
+
+# svuota la cartella temporanea senza andare in errore se è già vuota
+rm -f "${folder}"/tmp/*
 
 # Scarica i dati regionali da ArcGIS e li salva in formato GeoPackage
 # Usa GDAL/OGR per convertire da ESRIJSON a GPKG
