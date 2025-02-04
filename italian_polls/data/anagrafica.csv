@@ -1,4 +1,41 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1452,2025-02-04,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 29,5
+PARTITO DEMOCRATICO 22,6
+MOVIMENTO 5 STELLE 11,8
+FORZA ITALIA 9,1
+LEGA 8,3
+VERDI E SINISTRA 6,5
+AZIONE 3,1
+ITALIA VIVA 2,9
++EUROPA 2,1
+NOI MODERATI 1,2
+ALTRE LISTE 2,9
+NON SI ESPRIME 30%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for 'Altri' (other parties) are calculated by summing the percentages of parties not listed, which includes 'Noi Moderati' and 'Altre Liste'. The total for 'Altri' is 4.1%.",1,10,SWG spa
+1451,2025-02-03,Termometro Politico,True Data,"Sondaggio su elezioni politiche, indagine Governo","Partiti %
+Fratelli d'Italia 29,8%
+PD 22,4%
+Movimento 5 Stelle 11,2%
+Forza Italia 8,5%
+Lega 8,5%
+Alleanza Verdi Sinistra 6,4%
+Azione 2,8%
+Italia Viva 2,3%
+Più Europa 2,0%
+Pace Terra Dignità 1,2%
+Democrazia Sovrana Popolare 1,2%
+Noi Moderati 1,1%
+Altri 2,6%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Forza Italia, Lega, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages provided sum up to 100% when including the 'Altri' category, which accounts for other minor parties. Therefore, this is a national poll.",1,11,Termometro Politico
+1450,2025-02-03,tecnè srl,agenzia dire,monitor italia,"Fratelli d’Italia 29,7%
+Partito Democratico 22,8%
+Forza Italia 11,4%
+Movimento 5 Stelle 10,7%
+Lega. 8,6%
+Verdi e Sinistra 5,9%
+Azione 2,7%
+Italia Viva 2,3%
++ Europa 1,9%
+Altri partiti 4%","IL BORSINO DEI PARTITI
+ASTENSIONE/INCERTI: 48,4% (- 0,2% rispetto alla settimana precedente)","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Forza Italia, Movimento 5 Stelle, Lega, Verdi e Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions and does not focus on leader approval ratings or specific demographics. Therefore, it qualifies as a national voting intention poll. The total percentage of 'Altri' is calculated as 4% from the text input, which includes all other parties not listed explicitly.",1,10,tecnè srl
 1449,2025-02-03,Ipsos Srl,Corriere della Sera,"Intenzioni di voto, gradimento Governo, gradimento leader","{""(stima % su dichiarazioni valide)"": {"""": """"}, ""FRATELLI D\u2019ITALIA"": {"""": ""27,8""}, ""PARTITO DEMOCRATICO"": {"""": ""22,8""}, ""MOVIMENTO 5 STELLE"": {"""": ""12,5""}, ""LEGA"": {"""": ""8,5""}, ""FORZA ITALIA"": {"""": ""8,5""}, ""ALLEANZA VERDI - SINISTRA"": {"""": ""5,8""}, ""ITALIA VIVA"": {"""": ""2,5""}, ""AZIONE"": {"""": ""2,0""}, ""+EUROPA"": {"""": ""2,0""}, ""NOI MODERATI"": {"""": ""1,0""}, ""SUD CHIAMA NORD (Cateno De Luca)"": {"""": ""1,0""}, ""altre liste"": {"""": ""5,6""}, ""Totale"": {"""": ""100""}, ""(stima % su totale elettrici/elettori)"": {"""": """"}, ""indecisi/astensione/bianche/nulle"": {"""": ""45,5""}}","Se si votasse oggi, per quale lista voterebbe alla Camera dei Deputati?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Lega, Forza Italia, Alleanza Verdi - Sinistra, Italia Viva, Azione, and +Europa. It does not include any leader approval ratings or regional subsets, and it refers to nationwide voting intentions. The 'altre liste' category can be summed up to include all other parties not listed, which is 5.6%. Therefore, this is a national voting intention poll.",1,11,Ipsos Srl
 1448,2025-01-29,Demopolis - Istituto di Ricerche,Otto e Mezzo (LA7),Il peso dei partiti nel Barometro Politico Demopolis,"FdI: 30%
 PD: 24%
