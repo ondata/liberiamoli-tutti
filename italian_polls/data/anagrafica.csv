@@ -1,4 +1,18 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1460,2025-02-24,Termometro Politico,True Data,"Sondaggio su elezioni politiche, trattative Ucraina","Partiti %
+Fratelli d'Italia 29,5%
+PD 22,3%
+Movimento 5 Stelle 11,4%
+Forza Italia 8,7%
+Lega 8,6%
+Alleanza Verdi Sinistra 6,3%
+Azione 2,8%
+Italia Viva 2,4%
+Più Europa 2,0%
+Democrazia Sovrana Popolare 1,3%
+Pace Terra Dignità 1,2%
+Noi Moderati 1,2%
+Altri 2,3%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Forza Italia, Lega, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for the listed parties sum up to 100% when considering the 'Altri' category, which includes all other parties not specified. Therefore, this is a national poll.",1,11,Termometro Politico
 1459,2025-02-21,tecnè srl,agenzia dire,monitor italia,"Fratelli d’Italia 29,6%
 Partito Democratico 22,5%
 Forza Italia 11,4%
