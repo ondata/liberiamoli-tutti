@@ -1,4 +1,16 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1468,2025-03-11,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 30,2
+PARTITO DEMOCRATICO 22,4
+MOVIMENTO 5 STELLE 12,4
+FORZA ITALIA 9,2
+LEGA 8,0
+VERDI E SINISTRA 6,3
+AZIONE 3,5
+ITALIA VIVA 2,4
++EUROPA 2,0
+NOI MODERATI 1,0
+ALTRE LISTE 2,6
+NON SI ESPRIME 32%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for 'Altri' (other parties) are calculated by summing the percentages of parties not listed in the specified major parties, which includes 'NOI MODERATI' and 'ALTRE LISTE'.",1,10,SWG spa
 1467,2025-03-07,Tecnè Srl,agenzia dire,monitor italia,"fdi 29,8%
 pd 22,4%
 m5s 11,3%
