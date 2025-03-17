@@ -37,18 +37,23 @@ if [[ $estrai_dati == "sì" ]]; then
     anno=$(echo "$data" | awk -F- '{print $1}')
     mese=$(echo "$data" | awk -F- '{print $2}')
 
-    # Process PDF only if data hasn't been extracted yet
-    if [ ! -f "$folder"/../rawdata/csv/accoglienza/"$nome"-accoglienza.csv ]; then
-      # Find page containing "spot" keyword
-      pagina=$(pdfgrep -n "spot" "$folder"/../../"$progetto"/rawdata/pdf/"$file" | awk -F: '{print $1}' | sort | uniq)
+    # se il file è "$folder"/../../"$progetto"/rawdata/pdf/cruscotto_statistico_giornaliero_28-02-2022_1.pdf skip e continue
+    if [[ $file =~ cruscotto_statistico_giornaliero_28-02-2022_1.pdf ]]; then
+      echo "skip"
+      # Process PDF only if data hasn't been extracted yet
+      if [ ! -f "$folder"/../rawdata/csv/accoglienza/"$nome"-accoglienza.csv ]; then
+        # Find page containing "spot" keyword
+        pagina=$(pdfgrep -n "spot" "$folder"/../../"$progetto"/rawdata/pdf/"$file" | awk -F: '{print $1}' | sort | uniq)
 
-      # Process only if page number is valid
-      if [[ $pagina =~ ^[0-9]+$ ]]; then
-        echo "$file is a number"
-        python3 "$folder"/tabelle-accoglienza.py "$folder"/../../"$progetto"/rawdata/pdf/"$file" "$pagina"
-      else
-        echo "$file is not a number"
+        # Process only if page number is valid
+        if [[ $pagina =~ ^[0-9]+$ ]]; then
+          echo "$file is a number"
+          python3 "$folder"/tabelle-accoglienza.py "$folder"/../../"$progetto"/rawdata/pdf/"$file" "$pagina"
+        else
+          echo "$file is not a number"
+        fi
       fi
+      continue
     fi
 
   done <"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
@@ -66,7 +71,7 @@ for file in "$folder"/tmp/accoglienza/*-accoglienza.csv; do
 
   # Clean and format CSV data
   mlrgo -S --csv --implicit-csv-header --headerless-csv-output filter '$4=~"^[^U]"' then put '$f=FILENAME;for (k in $*) {$[k] = gsub($[k], "[*]", "")}' then clean-whitespace then remove-empty-columns then skip-trivial-records "$file" >"$folder"/../rawdata/csv/accoglienza/"$nome".csv
-  mlrgo -I -S --csv rename -r ".+crus.+","file" then put '$file=sub($file,".+/","")' then rename -r "Immigrati","Migranti" then rename -r "immigrati","migranti"  then rename -r "hotspot","hot spot" "$folder"/../rawdata/csv/accoglienza/"$nome".csv
+  mlrgo -I -S --csv rename -r ".+crus.+","file" then put '$file=sub($file,".+/","")' then rename -r "Immigrati","Migranti" then rename -r "immigrati","migranti" then rename -r "hotspot","hot spot" "$folder"/../rawdata/csv/accoglienza/"$nome".csv
 
   # Fix specific data issues for certain dates
   if [[ "$file" =~ cruscotto_statistico_giornaliero_31-12-2020_1-accoglienza.csv ]]; then
