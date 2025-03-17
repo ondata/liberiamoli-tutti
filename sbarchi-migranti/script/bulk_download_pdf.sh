@@ -19,7 +19,7 @@ URL="http://www.libertaciviliimmigrazione.dlci.interno.gov.it/it/documentazione/
 curl -kL -s -f -o /dev/null "$URL" || exit 0
 
 # estrai la lista dei file pdf presenti nella pagina
-curl -kL "$URL" | scrape -be "//div[contains(@class, 'field-item')]//a[contains(@href, '.pdf')]" | xq -c '.html.body.a[]' | tail -n +1 >"$folder"/data/cruscotto-statistico-giornaliero_lista_raw.jsonl
+curl -kL "$URL" | scrape -be "//div[contains(@class, 'field-item')]//a[contains(@href, '.pdf')]" | xq -c '.html.body.a[]' | tail -n +2 >"$folder"/data/cruscotto-statistico-giornaliero_lista_raw.jsonl
 
 # aggiungi la data di pubblicazione del report, in formato YYYY-MM-DD. Se non è presente, usa la data di default 30-08-2000
 # rimuovi file pdf del giorno, mantieni soltanto i quindicinali
