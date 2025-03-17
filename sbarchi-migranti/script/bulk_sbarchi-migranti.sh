@@ -99,4 +99,4 @@ mlr --csv join --ul --np -j anno,mese,count -f "$folder"/tmp/tmp_all.csv then un
 find "$folder"/data -type f -name '*sbarcati_per_giorno.csv' -exec mv {} "$folder"/../../"$progetto"/rawdata/csv/sbarcati-per-giorno/ \;
 
 # fai il merge dei dati
-mlrgo --csv sort -f Data_Report,Data "$folder"/../../"$progetto"/rawdata/csv/sbarcati-per-giorno/*.csv >"$folder"/../dati/sbarchi-per-giorno.csv
+mlrgo --csv uniq -a then sort -f Data_Report,Data "$folder"/../../"$progetto"/rawdata/csv/sbarcati-per-giorno/*.csv >"$folder"/../dati/sbarchi-per-giorno.csv
