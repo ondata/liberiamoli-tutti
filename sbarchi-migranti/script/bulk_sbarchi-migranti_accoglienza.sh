@@ -121,3 +121,7 @@ mv "$folder"/tmp/tmp-accoglienza.csv "$folder"/../dati/accoglienza.csv
 mlrgo -I --csv --from "$folder"/../dati/accoglienza.csv filter -x '$Data_Report=="2000-08-30"'
 
 mlr -I --csv uniq -a then sort -t Data_Report,Regione "$folder"/../dati/accoglienza.csv
+
+# cancella con sed la riga che contiene  "Trentino-Alto Adige,2022-02-28,920,18" lungo tutta la riga
+sed -i '/Trentino-Alto Adige,2022-02-28,920,18/d' "$folder"/../dati/accoglienza.csv
+sed -i "/Valle d'Aosta,2022-02-28,28,23,,51/d" "$folder"/../dati/accoglienza.csv
