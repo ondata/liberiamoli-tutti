@@ -21,7 +21,7 @@ mkdir -p "$folder"/data
 # Filter the list of PDF files containing daily landing data since 15/10/2019
 # Remove the report from 15/07/2021 (damaged PDF)
 # Keep only bi-weekly reports
-mlrgo --jsonl filter '$data>"2019-09-16"' then filter -x '$data=="2021-07-15"' then sort -f data "$folder"/data/cruscotto-statistico-giornaliero_lista.jsonl | head -n -0 >"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
+mlrgo --jsonl filter '$data>"2019-09-16"' then filter -x '$data=="2021-07-15"' then sort -f data then filter -x '${@href}=~".+cruscotto_statistico_giornaliero_28-02-2022_1.pdf"' "$folder"/data/cruscotto-statistico-giornaliero_lista.jsonl | head -n -0 >"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
 
 # Flag to control data extraction
 estrai_dati="sì"
