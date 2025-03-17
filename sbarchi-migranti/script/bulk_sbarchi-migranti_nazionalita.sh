@@ -73,4 +73,7 @@ mv "$folder"/../dati/tmp.csv "$folder"/../dati/nazionalita.csv
 
 mlrgo -I --csv rename Nation,Nazione "$folder"/../dati/nazionalita.csv
 
+# rimuovi le righe del 2025-03-17
+mlr -I --csv filter -x '$Data_Report=="2025-03-17"' "$folder"/../dati/nazionalita.csv
+
 mlr -I --csv uniq -a then sort -t Data_Report,Nazione "$folder"/../dati/nazionalita.csv
