@@ -1,4 +1,43 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1471,2025-03-16,Termometro Politico,True Data,"Sondaggio su elezioni politiche, Zelensky","Partiti %
+Fratelli d'Italia 29,3%
+PD 22,3%
+Movimento 5 Stelle 11,5%
+Lega 8,8%
+Forza Italia 8,7%
+Alleanza Verdi Sinistra 6,2%
+Azione 3,0%
+Italia Viva 2,4%
+Più Europa 1,9%
+Democrazia Sovrana Popolare 1,3%
+Pace Terra Dignità 1,2%
+Noi Moderati 1,2%
+Altri 2,2%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Lega, Forza Italia, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for the listed parties sum up to 100% when considering the 'Altri' category, which includes all other parties not specified. Therefore, this is a national poll.",1,11,Termometro Politico
+1470,2025-03-14,tecnè srl,RTI,intenzioni di voto,"fdi 29,8%
+pd 22,4%
+fi 11,6%
+m5s 11,4%
+lega 8%
+verdi e si 6,2%
+azione 2,7%
+iv 2,3%
++eu 1,9%
+altri 3,7%","Se si votasse oggi per le politiche
+Astensione e incerti 48,9% 
+Rispondenti=100%","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Forza Italia, Movimento 5 Stelle, Lega, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for the parties sum up to 100% when considering the 'Altri' category, which includes all other parties not listed. Therefore, this is a national poll.",1,10,tecnè srl
+1469,2025-03-14,tecnè srl,agenzia dire,monitor italia,"Fratelli d’Italia 29,9%
+Partito Democratico 22,2%
+Forza Italia 11,5%
+Movimento 5 Stelle 11,4%
+Lega 8%
+Verdi e Sinistra 6,2%
+Azione 2,8%
+Italia Viva 2,2%
++ Europa 2%
+Altri partiti 3,8%","IL BORSINO DEI PARTITI
+ASTENSIONE/INCERTI: 49,2% (- 0,6% rispetto alla settimana precedente)
+
+(rispondenti=100%)","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Forza Italia, Movimento 5 Stelle, Lega, Verdi e Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions and does not focus on leader approval ratings or specific demographics. Therefore, it qualifies as a national voting intention poll. The total percentage of 'Altri' is calculated as 3.8%.",1,10,tecnè srl
 1468,2025-03-11,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 30,2
 PARTITO DEMOCRATICO 22,4
 MOVIMENTO 5 STELLE 12,4
