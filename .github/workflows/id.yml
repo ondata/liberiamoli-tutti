@@ -1,4 +1,4 @@
-name: Chromium headless test
+name: Chromium headless and commit
 
 on:
   workflow_dispatch:
@@ -8,8 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout (anche se non serve)
+      - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
 
       - name: Install Google Chrome
         run: |
@@ -27,8 +29,10 @@ jobs:
             --dump-dom "https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc" \
             > test/pagina.html
 
-      - name: Upload HTML
-        uses: actions/upload-artifact@v4
-        with:
-          name: pagina
-          path: test/pagina.html
+      - name: Commit and push file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add test/pagina.html
+          git commit -m "Add HTML snapshot from chromium headless"
+          git push origin HEAD:main
