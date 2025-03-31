@@ -18,14 +18,17 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
 
+      - name: Create test directory
+        run: mkdir -p test
+
       - name: Fetch HTML headless
         run: |
           google-chrome-stable --headless --disable-gpu \
             --dump-dom "https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc" \
-            > pagina.html
+            > test/pagina.html
 
       - name: Upload HTML
         uses: actions/upload-artifact@v4
         with:
           name: pagina
-          path: pagina.html
+          path: test/pagina.html
