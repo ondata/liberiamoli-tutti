@@ -1,4 +1,4 @@
-name: Chromium headless and commit
+name: Chromium headless e commit
 
 on:
   workflow_dispatch:
@@ -13,26 +13,36 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Install Google Chrome
+      - name: Installa Google Chrome
         run: |
           wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
           sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list'
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
 
-      - name: Create test directory
+      - name: Crea cartella test/
         run: mkdir -p test
 
-      - name: Fetch HTML headless
+      - name: Scarica HTML camuffando l'user-agent
         run: |
           google-chrome-stable --headless --disable-gpu \
+            --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
             --dump-dom "https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data.html?orderby=%40jcr%3Acontent%2FobservationDateInEvidence&sort=desc" \
             > test/pagina.html
 
-      - name: Commit and push file
+      - name: Mostra le prime 20 righe (debug)
+        run: head -n 20 test/pagina.html
+
+      - name: Commit e push nel repo
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add test/pagina.html
-          git commit -m "Add HTML snapshot from chromium headless"
+          git commit -m "Snapshot HTML con Chromium headless e user-agent spoofato" || echo "Nessuna modifica da committare"
           git push origin HEAD:main
+
+      - name: Upload HTML come artefatto
+        uses: actions/upload-artifact@v4
+        with:
+          name: pagina
+          path: test/pagina.html
