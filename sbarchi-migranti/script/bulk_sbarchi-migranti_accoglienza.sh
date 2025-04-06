@@ -21,7 +21,7 @@ mkdir -p "$folder"/data
 # Filter the list of PDF files containing daily landing data since 15/10/2019
 # Remove the report from 15/07/2021 (damaged PDF)
 # Keep only bi-weekly reports
-mlrgo --jsonl filter '$data>"2019-09-16"' then filter -x '$data=="2021-07-15"' then sort -f data then filter -x '${@href}=~".+cruscotto_statistico_giornaliero_28-02-2022_1.pdf"' "$folder"/data/cruscotto-statistico-giornaliero_lista.jsonl | head -n -0 >"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
+mlrgo --jsonl filter '$data>"2019-09-16"' then filter -x '$data=="2021-07-15"' then sort -f data "$folder"/data/cruscotto-statistico-giornaliero_lista.jsonl | head -n -0 >"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
 
 # Flag to control data extraction
 estrai_dati="sì"
@@ -37,23 +37,18 @@ if [[ $estrai_dati == "sì" ]]; then
     anno=$(echo "$data" | awk -F- '{print $1}')
     mese=$(echo "$data" | awk -F- '{print $2}')
 
-    # se il file è "$folder"/../../"$progetto"/rawdata/pdf/cruscotto_statistico_giornaliero_28-02-2022_1.pdf skip e continue
-    if [[ $file =~ cruscotto_statistico_giornaliero_28-02-2022_1.pdf ]]; then
-      echo "skip"
-      # Process PDF only if data hasn't been extracted yet
-      if [ ! -f "$folder"/../rawdata/csv/accoglienza/"$nome"-accoglienza.csv ]; then
-        # Find page containing "spot" keyword
-        pagina=$(pdfgrep -n "spot" "$folder"/../../"$progetto"/rawdata/pdf/"$file" | awk -F: '{print $1}' | sort | uniq)
+    # Process PDF only if data hasn't been extracted yet
+    if [ ! -f "$folder"/../rawdata/csv/accoglienza/"$nome"-accoglienza.csv ]; then
+      # Find page containing "spot" keyword
+      pagina=$(pdfgrep -n "spot" "$folder"/../../"$progetto"/rawdata/pdf/"$file" | awk -F: '{print $1}' | sort | uniq)
 
-        # Process only if page number is valid
-        if [[ $pagina =~ ^[0-9]+$ ]]; then
-          echo "$file is a number"
-          python3 "$folder"/tabelle-accoglienza.py "$folder"/../../"$progetto"/rawdata/pdf/"$file" "$pagina"
-        else
-          echo "$file is not a number"
-        fi
+      # Process only if page number is valid
+      if [[ $pagina =~ ^[0-9]+$ ]]; then
+        echo "$file is a number"
+        python3 "$folder"/tabelle-accoglienza.py "$folder"/../../"$progetto"/rawdata/pdf/"$file" "$pagina"
+      else
+        echo "$file is not a number"
       fi
-      continue
     fi
 
   done <"$folder"/data/cruscotto-statistico-giornaliero_lista_dati_giornalieri.jsonl
@@ -121,7 +116,3 @@ mv "$folder"/tmp/tmp-accoglienza.csv "$folder"/../dati/accoglienza.csv
 mlrgo -I --csv --from "$folder"/../dati/accoglienza.csv filter -x '$Data_Report=="2000-08-30"'
 
 mlr -I --csv uniq -a then sort -t Data_Report,Regione "$folder"/../dati/accoglienza.csv
-
-# cancella con sed la riga che contiene  "Trentino-Alto Adige,2022-02-28,920,18" lungo tutta la riga
-sed -i '/Trentino-Alto Adige,2022-02-28,920,18/d' "$folder"/../dati/accoglienza.csv
-sed -i "/Valle d'Aosta,2022-02-28,28,23,,51/d" "$folder"/../dati/accoglienza.csv
