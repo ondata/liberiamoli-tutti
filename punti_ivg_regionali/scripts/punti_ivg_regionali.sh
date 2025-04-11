@@ -26,7 +26,7 @@ curl -skL "${URL}" | scrape -be ".w-100" | xq -c '.html.body.a[]' | while read -
 
   # estrai il nome del file
   nome=$(basename "$link")
-  curl -skL "${URL_base}${link}" | vd -f html +:table_0:: -b --save-filetype json -o - | mlr -S --ijson --ojsonl clean-whitespace then label struttura,n_totale_ivg,n_ivg_farmacologiche,perc_ivg_farmacologiche,perc_ivg_leq_8_sett,perc_ivg_9_10_sett,perc_ivg_11_12_sett,perc_certificazione_consultorio >> "$folder"/../data/punti_ivg_regionali.jsonl
+  curl -skL "${URL_base}${link}" | vd -f html +:table_0:: -b --save-filetype json -o - | mlr -S --ijson --ojsonl clean-whitespace then label struttura,n_totale_ivg,n_ivg_farmacologiche,perc_ivg_farmacologiche,perc_ivg_leq_8_sett,perc_ivg_9_10_sett,perc_ivg_11_12_sett,perc_certificazione_consultorio then put '$territorio="'"${regione}"'"' >> "$folder"/../data/punti_ivg_regionali.jsonl
 done
 
 # nei numeri rimuovi la "," e metti un . con sed
