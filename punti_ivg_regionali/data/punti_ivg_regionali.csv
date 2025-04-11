@@ -1,0 +1,348 @@
+struttura,n_totale_ivg,n_ivg_farmacologiche,perc_ivg_farmacologiche,perc_ivg_leq_8_sett,perc_ivg_9_10_sett,perc_ivg_11_12_sett,perc_certificazione_consultorio,% certificazione consultorio
+"P.O.SAN SALVATORE L'AQUILA VIA VETOIO COPPITO, 67100 L'AQUILA AQ",https://sanita.regione.abruzzo.it/canale-ospedali/ospedale-dellaquila,85,41,48.2,57.3,24.4,11.0,69.4
+"PO AVEZZANO 'S. FILIPPO E NICOLA ' VIA G. DI VITTORIO, 67051 AVEZZANO AQ",https://sanita.regione.abruzzo.it/canale-ospedali/ospedale-di-avezzano,186,141,75.8,68.9,15.6,7.8,34.1
+"OSPEDALE MAZZINI PIAZZA ITALIA, 64100 TERAMO TE",https://sanita.regione.abruzzo.it/canale-assistenza-territoriale/consultori/ospedale-di-teramo,413,345,83.5,77.0,12.1,7.0,74.5
+"P.O. 'SPIRITO SANTO' PESCARA via Paolini 47, 65124 PESCARA PE",https://sanita.regione.abruzzo.it/canale-ospedali/ospedale-di-pescara,36,20,55.6,11.1,0.0,0.0,2.8
+"P.O. S. MASSIMO di PENNE VIA BATTAGLIONE DEGLI ALPINI 1, 65017 PENNE PE",https://sanita.regione.abruzzo.it/canale-ospedali/ospedale-di-penne,347,0,0.0,76.1,18.4,5.5,23.8
+"P.O. CLINICIZZ. 'SS. ANNUNZIATA' CHIETI VIA DEI VESTINI, 66100 CHIETI CH",https://sanita.regione.abruzzo.it/canale-assistenza-territoriale/consultori/ospedale-di-chieti,5,0,0.0,0.0,20.0,0.0,0.0
+"P.O. VASTO 'SAN PIO DA PIETRELCINA' Via S.Camillo de Lellis, 66054 VASTO CH",https://sanita.regione.abruzzo.it/canale-assistenza-territoriale/consultori/ospedale-di-vasto,104,74,71.2,81.0,11.0,7.0,24.3
+"PRESIDIO OSPEDALIERO MATERA C.DA CATTEDRA AMBULANTE, 75100 MATERA MT",https://www.asmbasilicata.it/servizi/Menu/dinamica.aspx?idSezione=616&idArea=17679&idCat=17684&ID=23970&TipoElemento=pagina,80,64,80.0,57.5,15.0,2.5,0.0
+"Ospedale San Carlo di Potenza Via Potito Petrone  snc, 85100 POTENZA PZ",https://www.ospedalesancarlo.it/dipartimenti/dipartimento-materno-infantile/ostetricia-e-ginecologia/ginecologia,246,172,70.5,67.7,11.5,11.1,17.9
+"Ospedale S.Giovanni di Dio - Melfi Via Foggia, 85025 MELFI PZ",https://www.ospedalesancarlo.it/chi_siamo/presidio-ospedaliero-di-melfi,47,45,95.7,97.9,0.0,0.0,12.8
+"Osp S.Pio da Pietrelcina di Villa D'Agri Via San Pio s.n.c., 85050 MARSICOVETERE PZ",https://www.ospedalesancarlo.it/per-i-pazienti,18,16,88.9,100.0,0.0,0.0,27.8
+"Ospedale S.Giovanni di Lagonegro Viale Colombo, 85042 LAGONEGRO PZ",https://www.ospedalesancarlo.it/chi_siamo/presidio-ospedaliero-di-lagonegro/ostetricia-e-ginecologia,27,23,85.2,75.0,25.0,0.0,18.5
+"OSPEDALE CIVILE FERRARI - CASTROVILLARI VIALE DEL LAVORO, 87012 CASTROVILLARI CS",https://www.asp.cosenza.it/trasparente/?p=ginecologia-ospedale-castrovillari,150,99,66.4,90.5,7.5,0.7,46.0
+"OSPEDALE CORIGLIANO VIALE RIMEMBRANZE, 87064 CORIGLIANO-ROSSANO CS",https://www.asp.cosenza.it/?p=stabilimento-ospedaliero-corigliano,34,27,79.4,90.5,4.8,4.8,35.3
+"OSPEDALE CIVILE SAN GIOVANNI DI DIO VIA BOLOGNA, 88900 CROTONE KR",https://www.asp.crotone.it/dipartimento-interaziendale-materno-infantile/?_gl=1*5865ee*_up*MQ..*_ga*MjA3MzI1MTA3Ni4xNzQyODI3NTcz*_ga_RXE380SZRN*MTc0MjgyNzU3Mi4xLjEuMTc0MjgyNzYxOS4wLjAuMA..,120,87,72.5,73.1,20.2,2.5,53.3
+"PO LAMEZIA TERME VIA ARTURO PERUGINI 1, 88046 LAMEZIA TERME CZ",https://www.asp.cz.it/presidi-ospedalieri/presidio-ospedaliero-lamezia-terme/ostetricia-e-ginecologia/,214,182,85.0,79.1,10.4,8.5,42.1
+"P.O. JAZZOLINO PIAZZA FLEMING, 89900 VIBO VALENTIA VV",https://www.aspvv.it/index.php/servizi-sanitari/ospedali/vibo-valentia/ostetricia-e-ginecologia,73,66,90.4,88.1,3.4,1.7,9.6
+"OSPEDALE BASSO IONIO VIA DON CARLO DE CARDONA, 88068 SOVERATO CZ",https://www.asp.cz.it/presidi-ospedalieri/il-presidio-ospedaliero-di-soverato/uoc-ostetricia-e-ginecologia/,111,106,95.5,95.5,1.8,0.0,42.3
+"PRESIDIO OSPEDALIERO ANNUNZIATA VIA FELICE MIGLIORI, 87100 COSENZA CS",https://www.asp.cosenza.it/?p=ostetricia-ginecologia-attivita,300,207,69.5,68.1,23.9,8.0,81.8
+"Ospedale Pugliese via Pio X, 88100 CATANZARO CZ",#ERR,312,199,66.6,64.4,15.1,12.2,22.1
+"Presidio Ospedaliero Riuniti VIA GIUSEPPE MELACRINO 21, 89124 REGGIO DI CALABRIA RC",https://www.gomrc.it/reparto/ostetricia-e-ginecologia/,247,228,92.7,79.7,8.4,5.9,47.9
+"PRESIDIO OSPEDALIERO S.G.MOSCATI AVERSA VIA GRAMSCI, 81031 AVERSA CE",https://www.aslcaserta.it/index.php/ostetricia-e-ginecologia/,149,88,59.1,75.2,10.7,8.7,53.7
+"CLINICA SANT`ANNA VIA ROMA 124, 81100 CASERTA CE",https://clinicasannasrl.it/ambulatorio-ssn-ginecologia/,797,169,21.2,62.2,25.8,11.9,12.9
+"OSPEDALE CIVILE S. GIOVANNI DI DIO VIA PIROZZI 66, 80027 FRATTAMAGGIORE NA",https://www.aslnapoli2nord.it/punto_contatto/ginecologia-ed-ostetricia-u-o-del-p-o-san-giovanni-di-dio-di-frattamaggiore/,182,155,85.2,84.6,12.6,2.7,53.8
+"OSPEDALE SAN GIULIANO VIA G.B. BASILE, 80014 GIUGLIANO IN CAMPANIA NA",https://www.aslnapoli2nord.it/strutture/luoghi/san-giuliano-giugliano-presidio-ospedaliero/,732,605,82.7,83.3,5.8,3.6,60.9
+"P.O.S.MARIA DELLA SPERANZA BATTIPAGLIA VIA FIORIGNANO, 84091 BATTIPAGLIA SA",https://aslsalerno.etrasparenza.it/archivio13_strutture_0_16728.html,73,0,0.0,11.0,86.3,2.7,82.2
+"P.O. S.LUCA VALLO DELLA LUCANIA VIA F. CAMMAROTA, 84078 VALLO DELLA LUCANIA SA",https://aslsalerno.etrasparenza.it/archivio13_strutture_0_16978.html,68,0,0.0,58.8,29.4,11.8,38.2
+"OSPEDALE S.M.DELLE GRAZIE VIA DOMITIANA LOCALITA` LA SCHIANA, 80078 POZZUOLI NA",https://www.aslnapoli2nord.it/punto_contatto/presidio-ospedaliero-di-pozzuoli-ginecologia/,196,158,80.6,76.5,11.2,9.7,81.1
+"P.O. DE LUCA E ROSSANO VIA CACCIOPPOLI, 80069 VICO EQUENSE NA",https://www.aslnapoli3sud.it/ospedale-di-vico-equense/ostetricia-ginecologia,327,93,28.4,47.2,50.3,2.5,99.4
+"PRESIDIO OSPEDALIERO MARCIANISE RIONE SANTELLA VIA ORTO DELL'ABATE, 81025 MARCIANISE CE",https://www.aslcaserta.it/index.php/p-o-marcianise/,53,0,0.0,43.4,52.8,3.8,1.9
+"P.O. OSPEDALE DEL MARE VIA ENRICO RUSSO, 80147 NAPOLI NA",https://www.aslnapoli1centro.it/u.o.c.-ginecologia-e-ostetricia,292,257,88.0,83.2,11.6,4.1,89.0
+"P.O. SAN PAOLO VIA TERRACINA 219, 80125 NAPOLI NA",https://www.aslnapoli1centro.it/it/ostetricia-spaolo,532,50,9.4,68.8,19.0,7.3,0.0
+"AZIENDA OSPEDALIERA 'A. CARDARELLI' VIA A.CARDARELLI 9, 80131 NAPOLI NA",https://www.ospedalecardarelli.it/home/dipartimenti/organigramma/dipartimento-di-chirurgia-generale-e-della-salute-della-donna/u-o-c-ostetricia-e-ginecologia/,171,108,63.2,67.8,19.3,5.3,7.1
+"A.O. OO.RR. SANGIOVANNI DI DIO E RUGGI S. LEONARDO, 84131 SALERNO SA",https://www.sangiovannieruggi.it/,385,145,37.8,50.6,31.4,11.2,49.6
+"AZIENDA OSPEDALIERA S. G. MOSCATI C.da Amoretta, 83100 AVELLINO AV",https://www.aornmoscati.it/dipartimenti/materno-infantile/ostetricia-e-ginecologia,734,447,60.9,74.4,14.2,6.8,39.5
+"PRESIDIO OSPEDALIERO RUMMO Via Pacevecchia 53, 82100 BENEVENTO BN",https://aosanpio.it/dipartimento/materno-infantile/ostetricia-e-ginecologia/,176,13,7.4,55.7,29.0,2.8,0.0
+"A.O. SANT'ANNA E SAN SEBASTIANO CASERTA VIA PALASCIANO, 81100 CASERTA CE",https://ospedale.caserta.it/index.html,114,8,7.0,43.9,38.6,10.5,3.5
+"AZIENDA OSPEDALIERA UNIVERSITARIA UNICAM VIA COSTANTINOPOLI 104, 80138 NAPOLI NA",https://www.policliniconapoli.it/dipartimenti/dettaglio,251,115,46.0,61.0,26.7,9.6,5.6
+"A.O.U. 'FEDERICO II' DI NAPOLI VIA SERGIO PANSINI 5, 80100 NAPOLI NA",https://www.policlinico.unina.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/1,813,423,52.1,48.7,19.4,12.5,1.4
+"OSPEDALE GUGLIELMO DA SALICETO PIACENZA VIA TAVERNA 49, 29100 PIACENZA PC",https://www.ausl.pc.it/it/strutture-e-territorio/dipartimenti/salute-donna-infanzia-e-adolescenza/ginecologia,191,166,86.9,89.5,6.8,2.1,96.3
+"OSPEDALE CASTEL SAN GIOVANNI VIALE 2 GIUGNO, 29015 CASTEL SAN GIOVANNI PC",https://www.ausl.pc.it/it/strutture-e-territorio/dipartimenti/salute-donna-infanzia-e-adolescenza/ginecologia,145,0,0.0,62.8,26.9,10.3,95.9
+"OSPEDALE FIDENZA VIA DON TINCATI 5, 43036 FIDENZA PR",https://www.ausl.pr.it/dove_curarsi/dipartimento_chirurgico/unita-operativa-ostetricia-ginecologia.aspx,223,155,69.5,73.5,12.6,11.7,71.3
+"OSPEDALE E.FRANCHINI MONTECCHIO STRADA BARILLA 16, 42027 MONTECCHIO EMILIA RE",https://www.ausl.re.it/WsDocuments/Ostetricia_Montecchio_2019.pdf,100,87,87.0,90.0,6.0,4.0,92.0
+"OSPEDALE S.ANNA CASTELNOVO NE MONTI VIA ROMA 2, 42035 CASTELNOVO NE'MONTI RE",https://www.ausl.re.it/auslre/Reparto.jsp?id=878,18,18,100.0,100.0,0.0,0.0,94.4
+"ARCISPEDALE SANTA MARIA NUOVA DI REGGIO VIALE RISORGIMENTO 80, 42100 REGGIO NELL'EMILIA RE",https://www.ausl.re.it/Sezione.jsp?idSezione=28816,537,433,80.8,79.1,6.7,7.4,73.9
+"OSPEDALE B.RAMAZZINI CARPI VIA G. MOLINARI 2, 41012 CARPI MO",https://www.ausl.mo.it/luogo/ostetricia-e-ginecologia-carpi/,116,81,69.8,70.7,16.4,12.9,88.8
+"OSPEDALE SANTA MARIA BIANCA MIRANDOLA VIA FOGAZZARO ANTONIO 1, 41037 MIRANDOLA MO",https://www.ausl.mo.it/luogo/ostetricia-e-ginecologia-mirandola/,67,50,74.6,73.1,19.4,6.0,88.1
+"OSPEDALE VIGNOLA VIA PLESSI CESARE 20, 41058 VIGNOLA MO",https://www.ausl.mo.it/luogo/ospedale-di-vignola-vignola/,2,0,0.0,50.0,50.0,0.0,50.0
+"OSPEDALE CIVILE NUOVO S.MARIA DELLA SCALA VIA MONTERICCO 4, 40026 IMOLA BO",https://www.ausl.imola.bo.it/ginecologia_ostetricia,148,96,64.9,74.3,13.5,7.4,85.1
+"OSPEDALE MAGGIORE C.A.PIZZARDI LARGO BARTOLO NIGRISOLI 2, 40133 BOLOGNA BO",https://www.ausl.bologna.it/guida-ai-servizi/luoghi/14354,377,201,53.3,60.7,17.2,12.2,47.7
+"OSPEDALE A.COSTA PORRETTA TERME VIA ORESTE ZAGNONI 3, 40046 ALTO RENO TERME BO",https://www.ausl.bologna.it/guida-ai-servizi/luoghi/14929,19,19,100.0,100.0,0.0,0.0,0.0
+"STABILIMENTO OSPEDALIERO SS. ANNUNZIATA VIA VICINI 2, 44042 CENTO FE",https://www.ausl.fe.it/strutture/ospedali/ospedale-ss-annunziata-1,21,7,33.3,42.9,38.1,14.3,61.9
+"OSPEDALE SANTA MARIA DELLE CROCI RAVENNA VIALE RANDI 5, 48100 RAVENNA RA",https://www.auslromagna.it/azienda/organizzazione/dipartimenti/salute-donna-infanzia-adolescenza-ravenna/ginecologia-ostetricia-ravenna,206,118,57.3,66.5,17.5,7.3,72.3
+"OSPEDALE DEGLI INFERMI FAENZA VIALE STRADONE 9, 48018 FAENZA RA",https://www.auslromagna.it/azienda/organizzazione/dipartimenti/salute-donna-infanzia-adolescenza-forli-cesena/ostetricia-e-ginecologia-forli/ostetricia-e-ginecologia-faenza,153,124,81.0,84.3,7.8,7.2,94.1
+"OSPEDALE MORGAGNI-PIERANTONI FORLI' VIA FORLANINI 34, 47121 FORLI' FC",https://www.auslromagna.it/azienda/organizzazione/dipartimenti/salute-donna-infanzia-adolescenza-forli-cesena/ostetricia-e-ginecologia-forli/ostetricia-e-ginecologia-faenza,181,159,87.8,84.5,9.4,5.0,94.5
+"OSPEDALE MAURIZIO BUFALINI CESENA VIALE GHIROTTI 286, 47023 CESENA FC",https://www.auslromagna.it/azienda/organizzazione/dipartimenti/salute-donna-infanzia-adolescenza-forli-cesena/ostetricia-e-ginecologia-cesena,245,188,76.7,70.6,8.2,8.2,73.9
+"OSPEDALE INFERMI RIMINI VIALE SETTEMBRINI 2, 47900 RIMINI RN",https://www.auslromagna.it/azienda/organizzazione/dipartimenti/salute-donna-infanzia-adolescenza-forli-cesena/ostetricia-e-ginecologia-cesena,280,248,88.6,80.4,1.4,6.4,79.3
+"NUOVO OSPEDALE CIVILE DI SASSUOLO S.P.A. VIA FRANCESCO RUINI 2, 41049 SASSUOLO MO",https://www.ospedalesassuolo.it/uop/ostetricia-e-ginecologia/,145,108,74.5,78.6,14.5,5.5,82.1
+"OSPEDALE CERVESI CATTOLICA VIA BEETHOVEN L.V. 1, 47841 CATTOLICA RN",https://www.auslromagna.it/luoghi/ospedali/ospedale-cervesi-cattolica,80,0,0.0,18.8,55.0,26.3,86.3
+"CASA DI CURA CITTA' DI PARMA PIAZZA ATHOS MAESTRI  5, 43100 PARMA PR",https://www.clinicacittadiparma.it/raggruppamento/chirurgico/ostetricia-ginecologia/,112,0,0.0,43.8,39.3,17.0,89.3
+"OSPEDALE PRIVATO DOMUS NOVA S.P.A . VIA PAVIRANI PAOLO 44, 48100 RAVENNA RA",https://www.domusnova.it/portfolio_cat/ginecologia/,24,0,0.0,70.8,25.0,4.2,54.2
+"AZIENDA OSPEDALIERO-UNIVERSITARIA DI PARMA VIA GRAMSCI 14, 43100 PARMA PR",https://www.ao.pr.it/curarsi/reparti-e-servizi-sanitari/ostetricia-e-ginecologia/,133,106,79.7,59.4,3.8,10.5,59.4
+"AZIENDA OSPEDALIERO-UNIVERSITARIA DI MODENA VIA DEL POZZO 71, 41100 MODENA MO",https://www.aou.mo.it/Ginecologia,595,525,88.2,82.2,7.6,4.4,54.5
+"IRCCS AZIENDA OSPEDALIERO-UNIVERSITARIA VIA GIUSEPPE MASSARENTI 9, 40138 BOLOGNA BO",https://www.aosp.bo.it/it/content/medicina-dellet-prenatale,401,234,58.4,57.6,15.7,10.0,52.4
+"AZIENDA OSPEDALIERO-UNIVERSITARIA DI FERRARA VIA ALDO MORO 8, 44124 FERRARA FE",https://www.ospfe.it/reparti/ostetricia-e-ginecologia,244,145,59.4,61.5,16.4,13.1,71.7
+"CONSULTORIO PARMA CENTRO  -  CASA DELLA SALUTE LARGO NATALE PALLI 1/A, 43121 PARMA PR",https://www.ausl.pr.it/dove_curarsi/distretto_parma_7/consultorio_casa_della_salute_1.aspx,74,74,100.0,100.0,0.0,0.0,100.0
+"CONSULTORIO DI CARPI VIA DON LUIGI STURZO, 21  , 41012 CARPI MO",https://www.ausl.mo.it/luogo/consultorio-familiare-spazio-giovani-e-giovani-adulti-carpi/,26,26,100.0,100.0,0.0,0.0,100.0
+"CONSULTORIO FAMILIARE DI MODENA - VIA PADOVA VIA DON GIOVANNI MINZONI, 121 (ANGOLO VIA PADOVA), 41125 MODENA MO",https://www.ausl.mo.it/luogo/consultorio-familiare-e-spazio-giovani-adulti-don-minzoni-modena/,19,19,100.0,100.0,0.0,0.0,100.0
+"CONSULTORIO RICCIONE VIA SAN MINIATO 16, 47838 RICCIONE RN",https://www.auslromagna.it/luoghi/consultori/consultori-familiari-e-spazio-giovani-provincia-di-rimini/consultorio-familiare-e-spazio-giovani-riccione,9,9,100.0,100.0,0.0,0.0,55.6
+"SALUTE DONNA C/O STABILIMENTO OSPEDALIERO SS. ANNUNZIATA CENTO VIA VICINI 2, 44042 CENTO FE",https://www.ausl.fe.it/strutture/ospedali/ospedale-ss-annunziata-1,21,21,100.0,100.0,0.0,0.0,57.1
+"OSPEDALE DI RAVENNA - POLIAMBULATORIO VIALE RANDI 5, 48100 RAVENNA RA",https://www.auslromagna.it/azienda/organizzazione/dipartimenti/salute-donna-infanzia-adolescenza-ravenna/ginecologia-ostetricia-ravenna/luoghi/ambulatorio-ostetricia-gravidanza-fisiologica-e-a-rischio-ravenna,12,12,100.0,100.0,0.0,0.0,75.0
+"CENTRO SOCIO-SANITARIO CIRCOSCRIZIONE 2 / CONSULTORIO FAMILIARE VIA BERLINGUER 11, 48123 RAVENNA RA",https://www.auslromagna.it/luoghi/consultori/consultori-familiari-e-spazio-giovani-provincia-di-ravenna/consultorio-familiare-ravenna,31,31,100.0,100.0,0.0,0.0,96.8
+"OSPEDALE MAGGIORE - AMBULATORIO E LABORATORIO LARGO BARTOLO NIGRISOLI 2, 40133 BOLOGNA BO",https://www.ausl.bologna.it/guida-ai-servizi/luoghi/13974,507,506,99.8,99.4,0.6,0.0,56.4
+"OSPEDALE RIMINI POLIAMBULATORI VIA SETTEMBRINI 2, 47900 RIMINI RN",https://www.auslromagna.it/azienda/organizzazione/dipartimenti/cure-primarie-e-medicina-di-comunita-rimini/cure-primarie-rimini/luoghi/poliambulatorio-ospedale-infermi-rimini,71,70,98.6,98.6,1.4,0.0,90.1
+"AZIENDA OSPEDALIERO-UNIVERSITARIA DI PARMA VIA GRAMSCI 14, 43100 PARMA PR",https://www.ao.pr.it/curarsi/reparti-e-servizi-sanitari/ostetricia-e-ginecologia/interruzione-volontaria-di-gravidanza-ivg/,142,142,100.0,95.8,4.2,0.0,90.8
+"AZIENDA OSPEDALIERO-UNIVERSITARIA DI FERRARA VIA ALDO MORO 8, 44124 FERRARA FE",https://www.ospfe.it/servizi/come-fare-per/interruzione-volontaria-di-gravidanza,104,104,100.0,97.1,2.9,0.0,87.5
+"CONSULTORIO FAMILIARE DI SAN GIOVANNI IN PERSICETO - OSPEDALE VIA E. PALMA 1, 40017 SAN GIOVANNI IN PERSICETO BO",https://www.ausl.bologna.it/guida-ai-servizi/luoghi/15545/290394,25,25,100.0,100.0,0.0,0.0,100.0
+"DISTRETTO CITTA DI PIACENZA - CONSULTORIO FAMILIARE PIAZZALE MILANO 6, 29100 PIACENZA PC",https://www.ausl.pc.it/it/strutture-e-territorio/dove-siamo/case-della-salute/casa-salute-piacenza/ambulatori/ambulatori-consultorio-familiare-di-piacenza,44,44,100.0,100.0,0.0,0.0,97.7
+"CONSULTORIO FAMILIARE SCANDIANO VIA VALLISNERI 41, 42019 REGGIO NELL'EMILIA RE",https://www.ausl.re.it/Luogo.jsp?id=922,19,19,100.0,100.0,0.0,0.0,100.0
+"Presidio ospedaliero Santa Maria degli Angeli Via Montereale 24, 33170 PORDENONE PN",https://asfo.sanita.fvg.it/it/strutture/direzione_sanitaria/dipartimento_materno_infantile/ostetricia_ginecologia_pordenone/,53,22,41.5,50.9,26.4,9.4,49.1
+"P.O. San Vito al Tagliamento Via Savorgnano 2, 33078 SAN VITO AL TAGLIAMENTO PN",https://asfo.sanita.fvg.it/it/strutture/direzione_sanitaria/dipartimento_materno_infantile/ostetricia_ginecologia_san_vito_e_spilimbergo/,276,244,88.4,83.3,8.3,5.4,67.8
+"P.O. Monfalcone VIA GALVANI 1, 34074 MONFALCONE GO",https://asugi.sanita.fvg.it/it/strutture/direz_sanitaria/go_dip_mat_inf/go_ostetricia_ginecologia/,133,36,27.1,63.9,31.6,4.5,70.7
+"PO Latisana VIA SABBIONERA 45, 33053 LATISANA UD",https://asufc.sanita.fvg.it/it/strutture/AAS2/LTPM_DPT_materno_infantile/LTPM_ost_gin/,53,51,96.2,92.5,1.9,1.9,32.1
+"PO Palmanova VIA NATISONE 11, 33057 PALMANOVA UD",https://asufc.sanita.fvg.it/it/strutture/AAS2/LTPM_DPT_materno_infantile/LTPM_ost_gin/,24,1,4.2,20.8,54.2,25.0,12.5
+"PO San Daniele via Trento Trieste 33, 33038 SAN DANIELE DEL FRIULI UD",https://asufc.sanita.fvg.it/it/strutture/AAS3/sd_to_dip_percorsi_emergenza_materno_infantile/sd_ostetricia_ginecologia/,92,62,67.4,65.2,12.0,10.9,1.1
+"PO Tolmezzo via Morgagni 18, 33028 TOLMEZZO UD",https://asufc.sanita.fvg.it/it/strutture/AAS3/sd_to_dip_percorsi_emergenza_materno_infantile/to_ostetricia_ginecologia/,36,33,91.7,91.7,0.0,5.6,2.8
+"PRESIDIO OSPEDALIERO 'S.M.M' DI UDINE P.LE S.MARIA DELLA MISERICORDIA 15, 33100 UDINE UD",https://asufc.sanita.fvg.it/it/strutture/ASUIUD/asuiud-santamaria/ud-dip-materno-infantile/ud-clinica-ostetrica-ginecologica/,262,136,51.9,62.2,18.7,11.1,23.3
+"I.R.C.C.S. BURLO GAROFOLO VIA DELL`ISTRIA 65/1, 34137 TRIESTE TS",https://www.burlo.trieste.it/clinica-ostetrica-ginecologica,313,214,68.4,60.3,9.0,14.1,46.0
+"POLO OSPEDALIERO UNICO INTEGRATO VIALE KENNEDY, 2100 RIETI RI",https://www.asl.rieti.it/organizzazione-aziendale/dipartimenti/dipartimento-di-chirurgia/uoc-ostetricia-e-ginecologia,81,11,13.6,38.3,48.1,11.1,71.6
+"POLO OSPEDALIERO SANTO SPIRITO LUNGOTEVERE IN SASSIA  1, 00193 ROMA RM",https://www.aslroma1.it/presidi-ospedalieri/reparti/ostetricia-e-ginecologia-1,483,221,45.8,56.5,27.1,14.7,58.2
+"OSP. ANZIO-NETTUNO VIA CUPA DEI MARMI ANZIO, 00042 ANZIO RM",https://www.aslroma6.it/presidi-ospedalieri/anzio/ostetricia-e-ginecologia,123,74,60.2,77.2,17.9,4.9,4.9
+"OSPEDALE SAN PAOLO LARGO DONATORI DEL SANGUE, 00053 CIVITAVECCHIA RM",https://www.aslroma4.it/reparti/uoc-ginecologia-e-ostetricia,42,0,0.0,23.8,47.6,23.8,16.7
+"OSP. S.GIUSEPPE MARINO VIALE XXIV MAGGIO, 00047 MARINO RM",https://www.aslroma6.it/distretti/dh3-ciampino/consultori-familiari,299,270,90.3,88.0,9.0,3.0,9.7
+"OSPEDALE S. GIOVANNI EVANGELISTA(TIVOLI) VIA PARROZZANI 3, 00019 TIVOLI RM",https://www.aslroma5.it/strutture/uoc-ostetricia-e-ginecologia-ospedale-di-tivoli/,49,0,0.0,34.7,49.0,14.3,73.5
+"OSPEDALE G. B. GRASSI VIA G. C. PASSERONI 30, 00122 ROMA RM",https://www.aslroma3.it/ospedale-g-b-grassi/ostetricia-e-ginecologia/uos-dh-194-78/,313,170,54.3,63.3,25.6,8.9,94.9
+"OSPEDALE S.EUGENIO PIAZZALE DELL'UMANESIMO 10, 00144 ROMA RM",https://www.ausl.latina.it/presidi-ospedalieri,256,167,65.2,61.7,22.7,7.0,66.0
+"PRESIDIO OSPEDALIERO NORD via Scaravelli snc, 04100 LATINA LT",https://www.ausl.latina.it/presidi-ospedalieri,354,144,40.7,46.5,32.0,18.4,62.4
+"SAN GIOVANNI DI DIO FONDI VIA SAN MAGNO, 04022 FONDI  LT",https://www.ausl.latina.it/presidi-ospedalieri,145,139,95.9,93.1,1.4,0.0,50.3
+"PRESIDIO OSPEDALIERO SUD VIA APPIA LATO NAPOLI, 04023 FORMIA LT",https://www.ausl.latina.it/gs-serviziospedalieri/gs-presidiosud,100,93,93.9,95.9,4.1,0.0,42.0
+"OSPEDALE SAN BENEDETTO ALATRI LOCALITA' CHIAPPITTO, 03011 ALATRI FR",https://www.asl.fr.it/strutture/presidi-ospedalieri/presidio-ospedaliero-frosinone-alatri/uoc-ostetricia-e-ginecologia/,412,357,87.1,86.7,9.5,3.6,0.5
+"OSPEDALE SANDRO PERTINI via monti tiburtini 385, 00157 ROMA RM",https://www.aslroma2.it/index.php/organizzazione/ospedali/ospedale-sandro-pertini#serviziospedale,692,422,61.0,65.0,24.3,7.9,35.3
+"POLO OSPEDALIERO STRADA SAMMARTINESE, 01100 VITERBO VT",https://www.asl.vt.it/ostetricia-e-ginecologia-polo-reparto-belcolle,96,76,80.0,31.5,39.1,17.4,29.2
+"Presidio Ospedaliero San Filippo Neri Via Martinotti 20, 00133 ROMA RM",https://www.aslroma1.it/presidi-ospedalieri/reparti/ostetricia-e-ginecologia-1,433,289,66.7,62.4,13.6,7.4,47.1
+"Ospedale dei Castelli via nettunense km 11.5, 00072 ARICCIA RM",https://www.aslroma6.it/ospedale-dei-castelli/presidi/area-materno-infantile/uoc-ostetricia-e-ginecologia,2,0,0.0,50.0,0.0,0.0,0.0
+"POLICLINICO CASILINO VIA CASILINA 1049, 00169 ROMA RM",https://www.policlinicocasilino.it/reparti-e-servizi/ostetricia-e-ginecologia/,88,0,0.0,21.6,28.4,12.5,37.5
+"AZ.OSP.SAN CAMILLO-FORLANINI CIRCONVALLAZIONE GIANICOLENSE 87, 00152 ROMA RM",https://www.scamilloforlanini.rm.it/web/guest/w/uosd-interruzioni-volontarie-di-gravidanza-legge-194/78,1504,844,56.2,61.5,15.7,17.0,5.9
+"AZIENDA OSP. S.GIOVANNI/ADDOLORATA ROMA VIA DELL`AMBA ARADAM 9, 00184 ROMA RM",https://hsangiovanni.roma.it/index.php?p=111&uoc=85,931,507,54.5,59.7,19.8,7.9,19.0
+"POLICLINICO U. I VIALE DEL POLICLINICO 155, 00161 ROMA RM",https://hsangiovanni.roma.it/index.php?p=111&uoc=85,137,27,19.7,40.4,21.3,11.0,0.7
+"POLIAMBULATORIO G.B. GRASSI VIA PASSERONI 30, 00122 ROMA RM",https://www.policlinicoumberto1.it/unita/chirurgia-mininvasiva-ivg-day-hospital/,4,4,100.0,100.0,0.0,0.0,100.0
+"CONSULTORIO FAMILIARE SILONE D9 VIA IGNAZIO SILONE 100, 00143 ROMA RM",https://www.salutelazio.it/scheda-consultorio/-/asset_publisher/gpvEpZ6Yy3mo/content/silone,5,5,100.0,100.0,0.0,0.0,100.0
+"CONSULTORIO FAMILIARE 'PRIMAVALLE' VIA LODOVICO JACOBIN, 6, 00168 ROMA RM",https://www.aslroma1.it/presidi-territoriali/consultorio-familiare-primavalle,56,56,100.0,100.0,0.0,0.0,100.0
+"CONSULTORIO FAMILIARE PIETRALATA VIA di Pietralata 497, 00158 ROMA RM",https://www.salutelazio.it/scheda-consultorio/-/asset_publisher/gpvEpZ6Yy3mo/content/pietralata,107,107,100.0,100.0,0.0,0.0,71.0
+"POLIAMBULATORIO 'TAGLIAMENTO' VIA TAGLIAMENTO 19, 00198 ROMA RM",https://www.aslroma1.it/presidi-territoriali/poliambulatorio-tagliamento,33,31,96.9,100.0,0.0,0.0,100.0
+"LAPOLIAMBULATORIO CENTRO S.ANNA VIA GARIGLIANO 55, 00198 ROMA RM",https://www.aslroma1.it/presidi-ospedalieri/centro-tutela-salute-della-donna-e-del-bambino-santanna,291,290,99.7,100.0,0.0,0.0,40.5
+"LACSM ARICCIA VIA DELLE CERQUETTE 1, 00040 ARICCIA RM",https://www.aslroma6.it/distretti/dh2-albano-laziale/centro-salute-mentale-csm-ariccia,27,27,100.0,100.0,0.0,0.0,100.0
+"STABILIMENTO OSPEDALIERO DI IMPERIA VIA S. AGATA 57, 18100 IMPERIA IM",https://www.asl1.liguria.it/territorio/dipartimento-materno-infantile/437-ostetricia-e-ginecologia-imperia.html,312,202,65.4,66.7,15.2,17.0,72.1
+"E.O. OSPEDALI GALLIERA MURA DELLE CAPPUCCINE 14, 16128 GENOVA GE",https://www.galliera.it/lospedale/organizzazione/dipartimenti-e-centri/dipartimento-materno-infantile-e-percorso-nascite/ginecologia-e-ostetricia,4,2,50.0,0.0,0.0,0.0,0.0
+"OSP. RIUNITI LEONARDI E RIBOLI LAVAGNA VIA DON BOBBIO 25, 16033 LAVAGNA GE",https://www.asl4.liguria.it/s-c-ostetricia-e-ginecologia/,142,104,73.8,73.9,12.7,9.9,35.2
+"EVANGELICO Internazionale CASTELLETTO Salita sup San Rocchino 31 A, 16122 GENOVA GE",https://www.ospedale-evangelico.it/servizi/strutture-e-reparti/ostetricia-e-ginecologia.html,4,0,0.0,0.0,100.0,0.0,50.0
+"EVANGELICO-SAN CARLO VOLTRI Piazzale Giannasso 4, 16158 GENOVA GE",https://www.ospedale-evangelico.it/servizi/strutture-e-reparti/ostetricia-e-ginecologia.html,85,62,72.9,62.4,14.1,14.1,35.3
+"OSPEDALE SANT`ANDREA LA SPEZIA VIA VITTORIO VENETO 197, 19124 LA SPEZIA SP",https://www.ospedalesantandrea.it/index.php/sezione-utenti/dip-e-units/u-o-c-ginecologia,257,217,84.4,83.3,9.3,4.7,76.3
+"OSPEDALE SAN PAOLO VIA GENOVA 30 LOC. VALLORIA, 17100 SAVONA SV",https://www.asl2.liguria.it/territorio/donna-e-maternita/ginecologia-e-ostetricia-levante.html,232,155,66.8,66.4,20.3,8.6,64.5
+"OSPEDALE VILLA SCASSI Corso Onofrio SCASSI 1, 16151 GENOVA GE",https://www.asl3.liguria.it/azienda/dipartimenti/dipartimenti-direzione-sanitaria/dipartimento-materno-infantile/71-struttura-complessa-ostetricia-e-ginecologia.html,632,528,83.5,81.3,10.3,7.6,44.8
+"IRCCS OSPEDALE POLICLINICO SAN MARTINO Largo Rosanna Benzi 10, 16132 GENOVA GE",https://www.ospedalesanmartino.it/it/dove-siamo/come-muoversi/ubicazioni/padiglione-1/ostetricia-ginecologia.html,329,275,83.8,79.3,8.8,7.9,57.8
+"IST.G.GASLINI VIA G. GASLINI 5, 16147 GENOVA GE",https://www.gaslini.org/reparti/ostetricia-e-ginecologia/,31,15,48.4,0.0,0.0,8.0,0.0
+"OSPEDALE DI CIRCOLO - BUSTO ARSIZIO VIA ARNALDO DA BRESCIA1, 21052 BUSTO ARSIZIO VA",https://www.asst-valleolona.it/,57,0,0.0,33.9,44.6,7.1,65.5
+"OSP. S. ANTONIO ABATE - GALLARATE VIA PASTORI 4, 21013 GALLARATE VA",https://www.ats-insubria.it/rete-dei-servizi/asst/561-ospedale-s-antonio-abate-gallarate,273,208,76.2,79.9,10.6,7.7,76.9
+"OSPEDALE GALMARINI - TRADATE PIAZZA ANGELO ZANABONI, 21049 TRADATE VA",https://www.asst-settelaghi.it/ostetricia-e-ginecologia-tradate,228,227,99.6,95.6,3.5,0.9,2.2
+"STABILIMENTO CANTU' VIA DOMEA 4, 22063 CANTU' CO",https://asst-lariana.it/v2/whereis/?pr=22&display=0,228,0,0.0,30.7,58.3,11.0,85.1
+"OSPEDALE DI CIRCOLO S.L.MANDIC-MERATE LARGO SAN LEOPOLDO MANDIC 1, 23807 MERATE LC",https://www.asst-settelaghi.it/ospedale-di-circolo/presentazione,92,45,51.7,77.2,13.0,7.6,67.4
+"OSPEDALE SONDRIO VIA STELVIO 25, 23100 SONDRIO SO",https://www.asst-val.it/ospedale-sondrio,122,40,32.8,44.3,40.2,13.1,84.3
+"P.O. CITTA' DI SESTO S. GIOVANNI VIALE MATTEOTTI 83, 20099 SESTO SAN GIOVANNI MI",https://www.asst-nordmilano.it/ginecologia-e-ostetricia,311,118,38.1,47.3,41.8,9.0,62.9
+"PRESIDIO OSPED. V. BUZZI - MILANO VIA CASTELVETRO 32, 20154 MILANO MI",https://www.asst-fbf-sacco.it/reparti-e-servizi/info/ostetricia-e-ginecologia-buzzi,443,226,51.0,39.1,18.3,14.9,25.5
+"OSPEDALE M. MELLONI - MILANO VIA MACEDONIO MELLONI 52, 20129 MILANO MI",https://www.asst-fbf-sacco.it/reparti-e-servizi/info/ostetricia-e-ginecologia-melloni,244,86,35.2,50.8,27.9,10.7,54.9
+"OSPEDALE G.SALVINI-GARBAGNATE MIL.SE VIALE FORLANINI 95, 20024 GARBAGNATE MILANESE MI",https://www.asst-rhodense.it/nuovo-sito/home/ospedali/garbagnate-milanese/UUOO/ostetricia_ginecologia.html,184,64,34.8,38.0,32.1,27.7,73.9
+"OSPEDALE MAGGIORE DI LODI VIALE SAVOIA1, 26900 LODI LO",https://www.asst-lodi.it/,323,250,77.4,77.1,14.9,7.4,60.4
+"PRESIDIO OSPEDALIERO DI DESIO VIA MAZZINI 1, 20832 DESIO MB",https://www.asst-brianza.it/web/index.php/satellite/mostra_unita/desio/174.html,194,75,38.7,50.5,36.1,12.9,88.5
+"PRESIDIO OSPEDALIERO DI CARATE VIA MOSE' BIANCHI 9, 20841 CARATE BRIANZA MB",https://www.asst-brianza.it/web/index.php/presidi/ospedale/carate,121,38,31.4,55.4,28.1,12.4,62.8
+"OSPEDALE DI VIZZOLO PREDABISSI VIA PANDINA 1, 20070 VIZZOLO PREDABISSI MI",https://www.asst-melegnano-martesana.it/reparto/ostetricia-e-ginecologia-vizzolo-39,198,108,54.5,76.8,14.1,8.1,56.1
+"OSPEDALE DI CIRCOLO - RHO CORSO EUROPA 250, 20017 RHO MI",https://www.asst-rhodense.it/nuovo-sito/home/ospedali/rho/UUOO/ostetricia.html,7,1,14.3,14.3,57.1,14.3,57.1
+"OSPEDALE G. FORNAROLI MAGENTA VIA AL DONATORE DI SANGUE 50, 20013 MAGENTA MI",https://www.asst-ovestmi.it/home,107,0,0.0,10.3,59.8,20.6,79.4
+"PRESIDIO OSPEDALIERO DI VIMERCATE VIA SANTI COSMA E DAMIANO 10, 20871 VIMERCATE MB",https://www.asst-brianza.it/web/index.php/satellite/mostra_unita/vimercate/69.html,369,118,32.0,54.5,28.5,16.3,69.1
+"OSPEDALE UBOLDO - CERNUSCO S/NAVIGLIO VIA UBOLDO 21, 20063 CERNUSCO SUL NAVIGLIO MI",https://www.asst-melegnano-martesana.it/presidi-ospedalieri/ospedale-di-cernusco-sul-naviglio-3,130,0,0.0,49.2,36.2,14.6,49.2
+"OSPEDALE DI TREVIGLIO E CARAVAGGIO PIAZZALE OSPEDALE LUIGI MENEGUZZO 1, 24047 TREVIGLIO BG",https://www.asst-bgovest.it/395.asp,14,5,35.7,35.7,35.7,28.6,7.1
+"OSPEDALE PESENTI FENAROLI - ALZANO L. VIA MAZZINI 88, 24022 ALZANO LOMBARDO BG",https://www.asst-bergamoest.it/it/sedi/lista-sedi/ospedale-pesenti-fenaroli-alzano-lombardo/ostetricia-e-ginecologia,468,407,87.2,85.4,9.0,4.5,32.6
+"OSP.LE SS.TRINITA'-ROMANO DI LOMBARDIA VIA SAN FRANCESCO D'ASSISI 12, 24058 ROMANO DI LOMBARDIA BG",https://www.asst-bgovest.it/398.asp,151,27,17.9,21.2,51.0,27.8,7.9
+"OSPEDALE BOLOGNINI - SERIATE VIA PADERNO 21, 24068 SERIATE BG",https://www.asst-bergamoest.it/it/sedi/lista-sedi/ospedale-bolognini-seriate/ostetricia-e-ginecologia,15,5,35.7,6.7,0.0,0.0,0.0
+"PRESIDIO OSPEDALIERO DI CHIARI VIALE MAZZINI 8, 25032 CHIARI BS",https://www.asst-franciacorta.it/blog/unita_operative/ostetricia-e-ginecologia/,71,1,1.4,28.2,56.3,14.1,14.3
+"OSPEDALE DI DESENZANO LOC. MONTECROCE, 25015 DESENZANO DEL GARDA BS",https://www.asst-garda.it/ospedali/desenzano/servizi/ginecologia/,146,132,90.4,89.0,6.2,4.1,1.4
+"OSPEDALE CIVILE LA MEMORIA DI GAVARDO VIA ANDREA GOSA 74, 25085 GAVARDO BS",https://www.asst-garda.it/ospedali/gavardo/servizi/ginecologia-2/,89,78,87.6,91.6,3.6,3.6,26.1
+"OSPEDALE DI MANERBIO VIA LUNGOMELLA VALSECCHI 2 , 25025 MANERBIO BS",https://www.asst-garda.it/ospedali/manerbio/servizi/ginecologia/,138,40,29.0,41.3,39.1,19.6,0.7
+"OSPEDALE CIVILE - VIGEVANO CORSO MILANO 19, 27029 VIGEVANO PV",https://www.asst-pavia.it/node/114,189,78,41.3,61.9,26.5,11.1,70.4
+"OSPEDALE CIVILE - VOGHERA VIA VOLTURNO 14, 27058 VOGHERA PV",https://www.asst-pavia.it/node/131,171,131,76.6,78.4,8.8,11.1,46.8
+"OSPEDALE MAGGIORE - CREMA LARGO UGO DOSSENA 2, 26013 CREMA CR",https://www.asst-crema.it/ostetricia-e-ginecologia,104,37,36.6,61.2,22.4,12.2,55.4
+"PRESIDIO OSPEDALIERO - ASOLA PIAZZA 80 FANTERIA 1, 46041 ASOLA MN",https://www.asst-mantova.it/it/ostetricia-e-ginecologia-asola,48,0,0.0,12.5,54.2,33.3,62.5
+"OSP.CIVILE DESTRA SECCHIA-PIEVE CORIANO VIA BUGATTE 1, 46020 BORGO MANTOVANO MN",https://www.asst-mantova.it/it/ostetricia-e-ginecologia-borgo-mantovano,67,43,64.2,70.1,6.0,16.4,56.7
+"OSPEDALE VALCAMONICA - ESINE VIA MANZONI 142, 25040 ESINE BS",https://www.asst-valcamonica.it/scheda-ist/numeri-utili#st_4pbpm0xw2ra35z544ef1xwbw5c,107,77,72.0,69.2,15.9,8.4,2.8
+"OSPEDALE CIVILE DI LEGNANO VIA PAPA GIOVANNI PAOLO II, 20025 LEGNANO MI",https://www.asst-ovestmi.it/home/Reparti/ostetricia-e-ginecologia-legnano,97,2,2.1,30.2,39.6,15.1,69.5
+"OSPED.CIRCOLO CAUSA PIA LUVINI-CITTIGLIO VIA LUVINI 1, 21033 CITTIGLIO VA",https://www.asst-settelaghi.it/ostetricia-e-ginecologia,310,148,47.7,62.6,21.0,16.5,1.0
+"OSPEDALE M. O. ANTONIO LOCATELLI-PIARIO VIA GROPPINI,22, 24020 PIARIO BG",https://www.asst-bergamoest.it/it/sedi/lista-sedi/ospedale-m-o-a-locatelli-piario,1,0,0.0,0.0,100.0,0.0,0.0
+"NUOVO OSPEDALE DI BRONI E STRADELLA VIA ACHILLI 3, 27049 STRADELLA PV",https://www.asst-pavia.it/node/91,40,25,62.5,60.0,32.5,7.5,43.6
+"OSPEDALE F. DEL PONTE - VARESE VIA FILIPPO DEL PONTE 19, 21100 VARESE VA",https://www.asst-settelaghi.it/sede-di-varese,50,1,2.0,4.0,6.0,32.0,2.0
+"OSPEDALE S. ANNA - COMO VIA RAVONA 20, 22020 SAN FERMO DELLA BATTAGLIA CO",https://asst-lariana.it/v2/whereis/?pr=50&display=0,173,118,68.6,70.5,5.8,11.0,53.5
+"OSPEDALE DI CIRCOLO A. MANZONI - LECCO VIA DELL'EREMO 9/11, 23900 LECCO LC",https://www.asst-lecco.it/presidi-ospedalieri/ospedale-di-lecco-alessandro-manzoni/,182,131,74.9,65.9,13.2,11.0,72.0
+"OSPEDALE PAPA GIOVANNI XXIII - BG PIAZZA OMS 1, 24127 BERGAMO BG",https://www.asst-pg23.it/reparti/ostetricia-ginecologia,407,121,29.7,44.1,29.8,15.8,41.0
+"PRES.OSPEDAL.SPEDALI CIVILI BRESCIA P.LE SPEDALI CIVILI 1, 25123 BRESCIA BS",https://civile.asst-spedalicivili.it/servizi/unitaoperative/unitaoperative_fase02.aspx?ID=165,783,303,38.7,40.2,31.0,16.1,46.5
+"OSPEDALE C. POMA - MANTOVA STRADA LAGO PAIOLO 10, 46100 MANTOVA MN",https://www.asst-mantova.it/ostetricia-e-ginecologia-mantova/,289,236,83.1,82.0,2.4,7.3,64.2
+"OSPEDALE DI CREMONA VIA LARGO PRIORI 1, 26100 CREMONA CR",https://www.asst-cremona.it/strutture/ostetricia-e-ginecologia-poc,238,127,53.4,67.2,18.9,9.2,43.0
+"OSPEDALE CA' GRANDA-NIGUARDA - MILANO PIAZZA OSPEDALE MAGGIORE 3, 20162 MILANO MI",https://www.ospedaleniguarda.it/strutture/info/ostetricia-e-ginecologia,594,267,45.5,65.5,19.2,9.9,76.5
+"OSPEDALE S. PAOLO - MILANO VIA A. DI RUDINI' 8, 20142 MILANO MI",https://www.asst-santipaolocarlo.it/ostetricia-e-ginecologia-san-paolo,584,426,73.1,71.9,12.3,12.2,43.7
+"OSPEDALE S. CARLO BORROMEO - MILANO VIA PIO II 3, 20153 MILANO MI",https://www.asst-santipaolocarlo.it/ostetricia-e-ginecologia-san-carlo,421,229,54.4,71.5,18.3,9.5,38.5
+"OSPEDALE L. SACCO - MILANO VIA GIOVAN BATTISTA GRASSI 74, 20157 MILANO MI",https://www.asst-fbf-sacco.it/reparti-e-servizi/info/ostetricia-e-ginecologia-sacco,248,125,50.4,63.3,18.5,12.1,39.1
+"POLICLINICO S. MATTEO - PAVIA VIALE GOLGI 19, 27100 PAVIA PV",https://www.sanmatteo.org/site/home/attivita-assistenziale/scheda9249.html,302,130,43.0,44.4,25.8,16.9,60.9
+"FONDAZ.IRCCS CA' GRANDA - OSPEDALE MAGGI VIA FRANCESCO SFORZA 28, 20122 MILANO MI",https://www.policlinico.mi.it/dipartimenti-e-reparti,1166,385,33.0,41.0,22.1,20.4,60.5
+"FONDAZIONE IRCCS SAN GERARDO DEI TINTORI VIA GIOVANNI BATTISTA PERGOLESI 33, 20090 MONZA MB",https://www.irccs-sangerardo.it/ginecologia,83,5,6.0,15.7,21.7,12.0,47.0
+"STABILIMENTO DI URBINO VIA COMANDINO 70, 61029 URBINO PU",https://www.ospedalimarchenord.it/ostetricia-e-ginecologia-26/,46,18,39.1,50.0,34.8,13.0,50.0
+"STABILIMENTO DI SENIGALLIA VIA CELLINI 1, 60019 SENIGALLIA AN",https://serviziweb.asur.marche.it/GASASUR/gas.php?mod=ORG&padre=765,183,98,53.6,72.1,16.4,4.4,84.2
+"STABILIMENTO DI JESI VIA ALDO MORO 25, 60035 JESI AN",https://www.comune.jesi.an.it/w/ospedale-carlo-urbani-,50,0,0.0,20.0,62.0,16.0,96.0
+"STABILIMENTO DI FABRIANO VIA STELLUTI SCALA 26, 60044 FABRIANO AN",https://serviziweb.asur.marche.it/GASASUR/gas.php?mod=ORG&padre=760,15,0,0.0,60.0,33.3,6.7,0.0
+"STABILIMENTO DI CIVITANOVA M. VIA GINEVRI 1, 62012 CIVITANOVA MARCHE MC",https://serviziweb.asur.marche.it/GASASUR/gas.php?mod=ORG&padre=751,74,0,0.0,45.9,37.8,12.2,91.9
+"STABILIMENTO DI MACERATA VIA SANTA LUCIA 2, 62100 MACERATA MC",https://serviziweb.asur.marche.it/GASASUR/gas.php?mod=ORG&padre=751,286,89,31.1,51.0,31.8,11.2,81.5
+"STABILIMENTO DI FERMO VIA MURRI 151, 63023 FERMO FM",https://serviziweb.asur.marche.it/GASASUR/gas.php?mod=ORG&padre=677,0,-,-,-,-,-,-
+"STABILIMENTO DI S.BENEDETTO VIA SILVIO PELLICO 68, 63074 SAN BENEDETTO DEL TRONTO AP",https://serviziweb.asur.marche.it/GASASUR/gas.php?mod=ORG&padre=753,58,25,43.1,50.0,32.8,8.6,70.7
+"STABILIMENTO DI ASCOLI PICENO VIA DEGLI IRIS MONTICELLI, 63100 ASCOLI PICENO AP",https://serviziweb.asur.marche.it/GASASUR/gas.php?mod=ORG&padre=678,93,80,86.0,86.0,5.4,6.5,52.7
+"CASA DI CURA VILLA IGEA VIA MAGGINI 200, 60127 ANCONA AN",https://www.casadicuravillaigea.it/unita-operative/ginecologia/?_gl=1*84bcoo*_up*MQ..*_ga*MTgyMDk3MTk2Ny4xNzQyODI0NzE0*_ga_ZBMDR1SYG6*MTc0MjgyNDcxMy4xLjEuMTc0MjgyNDcyMS4wLjAuMA,88,0,0.0,53.4,38.6,8.0,98.9
+"STABILIMENTO DI URBINO VIA COMANDINO 70, 61029 URBINO PU",https://www.ospedalimarchenord.it/ostetricia-e-ginecologia-26/,59,53,89.8,81.4,0.0,0.0,37.3
+"STABILIMENTO DI FANO VIA VITTORIO VENETO 2, 61032 FANO PU",https://www.ospedalimarchenord.it/ostetricia-e-ginecologia-50/,158,61,38.6,53.2,32.3,12.7,53.8
+"STABILIMENTO 'G. SALESI ' VIA CORRIDONI 11-16, 60100 ANCONA AN",https://portale.ospedaliriuniti.marche.it/archivio13_reparti_0_344_3.html,40,3,7.5,25.0,25.0,15.0,57.5
+"PRESIDIO OSPEDALIERO 'A.CARDARELLI' Via L. Montalbò snc C.DA TAPPINO, 86100 CAMPOBASSO CB",https://asp.urbi.it/urbi/progs/urp/fecore01.sto?CPT=N&FileContesto=UR&SottoContesto=OpenData&SBUSTA=S&DB_NAME=n202090&NDFH=3198128&TDFH=OPEN1&PRFH=ALBERATURA&MPFH=1&AEFH=JUEYZNLKNHFEEJOWWRPFTQJTLMDHRCGPUOVMATCNTRADAX1ANBEJATCGKOHIBTRONTAAQFX1ZOJ_J202090H202090&FNFH=PO%20CB_PROCREAZIONE%20RESPONSABIL.pdf,260,212,81.5,87.3,8.5,3.5,16.2
+"OSPEDALE CENTRALE DI BOLZANO VIA L. BOEHLER 5, 39100 BOLZANO BZ",https://www.asdaa.it/it/ginecologia-bolzano,377,168,44.8,46.2,26.8,19.4,3.5
+"OSPEDALE AZIENDALE DI MERANO via Rossini 5, 39012 MERANO BZ",https://www.asdaa.it/it/contatti/80296,170,94,55.3,67.1,20.6,11.2,0.0
+"PRESIDIO OSPEDALIERO S. CHIARA L.GO MEDAGLIE D'ORO 9, 38122 TRENTO TN",https://www.apss.tn.it/Azienda/Unita-operative-e-strutture-organizzative/Unita-operativa-ostetricia-e-ginecologia-Trento#servizi,335,321,95.8,84.2,4.8,3.0,81.5
+"PRESIDIO OSPEDALIERO VILLA IGEA VIA MALTA 16, 38122 TRENTO TN",https://www.apss.tn.it/Azienda/Luoghi/Presidio-ospedaliero-Villa-Igea,117,0,0.0,16.2,49.6,34.2,89.7
+"OSPEDALE DI ROVERETO CORSO VERONA 4, 38068 ROVERETO TN",https://www.apss.tn.it/Azienda/Unita-operative-e-strutture-organizzative/Unita-operativa-ostetricia-e-ginecologia-Rovereto,145,114,78.6,76.6,4.8,6.9,57.9
+"PRESIDIO OSPEDALIERO DI CAVALESE VIA DOSSI 21, 38033 CAVALESE TN",https://www.apss.tn.it/Azienda/Unita-operative-e-strutture-organizzative/Unita-operativa-ostetricia-e-ginecologia-Cavalese,5,5,100.0,80.0,20.0,0.0,80.0
+"OSPEDALE MARIA VITTORIA VIA CIBRARIO LUIGI 72, 10144 TORINO",https://www.aslcittaditorino.it/strutture_sanitarie/ospedale-maria-vittoria/,90,77,85.6,88.9,3.3,3.3,50.0
+"OSPEDALE MAGGIORE VIA DE MARIA 1, 10023 CHIERI",https://www.aslto5.piemonte.it/it/attivita/ostetricia-ginecologia,109,83,76.9,81.8,12.1,6.1,72.5
+"OSPEDALE SANTA CROCE PIAZZA AMEDEO FERDINANDO 3, 10024 MONCALIERI",https://www.aslto5.piemonte.it/it/attivita/ostetricia-ginecologia,85,68,80.0,79.8,8.3,7.1,79.3
+"OSPEDALE SAN BIAGIO PIAZZA VITTIME DEI LAGER NAZIFASCISTI 1, 28845 DOMODOSSOLA",https://www.aslvco.it/ospedale-san-biagio-domodossola/,46,31,67.4,79.1,14.0,7.0,58.7
+"STABILIMENTO OSPEDALIERO CASTELLI VIA FIUME 18, 28925 VERBANIA",https://www.aslvco.it/ospedale-castelli-verbania/,118,86,73.5,71.8,20.4,5.8,54.7
+"ISTITUTO SS. TRINITÀ - BORGOMANERO VIALE ZOPPIS 10, 28021 BORGOMANERO",https://www.asl.novara.it/it/attivita/ostetricia-ginecologia,28,2,7.1,35.7,42.9,14.3,78.6
+"OSPEDALE MARTINI VIA TOFANE 71, 10141 TORINO",https://www.aslcittaditorino.it/strutture_sanitarie/ospedale-martini/,180,175,97.2,92.7,5.6,1.7,60.6
+"PRESIDIO OSP. CARDINAL G. MASSAIA CORSO DANTE 202, 14100 ASTI",https://asl.at.it/azienda/ospedali-e-dipartimenti/i-reparti-di-asti/ostetricia-e-ginecologia/,208,164,80.0,76.5,14.2,5.4,84.9
+"OSPEDALE SANT'ANDREA CORSO ABBIATE MARIO 21, 13100 VERCELLI",https://aslvc.piemonte.it/strutture-sanitarie/ospedale-santandrea-di-vercelli/,3,1,33.3,33.3,33.3,0.0,0.0
+"OSPEDALE SS.PIETRO E PAOLO VIA ILORINI MO A. F. 20, 13011 BORGOSESIA",https://aslvc.piemonte.it/strutture-sanitarie/ospedale-santandrea-di-vercelli/,129,103,81.1,86.8,10.1,2.3,19.5
+"OSPEDALE CIVICO CHIVASSO CORSO FERRARIS GALILEO 3, 10034 CHIVASSO",https://www.aslto4.piemonte.it/luogo/presidio-ospedaliero-di-chivasso,182,161,88.5,82.4,12.1,5.5,79.1
+"PRESIDIO OSPED. RIUNITO SEDE DI CIRIE' VIA BATTITORE 7/9, 10073 CIRIE'",https://www.aslto4.piemonte.it/luogo/presidio-ospedaliero-di-cirie-lanzo,77,51,94.4,92.6,7.4,0.0,77.6
+"OSPEDALE CIVILE DI IVREA PIAZZA DELLA CREDENZA 2, 10015 IVREA",https://www.aslto4.piemonte.it/ospedali-e-strutture-operative-di-degenza,163,132,81.0,82.1,11.1,6.2,76.1
+"OSPEDALE SANTO SPIRITO CASALE VIALE GIOLITTI GIOVANNI 2, 15033 CASALE MONFERRATO",https://www.aslal.it/ostetricia-e-ginecologia-217,97,53,62.4,70.0,18.0,8.0,66.0
+"OSPEDALE SAN GIACOMO NOVI VIA RAGGIO EDILIO 12 , 15067 NOVI LIGURE",https://www.aslal.it/novi-ligure---cas-ospedale-s-giacomo,150,90,60.0,76.0,16.0,6.7,80.7
+"OSPEDALE CIVILE ""E.AGNELLI"" VIA BRIGATA CAGLIARI 39, 10064 PINEROLO",https://www.aslto3.piemonte.it/azienda/organizzazione/dipartimenti/dipartimento-materno-infantile/s-c-ostetricia-e-ginecologia-pinerolo/,94,79,84.0,90.3,4.3,3.2,84.0
+"OSPEDALE DEGLI INFERMI VIA DEI PONDERANESI 2, 13875 PONDERANO",https://aslbi.piemonte.it/strutture-ospedaliere/ostetricia-e-ginecologia/,173,143,82.7,80.7,12.3,4.7,80.3
+"OSPEDALE MICHELE FERRERO E PIETRO FERRER STRADA TANARO 7/9, 12060 VERDUNO",https://www.aslcn2.it/sedi-e-strutture/bra/,146,120,82.2,81.4,9.7,6.2,76.7
+"OSPEDALE DEGLI INFERMI VIA RIVALTA 29 , 10098 RIVOLI",https://www.aslto3.piemonte.it/azienda/organizzazione/presidi-e-distretti-aziendali/rivoli-2/,110,94,85.5,93.5,4.3,1.1,86.4
+"OSPEDALE DI MONDOVI' STRADA DI SAN ROCCHETTO 99, 12084 MONDOVI'",https://www.aslcn1.it/ospedali/ospedale-regina-montis-regalis-mondovi/ginecologia-e-ostetricia-mondovi,88,88,100.0,95.5,2.3,0.0,73.9
+"OSPEDALE DI SAVIGLIANO VIA OSPEDALI 5, 12038 SAVIGLIANO",https://www.aslcn1.it/ospedali/ospedale-ss-annunziata-savigliano/ginecologia-ostetricia-savigliano,50,0,0.0,22.4,55.1,20.4,77.6
+"OSP. MAGGIORE DELLA CARITA' CORSO MAZZINI GIUSEPPE 18, 28100 NOVARA",https://www.maggioreosp.novara.it/,371,298,80.3,76.6,9.2,10.1,11.1
+"AZ. OSPEDAL. S. CROCE E CARLE VIA COPPINO MICHELE 26, 12100 CUNEO",https://www.ospedale.cuneo.it/ospedale/i-presidi-ospedalieri/,237,173,73.0,76.4,11.8,5.9,71.7
+"OSP.CIVILE SS.ANTONIO E BIAGIO VIA VENEZIA 16, 15121 ALESSANDRIA",https://www.ospedale.al.it/it/presidi/presidio-civile-santi-antonio-biagio,184,121,65.8,81.4,8.5,7.9,96.2
+"OSPEDALE MAURIZIANO UMBERTO I - TORINO LARGO TURATI FILIPPO 62, 10128 TORINO",https://www.mauriziano.it/azienda-ospedaliera,79,69,87.3,87.7,8.8,1.8,35.4
+"OSPEDALE OSTETRICO GINECOLOGICO SANT'ANNA CORSO SPEZIA 60, 10126 TORINO",https://www.cittadellasalute.to.it/index.php?option=com_content&view=article&id=3820:servizio-unificato-per-ivg-ssd&catid=139:strutture-sanitarie-citta-della-salute-santanna,2028,1437,70.9,61.6,14.6,11.3,63.0
+"OSPEDALE CERIGNOLA 'G.TATARELLA' Via Arcangelo Murgolo, 71042 CERIGNOLA FG",https://www.sanita.puglia.it/web/asl-foggia/ospedali_det/-/journal_content/56/36044/ginecologia-e-ostetricia,331,28,8.5,49.8,42.9,3.3,2.1
+"OSPEDALE GALLIPOLI 'SACRO CUORE DI GESU' STRADA PROV.LE ALEZIO-GALLIPOLI, 73014 GALLIPOLI LE",https://www.sanita.puglia.it/web/asl-lecce/ospedali_det/-/journal_content/56/25176/u-o-c-ostetricia-e-ginecologia,71,56,78.9,80.0,14.3,5.7,47.9
+"CASA DI CURA SANTA MARIA VIA A. DE FERRARIIS 24, 70124 BARI BA",https://www.gvmnet.it/strutture/ospedale-santa-maria-bari/home,168,0,0.0,72.6,26.8,0.6,0.6
+"CASA DI CURA 'MONTE IMPERATORE' S.P. NOCI - CASTELLANETA  KM.10, 70015 NOCI BA",https://sanita.korian.it/strutture/casa-di-cura-monte-imperatore/,187,0,0.0,54.5,33.7,11.8,7.5
+"CASA DI CURA C.B.H. MATER DEI HOSPITAL VIA HAHNEMANN 10, 70126 BARI BA",https://www.materdeihospital.it/reparti/pianificazione-familiare-ivg/,301,0,0.0,68.8,26.1,5.1,0.0
+"P.O. DELLA MURGIA 'F. PERINEI' S.S.96 KM 73.800, 70022 ALTAMURA BA",https://www.sanita.puglia.it/web/asl-bari/ospedali_det/-/journal_content/56/25619/u-o-c-ostetricia-e-ginecolog-3,108,104,96.3,90.6,2.8,0.9,19.4
+"P.O. SAN PAOLO VIA CAPOSCARDICCHIO 1, 70123 BARI BA",https://www.sanita.puglia.it/web/asl-bari/ospedali_det/-/journal_content/56/25619/ostetricia-e-ginecolog-2,815,580,71.3,64.4,11.0,11.6,17.7
+"P.O. MONOPOLI LARGO SIMONE VENEZIANI 21, 70043 MONOPOLI BA",https://www.sanita.puglia.it/web/asl-bari/ospedali_det/-/journal_content/56/25619/u-o-c-ostetricia-e-ginecologia,23,20,87.0,43.5,0.0,13.0,17.4
+"OSPEDALE  FRANCAVILLA FONTANA VIA MONSIGNOR ARMANDO FRANCO, 72021 FRANCAVILLA FONTANA BR",https://www.sanita.puglia.it/web/asl-brindisi/ospedali_det/-/journal_content/56/36031/ostetricia-e-ginecolog-8,33,0,0.0,39.4,48.5,12.1,21.2
+"OSPEDALE SAN SEVERO - TERESA MASSELLI viale 2 giugno, 71016 SAN SEVERO FG",https://www.sanita.puglia.it/web/asl-foggia/ospedali_det/-/journal_content/56/36044/ginecologia-ed-ostetricia-,2,2,100.0,100.0,0.0,0.0,100.0
+"OSPEDALE SCORRANO VIA G. DELLI PONTI, 73020 SCORRANO LE",https://www.sanita.puglia.it/web/asl-lecce/ospedali_det/-/journal_content/56/25176/ostetricia-e-ginecolog-1,79,50,63.3,65.4,20.5,14.1,77.2
+"OSPEDALE CASTELLANETA VIA DEL MERCATO 60, 74011 CASTELLANETA TA",https://www.sanita.puglia.it/web/asl-taranto/ospedali_det/-/journal_content/56/36057/ostetricia-e-ginecolologia,340,338,99.4,99.1,0.6,0.3,14.1
+"OSPEDALE DI VENERE - BARI VIA OSPEDALE DI VENERE 1, 70010 BARI BA",https://www.sanita.puglia.it/web/asl-bari/ospedali_det/-/journal_content/56/25619/u-o-c-ostetricia-e-ginecolog-1,953,925,97.1,86.9,4.4,0.2,51.7
+"OSPEDALE PERRINO BRINDISI VIA S.S.7 PER MESAGNE, 72100 BRINDISI BR",https://www.sanita.puglia.it/web/asl-brindisi/ospedali_det/-/journal_content/56/36031/ostetricia-ginecologia-e-senologia,211,189,89.6,73.9,11.4,7.1,30.8
+"OSPEDALE LECCE 'V FAZZI' PIAZZETTA MURATORE, 73100 LECCE LE",https://www.sanita.puglia.it/web/asl-lecce/ospedali_det/-/journal_content/56/25176/ostetricia-e-ginecolog-5,644,397,61.6,72.0,13.8,5.0,57.0
+"OSPEDALE SS ANNUNZIATA - TARANTO Via Bruno, 74121 TARANTO TA",https://www.sanita.puglia.it/web/asl-taranto/ospedali_det/-/journal_content/56/36057/ostetricia-e-ginecologia,181,37,20.4,31.5,50.8,12.2,17.1
+"OSPEDALE BARLETTA - 'MONS. R. DIMICCOLI' VIALE IPPOCRATE 15, 76121 BARLETTA BT",https://www.sanita.puglia.it/web/asl-barletta-andria-trani/ospedali_det/-/journal_content/56/36008/ginecologia-e-ostetric-5,354,277,78.2,80.2,11.9,5.9,22.6
+"OSPEDALE  BISCEGLIE VIA G. BOVIO 279/A, 76011 BISCEGLIE BT",https://www.sanita.puglia.it/web/asl-barletta-andria-trani/ospedali_det/-/journal_content/56/36008/ginecologia-e-ostetricia,141,122,86.5,69.8,23.0,1.4,22.7
+"CONSORZIALE POLICLINICO BARI P.zza Giulio Cesare 11, 70124 BARI BA",https://www.sanita.puglia.it/web/ospedalegiovannixxiii/policlinico_det/-/journal_content/56/36067/ginecologia-e-ostetricia-i,17,8,47.1,37.5,12.5,12.5,0.0
+"Ospedali Riuniti di Foggia Viale Luigi Pinto 1, 71222 FOGGIA FG",https://www.sanita.puglia.it/web/ospedaliriunitifoggia/ricerca_det/-/journal_content/56/36080/ginecologia-ed-ostetricia-ii,416,17,4.1,51.0,29.0,7.7,12.8
+"OSPEDALE CIVILE ALGHERO VIA DON MINZONI, 07041 ALGHERO SS",https://www.asl1sassari.it/servizi/servizi-sanitari-territoriali/strutture-sanitarie/,53,47,88.7,83.0,7.5,5.7,13.2
+"P.O. GIOVANNI PAOLO II OLBIA VIA BAZZONI SIRCANA, 07026 OLBIA SS",https://www.aslolbia.it/index.php?xsl=19&s=2&v=9&c=373&c1=640&httphst=www.aslolbia.it,206,50,24.3,45.6,34.0,14.1,14.6
+"P.O. SAN FRANCESCO VIA MANNIRONI, 08100 NUORO NU",https://www.asl3nuoro.it/servizio/ostetricia-e-ginecologia/,94,62,66.0,71.6,10.2,9.1,12.8
+"P.O. 'NOSTRA SIGNORA DELLA MERCEDE' VIA GIUSEPPE PILIA, 08045 LANUSEI NU",https://www.asllanusei.it/index.php?xsl=19&s=4&v=9&c=566&c1=2544&na=1&n=10&httphst=www.asllanusei.it,5,0,0.0,60.0,20.0,20.0,60.0
+"P.O.CTO VIA CATTANEO, 09016 IGLESIAS SU",https://www.aslsulcis.it/servizio/ostetricia-e-ginecologia/,38,27,73.0,89.2,5.4,0.0,0.0
+"P.O. SS. TRINITA' VIA IS MIRRIONIS 92, 09121 CAGLIARI CA",https://www.aslcagliari.it/index.php?xsl=7&s=8395&v=2&c=622,234,207,88.5,67.5,9.8,13.7,20.5
+"PRESIDIO OSPEDALIERO N.S. DI BONARIA VIA ROMA 1, 09038 SAN GAVINO MONREALE SU",https://www.aslmediocampidano.it/servizio/ostetricia-e-ginecologia/,78,50,64.1,92.3,1.3,2.6,34.6
+"CASA DI CURA S.ANNA S.R.L. VIA LA VEGA 9, 09127 CAGLIARI CA",https://www.clinicasantanna.it/it/ginecologia,70,0,0.0,35.7,38.6,25.7,1.4
+"CASA DI CURA VILLA ELENA VIA DANTE 133, 09128 CAGLIARI CA",https://www.casadicuravillaelena.it/unita-operative/unita-operativa-ginecologia/,60,0,0.0,65.0,23.3,11.7,3.3
+"P. OSPEDALIERO 'SAN MARTINO' - ORISTANO VIA ROCKEFELLER snc, 09170 ORISTANO OR",https://www.asl5oristano.it/servizi/ospedali/ospedale-san-martino-oristano/,64,33,51.6,68.8,14.1,14.1,12.5
+"STABILIMENTO SAN MICHELE PIAZZALE A. RICCHI 1, 09134 CAGLIARI CA",https://www.aobrotzu.it/index.php?xsl=15&s=9&v=9&c=321&esn=Primo+piano&na=1&n=10,90,62,68.9,45.6,25.6,16.7,15.6
+"P.O MICROCITEMICO A.CAO VIA JENNER, 09121 CAGLIARI CA",https://www.aslcagliari.it/index.php?xsl=7&s=49623&v=2&c=621,12,0,0.0,0.0,0.0,58.3,0.0
+"STABILIMENTO CLINICHE DI SAN PIETRO VIALE SAN PIETRO 43, 07100 SASSARI SS",https://www.aousassari.it/index.php?xsl=21&s=11&v=9&c=4977&na=1&n=50,248,88,35.5,52.8,27.4,7.7,3.2
+"POLICLINICO MONSERRATO SS 554 KM 4.500 POLICLINICO MONSERRATO, 09100 CAGLIARI CA",https://www.aoucagliari.it/home/it/centro_pma.page,110,74,67.3,54.5,20.0,13.6,11.8
+"P.O. S. GIOVANNI DI DIO C/DA CONSOLIDA, 92100 AGRIGENTO AG",http://www.aspag.it/index.php/il-distretto-ospedaliero/ospedale-di-agrigento/ostetricia-e-ginecologia,106,16,15.1,44.3,36.8,7.5,40.6
+"P.O. BARONE LOMBARDO - CANICATTI' VIALE GIUDICE SAETTA SNC, 92024 CANICATTI' AG",http://www.aspag.it/index.php/il-distretto-ospedaliero/ospedale-di-canicatti/ostetricia-e-ginecologia,124,0,0.0,55.6,40.3,4.0,20.0
+"P.O. S. GIACOMO D'ALTOPASSO LICATA C/DA CANNAVECCHIA, 92027 LICATA AG",http://www.aspag.it/index.php/il-distretto-ospedaliero/ospedale-di-licata/ostetricia-e-ginecologia,79,50,65.8,n.d.,n.d.,n.d.,19.2
+"P.O. GIOVANNI PAOLO II VIA POMPEI - C. DA SENIAZZA, 92019 SCIACCA AG",http://www.aspag.it/index.php/il-distretto-ospedaliero/ospedale-di-sciacca/ostetricia-e-ginecologia148,89,6,6.7,49.4,38.2,6.7,13.5
+"P.O. S. Marta e S. Venera Acireale Via Caronia s.n., 95024 ACIREALE CT",https://old.aspct.it/presidi_ospedalieri/acireale/,184,182,98.9,97.3,1.6,1.1,28.1
+"P. O. 'M. CHIELLO' CONTRADA BELLIA, 94015 PIAZZA ARMERINA EN",https://www.aspenna.it/distretto-sanitario-di-piazza-armerina/,175,175,100.0,0.0,0.0,88.0,54.1
+"P.O. CIVICO PARTINICO VIA CIRCONVALLAZIONE 1, 90047 PARTINICO PA",https://www.asppalermo.org/amministrazione/unita_organizzativa/ginecologia-e-ostetricia-uosdip-p-o-civico-di-partinico/,39,39,100.0,94.9,5.1,0.0,100.0
+"P.O. S. CIMINO TERMINI IMERESE VIA SALVATORE CIMINO, 90018 TERMINI IMERESE PA",https://www.asppalermo.org/amministrazione/unita_organizzativa/ginecologia-e-ostetricia-uoc-po-s-cimino-termini-imerese/,102,76,74.5,72.5,13.7,4.9,43.6
+"P.O. G. F. INGRASSIA C.SO CALATAFIMI, 1002, 90100 PALERMO PA",https://www.asppalermo.org/amministrazione/unita_organizzativa/p-o-g-f-ingrassia-di-palermo-ginecologia-e-ostetricia-uoc/,83,1,1.2,44.6,51.8,2.4,27.7
+"OSPEDALE 'Giovanni Paolo II° M.P. A.' C.DA Cisternazzi via Tiralongo S.N.C, 97100 RAGUSA RG",https://www.asp.rg.it/ospedali,144,124,86.1,83.3,6.9,2.8,35.4
+"OSPEDALE MAGGIORE MODICA via A.Moro, 97015 MODICA RG",https://www.asp.rg.it/ospedali,350,270,77.1,78.3,10.9,7.7,43.1
+"OSPEDALE GUZZARDI VITTORIA VIA PAPA GIOVANNI XXIII, 97019 VITTORIA RG",https://www.asp.rg.it/images/PDF/ospedali/OSPEDALE_RICCARDO_GUZZARDI_VITTORIA.pdf,36,26,72.2,66.7,22.2,5.6,50.0
+"P.O. DI MARIA AVOLA C.DA CHIUSA DI CARLO, 96012 AVOLA SR",https://www.asp.sr.it/Organizzazione/Direzione-Generale/Direzione-Sanitaria/Area-Ospedaliera/Presidio-Ospedaliero-G.-Di-Maria-Avola/Ostetricia-e-Ginecologia-Avola,37,3,8.1,43.2,40.5,5.4,10.8
+"P.O. UMBERTO I (EX A.O.) Via Testaferrata 1, 96100 SIRACUSA SR",https://www.asp.sr.it/Organizzazione/Direzione-Generale/Direzione-Sanitaria/Area-Ospedaliera/Presidio-Ospedaliero-Umberto-I-Siracusa/Ostetricia-e-Ginecologia-Umberto-I,224,17,7.6,59.4,29.9,6.3,35.3
+"P.O. S. ANTONIO ABATE - TRAPANI VIA COSENZA, 82, 91016 ERICE TP",https://www.asptrapani.it/servizi/Menu/dinamica.aspx?idSezione=16974&idArea=16679&idCat=17162&ID=17735&TipoElemento=pagina,257,98,38.1,55.3,31.1,7.0,14.4
+"P.O.ABELE AJELLO-MAZARA D.VALLO VIA SALEMI 175, 91026 MAZARA DEL VALLO TP",https://www.asptrapani.it/servizi/Menu/dinamica.aspx?idSezione=16974&idArea=16665&idCat=17170&ID=21382&TipoElemento=pagina,52,51,98.1,88.2,7.8,0.0,40.4
+"CASA DI CURA CANDELA SPA VIA VILLAREALE 54, 90141 PALERMO PA",https://www.clinicacandela.it/ivg,52,38,73.1,88.5,9.6,1.9,32.7
+"CASA DI CURA SERENA S.P.A. VIA DELLA REGIONE SICILIANA 1470, 90135 PALERMO PA",https://www.casadicuraserena.it/,7,7,100.0,100.0,0.0,0.0,14.3
+"A.O. per l'Emergenza Cannizzaro via Messina 829, 95126 CATANIA CT",https://aocannizzaro.it/utente/reparti-e-servizi/ginecologia-ed-ostetricia/,172,22,12.8,39.5,34.9,6.4,4.1
+"NUOVO OSPEDALE GARIBALDI - NESIMA VIA PALERMO 636, 95122 CATANIA CT",https://ao-garibaldi.ct.it/presidi-ospedalieri/garibaldi-nesima/unita-operative/ostetricia-e-ginecologia/attivita-specialistiche-dell-unita-operativa/,650,42,6.5,27.1,40.8,23.1,2.0
+"PRESIDIO OSPEDALIERO S.MARCO Viale Carlo Azeglio Ciampi, 95121 CATANIA CT",https://www.policlinicorodolicosanmarco.it/san-marco/uo/ostetricia-ginecologia/ambulatori/,145,1,0.7,17.2,46.2,22.1,2.8
+"Azienda Osp. Univ. G. Martino viale gazzi, 98124 MESSINA ME",https://www.polime.it/,340,150,44.2,56.8,23.5,9.4,18.6
+"P.O. V. Cervello Via Trabucco 180, 90146 PALERMO PA",https://www.ospedaliriunitipalermo.it/reparti/ostetricia-e-ginecologia/,390,269,70.2,81.3,3.3,2.1,16.8
+"Ospedale Civico Piazza Nicola Leotta, 90127 PALERMO PA",https://www.arnascivico.it/index.php/pocivico/ostetricia-e-ginecologia?highlight=WyJpdmciXQ==,445,232,52.1,60.9,22.7,9.0,11.0
+"AZ.OSP.UNIV.P.GIACCONE Via del Vespro 129, 90127 PALERMO PA",https://www.policlinico.pa.it/web/guest/home,117,62,54.4,60.7,28.2,6.0,0.0
+"PRESIDIO OSPEDALIERO DI CARRARA PIAZZA SACCO E VANZETTI, 54033 CARRARA MS",https://www.uslnordovest.toscana.it/sedi-territoriali/12722-carrara-centro-polispecialistico-achille-sicari-2,172,172,100.0,98.3,1.7,0.0,81.4
+"OSPEDALE DELLE APUANE Via MATTEI 21, 54100 MASSA MS",https://www.uslnordovest.toscana.it/index.php/ospedali/35-civile-delle-apuane-massa,66,4,6.1,10.9,53.1,26.6,63.1
+"PRESIDIO OSPEDALIERO SAN LUCA VIA GUGLIELMO LIPPI FRANCESCONI, 55100 LUCCA LU",https://www.uslnordovest.toscana.it/ospedali/44-nuovo-ospedale-san-luca-lucca,172,119,69.2,71.1,17.0,8.2,82.0
+"OSPEDALE SAN JACOPO VIA CILIEGIOLE 97, 51100 PISTOIA PT",https://www.uslcentro.toscana.it/index.php/ospedali/ospedale-san-jacopo-di-pistoia/reparti/3030-ostetricia-e-ginecologia-ospedale-san-jacopo-di-pistoia/54564-recapiti-e-contatti,8,2,25.0,14.3,0.0,0.0,25.0
+"OSPEDALE DELLA VALDINIEVOLE V. C. BATTISTI PESCIA, 51017 PESCIA PT",https://www.uslcentro.toscana.it/index.php/ospedali/ospedale-ss-cosma-e-damiano/reparti/3055-ostetricia-e-ginecologia-ss-cosma-e-damiano,253,199,78.7,83.6,9.7,5.9,77.9
+"NUOVO OSPEDALE DI PRATO S.STEFANO VIA SUOR NICCOLINA INFERMIERA 20/22, 59100 PRATO PO",https://www.uslcentro.toscana.it/index.php/ospedali/ospedale-di-prato-santo-stefano/reparti-nuovo-ospedale-di-prato/3123-ostetricia-e-ginecologia-ospedale-santo-stefano-prato,489,319,65.2,66.0,15.3,13.0,34.3
+"PRESIDIO OSPEDALIERO ""S.MARIA MADDALENA"" BORGO S.LAZZARO 5, 56048 VOLTERRA PI",https://www.uslnordovest.toscana.it/consultori/1149-servizi-consultoriali-volterra,44,36,81.8,87.8,12.2,0.0,68.2
+"P.O. F. LOTTI STABILIMENTO DI PONTEDERA VIA ROMA180, 56025 PONTEDERA PI",https://www.uslnordovest.toscana.it/ospedali/pontedera,245,166,67.8,75.2,11.6,7.0,71.0
+"OSPEDALE LIVORNO VIALE ALFIERI 36, 57124 LIVORNO LI",https://www.uslnordovest.toscana.it/consultori/1164-consultori-livorno-centro,219,132,60.3,67.6,17.1,12.4,84.9
+"OSPEDALE DI VILLAMARINA VIA FORLANINI 24, 57025 PIOMBINO LI",https://www.uslnordovest.toscana.it/ospedali/piombino,46,44,95.7,95.5,2.3,2.3,50.0
+"OSPEDALE CIVILE DI CECINA VIA MONTANARA 52B, 47023 CECINA LI",https://www.uslnordovest.toscana.it/ospedali/cecina,95,62,65.3,70.2,11.7,10.6,57.9
+"OSPEDALE DI PORTOFERRAIO LOC. S.ROCCO, 57037 PORTOFERRAIO LI",https://www.uslnordovest.toscana.it/consultori/1177-consultorio-portoferraio,37,29,78.4,81.1,13.5,5.4,75.7
+"OSPEDALE DEL CASENTINO VIALE FILIPPO TURATI, 52011 BIBBIENA AR",https://www.uslsudest.toscana.it/ospedali/casentino-bibbiena/ginecologia,33,33,100.0,93.9,6.1,0.0,81.8
+"OSPEDALE AREA ARETINA NORD VIA P. NENNI, 52100 AREZZO AR",https://www.uslsudest.toscana.it/ospedali/arezzo-san-donato/ostetricia-e-ginecologia,205,149,72.7,75.1,11.2,8.8,84.2
+"OSPEDALE DELLA MISERICORDIA GROSSETO VIA SENESE 169, 58100 GROSSETO GR",https://www.uslsudest.toscana.it/ospedali/grosseto-misericordia/ostetricia-e-ginecologia,210,113,53.8,58.1,21.9,12.9,72.9
+"OSPEDALE DI BORGO SAN LORENZO VIALE DELLA RESISTENZA, 50032 BORGO SAN LORENZO FI",https://www.uslsudest.toscana.it/ospedali/grosseto-misericordia/ostetricia-e-ginecologia,16,4,25.0,12.5,31.3,6.3,43.8
+"OSPEDALE S.M.ANNUNZIATA VIA DELL'ANTELLA 58, 50012 BAGNO A RIPOLI FI",https://www.uslcentro.toscana.it/index.php/ospedali/ospedale-santa-maria-annunziata/reparti-santa-maria-annunziata/3145-ostetricia-e-ginecologia-ospedale-santa-maria-annunziata,16,1,6.3,0.0,6.3,43.8,60.0
+"OSPEDALE PIERO PALAGI VIALE MICHELANGELO 41, 50125 FIRENZE FI",https://www.uslcentro.toscana.it/index.php/ospedali/ospedale-piero-palagi/attivita-ambulatoriali/3086-consultorio-ostetrico-ginecologico-ospedale-palagi/53803-cosa-facciamo,758,484,63.9,68.1,21.9,10.0,65.0
+"OSP. S. GIOVANNI DI DIO TORREGALLI VIA TORRE GALLI 3, 50143 FIRENZE FI",https://www.uslcentro.toscana.it/index.php/ospedali/ospedale-san-giovanni-di-dio/reparti-san-giovanni-di-dio/3015-ostetricia-e-ginecologia-sgd,10,2,20.0,0.0,0.0,22.2,70.0
+"OSPEDALE DELL'ALTA VAL D'ELSA LOC.CAMPOSTAGGIA, 53036 POGGIBONSI SI",https://www.uslsudest.toscana.it/percorsi-assistenziali/percorso-interruzione-volontaria-di-gravidanza,69,41,59.4,68.1,14.5,10.1,58.0
+"OSPEDALI RIUNITI DELLA VAL DI CHIANA VIA PROVINCIALE MONTEPULCIANO 5, 53045 MONTEPULCIANO SI",https://www.uslsudest.toscana.it/ospedali/valdichiana-nottola/ostetricia-e-ginecologia,89,65,73.0,69.7,16.9,10.1,38.2
+"OSPEDALE VERSILIA VIA AURELIA 335, 55043 CAMAIORE LU",https://uslnordovest.toscana.it/ospedali/47-unico-versilia,144,75,52.1,65.3,25.0,6.9,80.6
+"OSPEDALE NUOVO VALDARNO P.DEL VOLONTARIATO 2 LOC. GRUCCIA, 52025 MONTEVARCHI AR",https://www.uslsudest.toscana.it/ospedali/valdarno-la-gruccia/ostetricia-e-ginecologia,102,35,34.3,70.6,19.6,8.8,95.1
+"OSPEDALE S. GIUSEPPE VIALE BOCCACCIO, 50053 EMPOLI FI",https://www.uslcentro.toscana.it/index.php/ospedali/ospedale-san-giuseppe-di-empoli/reparti/3082-ostetricia-e-ginecologia-ospedale-san-giuseppe,160,102,63.8,62.3,17.0,16.4,41.1
+"AZIENDA OSPEDALIERO-UNIVERSITARIA PISANA VIA ROMA 67, 56126 PISA PI",https://www.ao-pisa.toscana.it/index.php?option=com_content&view=category&id=105&Itemid=113,156,69,44.2,39.1,24.4,16.7,51.3
+"AZIENDA OSPEDALIERA UNIVERSITARIA SENESE V.LE BRACCI  LOC.LE SCOTTE, 53100 SIENA SI",https://www.ao-siena.toscana.it/dipartimenti/dipartimento-della-donna-e-dei-bambini/ginecologia/,161,79,49.1,60.9,19.9,14.9,46.6
+"AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI LARGO BRAMBILLA 3, 50134 FIRENZE FI",https://www.aou-careggi.toscana.it/internet/diagnosi-e-cura/strutture-cliniche/degenze/day-surgery-ivg/,463,267,57.7,60.0,16.5,12.3,7.1
+"OSPEDALE DI CITTA` DI CASTELLO VIA LUIGI ANGELINI 10, 06012 CITTA' DI CASTELLO PG",https://www.uslumbria1.it/ospedale/ospedale-di-citta-di-castello/unita-operative-e-servizi/,39,34,87.2,56.4,20.5,10.3,41.0
+"OSPEDALE DI UMBERTIDE VIA CAMILLO B. CAVOUR 40, 06019 UMBERTIDE PG",https://www.uslumbria1.it/ospedale/ospedale-umbertide/,108,78,72.9,68.1,21.3,10.6,45.4
+"STAB. OSPEDALIERO MEDIA VALLE DEL TEVERE Via Buda - Pantalla, 06059 TODI PG",https://www.uslumbria1.it/ospedale/ospedale-media-valle-del-tevere/,213,200,93.9,99.5,0.0,0.0,47.9
+"OSPEDALE CIVILE SAN MATTEO DEGLI INFERMI Via Loreto 3, 06049 SPOLETO PG",https://www.uslumbria2.it/pagine/ospedale-di-spoleto-000,113,104,92.0,97.9,2.1,0.0,75.2
+"SANTA MARIA DELLA STELLA Localita' Ciconia, 05018 ORVIETO TR",https://www.uslumbria2.it/pagine/informazioni-utili-e-contatti,80,55,68.8,68.2,15.2,9.1,43.8
+"STABILIMENTO OSPEDALIERO DI NARNI Via Cappuccini Nuovi 3, 05035 NARNI TR",https://www.uslumbria2.it/pagine/ospedale-di-narni-000,5,5,100.0,100.0,0.0,0.0,80.0
+"OSPEDALE SAN GIOVANNI BATTISTA FOLIGNO Via Arcamone, 06034 FOLIGNO PG",https://www.uslumbria2.it/pagine/ospedale-di-foligno-000,42,14,33.3,2.9,2.9,34.3,50.0
+"PRESIDIO OSPEDALIERO GUBBIO E G.TADINO LARGO UNITA' D'ITALIA - LOCALITA' BRANCA, 06024 GUBBIO PG",https://www.uslumbria1.it/ospedale/ospedale-gubbio-gualdo-tadino/unita-operative-e-servizi/,90,74,84.1,79.4,5.9,4.4,40.0
+"AZIENDA OSPEDALIERA DI PERUGIA PIAZZALE GIORGIO MENGHINI 8/9, 06129 PERUGIA PG",https://www.ospedale.perugia.it/strutture/ostetricia-e-ginecologia,111,15,13.5,4.1,29.6,20.4,54.1
+"AZIENDA OSPEDALIERA 'S. MARIA ' VIA TRISTANO DI JOANNUCCIO, 05100 TERNI TR",https://www.aospterni.it/azienda/struttura-sanitaria/dipartimento-materno-infantile/ostetricia-e-ginecologia/,161,75,47.8,61.6,20.8,9.6,79.9
+"OSPEDALE REGIONALE UMBERTO PARINI VIALE GINEVRA 3, 11100 AOSTA AO",https://www.ausl.vda.it/chi-siamo/ospedale-strutture-reparti-servizi-sanitari-e-rsa/reparti/ostetricia-e-ginecologia/ginecologia,133,91,68.4,74.0,20.8,2.6,20.6
+"OSPEDALE PEDERZOLI CASA DI CURA SPA VIA MONTE BALDO 24, 37019 PESCHIERA DEL GARDA VR",https://www.ospedalepederzoli.it/specialita/ostetricia-e-ginecologia/,8,7,87.5,12.5,0.0,0.0,0.0
+"OSPEDALE DI  FELTRE VIA BAGNOLS SUR CEZE 3, 32032 FELTRE BL",https://www.aulss1.veneto.it/service/ostetricia-ginecologia-feltre/,156,122,78.2,75.0,14.7,6.4,57.1
+"OSPEDALE DI TREVISO PIAZZALE OSPEDALE 1, 31100 TREVISO TV",https://www.aulss2.veneto.it/Ostetricia-e-ginecologia-Treviso,336,193,57.4,58.6,16.4,11.0,56.0
+"OSPEDALE DI  ODERZO VIALE LUZZATTI 45, 31046 ODERZO TV",https://www.aulss2.veneto.it/Ostetricia-e-ginecologia-Oderzo,74,61,82.4,71.6,17.6,8.1,79.7
+"OSPEDALE DI CONEGLIANO VIA BRIGATA BISAGNO 4, 31015 CONEGLIANO TV",https://www.aulss2.veneto.it/Ostetricia-e-ginecologia-Conegliano,188,120,63.8,69.7,14.9,13.3,58.0
+"OSPEDALE DI CASTELFRANCO VIA DEI CARPANI 16/Z, 31033 CASTELFRANCO VENETO TV",https://www.aulss2.veneto.it/Ostetricia-e-ginecologia-Castelfranco,64,64,100.0,76.6,20.3,0.0,71.9
+"OSPEDALE DI MONTEBELLUNA VIA TOGLIATTI 1, 31044 MONTEBELLUNA TV",https://www.aulss2.veneto.it/Ostetricia-e-ginecologia-Montebelluna,130,73,56.2,53.1,18.5,20.8,71.5
+"OSPEDALE DI MESTRE VIA PACCAGNELLA 11, 30174 VENEZIA VE",https://www.aulss3.veneto.it/organizzazioni/ostetricia-ginecologia-mestre,307,210,68.4,73.9,15.0,5.2,53.4
+"OSPEDALE DI VENEZIA CASTELLO 6777/A, 30122 VENEZIA VE",https://www.aulss3.veneto.it/organizzazioni/contenuto/ostetricia-ginecologia-venezia,89,61,68.5,77.5,15.7,6.7,47.2
+"OSPEDALE DI MIRANO VIA DON GIACOBBE SARTOR 4, 30035 MIRANO VE",https://www.aulss3.veneto.it/organizzazioni/contenuto/ostetricia-ginecologia-mirano,182,77,42.3,51.1,31.3,12.1,29.7
+"OSPEDALE DI CHIOGGIA STRADA MADONNA MARINA 500, 30015 CHIOGGIA VE",https://www.aulss3.veneto.it/organizzazioni/contenuto/ostetricia-ginecologia-chioggia,63,4,6.3,39.7,38.1,12.7,1.6
+"OSPEDALE DI PORTOGRUARO VIA PIEMONTE 1, 30026 PORTOGRUARO VE",https://www.aulss4.veneto.it/home,1,0,0.0,0.0,0.0,0.0,0.0
+"OSPEDALE DI SAN DONA' DI PIAVE VIA NAZARIO SAURO 25, 30027 SAN DONA' DI PIAVE VE",https://www.aulss4.veneto.it/home,73,0,0.0,34.2,45.2,16.4,68.5
+"OSPEDALE DI ROVIGO VIALE TRE MARTIRI 140, 45100 ROVIGO RO",https://www.aulss5.veneto.it/Ostetricia-e-Ginecologia-1,72,72,100.0,94.4,1.4,0.0,25.0
+"OSPEDALE DI ADRIA PIAZZA DEGLI ETRUSCHI 9, 45011 ADRIA RO",https://www.aulss5.veneto.it/Ostetricia-e-ginecologia-Adria,74,56,75.7,62.2,24.3,5.4,32.4
+"OSPEDALE DI CITTADELLA VIA RIVA OSPEDALE, 35013 CITTADELLA PD",https://www.aulss6.veneto.it/index.cfm?action=ospedali.reparto&id=65,231,198,85.7,79.2,9.1,5.6,50.2
+"OSPEDALE DI PIOVE DI SACCO VIA S. ROCCO8, 35028 PIOVE DI SACCO PD",https://www.aulss6.veneto.it/Ospedale-di-Piove-di-Sacco-Ostetricia-e-Ginecologia,80,0,0.0,22.5,62.5,15.0,36.3
+"OSPEDALE DI SCHIAVONIA VIA ALBERE 30, 35043 MONSELICE PD",https://www.aulss6.veneto.it/index.cfm?action=ospedali.reparto&id=93,220,135,61.4,72.3,13.6,10.5,75.5
+"OSPEDALE DI BASSANO VIA DEI LOTTI 40, 36061 BASSANO DEL GRAPPA VI",https://www.aulss7.veneto.it/Ostetricia-e-Ginecologia-Bassano,73,19,26.0,45.2,26.0,21.9,74.0
+"OSPEDALE DI ASIAGO VIA MARTIRI DI GRANEZZA 42, 36012 ASIAGO VI",https://www.aulss7.veneto.it/Ostetricia-e-Ginecologia-Asiago,41,0,0.0,53.7,34.1,12.2,58.5
+"OSPEDALE DI SANTORSO VIA GARZIERE 42, 36014 SANTORSO VI",https://www.aulss7.veneto.it/Ostetricia-e-Ginecologia-Santorso,223,102,45.7,48.9,19.7,26.5,65.9
+"OSPEDALE DI VICENZA VIALE RODOLFI 37, 36100 VICENZA VI",https://www.aulss8.veneto.it/unita-operative/ostetricia-e-ginecologia-di-vicenza/,293,153,52.2,60.4,16.4,15.7,60.4
+"OSPEDALE DI ARZIGNANO VIA DEL PARCO 1, 36071 ARZIGNANO VI",https://www.aulss8.veneto.it/unita-operative/ostetricia-e-ginecologia-di-arzignano/,77,0,0.0,22.1,37.7,29.9,46.8
+"OSPEDALE DI VALDAGNO VIA G. GALILEI 1, 36078 VALDAGNO VI",https://www.aulss8.veneto.it/unita-operative/ostetricia-e-ginecologia-di-valdagno/,38,38,100.0,92.1,7.9,0.0,42.1
+"OSPEDALE DI LEGNAGO VIA GIANELLA 1, 37045 LEGNAGO VR",https://www.aulss9.veneto.it/index.cfm?action=mys.page&content_id=246,103,75,72.8,67.0,20.4,6.8,4.9
+"OSPEDALE DI SAN BONIFACIO VIA CIRCONVALLAZIONE, 37047 SAN BONIFACIO VR",https://www.aulss9.veneto.it/index.cfm?action=mys.page&content_id=286,127,30,23.6,35.4,32.3,18.9,34.6
+"OSPEDALE DI VILLAFRANCA VIA OSPEDALE 2, 37069 VILLAFRANCA DI VERONA VR",https://www.aulss9.veneto.it/index.cfm?action=mys.page&content_id=713,167,82,49.1,62.9,21.6,12.6,46.7
+"AZIENDA OSPEDALE - UNIVERSITA' PADOVA VIA GIUSTINIANI 1, 35128 PADOVA PD",https://www.aopd.veneto.it/Ostetricia-Ginecologia,257,12,4.7,9.7,21.4,42.4,18.7
+"AOUI VERONA BORGO TRENTO PIAZZALE A. STEFANI1, 37126 VERONA VR",https://www.aovr.veneto.it/dipartimenti-sanitari/-/departments/servizio-di-pianificazione-familiare-interruzione-volontaria-gravidanza/informazioni-generali,516,216,41.9,49.8,26.2,17.6,46.1
