@@ -15,4 +15,4 @@
 ### Dati Vittiorio
 
 - Il comune di Garbagnate è stato corretto in Garbagnate Milanese.
-- Nel comune di "FFONDI" c'era uno spazio in più, che è stato rimosso.
+- Nel comune di "FONDI" c'era uno spazio in più, che è stato rimosso.
