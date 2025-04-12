@@ -46,6 +46,8 @@ Qui i dati estratti:
 
 Il progetto si chiama "Progetto CCM 2022", ma nelle note è riportato "Fonte dati: ISTAT **2023**. I dati verranno **aggiornati annualmente**".
 
+![](comuni_punti_ivg.png)
+
 ## Schema dei dati
 
 | Campo | Tipo | Descrizione | Esempio |
