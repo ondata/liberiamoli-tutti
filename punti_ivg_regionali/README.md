@@ -1,4 +1,4 @@
-- [Dati sui Punti IVG Regionali (Progetto CCM 2022)](#dati-sui-punti-ivg-regionali-progetto-ccm-2022)
+- [Dati sui Punti Interruzione Volontaria di Gravidanza (Progetto CCM 2022)](#dati-sui-punti-interruzione-volontaria-di-gravidanza-progetto-ccm-2022)
   - [Contesto](#contesto)
   - [Modifiche apportate ai dati originali](#modifiche-apportate-ai-dati-originali)
   - [Dati](#dati)
@@ -8,9 +8,9 @@
     - [Dati sorgente](#dati-sorgente)
 
 
-# Dati sui Punti IVG Regionali (Progetto CCM 2022)
+# Dati sui Punti Interruzione Volontaria di Gravidanza (Progetto CCM 2022)
 
-Questo repository contiene i dati dei **Punti Interruzione Volontaria di Gravidanza (IVG) regionali** raccolti nel contesto del [**progetto CCM 2022**](https://www.epicentro.iss.it/ivg/progetto-ccm-2022):
+Questo repository contiene i dati sui **Punti Interruzione Volontaria di Gravidanza (IVG)** raccolti nel contesto del [**progetto CCM 2022**](https://www.epicentro.iss.it/ivg/progetto-ccm-2022):
 
 >
 > *"Interventi per migliorare la qualità dei dati, la prevenzione e l'appropriatezza delle procedure per l'Interruzione Volontaria di Gravidanza (IVG)".*
@@ -86,3 +86,4 @@ I dati sono rilasciati con [licenza **Creative Commons Attribution 4.0 Internati
   - STABILIMENTO Dl URBINO VIA COMANDINO 70, 61029 URBINO PIJ
 - di una struttura non c'è l'URL
 - Nelle note della pagina sorgente è riportato "Fonte dati: ISTAT 2023. I dati verranno aggiornati annualmente", e perché non ci sono i dati 2024?.
+- È la mappa dei punti attivi di IVG. E perché non si pubblicano dati più aggiornati?
