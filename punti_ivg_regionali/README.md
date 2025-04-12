@@ -10,10 +10,10 @@
 
 # Dati sui Punti IVG Regionali (Progetto CCM 2022)
 
-Questo repository contiene i dati aggiornati dei **Punti Interruzione Volontaria di Gravidanza (IVG) regionali** raccolti nel contesto del progetto CCM 2022:
+Questo repository contiene i dati dei **Punti Interruzione Volontaria di Gravidanza (IVG) regionali** raccolti nel contesto del [**progetto CCM 2022**](https://www.epicentro.iss.it/ivg/progetto-ccm-2022):
 
 >
-> *"Interventi per migliorare la qualità dei dati, la prevenzione e l’appropriatezza delle procedure per l’Interruzione Volontaria di Gravidanza (IVG)".*
+> *"Interventi per migliorare la qualità dei dati, la prevenzione e l'appropriatezza delle procedure per l'Interruzione Volontaria di Gravidanza (IVG)".*
 
 La fonte dati è la pagina ufficiale dell'Istituto Superiore di Sanità:👉 [https://www.epicentro.iss.it/ivg/progetto-ccm-2022-mappa-punti-ivg](https://www.epicentro.iss.it/ivg/progetto-ccm-2022-mappa-punti-ivg)
 
