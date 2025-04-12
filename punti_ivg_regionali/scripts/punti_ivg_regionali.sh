@@ -52,5 +52,6 @@ mlr -S -I --csv cut -f comune,provincia,"Codice Comune formato alfanumerico" the
 mlr -S --csv join --ul -j comune,provincia -f "$folder"/../data/punti_ivg_regionali.csv then unsparsify then sort -t n then reorder -f n,struttura,struttura_nome,indirizzo,cap,comune,provincia,regione_pa "$folder"/tmp/comune_provincia_istat.csv >"$folder"/tmp/punti_ivg_regionali.csv
 
 mlr -I -S --csv sub -a "^-$" "" "$folder"/tmp/punti_ivg_regionali.csv
+mlr -I -S --csv sub -a "^n\.d\.$" "" "$folder"/tmp/punti_ivg_regionali.csv
 
 mv "$folder"/tmp/punti_ivg_regionali.csv "$folder"/../data/punti_ivg_regionali.csv
