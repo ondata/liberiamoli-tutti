@@ -39,8 +39,12 @@ Rispetto alla fonte originale, i dati in questo repository includono:
 
 ## Dati
 
+Qui i dati estratti:
+
 - [`punti_ivg_regionali.csv`](dati/punti_ivg_regionali.csv): file CSV contenente i dati aggiornati dei punti IVG regionali
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1Si80dFrgBhZbTyLq3LMhSOxQYuIWbyJwJjCdDJHoV4o/edit?usp=sharing)
+
+Il progetto si chiama "Progetto CCM 2022", ma nelle note è riportato "Fonte dati: ISTAT 2023. I dati verranno aggiornati annualmente".
 
 ## Schema dei dati
 
@@ -77,7 +81,8 @@ I dati sono rilasciati con [licenza **Creative Commons Attribution 4.0 Internati
 - La pagina dell'Emilia-Romagna ha i separatori decimali (.) e non le virgole (,), a differenza delle altre regioni.
 - La pagina della Liguria ha i separatori decimali (.) e non le virgole (,), a differenza delle altre regioni.
 - Ci sono tre strutture, ripetute due volte, però con dati numerici diversi e a volte con URL diversi:
-  -  AZIENDA OSPEDALIERO-UNIVERSITARIA Dl PARMA VIA GRAMSCI 14, 1.13100 PARMA PR
-  -  AZIENDA OSPEDALIERO-UNIVERSITARIA Dl FERRARA VIA ALDO MORO 8, FERRARA FE
-  -  STABILIMENTO Dl URBINO VIA COMANDINO 70, 61029 URBINO PIJ
--  di una struttura non c'è l'URL
+  - AZIENDA OSPEDALIERO-UNIVERSITARIA Dl PARMA VIA GRAMSCI 14, 1.13100 PARMA PR
+  - AZIENDA OSPEDALIERO-UNIVERSITARIA Dl FERRARA VIA ALDO MORO 8, FERRARA FE
+  - STABILIMENTO Dl URBINO VIA COMANDINO 70, 61029 URBINO PIJ
+- di una struttura non c'è l'URL
+- Nelle note della pagina sorgente è riportato "Fonte dati: ISTAT 2023. I dati verranno aggiornati annualmente", e perché non ci sono i dati 2024?.
