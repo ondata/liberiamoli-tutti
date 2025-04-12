@@ -41,7 +41,7 @@ Rispetto alla fonte originale, i dati in questo repository includono:
 
 Qui i dati estratti:
 
-- [`punti_ivg_regionali.csv`](dati/punti_ivg_regionali.csv): file CSV contenente i dati aggiornati dei punti IVG regionali
+- [`punti_ivg_regionali.csv`](data/punti_ivg_regionali.csv): file CSV contenente i dati aggiornati dei punti IVG regionali
 - [Google Sheet](https://docs.google.com/spreadsheets/d/1Si80dFrgBhZbTyLq3LMhSOxQYuIWbyJwJjCdDJHoV4o/edit?usp=sharing)
 
 Il progetto si chiama "Progetto CCM 2022", ma nelle note è riportato "Fonte dati: ISTAT 2023. I dati verranno aggiornati annualmente".
