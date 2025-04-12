@@ -52,23 +52,23 @@ Il progetto si chiama "Progetto CCM 2022", ma nelle note è riportato "Fonte dat
 | --- | --- | --- | --- |
 | n | intero | Identificativo progressivo del record | 1 |
 | struttura | stringa | Nome e indirizzo della struttura | "P.O.SAN SALVATORE L'AQUILA VIA VETOIO COPPITO, 67100 L'AQUILA AQ" |
-| struttura\_nome | stringa | Nome della struttura | "Ospedale Bassini" |
+| struttura_nome | stringa | Nome della struttura | "Ospedale Bassini" |
 | indirizzo | stringa | Indirizzo fisico della struttura | Via Gorki 50 |
 | cap | stringa | Codice di Avviamento Postale | 20092 |
 | comune | stringa | Nome del comune della struttura | Cinisello Balsamo |
 | provincia | stringa | Sigla della provincia | MI |
-| regione\_pa | stringa | Regione o provincia autonoma | Lombardia |
+| regione_pa | stringa | Regione o provincia autonoma | Lombardia |
 | url | stringa | URL della struttura o pagina informativa | http://esempio.it |
-| n\_totale\_ivg | intero | Numero totale di IVG annuali effettuate nella struttura | 145 |
-| n\_ivg\_farmacologiche | intero | Numero di IVG farmacologiche effettuate | 98 |
-| perc\_ivg\_farmacologiche | float | Percentuale di IVG farmacologiche sul totale | 67.6 |
-| perc\_ivg\_leq\_8\_sett | float | Percentuale di IVG effettuate entro 8 settimane | 71.2 |
-| perc\_ivg\_9\_10\_sett | float | Percentuale di IVG effettuate tra 9-10 settimane | 18.3 |
-| perc\_ivg\_11\_12\_sett | float | Percentuale di IVG effettuate tra 11-12 settimane | 10.5 |
-| perc\_certificazione\_consultorio | float | Percentuale di certificazioni rilasciate da consultori | 52.4 |
+| n_totale_ivg | intero | Numero totale di IVG annuali effettuate nella struttura | 145 |
+| n_ivg_farmacologiche | intero | Numero di IVG farmacologiche effettuate | 98 |
+| perc_ivg_farmacologiche | float | Percentuale di IVG farmacologiche sul totale | 67.6 |
+| perc_ivg_leq_8_sett | float | Percentuale di IVG effettuate entro 8 settimane | 71.2 |
+| perc_ivg_9_10_sett | float | Percentuale di IVG effettuate tra 9-10 settimane | 18.3 |
+| perc_ivg_11_12_sett | float | Percentuale di IVG effettuate tra 11-12 settimane | 10.5 |
+| perc_certificazione_consultorio | float | Percentuale di certificazioni rilasciate da consultori | 52.4 |
 | territorio | stringa | Nome regione o provincia autonoma | Distretto 3 |
 | anno | intero | Anno di riferimento dei dati | 2023 |
-| comune\_codice\_istat | stringa | Codice ISTAT del comune | 015055 |
+| comune_codice_istat | stringa | Codice ISTAT del comune | 015055 |
 
 ## Licenza
 
