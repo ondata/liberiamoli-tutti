@@ -50,4 +50,7 @@ csvmatch "$folder"/tmp/comune_provincia.csv "$folder"/../../risorse/Elenco-comun
 mlr -S -I --csv cut -f comune,provincia,"Codice Comune formato alfanumerico" then label comune,provincia,comune_codice_istat "$folder"/tmp/comune_provincia_istat.csv
 
 mlr -S --csv join --ul -j comune,provincia -f "$folder"/../data/punti_ivg_regionali.csv then unsparsify then sort -t n then reorder -f n,struttura,struttura_nome,indirizzo,cap,comune,provincia,regione_pa "$folder"/tmp/comune_provincia_istat.csv >"$folder"/tmp/punti_ivg_regionali.csv
+
+mlr -I -S --csv sub -a "^-$" "" "$folder"/tmp/punti_ivg_regionali.csv
+
 mv "$folder"/tmp/punti_ivg_regionali.csv "$folder"/../data/punti_ivg_regionali.csv
