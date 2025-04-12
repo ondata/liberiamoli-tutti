@@ -68,7 +68,7 @@ Rispetto alla fonte originale, i dati in questo repository includono:
 
 ## Licenza
 
-I dati sono rilasciati con licenza **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+I dati sono rilasciati con [licenza **Creative Commons Attribution 4.0 International (CC BY 4.0)**](LICENSE.md).
 
 ## Note
 
