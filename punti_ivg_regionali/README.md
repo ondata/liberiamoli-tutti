@@ -1,3 +1,13 @@
+- [Dati sui Punti IVG Regionali (Progetto CCM 2022)](#dati-sui-punti-ivg-regionali-progetto-ccm-2022)
+  - [Contesto](#contesto)
+  - [Modifiche apportate ai dati originali](#modifiche-apportate-ai-dati-originali)
+  - [Dati](#dati)
+  - [Schema dei dati](#schema-dei-dati)
+  - [Licenza](#licenza)
+  - [Note](#note)
+    - [Dati sorgente](#dati-sorgente)
+
+
 # Dati sui Punti IVG Regionali (Progetto CCM 2022)
 
 Questo repository contiene i dati aggiornati dei **Punti Interruzione Volontaria di Gravidanza (IVG) regionali** raccolti nel contesto del progetto CCM 2022:
@@ -27,6 +37,11 @@ Rispetto alla fonte originale, i dati in questo repository includono:
   - `provincia`
 - **Separatore decimale normalizzato a** `.` (punto) per facilitare l'importazione nei software di analisi dati
 
+## Dati
+
+- [`punti_ivg_regionali.csv`](dati/punti_ivg_regionali.csv): file CSV contenente i dati aggiornati dei punti IVG regionali
+- [Google Sheet](https://docs.google.com/spreadsheets/d/1Si80dFrgBhZbTyLq3LMhSOxQYuIWbyJwJjCdDJHoV4o/edit?usp=sharing)
+
 ## Schema dei dati
 
 | Campo | Tipo | Descrizione | Esempio |
@@ -55,10 +70,6 @@ Rispetto alla fonte originale, i dati in questo repository includono:
 
 I dati sono rilasciati con licenza **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
-
-
-# Intro
-
 ## Note
 
 ### Dati sorgente
@@ -70,8 +81,3 @@ I dati sono rilasciati con licenza **Creative Commons Attribution 4.0 Internatio
   -  AZIENDA OSPEDALIERO-UNIVERSITARIA Dl FERRARA VIA ALDO MORO 8, FERRARA FE
   -  STABILIMENTO Dl URBINO VIA COMANDINO 70, 61029 URBINO PIJ
 -  di una struttura non c'è l'URL
-
-### Dati Vittiorio
-
-- Il comune di Garbagnate è stato corretto in Garbagnate Milanese.
-- Nel comune di "FONDI" c'era uno spazio in più, che è stato rimosso.
