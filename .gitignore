@@ -20,3 +20,4 @@ istituti_penitenziari/data/raw/*
 
 # soldi e politica
 soldi_e_politica/processing/*/*.csv
+registro_volonta_donazione_organi/script/comuni_csv/*.csv
