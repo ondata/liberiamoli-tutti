@@ -33,6 +33,13 @@ if [[ $estrai_dati == "sì" ]]; then
     # Extract file information and create date components
     file=$(echo "$line" | jq -r '."@href"' | sed -r 's|.+allegati/||')
     nome=$(basename "$file" .pdf)
+
+    # Skip processing for the specific PDF file
+    if [[ "$nome" == "cruscotto_statistico_giornaliero_28-02-2022_1" ]]; then
+      echo "Skipping $nome.pdf as requested"
+      continue
+    fi
+
     data=$(echo "$line" | jq -r '.data')
     anno=$(echo "$data" | awk -F- '{print $1}')
     mese=$(echo "$data" | awk -F- '{print $2}')
