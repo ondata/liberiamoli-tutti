@@ -71,6 +71,12 @@ find "$folder"/../rawdata/pdf/ -name "*accoglienza.csv" -type f -delete
 for file in "$folder"/tmp/accoglienza/*-accoglienza.csv; do
   nome=$(basename "$file" .csv)
 
+  # Skip processing for the specific file
+  if [[ "$nome" == "cruscotto_statistico_giornaliero_28-02-2022_1-accoglienza" ]]; then
+    echo "Skipping $nome.csv as requested"
+    continue
+  fi
+
   # Clean and format CSV data
   mlrgo -S --csv --implicit-csv-header --headerless-csv-output filter '$4=~"^[^U]"' then put '$f=FILENAME;for (k in $*) {$[k] = gsub($[k], "[*]", "")}' then clean-whitespace then remove-empty-columns then skip-trivial-records "$file" >"$folder"/../rawdata/csv/accoglienza/"$nome".csv
   mlrgo -I -S --csv rename -r ".+crus.+","file" then put '$file=sub($file,".+/","")' then rename -r "Immigrati","Migranti" then rename -r "immigrati","migranti" then rename -r "hotspot","hot spot" "$folder"/../rawdata/csv/accoglienza/"$nome".csv
