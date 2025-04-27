@@ -25,8 +25,8 @@ folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # URLs dei dataset
 cup_cig_anac="https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv.zip"
-progetti_pnrr="https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti.csv"
-gare_pnrr="https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare.csv"
+progetti_pnrr="https://mio-proxy.andy-pr.workers.dev/?url=https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti.csv"
+gare_pnrr="https://mio-proxy.andy-pr.workers.dev/?url=https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare.csv"
 
 # Crea le directory necessarie se non esistono
 mkdir -p "${folder}"/../data
