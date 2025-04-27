@@ -49,7 +49,7 @@ fi
 if [ -f "${folder}"/tmp/PNRR_Progetti.csv ]; then
   echo "File PNRR_Progetti.csv già esistente, salto il download."
 else
-  wget -O "${folder}"/tmp/PNRR_Progetti.csv "${progetti_pnrr}"
+  curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -L -o "${folder}"/tmp/PNRR_Progetti.csv "${progetti_pnrr}"
 fi
 
 # Scarica le gare PNRR solo se non esistono già
