@@ -64,6 +64,9 @@ else
   curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -L -o "${folder}"/tmp/PNRR_Gare.csv "${gare_pnrr}"
 fi
 
+<"${gare_pnrr}" | wc -l
+<"${progetti_pnrr}" | wc -l
+
 exit 0
 
 # Scarica e estrai i dati ANAC solo se non esistono già
