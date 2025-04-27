@@ -30,7 +30,7 @@ gare_pnrr="https://mio-proxy.andy-pr.workers.dev/?url=https://www.italiadomani.g
 
 # Funzione per verificare URL
 check_url() {
-    if ! curl --output /dev/null --silent --head --fail "$1"; then
+    if ! curl --retry 5 --retry-delay 3 --output /dev/null --silent --head --fail "$1"; then
         echo "ERRORE: URL non raggiungibile: $1"
         exit 1
     fi
@@ -54,14 +54,14 @@ fi
 if [ -f "${folder}"/tmp/PNRR_Progetti.csv ]; then
   echo "File PNRR_Progetti.csv già esistente, salto il download."
 else
-  curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -L -o "${folder}"/tmp/PNRR_Progetti.csv "${progetti_pnrr}"
+  curl --retry 5 --retry-delay 3 --fail -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -L -o "${folder}"/tmp/PNRR_Progetti.csv "${progetti_pnrr}"
 fi
 
 # Scarica le gare PNRR solo se non esistono già
 if [ -f "${folder}"/tmp/PNRR_Gare.csv ]; then
   echo "File PNRR_Gare.csv già esistente, salto il download."
 else
-  curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -L -o "${folder}"/tmp/PNRR_Gare.csv "${gare_pnrr}"
+  curl --retry 5 --retry-delay 3 --fail -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -L -o "${folder}"/tmp/PNRR_Gare.csv "${gare_pnrr}"
 fi
 
 <"${gare_pnrr}" | wc -l
