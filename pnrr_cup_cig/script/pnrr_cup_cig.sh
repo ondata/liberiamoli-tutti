@@ -61,8 +61,8 @@ fi
 
 # Estrai CUP e CIG dai progetti PNRR incrociati con i dati ANAC
 duckdb --csv -c "SELECT DISTINCT pnrr.CUP, cup.CIG
-FROM read_csv('${folder}/tmp/PNRR_Progetti.csv') AS pnrr
-JOIN read_csv('${folder}/tmp/cup_csv.csv') AS cup
+FROM read_csv('${folder}/tmp/PNRR_Progetti.csv',header=true) AS pnrr
+JOIN read_csv('${folder}/tmp/cup_csv.csv',header=true) AS cup
 ON pnrr.CUP = cup.CUP
 ORDER BY pnrr.CUP, cup.CIG" >"${folder}"/../data/cup_cig_anac_pnrr.csv
 
@@ -84,5 +84,7 @@ mlr --csv put '$fonte="anac"' "${folder}"/../data/cup_cig_anac_pnrr.csv >"${fold
 # Crea il dataset finale filtrato e ordinato
 mlr --csv unsparsify then cut -f CUP,CIG,fonte then sort -f CUP,CIG then filter '$CIG=~".+"' then filter -x '$CUP=="N/A" || $CIG=="NULL"' "${folder}"/tmp/id.csv "${folder}"/tmp/anac.csv > "${folder}"/../data/cup_cig_anac_pnrr_merge.csv
 
-# Pulisci i file temporanei alla fine
-rm -f "${folder}"/tmp/*
+# Pulisci i file temporanei alla fine solo se CLEAN_TMP è true
+if [ "$CLEAN_TMP" = true ]; then
+  rm -f "${folder}"/tmp/*
+fi
