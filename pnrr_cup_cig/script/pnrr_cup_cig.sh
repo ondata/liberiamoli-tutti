@@ -38,19 +38,19 @@ if [ "$CLEAN_TMP" = true ]; then
 fi
 
 # Scarica e estrai i dati ANAC solo se non esistono già
-# if [ -f "${folder}"/tmp/cup_csv.zip ]; then
-#   echo "File cup_csv.zip già esistente, salto il download."
-# else
-#   wget -O "${folder}"/tmp/cup_csv.zip "${cup_cig_anac}"
-#   unzip -o "${folder}"/tmp/cup_csv.zip -d "${folder}"/tmp
-# fi
+if [ -f "${folder}"/tmp/cup_csv.zip ]; then
+  echo "File cup_csv.zip già esistente, salto il download."
+else
+  wget -O "${folder}"/tmp/cup_csv.zip "${cup_cig_anac}"
+  unzip -o "${folder}"/tmp/cup_csv.zip -d "${folder}"/tmp
+fi
 
-# # Scarica i progetti PNRR solo se non esistono già
-# if [ -f "${folder}"/tmp/PNRR_Progetti.csv ]; then
-#   echo "File PNRR_Progetti.csv già esistente, salto il download."
-# else
-#   wget -O "${folder}"/tmp/PNRR_Progetti.csv "${progetti_pnrr}"
-# fi
+# Scarica i progetti PNRR solo se non esistono già
+if [ -f "${folder}"/tmp/PNRR_Progetti.csv ]; then
+  echo "File PNRR_Progetti.csv già esistente, salto il download."
+else
+  wget -O "${folder}"/tmp/PNRR_Progetti.csv "${progetti_pnrr}"
+fi
 
 # Scarica le gare PNRR solo se non esistono già
 if [ -f "${folder}"/tmp/PNRR_Gare.csv ]; then
@@ -58,8 +58,6 @@ if [ -f "${folder}"/tmp/PNRR_Gare.csv ]; then
 else
   curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -L -o "${folder}"/tmp/PNRR_Gare.csv "${gare_pnrr}"
 fi
-
-exit 0
 
 # Estrai CUP e CIG dai progetti PNRR incrociati con i dati ANAC
 duckdb --csv -c "SELECT DISTINCT pnrr.CUP, cup.CIG
