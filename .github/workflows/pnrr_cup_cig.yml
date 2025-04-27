@@ -1,0 +1,38 @@
+name: Aggiornamento settimanale dati PNRR
+
+on:
+  schedule:
+    - cron: '0 5 * * 1'  # Ogni lunedì alle 5:00
+  workflow_dispatch:  # Permette l'esecuzione manuale
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: crea cartella utente bin, copia dentro l'eseguibile scrape e mlr
+      run: |-
+        mkdir -p ~/bin
+        cp bin/mlrgo ~/bin/mlr
+        cp bin/duckdb ~/bin
+        cd ~/bin
+        chmod +x mlr
+        chmod +x duckdb
+
+    - name: Esegui lo script di aggiornamento
+      run: |-
+        export PATH=$PATH:~/bin
+        cd pnrr_cup_cig/script
+        chmod +x pnrr_cup_cig.sh
+        ./pnrr_cup_cig.sh
+
+    - name: Commit e push se ci sono cambiamenti
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git pull
+        git add -A
+        git commit -m "Aggiornamento automatico dati PNRR: $(date -I)" || exit 0
+        git push
