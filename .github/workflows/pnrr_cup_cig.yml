@@ -1,4 +1,4 @@
-name: Aggiornamento settimanale dati PNRR
+name: Aggiornamento settimanale dati CUP/GIG del PNRR
 
 on:
   schedule:
