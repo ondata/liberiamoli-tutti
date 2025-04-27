@@ -64,6 +64,8 @@ else
   curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -L -o "${folder}"/tmp/PNRR_Gare.csv "${gare_pnrr}"
 fi
 
+exit 0
+
 # Scarica e estrai i dati ANAC solo se non esistono già
 if [ -f "${folder}"/tmp/cup_csv.zip ]; then
   echo "File cup_csv.zip già esistente, salto il download."
