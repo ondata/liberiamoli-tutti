@@ -36,6 +36,8 @@ Schema:
 
 👉 [cup_cig_anac_pnrr.csv](data/cup_cig_anac_pnrr.csv)
 
+L'URL raw è <https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/pnrr_cup_cig/data/cup_cig_anac_pnrr.csv>
+
 ### cup_cig_anac_pnrr_merge.csv
 
 È il file finale che unisce i dati provenienti sia da ANAC che da Italia Domani, con l'indicazione della fonte. Dal file sono stati esclusi i record con CUP uguale a "N/A" o CIG uguale a "NULL".
@@ -47,3 +49,5 @@ Schema:
 - `fonte`: Origine del dato ("anac" o "italiadomani")
 
 👉 [cup_cig_anac_pnrr_merge.csv](data/cup_cig_anac_pnrr_merge.csv)
+
+L'URL raw è <https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/pnrr_cup_cig/data/cup_cig_anac_pnrr_merge.csv>
