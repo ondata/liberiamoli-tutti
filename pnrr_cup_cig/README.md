@@ -7,7 +7,7 @@ Se invece si incrociano i dati aperti del PNRR con quelli pubblicati da ANAC sul
 
 Questo permette quindi di seguire un numero molto maggiore di progetti e monitorare più da vicino la spesa pubblica.
 
-Lo script recupera:
+Lo [script](script/pnrr_cup_cig.sh) recupera:
 
 - i dati dei [**progetti PNRR**](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/Progetti_del_PNRR.html) da Italia Domani;
 - i dati delle [**gare PNRR**](https://www.italiadomani.gov.it/content/sogei-ng/it/it/catalogo-open-data/gare-dei-progetti-del-pnrr.html) da Italia Domani;
