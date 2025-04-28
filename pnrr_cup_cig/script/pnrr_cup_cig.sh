@@ -64,8 +64,8 @@ else
   curl --retry 5 --retry-delay 3 --fail -v -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -L -o "${folder}"/tmp/PNRR_Gare.csv "${gare_pnrr}" || true
 fi
 
-<"${gare_pnrr}" | wc -l
-<"${progetti_pnrr}" | wc -l
+wc -l "${folder}"/tmp/PNRR_Gare.csv
+wc -l "${folder}"/tmp/PNRR_Progetti.csv
 
 exit 0
 
