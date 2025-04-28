@@ -30,10 +30,8 @@ gare_pnrr="https://mio-proxy.andy-pr.workers.dev/?url=https://www.italiadomani.g
 
 # Funzione per verificare URL
 check_url() {
-    if ! curl --retry 5 --retry-delay 3 --output /dev/null --silent --head --fail "$1"; then
-        echo "ERRORE: URL non raggiungibile: $1"
-        exit 1
-    fi
+    echo "Controllo URL: $1"
+    curl --retry 5 --retry-delay 3 --fail -v --head "$1"
 }
 
 # Verifica gli URL prima di procedere
