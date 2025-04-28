@@ -21,13 +21,6 @@ jobs:
         chmod +x mlr
         chmod +x duckdb
 
-    # 👇 Aggiungiamo questo blocco qui
-    - name: Test rapido connessione proxy
-      run: |
-        echo "Test della connessione al proxy..."
-        curl --retry 10 --retry-delay 5 --fail -I "https://proxy.andybandy.it/?url=https://people.sc.fsu.edu/~jburkardt/data/csv/hw_200.csv"
-        echo "✅ Proxy funzionante!"
-
     - name: Esegui lo script di aggiornamento
       run: |-
         export PATH=$PATH:~/bin
