@@ -12,9 +12,14 @@ folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # Crea le cartelle di lavoro necessarie
 mkdir -p "$folder"/tmp
 mkdir -p "$folder"/tmp/cgsse
+mkdir -p "$folder"/../data/cgsse
+
+# data di oggi in formato YYYY-MM-DD
+oggi=$(date +%Y-%m-%d)
+
 
 # Scarica la prima pagina per determinare il numero totale di pagine
-curl -ksL 'https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=2025-06-21&page=0' \
+curl -ksL 'https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine='"${oggi}"'&page=0' \
   -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
   -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
   -H 'cache-control: no-cache' \
@@ -47,7 +52,7 @@ fi
 # Scarica tutte le pagine del calendario scioperi iterando da 0 al numero massimo
 for ((i = 0; i <= pagine; i++)); do
   echo "Scaricando pagina $i"
-  curl -ksL "https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=2025-06-21&page=$i" \
+  curl -ksL "https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine='"${oggi}"'&page=$i" \
     -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
     -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
     -H 'cache-control: no-cache' \
@@ -121,4 +126,6 @@ mlr -I --jsonl --from "$folder"/tmp/cgsse/cgsse_data.jsonl clean-whitespace then
 
 }' then cut -x -f data_dal_raw,data_al_raw then put 'if (!is_null($data_iso)) {$data_sort = $data_iso} else {$data_sort = $data_dal_iso}' then sort -tr data_sort
 
+cp "$folder"/tmp/cgsse/cgsse_data.jsonl "$folder"/../data/cgsse/cgsse_data.jsonl
 
+mlr --ijsonl --ocsv unsparsify "$folder"/../data/cgsse/cgsse_data.jsonl > "$folder"/../data/cgsse/cgsse_data.csv
