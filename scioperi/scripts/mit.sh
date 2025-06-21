@@ -53,7 +53,7 @@ curl_mit_with_retry() {
       regione: (if .td[11] and (.td[11] | type) == "string" and .td[11] != "" then .td[11] else null end),
       provincia: (if .td[12] and (.td[12] | type) == "string" and .td[12] != "" then .td[12] else null end),
       data_ricezione: (if .td[13] and (.td[13] | type) == "string" and .td[13] != "" then .td[13] else null end)
-    }' > "$folder"/tmp/mit/mit.jsonl; then
+    }' > "$folder"/tmp/mit/mit_data.jsonl; then
       echo "Download completato con successo al tentativo $attempt"
       return 0
     else
@@ -73,10 +73,10 @@ curl_mit_with_retry
 
 # Elaborazione dei dati con Miller (mlr)
 # Converte le date dal formato DD/MM/YYYY al formato ISO YYYY-MM-DD e ordina per data
-mlr -I --jsonl --from "$folder"/tmp/mit/mit.jsonl put 'if (!is_null($inizio)) {$inizio_iso = strftime(strptime($inizio, "%d/%m/%Y"), "%Y-%m-%d")}' then put 'if (!is_null($fine)) {$fine_iso = strftime(strptime($fine, "%d/%m/%Y"), "%Y-%m-%d")}' then sort -tr 'inizio_iso' -t sindacati
+mlr -I --jsonl --from "$folder"/tmp/mit/mit_data.jsonl put 'if (!is_null($inizio)) {$inizio_iso = strftime(strptime($inizio, "%d/%m/%Y"), "%Y-%m-%d")}' then put 'if (!is_null($fine)) {$fine_iso = strftime(strptime($fine, "%d/%m/%Y"), "%Y-%m-%d")}' then sort -tr 'inizio_iso' -t sindacati
 
 # Copia il file elaborato nella cartella dati finale
-cp "$folder"/tmp/mit/mit.jsonl "$folder"/../data/mit/mit.jsonl
+cp "$folder"/tmp/mit/mit_data.jsonl "$folder"/../data/mit/mit_data.jsonl
 
 # Converte il file JSONL in formato CSV per compatibilità
-mlr --ijsonl --ocsv unsparsify "$folder"/../data/mit/mit.jsonl > "$folder"/../data/mit/mit.csv
+mlr --ijsonl --ocsv unsparsify "$folder"/../data/mit/mit_data.jsonl > "$folder"/../data/mit/mit_data.csv
