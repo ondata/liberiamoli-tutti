@@ -23,7 +23,7 @@ jobs:
     - name: Install dependencies
       run: |
         python3 -m pip install --upgrade pip
-        pip install -r italian_polls/script/requirements.txt
+        pip install -r scioperi/scripts/requirements.txt
     - name: crea cartella utente bin, copia dentro l'eseguibile mlr
       run: |-
         mkdir -p ~/bin
