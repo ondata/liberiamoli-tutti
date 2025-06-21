@@ -6,6 +6,13 @@ set -e  # Interrompe lo script se un comando fallisce
 set -u  # Interrompe se viene usata una variabile non definita
 set -o pipefail  # Considera fallita una pipeline se uno dei comandi fallisce
 
+# Controlla se è stata passata l'opzione --debug
+DEBUG_MODE=false
+if [[ "${1:-}" == "--debug" ]]; then
+  DEBUG_MODE=true
+  echo "MODALITÀ DEBUG ATTIVATA: scaricherò solo le prime 3 pagine (0-2)"
+fi
+
 # Ottieni il percorso assoluto della cartella dello script
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
@@ -71,7 +78,11 @@ pagine=$(<"$folder"/tmp/cgsse/cgsse_page_000.html scrape -e '//a[contains(@title
 
 echo "Numero di pagine: $pagine"
 
-#pagine=2 # per test, scarica solo le prime 3 pagine
+# Se è attiva la modalità debug, limita a solo 3 pagine (0-2)
+if [ "$DEBUG_MODE" = true ]; then
+  pagine=2
+  echo "MODALITÀ DEBUG: numero di pagine limitato a $((pagine + 1)) (0-$pagine)"
+fi
 
 # Rimuovi il file di output precedente se esiste per evitare duplicati
 if [ -f "$folder"/tmp/cgsse/cgsse_data.jsonl ]; then
