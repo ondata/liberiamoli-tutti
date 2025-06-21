@@ -38,21 +38,21 @@ curl_mit_with_retry() {
       --data-raw "dataInizio=${START}&dataFine=${END}&categoria=&sindacato=&settore=0&rilevanza=0&stato=0&submit=Ricerca" | \
       # Estrai la tabella dei risultati usando XPath
       scrape -be '//table[@id="ricercaScioperi"]' | \
-      # Converti la tabella HTML in JSON strutturato mappando ogni colonna
+      # Converti la tabella HTML in JSON strutturato mappando ogni colonna con controllo dei null
       xq -c '.html.body.table.tbody.tr[] | {
-      stato: .td[1],
-      inizio: .td[2],
-      fine: .td[3],
-      sindacati: .td[4],
-      settore: .td[5],
-      categoria: .td[6],
-      modalita: .td[7],
-      rilevanza: .td[8],
-      note: .td[9],
-      data_proclamazione: .td[10],
-      regione: .td[11],
-      provincia: .td[12],
-      data_ricezione: .td[13]
+      stato: (if .td[1] and (.td[1] | type) == "string" and .td[1] != "" then .td[1] else null end),
+      inizio: (if .td[2] and (.td[2] | type) == "string" and .td[2] != "" then .td[2] else null end),
+      fine: (if .td[3] and (.td[3] | type) == "string" and .td[3] != "" then .td[3] else null end),
+      sindacati: (if .td[4] and (.td[4] | type) == "string" and .td[4] != "" then .td[4] else null end),
+      settore: (if .td[5] and (.td[5] | type) == "string" and .td[5] != "" then .td[5] else null end),
+      categoria: (if .td[6] and (.td[6] | type) == "string" and .td[6] != "" then .td[6] else null end),
+      modalita: (if .td[7] and (.td[7] | type) == "string" and .td[7] != "" then .td[7] else null end),
+      rilevanza: (if .td[8] and (.td[8] | type) == "string" and .td[8] != "" then .td[8] else null end),
+      note: (if .td[9] and (.td[9] | type) == "string" and .td[9] != "" then .td[9] else null end),
+      data_proclamazione: (if .td[10] and (.td[10] | type) == "string" and .td[10] != "" then .td[10] else null end),
+      regione: (if .td[11] and (.td[11] | type) == "string" and .td[11] != "" then .td[11] else null end),
+      provincia: (if .td[12] and (.td[12] | type) == "string" and .td[12] != "" then .td[12] else null end),
+      data_ricezione: (if .td[13] and (.td[13] | type) == "string" and .td[13] != "" then .td[13] else null end)
     }' > "$folder"/tmp/mit/mit.jsonl; then
       echo "Download completato con successo al tentativo $attempt"
       return 0
