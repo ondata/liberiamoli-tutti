@@ -27,7 +27,7 @@ jobs:
     - name: crea cartella utente bin, copia dentro l'eseguibile scrape e mlr
       run: |-
         mkdir -p ~/bin
-        cp bin/mlr ~/bin/mlr
+        cp bin/mlrgo ~/bin/mlr
         cd ~/bin
         chmod +x mlr
     - name: esegui lo script base
