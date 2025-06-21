@@ -13,7 +13,7 @@ La Commissione di Garanzia Scioperi è un'*autorità amministrative indipendente
 
 ### 👉 Nota bene
 
-Entrambi le fonti pubblicano i **dati** sugli **scioperi soltanto in formato HTML**, mentre le "**Linee Guida recanti regole tecniche per l'apertura dei dati e il riutilizzo dell'informazione del settore pubblico**" impongono con il [**Requisito 2**](https://ondata.github.io/linee-guida-opendata/capitolo-4.html#req-2) che i dati siano pubblicati anche in formati aperti e strutturati, come CSV o JSON (ecc.), in **formati leggibili meccanicamente** e **facilmente riutilizzabili**.
+Entrambi le fonti pubblicano i **dati** sugli **scioperi soltanto in formato HTML**, mentre le "**Linee Guida recanti regole tecniche per l'apertura dei dati e il riutilizzo dell'informazione del settore pubblico**" impongono con il [**requisito 2**](https://ondata.github.io/linee-guida-opendata/capitolo-4.html#req-2) che i dati siano pubblicati anche in formati aperti e strutturati, come CSV o JSON (ecc.), in **formati leggibili meccanicamente** e **facilmente riutilizzabili**.
 
 ## Script
 
@@ -73,6 +73,6 @@ Per ogni output i dati sono resi disponibili in due formati:
 | `dettagli_link` | Link ai dettagli | Stringa (URL) | "https://www.cgsse.it/calendario-scioperi/dettaglio-sciopero/368896" |
 | `revocato` | Indica se lo sciopero è stato revocato | Booleano | true, false |
 | `data_iso` | Data singola in formato ISO | Stringa (YYYY-MM-DD) | "2025-06-20" |
-| `data_sort` | Data da usare per ordinamento | Stringa (YYYY-MM-DD) | "2025-06-20" |
+| `data_sort` | Campo data aggiunto che si può usare per ordinamento | Stringa (YYYY-MM-DD) | "2025-06-20" |
 | `data_dal_iso` | Data di inizio periodo in formato ISO | Stringa (YYYY-MM-DD) | "2025-05-31" |
 | `data_al_iso` | Data di fine periodo in formato ISO | Stringa (YYYY-MM-DD) | "2025-06-07" |
