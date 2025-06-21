@@ -27,32 +27,26 @@ find "$folder"/tmp/cgsse -type f -delete
 # data di oggi in formato YYYY-MM-DD
 oggi=$(date +%Y-%m-%d)
 
-# Funzione per eseguire curl con retry in caso di fallimento
+# Funzione per eseguire curl con retry in caso di fallimento tramite proxy
 curl_with_retry() {
   local url="$1"
   local output_file="$2"
   local max_attempts=4
   local attempt=1
 
-  while [ $attempt -le $max_attempts ]; do
-    echo "Tentativo $attempt per: $url"
+  # Codifica l'URL per il proxy
+  local encoded_url
+  encoded_url=$(echo "$url" | jq -Rr @uri)
+  local proxy_url="https://proxy.andybandy.it/?url=${encoded_url}"
 
-    if curl -ksL --max-time 30 --connect-timeout 10 --fail "$url" \
+  while [ $attempt -le $max_attempts ]; do
+    echo "Tentativo $attempt per: $url (tramite proxy)"
+
+    if curl -ksL --max-time 30 --connect-timeout 10 --fail "$proxy_url" \
       -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
       -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
       -H 'cache-control: no-cache' \
-      -b 'cgsee_cookie-version=1.0.0; cgsee_cookie=2' \
       -H 'pragma: no-cache' \
-      -H 'priority: u=0, i' \
-      -H 'referer: https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=2025-06-21&page=2' \
-      -H 'sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"' \
-      -H 'sec-ch-ua-mobile: ?0' \
-      -H 'sec-ch-ua-platform: "Windows"' \
-      -H 'sec-fetch-dest: document' \
-      -H 'sec-fetch-mode: navigate' \
-      -H 'sec-fetch-site: same-origin' \
-      -H 'sec-fetch-user: ?1' \
-      -H 'upgrade-insecure-requests: 1' \
       -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
       > "$output_file"; then
       echo "Download completato con successo al tentativo $attempt"
