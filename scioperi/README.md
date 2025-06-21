@@ -17,11 +17,11 @@ Il progetto include due script automatizzati per il download e l'elaborazione de
 
 ### Script MIT (`mit.sh`)
 
-Questo script scarica i dati degli scioperi dal sito del **Ministero delle Infrastrutture e dei Trasporti**. Effettua una ricerca automatica per l'anno corrente (2025), estrae i dati dalla tabella HTML utilizzando XPath e li converte in formato JSON. I dati vengono poi elaborati con Miller per standardizzare le date in formato ISO e ordinati cronologicamente. L'output finale viene salvato sia in formato JSONL che CSV.
+[Questo script](scripts/mit.sh) scarica i dati degli scioperi dal sito del **Ministero delle Infrastrutture e dei Trasporti**. Effettua una ricerca automatica per l'anno corrente (2025), estrae i dati dalla tabella HTML utilizzando XPath e li converte in formato JSON. I dati vengono poi elaborati con Miller per standardizzare le date in formato ISO e ordinati cronologicamente. L'output finale viene salvato sia in formato JSONL che CSV.
 
 ### Script CGSSE (`cgsse.sh`)
 
-Questo script scarica i dati dal calendario scioperi della **Commissione di Garanzia Scioperi**. Utilizza Tor come proxy per garantire l'anonimato e include un sistema di retry robusto per gestire eventuali fallimenti di rete. Lo script naviga automaticamente tutte le pagine del calendario, estrae i dati degli scioperi (inclusi settore, azienda, sindacato, ambito geografico e stato di revoca) e li elabora per produrre file JSONL e CSV strutturati. Include anche una modalità debug per testare il download su un numero limitato di pagine.
+[Questo script](scripts/cgsse.sh) scarica i dati dal calendario scioperi della **Commissione di Garanzia Scioperi**. Utilizza Tor come proxy per garantire l'anonimato e include un sistema di retry robusto per gestire eventuali fallimenti di rete. Lo script naviga automaticamente tutte le pagine del calendario, estrae i dati degli scioperi (inclusi settore, azienda, sindacato, ambito geografico e stato di revoca) e li elabora per produrre file JSONL e CSV strutturati. Include anche una modalità debug per testare il download su un numero limitato di pagine.
 
 ## Dati
 
