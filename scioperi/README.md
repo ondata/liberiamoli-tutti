@@ -9,7 +9,9 @@ Al momento stiamo utilizzando queste:
 - Ministero delle Infrastrutture e dei Trasporti <https://scioperi.mit.gov.it/mit2/public/scioperi/ricerca>
 - Commissione di Garanzia Scioperi <https://www.cgsse.it/calendario-scioperi>
 
-La Commissione di Garanzia Scioperi è *autorità amministrative indipendente**, che svolge funzioni amministrative per conto dello Stato, garantendo l'applicazione della legge e la tutela dei diritti dei cittadini.
+La Commissione di Garanzia Scioperi è un'*autorità amministrative indipendente**, che svolge funzioni amministrative per conto dello Stato, garantendo l'applicazione della legge e la tutela dei diritti dei cittadini.
+
+Entrambi le fonti pubblicano i **dati** sugli **scioperi soltanto in formato HTML**, mentre le **Linee Guida recanti regole tecniche per l’apertura dei dati e il riutilizzo dell’informazione del settore pubblico** impongono con il [**Requisito 2**](https://ondata.github.io/linee-guida-opendata/capitolo-4.html#req-2) che i dati siano pubblicati anche in formati aperti e strutturati, come CSV o JSON (ecc.).
 
 ## Script
 
