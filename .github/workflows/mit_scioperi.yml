@@ -33,7 +33,7 @@ jobs:
     - name: esegui lo script base
       run: |-
         export PATH=$PATH:~/bin
-        cd ./scioperi/scripts/mit.sh
+        cd ./scioperi/scripts
         chmod +x ./mit.sh
         ./mit.sh
     - name: Committa e pusha se ci sono variazioni nei dati
