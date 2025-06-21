@@ -20,25 +20,51 @@ find "$folder"/tmp/cgsse -type f -delete
 # data di oggi in formato YYYY-MM-DD
 oggi=$(date +%Y-%m-%d)
 
+# Funzione per eseguire curl con retry in caso di fallimento
+curl_with_retry() {
+  local url="$1"
+  local output_file="$2"
+  local max_attempts=4
+  local attempt=1
 
-# Scarica la prima pagina per determinare il numero totale di pagine
-curl -ksL "https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=${oggi}&page=0" \
-  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
-  -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
-  -H 'cache-control: no-cache' \
-  -b 'cgsee_cookie-version=1.0.0; cgsee_cookie=2' \
-  -H 'pragma: no-cache' \
-  -H 'priority: u=0, i' \
-  -H 'referer: https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=2025-06-21&page=2' \
-  -H 'sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"' \
-  -H 'sec-ch-ua-mobile: ?0' \
-  -H 'sec-ch-ua-platform: "Windows"' \
-  -H 'sec-fetch-dest: document' \
-  -H 'sec-fetch-mode: navigate' \
-  -H 'sec-fetch-site: same-origin' \
-  -H 'sec-fetch-user: ?1' \
-  -H 'upgrade-insecure-requests: 1' \
-  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' > "$folder"/tmp/cgsse/cgsse_page_000.html
+  while [ $attempt -le $max_attempts ]; do
+    echo "Tentativo $attempt per: $url"
+
+    if curl -ksL --max-time 30 --connect-timeout 10 --fail "$url" \
+      -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+      -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
+      -H 'cache-control: no-cache' \
+      -b 'cgsee_cookie-version=1.0.0; cgsee_cookie=2' \
+      -H 'pragma: no-cache' \
+      -H 'priority: u=0, i' \
+      -H 'referer: https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=2025-06-21&page=2' \
+      -H 'sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"' \
+      -H 'sec-ch-ua-mobile: ?0' \
+      -H 'sec-ch-ua-platform: "Windows"' \
+      -H 'sec-fetch-dest: document' \
+      -H 'sec-fetch-mode: navigate' \
+      -H 'sec-fetch-site: same-origin' \
+      -H 'sec-fetch-user: ?1' \
+      -H 'upgrade-insecure-requests: 1' \
+      -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
+      > "$output_file"; then
+      echo "Download completato con successo al tentativo $attempt"
+      return 0
+    else
+      echo "Tentativo $attempt fallito"
+      if [ $attempt -eq $max_attempts ]; then
+        echo "ERRORE: Impossibile scaricare $url dopo $max_attempts tentativi"
+        exit 1
+      fi
+      sleep $((attempt * 2))  # Pausa progressiva tra i tentativi
+      attempt=$((attempt + 1))
+    fi
+  done
+}
+
+
+# Scarica la prima pagina per determinare il numero totale di pagine usando la funzione retry
+curl_with_retry "https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=${oggi}&page=0" "$folder/tmp/cgsse/cgsse_page_000.html"
 
 # Estrai il numero dell'ultima pagina dall'attributo href usando XPath e regex
 pagine=$(<"$folder"/tmp/cgsse/cgsse_page_000.html scrape -e '//a[contains(@title, "ultima pagina")]/@href' | grep -oP 'page=\K\d+')
@@ -55,23 +81,10 @@ fi
 # Scarica tutte le pagine del calendario scioperi iterando da 0 al numero massimo
 for ((i = 0; i <= pagine; i++)); do
   echo "Scaricando pagina $i"
-  curl -ksL "https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=${oggi}&page=$i" \
-    -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
-    -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
-    -H 'cache-control: no-cache' \
-    -b 'cgsee_cookie-version=1.0.0; cgsee_cookie=2' \
-    -H 'pragma: no-cache' \
-    -H 'priority: u=0, i' \
-    -H 'referer: https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=2025-06-21&page=2' \
-    -H 'sec-ch-ua: "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"' \
-    -H 'sec-ch-ua-mobile: ?0' \
-    -H 'sec-ch-ua-platform: "Windows"' \
-    -H 'sec-fetch-dest: document' \
-    -H 'sec-fetch-mode: navigate' \
-    -H 'sec-fetch-site: same-origin' \
-    -H 'sec-fetch-user: ?1' \
-    -H 'upgrade-insecure-requests: 1' \
-    -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' > "$folder"/tmp/cgsse/cgsse_page_$(printf "%03d" "$i").html
+
+  # Usa la funzione di retry per scaricare ogni pagina
+  curl_with_retry "https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=${oggi}&page=$i" "$folder/tmp/cgsse/cgsse_page_$(printf "%03d" "$i").html"
+
   sleep 1  # Pausa di cortesia per evitare sovraccarico del server
 
   # Estrai i dati dalla pagina HTML usando scrape (XPath) e xq (trasformazione JSON)
