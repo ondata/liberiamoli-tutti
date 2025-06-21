@@ -32,7 +32,7 @@ Per ogni output i dati sono resi disponibili in due formati:
 - MIT
   - [`mit_data.csv`](data/mit/mit_data.csv)
   - [`mit_data.jsonl`](data/mit/mit_data.jsonl)
-CGSSE
+- CGSSE
   - [`cgsse_data.csv`](data/cgsse/cgsse_data.csv)
   - [`cgsse_data.jsonl`](data/cgsse/cgsse_data.jsonl)
 
