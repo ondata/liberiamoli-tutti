@@ -27,22 +27,19 @@ find "$folder"/tmp/cgsse -type f -delete
 # data di oggi in formato YYYY-MM-DD
 oggi=$(date +%Y-%m-%d)
 
-# Funzione per eseguire curl con retry in caso di fallimento tramite proxy
+# Funzione per eseguire curl con retry tramite Tor
 curl_with_retry() {
   local url="$1"
   local output_file="$2"
   local max_attempts=4
   local attempt=1
 
-  # Codifica l'URL per il proxy
-  local encoded_url
-  encoded_url=$(echo "$url" | jq -Rr @uri)
-  local proxy_url="https://proxy.andybandy.it/?url=${encoded_url}"
-
   while [ $attempt -le $max_attempts ]; do
-    echo "Tentativo $attempt per: $url (tramite proxy)"
+    echo "Tentativo $attempt per: $url (tramite Tor)"
 
-    if curl -ksL --max-time 30 --connect-timeout 10 --fail "$proxy_url" \
+    # Usa Tor come proxy SOCKS5 sulla porta 9050
+    if curl -ksL --socks5-hostname 127.0.0.1:9050 \
+      --max-time 60 --connect-timeout 15 --fail "$url" \
       -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
       -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
       -H 'cache-control: no-cache' \
@@ -57,7 +54,7 @@ curl_with_retry() {
         echo "ERRORE: Impossibile scaricare $url dopo $max_attempts tentativi"
         exit 1
       fi
-      sleep $((attempt * 2))  # Pausa progressiva tra i tentativi
+      sleep $((attempt * 3))  # Pausa più lunga per Tor
       attempt=$((attempt + 1))
     fi
   done
@@ -90,7 +87,7 @@ for ((i = 0; i <= pagine; i++)); do
   # Usa la funzione di retry per scaricare ogni pagina
   curl_with_retry "https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=${oggi}&page=$i" "$folder/tmp/cgsse/cgsse_page_$(printf "%03d" "$i").html"
 
-  sleep 1  # Pausa di cortesia per evitare sovraccarico del server
+  sleep 2  # Pausa più lunga per Tor
 
   # Estrai i dati dalla pagina HTML usando scrape (XPath) e xq (trasformazione JSON)
   <"$folder"/tmp/cgsse/cgsse_page_$(printf "%03d" "$i").html scrape -be '//ul[@class="responsive-table"]/li[@class="table-row views-row"]' | xq -c '[
