@@ -22,34 +22,54 @@ YEAR=2025
 START="01/01/$YEAR"  # Data di inizio ricerca in formato DD/MM/YYYY
 END="31/12/$YEAR"    # Data di fine ricerca in formato DD/MM/YYYY
 
-# Esegui richiesta POST al sito MIT per ottenere i dati degli scioperi
-# Il form invia parametri di ricerca e riceve una tabella HTML con i risultati
-curl 'https://scioperi.mit.gov.it/mit2/public/scioperi/ricerca' \
-  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' \
-  -H 'Content-Type: application/x-www-form-urlencoded' \
-  -H 'Origin: https://scioperi.mit.gov.it' \
-  -H 'Referer: https://scioperi.mit.gov.it/mit2/public/scioperi/ricerca' \
-  --data-raw "dataInizio=${START}&dataFine=${END}&categoria=&sindacato=&settore=0&rilevanza=0&stato=0&submit=Ricerca" | \
-  # Estrai la tabella dei risultati usando XPath
-  scrape -be '//table[@id="ricercaScioperi"]' | \
-  # Seconda estrazione per essere sicuri di ottenere la tabella corretta
-  scrape -be "//table[@id='ricercaScioperi']" | \
-  # Converti la tabella HTML in JSON strutturato mappando ogni colonna
-  xq -c '.html.body.table.tbody.tr[] | {
-  stato: .td[1],
-  inizio: .td[2],
-  fine: .td[3],
-  sindacati: .td[4],
-  settore: .td[5],
-  categoria: .td[6],
-  modalita: .td[7],
-  rilevanza: .td[8],
-  note: .td[9],
-  data_proclamazione: .td[10],
-  regione: .td[11],
-  provincia: .td[12],
-  data_ricezione: .td[13]
-}' > "$folder"/tmp/mit/mit.jsonl
+# Funzione per eseguire curl con retry in caso di fallimento
+curl_mit_with_retry() {
+  local max_attempts=3
+  local attempt=1
+
+  while [ $attempt -le $max_attempts ]; do
+    echo "Tentativo $attempt di download dal sito MIT..."
+
+    if curl -s --max-time 30 --connect-timeout 10 --fail 'https://scioperi.mit.gov.it/mit2/public/scioperi/ricerca' \
+      -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' \
+      -H 'Content-Type: application/x-www-form-urlencoded' \
+      -H 'Origin: https://scioperi.mit.gov.it' \
+      -H 'Referer: https://scioperi.mit.gov.it/mit2/public/scioperi/ricerca' \
+      --data-raw "dataInizio=${START}&dataFine=${END}&categoria=&sindacato=&settore=0&rilevanza=0&stato=0&submit=Ricerca" | \
+      # Estrai la tabella dei risultati usando XPath
+      scrape -be '//table[@id="ricercaScioperi"]' | \
+      # Converti la tabella HTML in JSON strutturato mappando ogni colonna
+      xq -c '.html.body.table.tbody.tr[] | {
+      stato: .td[1],
+      inizio: .td[2],
+      fine: .td[3],
+      sindacati: .td[4],
+      settore: .td[5],
+      categoria: .td[6],
+      modalita: .td[7],
+      rilevanza: .td[8],
+      note: .td[9],
+      data_proclamazione: .td[10],
+      regione: .td[11],
+      provincia: .td[12],
+      data_ricezione: .td[13]
+    }' > "$folder"/tmp/mit/mit.jsonl; then
+      echo "Download completato con successo al tentativo $attempt"
+      return 0
+    else
+      echo "Tentativo $attempt fallito"
+      if [ $attempt -eq $max_attempts ]; then
+        echo "ERRORE: Impossibile raggiungere il sito MIT dopo $max_attempts tentativi"
+        exit 1
+      fi
+      sleep $((attempt * 2))  # Pausa progressiva tra i tentativi
+      attempt=$((attempt + 1))
+    fi
+  done
+}
+
+# Esegui il download dei dati MIT con retry
+curl_mit_with_retry
 
 # Elaborazione dei dati con Miller (mlr)
 # Converte le date dal formato DD/MM/YYYY al formato ISO YYYY-MM-DD e ordina per data
