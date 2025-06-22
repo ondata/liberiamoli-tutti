@@ -136,7 +136,7 @@ for ((i = 0; i <= pagine; i++)); do
   # 2️⃣  Mi assicuro di lavorare solo sugli oggetti (scarto le stringhe).
   | select(type=="object")
 
-  # 3️⃣  Estraggo i campi come facevi tu
+  # 3️⃣  Estraggo i campi
   | {
       data:              .div.div[0]["#text"],
       settore:           .div.div[1]["#text"],
