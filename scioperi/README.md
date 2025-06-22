@@ -6,8 +6,8 @@ L'idea è quella di liberare i dati sugli **scioperi** in **Italia**. È un'idea
 
 Al momento stiamo utilizzando queste:
 
-- Ministero delle Infrastrutture e dei Trasporti <https://scioperi.mit.gov.it/mit2/public/scioperi/ricerca>
-- Commissione di Garanzia Scioperi <https://www.cgsse.it/calendario-scioperi>
+- Scioperi dei trasporti, a cura del Ministero delle Infrastrutture e dei Trasporti <https://scioperi.mit.gov.it/mit2/public/scioperi/ricerca>
+- Calendario scioperi a cura della Commissione di Garanzia Scioperi <https://www.cgsse.it/calendario-scioperi>
 
 La Commissione di Garanzia Scioperi è un'*autorità amministrative indipendente**, che svolge funzioni amministrative per conto dello Stato, garantendo l'applicazione della legge e la tutela dei diritti dei cittadini.
 
