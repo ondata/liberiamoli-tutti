@@ -35,7 +35,7 @@ curl_mit_with_retry() {
       -H 'Content-Type: application/x-www-form-urlencoded' \
       -H 'Origin: https://scioperi.mit.gov.it' \
       -H 'Referer: https://scioperi.mit.gov.it/mit2/public/scioperi/ricerca' \
-      --data-raw "dataInizio=${START}&dataFine=${END}&categoria=&sindacato=&settore=0&rilevanza=0&stato=0&submit=Ricerca" | \
+      --data-raw "dataInizio=${START}&dataFine=${END}&categoria=&sindacato=&settore=0&rilevanza=0&stato=&submit=Ricerca" | \
       # Estrai la tabella dei risultati usando XPath
       scrape -be '//table[@id="ricercaScioperi"]' | \
       # Converti la tabella HTML in JSON strutturato mappando ogni colonna con controllo dei null
