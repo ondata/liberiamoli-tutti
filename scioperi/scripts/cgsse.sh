@@ -27,6 +27,9 @@ find "$folder"/tmp/cgsse -type f -delete
 # data di oggi in formato YYYY-MM-DD
 oggi=$(date +%Y-%m-%d)
 
+# aggiungi 30 giorni alla data di oggi
+oggi=$(date -d "$oggi + 30 days" +%Y-%m-%d)
+
 # Rileva se siamo in esecuzione su GitHub Actions
 if [[ "${GITHUB_ACTIONS:-}" == "true" ]]; then
   USE_TOR=true
