@@ -185,6 +185,10 @@ mlr -I --jsonl --from "$folder"/tmp/cgsse/cgsse_data.jsonl clean-whitespace then
 
 }' then cut -x -f data_dal_raw,data_al_raw then put 'if (!is_null($data_iso)) {$data_sort = $data_iso} else {$data_sort = $data_dal_iso}' then sort -tr dettagli_link
 
+mlr -I --jsonl --from "$folder"/tmp/cgsse/cgsse_data.jsonl put 'if (is_null($data_al_iso)){$data_al_iso = $data_iso;$data_dal_iso = $data_iso}else{$data_al_iso=$data_al_iso;$data_dal_iso=$data_dal_iso}'
+
 cp "$folder"/tmp/cgsse/cgsse_data.jsonl "$folder"/../data/cgsse/cgsse_data.jsonl
+
+# aggiungi valori date dal, al, anche per gli scioperi di un giorno
 
 mlr --ijsonl --ocsv unsparsify "$folder"/../data/cgsse/cgsse_data.jsonl > "$folder"/../data/cgsse/cgsse_data.csv
