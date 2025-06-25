@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Configurazione rigorosa dello script
-set -x  # Debug: mostra i comandi eseguiti
-set -e  # Interrompe lo script se un comando fallisce
-set -u  # Interrompe se viene usata una variabile non definita
-set -o pipefail  # Considera fallita una pipeline se uno dei comandi fallisce
+set -x          # Debug: mostra i comandi eseguiti
+set -e          # Interrompe lo script se un comando fallisce
+set -u          # Interrompe se viene usata una variabile non definita
+set -o pipefail # Considera fallita una pipeline se uno dei comandi fallisce
 
 # Controlla se è stata passata l'opzione --debug
 DEBUG_MODE=false
@@ -58,7 +58,7 @@ curl_with_retry() {
         -H 'cache-control: no-cache' \
         -H 'pragma: no-cache' \
         -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
-        > "$output_file"; then
+        >"$output_file"; then
         echo "Download completato con successo al tentativo $attempt"
         return 0
       fi
@@ -73,7 +73,7 @@ curl_with_retry() {
         -H 'cache-control: no-cache' \
         -H 'pragma: no-cache' \
         -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
-        > "$output_file"; then
+        >"$output_file"; then
         echo "Download completato con successo al tentativo $attempt"
         return 0
       fi
@@ -86,15 +86,14 @@ curl_with_retry() {
     fi
 
     if [ "$USE_TOR" = true ]; then
-      sleep $((attempt * 3))  # Pausa più lunga per Tor
+      sleep $((attempt * 3)) # Pausa più lunga per Tor
     else
-      sleep $((attempt * 2))  # Pausa più breve per chiamata diretta
+      sleep $((attempt * 2)) # Pausa più breve per chiamata diretta
     fi
 
     attempt=$((attempt + 1))
   done
 }
-
 
 # Scarica la prima pagina per determinare il numero totale di pagine usando la funzione retry
 curl_with_retry "https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=${oggi}&page=0" "$folder/tmp/cgsse/cgsse_page_000.html"
@@ -166,7 +165,7 @@ for ((i = 0; i <= pagine; i++)); do
         | any
       )
     }
-] | .[]' >> "$folder"/tmp/cgsse/cgsse_data.jsonl
+] | .[]' >>"$folder"/tmp/cgsse/cgsse_data.jsonl
 
 done
 
@@ -190,5 +189,4 @@ mlr -I --jsonl --from "$folder"/tmp/cgsse/cgsse_data.jsonl put 'if (is_null($dat
 
 cp "$folder"/tmp/cgsse/cgsse_data.jsonl "$folder"/../data/cgsse/cgsse_data.jsonl
 
-
-mlr --ijsonl --ocsv unsparsify "$folder"/../data/cgsse/cgsse_data.jsonl > "$folder"/../data/cgsse/cgsse_data.csv
+mlr --ijsonl --ocsv unsparsify "$folder"/../data/cgsse/cgsse_data.jsonl >"$folder"/../data/cgsse/cgsse_data.csv
