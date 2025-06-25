@@ -95,8 +95,10 @@ curl_with_retry() {
   done
 }
 
+data_inizio="2025-01-01"
+
 # Scarica la prima pagina per determinare il numero totale di pagine usando la funzione retry
-curl_with_retry "https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=${oggi}&page=0" "$folder/tmp/cgsse/cgsse_page_000.html"
+curl_with_retry "https://www.cgsse.it/calendario-scioperi?data_inizio=${data_inizio}&data_fine=${oggi}&page=0" "$folder/tmp/cgsse/cgsse_page_000.html"
 
 # Estrai il numero dell'ultima pagina dall'attributo href usando XPath e regex
 pagine=$(<"$folder"/tmp/cgsse/cgsse_page_000.html scrape -e '//a[contains(@title, "ultima pagina")]/@href' | grep -oP 'page=\K\d+')
@@ -119,7 +121,7 @@ for ((i = 0; i <= pagine; i++)); do
   echo "Scaricando pagina $i"
 
   # Usa la funzione di retry per scaricare ogni pagina
-  curl_with_retry "https://www.cgsse.it/calendario-scioperi?data_inizio=2025-01-01&data_fine=${oggi}&page=$i" "$folder/tmp/cgsse/cgsse_page_$(printf "%03d" "$i").html"
+  curl_with_retry "https://www.cgsse.it/calendario-scioperi?data_inizio=${data_inizio}&data_fine=${oggi}&page=$i" "$folder/tmp/cgsse/cgsse_page_$(printf "%03d" "$i").html"
 
   # Pausa tra le chiamate (più lunga per Tor, più breve per chiamate dirette)
   if [ "$USE_TOR" = true ]; then
