@@ -189,6 +189,13 @@ mlr -I --jsonl --from "$folder"/tmp/cgsse/cgsse_data.jsonl clean-whitespace then
 # aggiungi valori date dal, al, anche per gli scioperi di un giorno
 mlr -I --jsonl --from "$folder"/tmp/cgsse/cgsse_data.jsonl put 'if (is_null($data_al_iso)){$data_al_iso = $data_iso;$data_dal_iso = $data_iso}else{$data_al_iso=$data_al_iso;$data_dal_iso=$data_dal_iso}' then uniq -a
 
-cp "$folder"/tmp/cgsse/cgsse_data.jsonl "$folder"/../data/cgsse/cgsse_data.jsonl
+# vai in append se i dati esistono già, altrimenti copia
+if [ -f "$folder"/../data/cgsse/cgsse_data.jsonl ]; then
+  cat "$folder"/tmp/cgsse/cgsse_data.jsonl >>"$folder"/../data/cgsse/cgsse_data.jsonl
+else
+  cp "$folder"/tmp/cgsse/cgsse_data.jsonl "$folder"/../data/cgsse/cgsse_data.jsonl
+fi
 
-mlr --ijsonl --ocsv unsparsify "$folder"/../data/cgsse/cgsse_data.jsonl >"$folder"/../data/cgsse/cgsse_data.csv
+mlr -I --jsonl uniq -a then sort -tr dettagli_link "$folder"/../data/cgsse/cgsse_data.jsonl
+
+mlr --ijsonl --ocsv unsparsify then uniq -a "$folder"/../data/cgsse/cgsse_data.jsonl >"$folder"/../data/cgsse/cgsse_data.csv
