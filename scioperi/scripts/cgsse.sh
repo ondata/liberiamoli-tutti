@@ -196,6 +196,6 @@ else
   cp "$folder"/tmp/cgsse/cgsse_data.jsonl "$folder"/../data/cgsse/cgsse_data.jsonl
 fi
 
-mlr -I --jsonl uniq -a then sort -tr dettagli_link "$folder"/../data/cgsse/cgsse_data.jsonl
+mlr -I --jsonl uniq -a then sort -tr dettagli_link then put '$sindacato=sub($sindacato,"Aderente","\nAderente")' "$folder"/../data/cgsse/cgsse_data.jsonl
 
 mlr --ijsonl --ocsv unsparsify then uniq -a "$folder"/../data/cgsse/cgsse_data.jsonl >"$folder"/../data/cgsse/cgsse_data.csv
