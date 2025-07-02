@@ -25,9 +25,19 @@ mkdir -p "${folder}"/tmp
 
 # chiedi se si vuole cancellare la cartella tmp
 read -p "Vuoi cancellare il contenuto della cartella tmp? (y/n): " answer
+echo
 if [ "$answer" = "y" ]; then
   # svuota la cartella tmp
   rm -rf "${folder}"/tmp/*
+fi
+
+# chiedi se si vuole cancellare la cartella dei file HTML raw
+echo
+read -p "Vuoi cancellare il contenuto della cartella data/raw (HTML)? (y/n): " answer_html
+echo
+if [ "$answer_html" = "y" ]; then
+  # svuota la cartella raw
+  rm -rf "${folder}"/../data/raw/*
 fi
 
 # URL base
