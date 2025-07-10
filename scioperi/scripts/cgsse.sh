@@ -198,4 +198,6 @@ fi
 
 mlr -I --jsonl uniq -a then sort -tr dettagli_link then put '$sindacato=sub($sindacato,"Aderente","\nAderente");$modalita=sub($modalita,"^null$","");$modalita=sub($modalita,", null","");$modalita=sub($modalita,"(\[|\])","")' then gsub -f modalita '"' '' "$folder"/../data/cgsse/cgsse_data.jsonl
 
+mlr -I --jsonl put '$sindacato=sub($sindacato,"\n+","|")' then uniq -a then sort -tr dettagli_link "$folder"/../data/cgsse/cgsse_data.jsonl
+
 mlr --ijsonl --ocsv unsparsify then uniq -a "$folder"/../data/cgsse/cgsse_data.jsonl >"$folder"/../data/cgsse/cgsse_data.csv
