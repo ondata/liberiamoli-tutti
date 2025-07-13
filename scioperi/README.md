@@ -1,10 +1,10 @@
 # Introduzione
 
-L'idea è quella di liberare i dati sugli **scioperi** in **Italia**. È un'idea di [Raffaele Mastrolonardo](https://www.linkedin.com/in/mastrolonardo/).
+Qui vengono liberati i dati sugli **scioperi** in **Italia**. È un'idea di [Raffaele Mastrolonardo](https://www.linkedin.com/in/mastrolonardo/).
 
 ## Fonti
 
-Al momento stiamo utilizzando queste:
+Sono queste due:
 
 - Scioperi dei trasporti, a cura del Ministero delle Infrastrutture e dei Trasporti <https://scioperi.mit.gov.it/mit2/public/scioperi/ricerca>
 - "Calendario scioperi", a cura della Commissione di Garanzia Scioperi <https://www.cgsse.it/calendario-scioperi>
