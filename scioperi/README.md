@@ -13,7 +13,13 @@ La Commissione di Garanzia Scioperi è un'**autorità amministrative indipendent
 
 ### 👉 Nota bene
 
-Entrambi le fonti pubblicano i **dati** sugli **scioperi soltanto in formato HTML**, mentre le "**Linee Guida recanti regole tecniche per l'apertura dei dati e il riutilizzo dell'informazione del settore pubblico**" impongono con il [**requisito 2**](https://ondata.github.io/linee-guida-opendata/capitolo-4.html#req-2) che i dati siano pubblicati anche in formati aperti e strutturati, come CSV o JSON (ecc.), in **formati leggibili meccanicamente** e **facilmente riutilizzabili**.
+Entrambi le fonti pubblicano i **dati** sugli **scioperi in formato HTML**, mentre le "**Linee Guida recanti regole tecniche per l'apertura dei dati e il riutilizzo dell'informazione del settore pubblico**" impongono con il [**requisito 2**](https://ondata.github.io/linee-guida-opendata/capitolo-4.html#req-2) che i dati siano pubblicati anche in formati aperti e strutturati, come CSV o JSON (ecc.), in **formati leggibili meccanicamente** e **facilmente riutilizzabili**.
+
+Il Ministero delle Infrastrutture e dei Trasporti pubblica anche le informazioni sugli scioperi come [feed `RSS`](https://scioperi.mit.gov.it/mit2/public/scioperi/rss), quindi in `XML`, quindi in un formato leggibile meccanicamente. Ma contiene soltanto circa gli ultimi 30 annunci sugli scioperi, quindi non è una serie temporale ampia. E inoltre nel *feed* i campi non sono nativamente distinti ma raggruppati in un uno solo. Ad esempio nel `title`, abbiamo la data, il settore, la rilevanza, la regione e la provincia:
+
+```xml
+<title>Data inizio: 26/07/2025 - Settore: Trasporto pubblico locale - Rilevanza: Territoriale - Regione: Sardegna - Provincia:  Tutte</title>
+```
 
 ## Script
 
