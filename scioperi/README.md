@@ -25,7 +25,15 @@ Il progetto include due script automatizzati per il download e l'elaborazione de
 
 ### Script CGSSE (`cgsse.sh`)
 
-[Questo script](scripts/cgsse.sh) scarica i dati dal calendario scioperi della **Commissione di Garanzia Scioperi**. Utilizza Tor come proxy per garantire l'anonimato e include un sistema di retry robusto per gestire eventuali fallimenti di rete. Lo script naviga automaticamente tutte le pagine del calendario, estrae i dati degli scioperi (inclusi settore, azienda, sindacato, ambito geografico e stato di revoca) e li elabora per produrre file JSONL e CSV strutturati. Include anche una modalità debug per testare il download su un numero limitato di pagine.
+[Questo script](scripts/cgsse.sh) scarica i dati dal calendario scioperi della **Commissione di Garanzia Scioperi**. Lo script è progettato per essere eseguito periodicamente:
+
+- **Intervallo di date**: Effettua una ricerca dal 1 Gennaio dell'anno corrente fino a 30 giorni successivi alla data di esecuzione, per includere anche gli scioperi futuri già programmati.
+- **Connettività**: Utilizza **Tor** come proxy quando eseguito in ambienti automatizzati come GitHub Actions per garantire l'anonimato e prevenire blocchi IP, mentre usa chiamate dirette in locale. Include un sistema di retry per gestire fallimenti di rete.
+- **Estrazione ed Elaborazione**: Naviga automaticamente tutte le pagine del calendario, estrae i dati (settore, azienda, sindacato, ecc.) e li salva in un file JSONL temporaneo.
+- **Standardizzazione con Miller**: Utilizza `mlr` (Miller) per una pulizia approfondita:
+  - Converte le date e gli intervalli di date ("Dal... al...") in campi `data_iso`, `data_dal_iso` e `data_al_iso` in formato standard `YYYY-MM-DD`.
+  - Pulisce e standardizza il contenuto dei campi `sindacato` e `modalita`.
+- **Aggiornamento Incrementale**: Aggiunge i nuovi dati a quelli già esistenti, rimuovendo eventuali duplicati. L'output finale viene salvato sia in formato JSONL che CSV.
 
 ## Dati
 
@@ -73,6 +81,6 @@ Per ogni output i dati sono resi disponibili in due formati:
 | `dettagli_link` | Link ai dettagli | Stringa (URL) | "https://www.cgsse.it/calendario-scioperi/dettaglio-sciopero/368896" |
 | `revocato` | Indica se lo sciopero è stato revocato | Booleano | true, false |
 | `data_iso` | Data singola in formato ISO | Stringa (YYYY-MM-DD) | "2025-06-20" |
-| `data_sort` | Campo data aggiunto che si può usare per ordinamento | Stringa (YYYY-MM-DD) | "2025-06-20" |
-| `data_dal_iso` | Data di inizio periodo in formato ISO | Stringa (YYYY-MM-DD) | "2025-05-31" |
-| `data_al_iso` | Data di fine periodo in formato ISO | Stringa (YYYY-MM-DD) | "2025-06-07" |
+| `data_sort` | Campo data unificato (usa `data_iso` se disponibile, altrimenti `data_dal_iso`) per garantire un ordinamento cronologico. | Stringa (YYYY-MM-DD) | "2025-06-20" |
+| `data_dal_iso` | Data di inizio periodo in formato ISO. Per scioperi di un solo giorno, questo campo contiene la stessa data di `data_iso`. | Stringa (YYYY-MM-DD) | "2025-05-31" |
+| `data_al_iso` | Data di fine periodo in formato ISO. Per scioperi di un solo giorno, questo campo contiene la stessa data di `data_iso`. | Stringa (YYYY-MM-DD) | "2025-06-07" |
