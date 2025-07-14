@@ -20,8 +20,7 @@ Questo è uno spazio a supporto, dove verranno raccolti dati e le informazioni u
 - [Numero 9](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-9), i dati della ricostruzione pubblica e privata in Centro Italia della piattaforma GE.DI.SI.
 - [Numero 10](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-10), la serie storica dei dati su Omicidi volontari e violenza di genere.
 - [Numero 11](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-11), i dati sugli istituti penitenziari.
-- [Numero 12](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-12), 2 dati sui Codici Unici Progetto e i Codici Identificativi Gara dei progetti del PNRR
-.
+- [Numero 12](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-12), 2 dati sui Codici Unici Progetto e i Codici Identificativi Gara dei progetti del PNRR.
 - [Numero 13](https://open.substack.com/pub/datibenecomune/p/liberiamoli-tutti-numero-13), i dati sugli scioperi.
 
 ---
