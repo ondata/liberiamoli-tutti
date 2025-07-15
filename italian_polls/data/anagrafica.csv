@@ -1,4 +1,29 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1516,2025-07-15,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 30,3
+PARTITO DEMOCRATICO 23,0
+MOVIMENTO 5 STELLE 12,7
+LEGA 8,3
+FORZA ITALIA 8,0
+VERDI E SINISTRA 6,8
+AZIONE 3,5
+ITALIA VIVA 2,2
++EUROPA 1,9
+ALTRE LISTE 3,3
+NON SI ESPRIME 33%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Lega, Forza Italia, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages provided are valid and do not include any negative numbers or subsets of the population. The 'Altri' category is calculated as the sum of 'ALTRE LISTE', which is 3.3%.",1,10,SWG spa
+1515,2025-07-14,Termometro Politico,True Data,"Sondaggio su elezioni politiche, caldo","Partiti %
+Fratelli d'Italia 29,2%
+PD 22,2%
+Movimento 5 Stelle 12,2%
+Forza Italia 8,8%
+Lega 8,6%
+Alleanza Verdi Sinistra 6,4%
+Azione 2,9%
+Italia Viva 2,4%
+Più Europa 1,8%
+Democrazia Sovrana Popolare 1,4%
+Pace Terra Dignità 1,0%
+Noi Moderati 1,0%
+Altri 2,1%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Forza Italia, Lega, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages provided are valid and do not include any negative numbers or subsets of the population. The 'Altri' category includes the sum of the percentages of 'Democrazia Sovrana Popolare', 'Pace Terra Dignità', and 'Noi Moderati', which totals 3.4%.",1,11,Termometro Politico
 1514,2025-07-11,Tecnè S.r.l.,agenzia dire,Monitor Italia,"Fratelli d’Italia 30,2%
 Partito Democratico 21,7%
 Movimento 5 Stelle 11,9%
