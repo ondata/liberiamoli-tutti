@@ -41,27 +41,3 @@ if [ "$soglia" -gt 0 ]; then
   echo "Allerta 500000"
   echo "stop" "${folder}"/../data/alert.txt
 fi
-
-exit 0
-
-# extract historical data from git
-datapath="${folder}/../data"
-tmppath="${datapath}/tmp"
-repopath="${folder}/../.."
-filepath_from_repo_root="referendum_iniziative_popolare/data/referendum_iniziative_popolare.json"
-filename="referendum_iniziative_popolare.json"
-
-mkdir -p "${tmppath}"
-
-# Use an array to keep track of processed dates
-declare -A seen_dates
-
-git -C "${repopath}" log --pretty=format:'%H %cI' -- "${filepath_from_repo_root}" | while read -r hash cdate; do
-  day=$(echo "$cdate" | cut -d'T' -f1)
-
-  if [[ -z "${seen_dates[${day}]-}" ]]; then
-    outfile="${tmppath}/${day}_${filename}"
-    git -C "${repopath}" show "${hash}:${filepath_from_repo_root}" > "${outfile}"
-    seen_dates[${day}]=1
-  fi
-done
