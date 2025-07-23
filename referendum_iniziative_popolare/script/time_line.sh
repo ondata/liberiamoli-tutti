@@ -47,3 +47,17 @@ git -C "${repopath}" log --pretty=format:'%H %cI' -- "${filepath_from_repo_root}
     fi
   fi
 done
+
+# fai il merge
+
+duckdb --csv -c "SELECT
+  COLUMNS(
+    c ->  c NOT ILIKE '%Comitato%'
+       AND c NOT ILIKE '%logo%'
+       AND c NOT ILIKE '%descrizione%' AND c NOT ILIKE '%quesito%'
+  )
+FROM read_json_auto(
+       '${folder}/../data/tmp/timeline/*.jsonl',
+       union_by_name => true
+     );
+" >"${folder}"/../data/timeline.csv
