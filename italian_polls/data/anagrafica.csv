@@ -1,4 +1,17 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1521,2025-07-26,Ipsos Srl,Corriere della Sera,"Intenzioni di voto, gradimento Governo, gradimento leader","{""(stima % su dichiarazioni valide)"": {"""": """"}, ""FRATELLI D\u2019ITALIA"": {"""": ""28,0""}, ""FORZA ITALIA"": {"""": ""8,1""}, ""NOI MODERATI"": {"""": ""1,1""}, ""LEGA"": {"""": ""8,5""}, ""PARTITO DEMOCRATICO"": {"""": ""21,1""}, ""MOVIMENTO 5 STELLE"": {"""": ""14,3""}, ""ALLEANZA VERDI - SINISTRA"": {"""": ""5,8""}, ""+EUROPA"": {"""": ""2,2""}, ""ITALIA VIVA"": {"""": ""2,2""}, ""AZIONE"": {"""": ""2,6""}, ""altre liste"": {"""": ""6,1""}, ""Totale"": {"""": ""100,0""}}","Se si votasse oggi, per quale lista voterebbe alla Camera dei Deputati?","The poll includes all major parties such as Fratelli d'Italia, Forza Italia, Lega, Partito Democratico, Movimento 5 Stelle, Alleanza Verdi - Sinistra, +Europa, Italia Viva, and Azione. It does not include any leader approval ratings or regional subsets, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The percentages for the parties sum up to 100%, and the 'Altri' category includes the 'altre liste' which is 6.1%.",1,10,Ipsos Srl
+1520,2025-07-25,tecnè srl,agenzia dire,monitor italia,"Fratelli d’Italia 30,2%
+Partito Democratico 21,4%
+Movimento 5 Stelle 12,2%
+Forza Italia 11%
+Lega 8,4%
+Verdi e Sinistra 6,5%
+Azione 3,3%
+Italia Viva 1,9%
++ Europa 1,7%
+Altri partiti 3,4%","IL BORSINO DEI PARTITI
+ASTENSIONE/INCERTI: 49,3% 
+(rispondenti = 100%)","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, Verdi e Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions and does not focus on leader approval ratings or specific demographics. Therefore, it qualifies as a national voting intention poll. The total percentage of 'Altri' is calculated as 3.4%.",1,10,tecnè srl
 1519,2025-07-22,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 29,9
 PARTITO DEMOCRATICO 22,7
 MOVIMENTO 5 STELLE 13,0
