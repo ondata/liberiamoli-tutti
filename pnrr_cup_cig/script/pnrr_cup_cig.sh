@@ -66,7 +66,7 @@ fi
 if [ -f "${folder}"/tmp/cup_csv.zip ]; then
   echo "File cup_csv.zip già esistente, salto il download."
 else
-  wget -O "${folder}"/tmp/cup_csv.zip "${cup_cig_anac}"
+  wget --no-check-certificate -O "${folder}"/tmp/cup_csv.zip "${cup_cig_anac}"
   unzip -o "${folder}"/tmp/cup_csv.zip -d "${folder}"/tmp
 fi
 
