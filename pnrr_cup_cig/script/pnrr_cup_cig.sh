@@ -28,10 +28,10 @@ cup_cig_anac="https://dati.anticorruzione.it/opendata/download/dataset/cup/files
 progetti_pnrr="https://proxy.andybandy.it/?url=https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti.csv"
 gare_pnrr="https://proxy.andybandy.it/?url=https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare.csv"
 
-# Funzione per verificare URL
+# Funzione per verificare URL (usa GET leggera, non bloccante)
 check_url() {
     echo "Controllo URL: $1"
-    curl --retry 5 --retry-delay 3 --fail -v --head "$1"
+    curl --retry 5 --retry-delay 3 --fail -s -L -o /dev/null "$1" || true
 }
 
 # Verifica gli URL prima di procedere
