@@ -31,7 +31,7 @@ oggi=$(date +%Y-%m-%d)
 oggi=$(date -d "$oggi + 30 days" +%Y-%m-%d)
 
 # Rileva se siamo in esecuzione su GitHub Actions
-if false; then # Temporarily disable Tor for debugging
+if [[ "${GITHUB_ACTIONS:-}" == "true" ]]; then
   USE_TOR=true
   echo "Rilevato ambiente GitHub Actions: utilizzerò Tor per le chiamate"
 else
@@ -57,7 +57,7 @@ curl_with_retry() {
         -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
         -H 'cache-control: no-cache' \
         -H 'pragma: no-cache' \
-        -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36' \
+        -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
         >"$output_file"; then
         echo "Download completato con successo al tentativo $attempt"
         return 0
@@ -72,7 +72,7 @@ curl_with_retry() {
         -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
         -H 'cache-control: no-cache' \
         -H 'pragma: no-cache' \
-        -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36' \
+        -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
         >"$output_file"; then
         echo "Download completato con successo al tentativo $attempt"
         return 0
