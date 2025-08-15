@@ -73,7 +73,10 @@ data_inizio="2025-01-01"
 curl_with_retry "https://www.cgsse.it/calendario-scioperi?data_inizio=${data_inizio}&data_fine=${oggi}&page=0" "$folder/tmp/cgsse/cgsse_page_000.html"
 
 # Estrai il numero dell'ultima pagina dall'attributo href usando XPath e regex
-pagine=$(<"$folder"/tmp/cgsse/cgsse_page_000.html scrape -e '//a[contains(@title, "ultima pagina")]/@href' | grep -oP 'page=\K\d+')
+echo "Debugging 'pagine' extraction:"
+raw_href=$(<"$folder"/tmp/cgsse/cgsse_page_000.html scrape -e '//a[contains(@title, "ultima pagina")]/@href')
+echo "Raw href from scrape: $raw_href"
+pagine=$(echo "$raw_href" | grep -oP 'page=\K\d+')
 
 echo "Numero di pagine: $pagine"
 
