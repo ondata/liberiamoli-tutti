@@ -31,38 +31,66 @@ oggi=$(date +%Y-%m-%d)
 oggi=$(date -d "$oggi + 30 days" +%Y-%m-%d)
 
 # Rileva se siamo in esecuzione su GitHub Actions
-PROXY_URL_PREFIX="https://proxy.andybandy.it/?url="
+if [[ "${GITHUB_ACTIONS:-}" == "true" ]]; then
+  USE_TOR=true
+  echo "Rilevato ambiente GitHub Actions: utilizzerò Tor per le chiamate"
+else
+  USE_TOR=false
+  echo "Rilevato ambiente locale: utilizzerò chiamate dirette"
+fi
 
 # Funzione per eseguire curl con retry (con o senza Tor)
 curl_with_retry() {
-  local original_url="$1"
+  local url="$1"
   local output_file="$2"
   local max_attempts=4
   local attempt=1
-  local proxied_url="${PROXY_URL_PREFIX}${original_url}"
 
   while [ $attempt -le $max_attempts ]; do
-    echo "Tentativo $attempt per: ${original_url} (tramite proxy andybandy.it)"
+    if [ "$USE_TOR" = true ]; then
+      echo "Tentativo $attempt per: $url (tramite Tor)"
 
-    if curl -v -ksL \
-      --max-time 60 --connect-timeout 15 --fail "${proxied_url}" \
-      -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
-      -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
-      -H 'cache-control: no-cache' \
-      -H 'pragma: no-cache' \
-      -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
-      >"$output_file"; then
-      echo "Download completato con successo al tentativo $attempt"
-      return 0
+      # Usa Tor come proxy SOCKS5 sulla porta 9050
+      if curl -ksL --socks5-hostname 127.0.0.1:9050 \
+        --max-time 60 --connect-timeout 15 --fail "$url" \
+        -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+        -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
+        -H 'cache-control: no-cache' \
+        -H 'pragma: no-cache' \
+        -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
+        >"$output_file"; then
+        echo "Download completato con successo al tentativo $attempt"
+        return 0
+      fi
+    else
+      echo "Tentativo $attempt per: $url (chiamata diretta)"
+
+      # Chiamata diretta senza Tor
+      if curl -ksL \
+        --max-time 30 --connect-timeout 10 --fail "$url" \
+        -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+        -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
+        -H 'cache-control: no-cache' \
+        -H 'pragma: no-cache' \
+        -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36' \
+        >"$output_file"; then
+        echo "Download completato con successo al tentativo $attempt"
+        return 0
+      fi
     fi
 
     echo "Tentativo $attempt fallito"
     if [ $attempt -eq $max_attempts ]; then
-      echo "ERRORE: Impossibile scaricare ${original_url} dopo $max_attempts tentativi"
+      echo "ERRORE: Impossibile scaricare $url dopo $max_attempts tentativi"
       exit 1
     fi
 
-    sleep $((attempt * 3)) # Pausa per retry
+    if [ "$USE_TOR" = true ]; then
+      sleep $((attempt * 3)) # Pausa più lunga per Tor
+    else
+      sleep $((attempt * 2)) # Pausa più breve per chiamata diretta
+    fi
+
     attempt=$((attempt + 1))
   done
 }
@@ -73,10 +101,7 @@ data_inizio="2025-01-01"
 curl_with_retry "https://www.cgsse.it/calendario-scioperi?data_inizio=${data_inizio}&data_fine=${oggi}&page=0" "$folder/tmp/cgsse/cgsse_page_000.html"
 
 # Estrai il numero dell'ultima pagina dall'attributo href usando XPath e regex
-echo "Debugging 'pagine' extraction:"
-raw_href=$(<"$folder"/tmp/cgsse/cgsse_page_000.html scrape -e '//a[contains(@title, "ultima pagina")]/@href')
-echo "Raw href from scrape: $raw_href"
-pagine=$(echo "$raw_href" | grep -oP 'page=\K\d+')
+pagine=$(<"$folder"/tmp/cgsse/cgsse_page_000.html scrape -e '//a[contains(@title, "ultima pagina")]/@href' | grep -oP 'page=\K\d+')
 
 echo "Numero di pagine: $pagine"
 
@@ -98,8 +123,12 @@ for ((i = 0; i <= pagine; i++)); do
   # Usa la funzione di retry per scaricare ogni pagina
   curl_with_retry "https://www.cgsse.it/calendario-scioperi?data_inizio=${data_inizio}&data_fine=${oggi}&page=$i" "$folder/tmp/cgsse/cgsse_page_$(printf "%03d" "$i").html"
 
-  # Pausa tra le chiamate
-  sleep 10
+  # Pausa tra le chiamate (più lunga per Tor, più breve per chiamate dirette)
+  if [ "$USE_TOR" = true ]; then
+    sleep 2
+  else
+    sleep 1
+  fi
 
   # Estrai i dati dalla pagina HTML usando scrape (XPath) e xq (trasformazione JSON)
   <"$folder"/tmp/cgsse/cgsse_page_$(printf "%03d" "$i").html scrape -be '//ul[@class="responsive-table"]/li[@class="table-row views-row"]' | xq -c '
