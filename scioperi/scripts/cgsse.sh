@@ -31,7 +31,7 @@ oggi=$(date +%Y-%m-%d)
 oggi=$(date -d "$oggi + 30 days" +%Y-%m-%d)
 
 # Rileva se siamo in esecuzione su GitHub Actions
-if [[ "${GITHUB_ACTIONS:-}" == "true" ]]; then
+if false; then # Temporarily disable Tor for debugging
   USE_TOR=true
   echo "Rilevato ambiente GitHub Actions: utilizzerò Tor per le chiamate"
 else
