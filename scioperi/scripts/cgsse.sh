@@ -51,7 +51,7 @@ curl_with_retry() {
       echo "Tentativo $attempt per: $url (tramite Tor)"
 
       # Usa Tor come proxy SOCKS5 sulla porta 9050
-      if curl -ksL --socks5-hostname 127.0.0.1:9050 \
+      if curl -v -ksL --socks5-hostname 127.0.0.1:9050 \
         --max-time 60 --connect-timeout 15 --fail "$url" \
         -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
         -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
@@ -125,7 +125,7 @@ for ((i = 0; i <= pagine; i++)); do
 
   # Pausa tra le chiamate (più lunga per Tor, più breve per chiamate dirette)
   if [ "$USE_TOR" = true ]; then
-    sleep 2
+    sleep 5 # Increased sleep for Tor
   else
     sleep 1
   fi
