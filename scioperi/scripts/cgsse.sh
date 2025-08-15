@@ -125,7 +125,7 @@ for ((i = 0; i <= pagine; i++)); do
 
   # Pausa tra le chiamate (più lunga per Tor, più breve per chiamate dirette)
   if [ "$USE_TOR" = true ]; then
-    sleep 5 # Increased sleep for Tor
+    sleep 10 # Increased sleep for Tor
   else
     sleep 1
   fi
