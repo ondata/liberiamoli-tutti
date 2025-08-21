@@ -1,4 +1,6 @@
-# LOG
+## 2025-08-21
+
+*   Pubblicati i dati relativi al FOIA sui dati della ricostruzione post-sisma, come descritto nel numero 14 di "Liberemioli tutti!".
 
 ## 2025-07-13
 
