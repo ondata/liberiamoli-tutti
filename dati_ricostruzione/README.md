@@ -1,6 +1,8 @@
 # Dati sulla ricostruzione post-sisma
 
-I dati sulla ricostruzione post-sisma, che sono stati ricavati grazie al FOIA che ha fatto Action Aid, come descritto nel numero 14 di "Liberemioli tutti!", suddivisi per interventi su edifici privati e pubblici.
+I dati sulla ricostruzione post-sisma, che sono stati ricavati grazie al FOIA che ha fatto Action Aid, come descritto nel numero 14 di "Liberiamoli tutti!", suddivisi per interventi su edifici privati e pubblici.
+
+Contengono i dati sugli interventi di ricostruzione privata e pubblica nelle quattro regioni del Centro Italia colpite dal sisma 2016-2017, relativi al periodo 2017-2024.
 Fonte: Dipartimento della Protezione Civile.
 
 ## `privata.csv`
@@ -38,7 +40,7 @@ AQ,CAPITIGNANO,1306602100000006042018,ABRUZZO,via Angelo Maria Ricci,Chiuso,B91G
 
 ## `pubblica.csv`
 
-Questo file contiene i dati relativi agli interventi di ricostruzione su edifici pubblici.
+[Questo file](data/pubblica.csv) contiene i dati relativi agli interventi di ricostruzione su edifici pubblici.
 
 ### Schema
 
