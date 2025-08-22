@@ -22,6 +22,7 @@ Questo è uno spazio a supporto, dove verranno raccolti dati e le informazioni u
 - [Numero 11](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-11), i dati sugli istituti penitenziari.
 - [Numero 12](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-12), 2 dati sui Codici Unici Progetto e i Codici Identificativi Gara dei progetti del PNRR.
 - [Numero 13](https://open.substack.com/pub/datibenecomune/p/liberiamoli-tutti-numero-13), i dati sugli scioperi.
+- [Numero 14](https://datibenecomune.substack.com/p/liberiamoli-tutti-numero-14), alcuni dati sulla ricostruzione nelle quattro regioni del Centro Italia colpite dal sisma 2016-2017.
 
 ---
 
