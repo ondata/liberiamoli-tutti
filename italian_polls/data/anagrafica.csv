@@ -1,4 +1,30 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1529,2025-09-09,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 30,0
+PARTITO DEMOCRATICO 22,2
+MOVIMENTO 5 STELLE 13,6
+LEGA 8,6
+FORZA ITALIA 8,3
+VERDI E SINISTRA 6,8
+AZIONE 3,3
+ITALIA VIVA 2,4
++EUROPA 2,0
+NOI MODERATI 1,0
+ALTRE LISTE 1,8
+NON SI ESPRIME 33%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Lega, Forza Italia, and others, indicating it is a national voting intention poll. The percentages provided are for parties that are relevant to national elections, and it does not focus on leader approval ratings or specific demographics. The presence of 'ALTRE LISTE' suggests that there are other parties included, which will be summed up in the 'Altri' field. The total of the mentioned parties is 100% minus the non-responders, which is acceptable for a national poll. Therefore, this is a national voting intention poll.",1,10,SWG spa
+1528,2025-09-08,Termometro Politico,True Data,"Sondaggio su elezioni politiche, Flotilla Sumud","Partiti %
+Fratelli d'Italia 29,3%
+PD 21,8%
+Movimento 5 Stelle 12,6%
+Lega 8,7%
+Forza Italia 8,5%
+Alleanza Verdi Sinistra 6,5%
+Azione 3,1%
+Italia Viva 2,3%
+Più Europa 1,7%
+Democrazia Sovrana Popolare 1,4%
+Noi Moderati 1,2%
+Pace Terra Dignità 0,9%
+Altri 2,0%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Lega, Forza Italia, Alleanza Verdi Sinistra, Azione, Italia Viva, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages provided are valid and do not include any negative numbers or subsets of the population. The total percentage of parties listed sums up to 100%, and the 'Altri' category includes the sum of all other parties not specified, which is 2.0%.",1,11,Termometro Politico
 1527,2025-09-05,tecnè srl,Agenzia dire,monitor italia,"Fratelli d’Italia 30%
 Partito Democratico 21,6%
 Movimento 5 Stelle 12,6%
