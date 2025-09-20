@@ -1,4 +1,29 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1533,2025-09-19,Termomemtro Politico,True Data,"Sondaggio su elezioni politiche, Italia e Israele","Partiti %
+Fratelli d'Italia 29,4%
+PD 22,1%
+Movimento 5 Stelle 12,4%
+Forza Italia 8,8%
+Lega 8,5%
+Alleanza Verdi Sinistra 6,5%
+Azione 3,1%
+Italia Viva 2,2%
+Più Europa 1,9%
+Pace Terra Dignità 0,9%
+Democrazia Sovrana Popolare 1,4%
+Noi Moderati 1,0%
+Altri 1,8%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Forza Italia, Lega, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages provided are valid and sum up to a total of 100% when considering the specified parties. The presence of 'Altri' indicates the sum of all other parties not listed, which is also accounted for. Therefore, this is a national poll.",1,11,Termometro Politico
+1532,2025-09-19,Tecnè Srl,Agenzia Dire,Monitor Italia,"Fratelli d’Italia 30%
+Partito Democratico 21,5%
+Movimento 5 Stelle 12,5%
+Forza Italia 11%
+Lega 8,6%
+Verdi e Sinistra 6,4%
+Azione 3,3%
+Italia Viva 1,9%
++ Europa 1,5%
+Altri partiti 3,3%","IL BORSINO DEI PARTITI
+ASTENSIONE/INCERTI: 48,1% (-0,4% rispetto a un anno fa)","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, Verdi e Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions and does not focus on leader approval ratings or specific demographics. Therefore, it qualifies as a national voting intention poll.",1,10,tecnè srl
 1531,2025-09-12,Termometro Politico,Termometro Politico,"Sondaggio su elezioni politiche, Italia e Israele","Partiti %
 Fratelli d'Italia 29,7%
 PD 22,1%
