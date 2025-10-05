@@ -7,6 +7,8 @@ set -o pipefail
 
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+git pull
+
 mkdir -p "${folder}"/../data
 mkdir -p "${folder}"/tmp
 

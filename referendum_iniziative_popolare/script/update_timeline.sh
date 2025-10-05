@@ -10,6 +10,8 @@ folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 mkdir -p "${folder}"/../data
 mkdir -p "${folder}"/tmp
 
+git pull
+
 # Clear files from tmp and its subdirectories
 find "${folder}"/../data/tmp -type f -delete 2>/dev/null || true
 
@@ -43,9 +45,9 @@ while IFS= read -r line; do
     outfile="${tmppath}/${day}_${filename}"
     git -C "${repopath}" show "${hash}:${filepath_from_repo_root}" > "${outfile}"
     processed_days_count=$((processed_days_count + 1))
-    
+
     echo "Estratto giorno: ${day} (${processed_days_count}/${MAX_DAYS})"
-    
+
     if [[ $processed_days_count -ge $MAX_DAYS ]]; then
       echo "Raggiunto limite di ${MAX_DAYS} giorni"
       break
@@ -58,10 +60,10 @@ process_json() {
   local infile="$1"
   local day=$(basename "$infile" | grep -oP '\d{4}-\d{2}-\d{2}')
   local outfilejsonl="${infile%.json}.jsonl"
-  
+
   jq -c '.content[]' "${infile}" | mlr --jsonl flatten -s "_" >"${outfilejsonl}"
   mlr -I --jsonl put '$data_download=FILENAME' then put '$data_download=regextract_or_else($data_download,"\d{4}-\d{2}-\d{2}","")' then reorder -e -f data_download "${outfilejsonl}"
-  
+
   # Remove the original JSON file to save space
   rm -f "${infile}"
 }
@@ -89,15 +91,15 @@ WITH all_data AS (
        )
 ),
 with_hash AS (
-  SELECT 
+  SELECT
     *,
-    MD5(CONCAT_WS('||', 
+    MD5(CONCAT_WS('||',
       CAST(dataApertura AS VARCHAR), CAST(dataFineRaccolta AS VARCHAR), CAST(estremi AS VARCHAR),
       CAST(id AS VARCHAR), CAST(quorum AS VARCHAR), CAST(sostenitori AS VARCHAR),
       CAST(supportata AS VARCHAR), CAST(titolo AS VARCHAR), CAST(dataUltimoAgg AS VARCHAR),
       CAST(sito AS VARCHAR), CAST(dataInizioRaccolta AS VARCHAR), CAST(dataGazzetta AS VARCHAR)
     )) as row_hash,
-    LAG(MD5(CONCAT_WS('||', 
+    LAG(MD5(CONCAT_WS('||',
       CAST(dataApertura AS VARCHAR), CAST(dataFineRaccolta AS VARCHAR), CAST(estremi AS VARCHAR),
       CAST(id AS VARCHAR), CAST(quorum AS VARCHAR), CAST(sostenitori AS VARCHAR),
       CAST(supportata AS VARCHAR), CAST(titolo AS VARCHAR), CAST(dataUltimoAgg AS VARCHAR),
