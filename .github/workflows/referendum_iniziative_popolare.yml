@@ -48,7 +48,7 @@ jobs:
         export PATH=$PATH:~/bin
         cd ./referendum_iniziative_popolare/script
         chmod +x ./update_timeline.sh
-        ./update_timeline.sh
+        ./update_timeline.sh --all
     - name: Committa e pusha se ci sono variazioni nei dati
       run: |-
         git config user.name "automatico"
