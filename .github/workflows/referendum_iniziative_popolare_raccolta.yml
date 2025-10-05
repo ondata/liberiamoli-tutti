@@ -1,11 +1,8 @@
-name: Referendum e Iniziative Popolari
+name: Referendum e Iniziative Popolari - Raccolta dati
 
 on:
   schedule:
     - cron: '0 23 * * *'
-  # push:
-  #   branches:
-  #     - main
   workflow_dispatch:
 
 jobs:
@@ -43,12 +40,6 @@ jobs:
         cd ./referendum_iniziative_popolare/script
         chmod +x ./referendum_iniziative_popolare.sh
         ./referendum_iniziative_popolare.sh
-    - name: aggiorna timeline storica
-      run: |-
-        export PATH=$PATH:~/bin
-        cd ./referendum_iniziative_popolare/script
-        chmod +x ./update_timeline.sh
-        ./update_timeline.sh --all
     - name: Committa e pusha se ci sono variazioni nei dati
       run: |-
         git config user.name "automatico"
@@ -57,4 +48,3 @@ jobs:
         timestamp=$(date --iso-8601=seconds)
         git commit -m "aggiornamento dati referendum: ${timestamp}" || exit 0
         git push
-
