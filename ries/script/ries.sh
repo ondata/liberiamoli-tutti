@@ -40,7 +40,7 @@ fi
 find "$folder"/tmp/province -type f -name "*.jsonl" -delete
 #find "$folder"/tmp/ -type f -name "*.html" -delete
 
-estrai_dati="no"
+estrai_dati="si"
 
 if [ "$estrai_dati" == "si" ]; then
   while IFS= read -r province; do
