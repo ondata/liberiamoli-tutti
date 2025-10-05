@@ -2,6 +2,7 @@ tmp*
 delete/
 *Zone.Identifier
 .aider*
+duckdb_cli-linux-amd64*
 
 # quarto
 _site/*
