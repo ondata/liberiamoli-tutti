@@ -59,8 +59,14 @@ process_json() {
   local day=$(basename "$infile" | grep -oP '\d{4}-\d{2}-\d{2}')
   local outfilejsonl="${infile%.json}.jsonl"
   
-  jq -c '.content[]' "${infile}" | mlr --jsonl flatten -s "_" >"${outfilejsonl}"
-  mlr -I --jsonl put '$data_download=FILENAME' then put '$data_download=regextract_or_else($data_download,"\d{4}-\d{2}-\d{2}","")' then reorder -e -f data_download "${outfilejsonl}"
+  # Usa il path completo di mlr se è in ~/bin
+  local mlr_cmd="mlr"
+  if [[ -x "$HOME/bin/mlrgo" ]]; then
+    mlr_cmd="$HOME/bin/mlrgo"
+  fi
+  
+  jq -c '.content[]' "${infile}" | $mlr_cmd --jsonl flatten -s "_" >"${outfilejsonl}"
+  $mlr_cmd -I --jsonl put '$data_download=FILENAME' then put '$data_download=regextract_or_else($data_download,"\d{4}-\d{2}-\d{2}","")' then reorder -e -f data_download "${outfilejsonl}"
   
   # Remove the original JSON file to save space
   rm -f "${infile}"
@@ -78,11 +84,21 @@ echo "Generazione timeline deduplicata..."
 duckdb --csv -c "
 WITH all_data AS (
   SELECT
-    COLUMNS(
-      c ->  c NOT ILIKE '%Comitato%'
-         AND c NOT ILIKE '%logo%'
-         AND c NOT ILIKE '%descrizione%' AND c NOT ILIKE '%quesito%'
-    )
+    -- Seleziona solo le colonne che esistono sempre
+    TRY_CAST(id AS INTEGER) as id,
+    TRY_CAST(titolo AS VARCHAR) as titolo,
+    TRY_CAST(sostenitori AS INTEGER) as sostenitori,
+    TRY_CAST(quorum AS INTEGER) as quorum,
+    TRY_CAST(supportata AS BOOLEAN) as supportata,
+    TRY_CAST(sito AS VARCHAR) as sito,
+    TRY_CAST(estremi AS VARCHAR) as estremi,
+    -- Gestisci colonne che potrebbero non esistere con TRY_CAST e COALESCE
+    COALESCE(TRY_CAST(dataApertura AS VARCHAR), '') as dataApertura,
+    COALESCE(TRY_CAST(dataFineRaccolta AS VARCHAR), '') as dataFineRaccolta,
+    COALESCE(TRY_CAST(dataUltimoAgg AS VARCHAR), '') as dataUltimoAgg,
+    COALESCE(TRY_CAST(dataInizioRaccolta AS VARCHAR), '') as dataInizioRaccolta,
+    COALESCE(TRY_CAST(dataGazzetta AS VARCHAR), '') as dataGazzetta,
+    data_download
   FROM read_json_auto(
          '${tmppath}/*.jsonl',
          union_by_name => true
