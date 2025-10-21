@@ -1,4 +1,30 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1546,2025-10-21,SWG spa,La7,intenzioni di voto,"FRATELLI D'ITALIA 31,0
+PARTITO DEMOCRATICO 22,1
+MOVIMENTO 5 STELLE 13,2
+LEGA 8,5
+FORZA ITALIA 7,9
+VERDI E SINISTRA 6,6
+AZIONE 2,9
+ITALIA VIVA 2,3
++EUROPA 1,8
+NOI MODERATI 1,0
+ALTRE LISTE 2,7
+NON SI ESPRIME 31%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Lega, Forza Italia, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages provided are for the parties listed, and the 'Altri' category includes the percentage for 'ALTRE LISTE'.",1,10,SWG spa
+1545,2025-10-20,Termometro Politico,True Data,"Sondaggio su elezioni politiche, Crosetto","Partiti %
+Fratelli d'Italia 29,8%
+PD 22,0%
+Movimento 5 Stelle 12,1%
+Forza Italia 8,6%
+Lega 8,6%
+Alleanza Verdi Sinistra 6,4%
+Azione 3,1%
+Italia Viva 2,4%
+Più Europa 1,8%
+Democrazia Sovrana Popolare 1,4%
+Pace Terra Dignità 1,1%
+Noi Moderati 1,1%
+Altri 1,6%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Forza Italia, Lega, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages provided are relevant and do not include any negative numbers or subsets of the population. The 'Altri' category includes the sum of the percentages of parties not listed, which is 1.6%.",1,11,Termometro Politico
 1544,2025-10-17,Demopolis - Istituto di Ricerche,Otto e Mezzo (LA7),Il peso dei partiti nel Barometro Politico dell’Istituto Demopolis,"FdI: 30,2%
 PD: 23%
 M5S: 12,4%
