@@ -1,4 +1,30 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1556,2025-11-11,SWG S.p.a.,La7,intenzioni di voto,"FRATELLI D'ITALIA 31,3
+PARTITO DEMOCRATICO 22,2
+MOVIMENTO 5 STELLE 12,8
+FORZA ITALIA 8,1
+LEGA 8,0
+VERDI E SINISTRA 6,7
+AZIONE 3,0
+ITALIA VIVA 2,5
++EUROPA 1,5
+NOI MODERATI 1,1
+ALTRE LISTE 2,8
+NON SI ESPRIME 30%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for 'Altri' (other parties) are calculated by summing the percentages of parties not listed in the specified major parties, which includes 'NOI MODERATI' and 'ALTRE LISTE'.",1,10,SWG spa
+1555,2025-11-10,Termometro Politico,True Data,"Sondaggio su elezioni politiche, femminismo","Partiti %
+Fratelli d'Italia 30,2%
+PD 22,1%
+Movimento 5 Stelle 12,2%
+Forza Italia 8,5%
+Lega 8,4%
+Alleanza Verdi Sinistra 6,6%
+Azione 3,1%
+Italia Viva 2,3%
+Più Europa 1,7%
+Democrazia Sovrana Popolare 1,3%
+Noi Moderati 1,1%
+Pace Terra Dignità 1,0%
+Altri 1,5%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Forza Italia, Lega, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages provided are valid and do not include any negative numbers or subsets of the population. The total percentage of parties listed sums up to 100%, and the 'Altri' category includes the sum of all other parties not specified, which is 1.5%.",1,11,Termometro Politico
 1554,2025-11-07,Tecnè Srl,Agenzia dire,Monitor Italia,"Fratelli d’Italia 31,1%
 Partito Democratico 21,7%
 Movimento 5 Stelle 11,5%
