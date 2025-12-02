@@ -1,4 +1,16 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1562,2025-12-02,SWG S.p.a.,La7,intenzioni di voto,"FRATELLI D'ITALIA 31,3
+PARTITO DEMOCRATICO 22,2
+MOVIMENTO 5 STELLE 12,7
+FORZA ITALIA 7,9
+LEGA 7,9
+VERDI E SINISTRA 6,9
+AZIONE 3,3
+ITALIA VIVA 2,4
++EUROPA 1,5
+NOI MODERATI 1,2
+ALTRE LISTE 2,7
+NON SI ESPRIME 31%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for the parties listed sum up to 100% when considering the 'Altri' category, which includes 'NOI MODERATI' and 'ALTRE LISTE'.",1,10,SWG spa
 1561,2025-12-01,Ipsos Doxa,Corriere della Sera,"Intenzioni di voto, gradimento Governo, gradimento leader","{""(stima % su dichiarazioni valide)"": {"""": """"}, ""FRATELLI D\u2019ITALIA"": {"""": ""28,0""}, ""FORZA ITALIA"": {"""": ""8,6""}, ""NOI MODERATI"": {"""": ""0,9""}, ""LEGA"": {"""": ""8,9""}, ""PARTITO DEMOCRATICO"": {"""": ""21,6""}, ""MOVIMENTO 5 STELLE"": {"""": ""13,5""}, ""ALLEANZA VERDI - SINISTRA"": {"""": ""6,3""}, ""+EUROPA"": {"""": ""1,6""}, ""ITALIA VIVA"": {"""": ""2,5""}, ""AZIONE"": {"""": ""3,0""}, ""altre liste"": {"""": ""5,1""}, ""Totale"": {"""": ""100,0""}}","Se si votasse oggi, per quale lista voterebbe alla Camera dei Deputati?","The poll includes all major parties such as Fratelli d'Italia, Forza Italia, Lega, Partito Democratico, Movimento 5 Stelle, Alleanza Verdi - Sinistra, +Europa, Italia Viva, and Azione. It does not include any leader approval ratings or regional subsets, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The percentages for the parties sum up to 100%, and the 'Altri' category includes the 'altre liste' which is 5.1%.",1,10,Ipsos Doxa
 1560,2025-11-29,tecnè srl,agenzia dire,monitor italia,"Fratelli d’Italia 31%
 Partito Democratico 22%
