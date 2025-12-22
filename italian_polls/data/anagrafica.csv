@@ -1,4 +1,16 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1572,2025-12-22,Ipsos Doxa,Corriere della Sera,"Intenzioni di voto, gradimento Governo, gradimento leader","{""(stima % su dichiarazioni valide)"": {"""": """"}, ""FRATELLI D\u2019ITALIA"": {"""": ""28,4""}, ""FORZA ITALIA"": {"""": ""8,3""}, ""NOI MODERATI"": {"""": ""1,0""}, ""LEGA"": {"""": ""8,1""}, ""PARTITO DEMOCRATICO"": {"""": ""21,3""}, ""MOVIMENTO 5 STELLE"": {"""": ""13,5""}, ""ALLEANZA VERDI - SINISTRA"": {"""": ""6,1""}, ""+EUROPA"": {"""": ""1,6""}, ""ITALIA VIVA"": {"""": ""2,5""}, ""AZIONE"": {"""": ""3,1""}, ""altre liste"": {"""": ""6,1""}, ""Totale"": {"""": ""100,0""}}","Se si votasse oggi, per quale lista voterebbe alla Camera dei Deputati?","The poll includes all major parties such as Fratelli d'Italia, Forza Italia, Lega, Partito Democratico, Movimento 5 Stelle, Alleanza Verdi - Sinistra, +Europa, Italia Viva, and Azione. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The percentages for the parties sum up to 100%, and the 'Altri' category includes the 'altre liste' which is 6.1%.",1,10,Ipsos Doxa
+1571,2025-12-19,Demopolis - Istituto di Ricerche,Otto e Mezzo (LA7),Il peso dei partiti nel Barometro Politico Demopolis di fine anno,"FdI: 30%
+PD: 22,8%
+M5S: 12,4%
+Forza Italia: 8,7%
+Lega: 8,7%
+AVS: 6,5%
+Azione: 2,8%
+Italia Viva: 2,6%
+Altre liste: sotto il 2%
+Indecisi: 19%
+Affluenza: 59%","Se ci si recasse oggi alle urne, quale partito voterebbe alle Elezioni Politiche?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, Alleanza Verdi Sinistra, Azione, and Italia Viva, which indicates it is a national voting intention poll. The percentages provided are for parties that are currently relevant in the national political landscape. The mention of 'Altre liste' suggests that there are other parties included, but they are below 2%, which is acceptable for a national poll. Therefore, this is a national voting intention poll.",1,9,Demopolis - Istituto di Ricerche
 1570,2025-12-19,Termometro Politico,True Data,"Sondaggio su elezioni politiche, asset russi","Partiti %
 Fratelli d'Italia 30,4%
 PD 22,1%
