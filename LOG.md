@@ -1,3 +1,6 @@
+## 2025-12-02
+- Update README.md e script `bulk_download_pdf.sh`, URL Cruscotto Statistico Giornaliero modificato
+
 ## 2025-10-05
 
 - Risolto errore critico nel workflow GitHub Actions `referendum_iniziative_popolare.yml` che causava il fallimento del job "aggiorna timeline storica"
