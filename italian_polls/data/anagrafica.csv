@@ -1,4 +1,30 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1581,2026-01-20,SWG S.p.A.,La7,intenzioni di voto,"FRATELLI D'ITALIA 31,1
+PARTITO DEMOCRATICO 22,4
+MOVIMENTO 5 STELLE 12,4
+FORZA ITALIA 8,4
+LEGA 8,0
+VERDI E SINISTRA 6,4
+AZIONE 2,8
+ITALIA VIVA 2,0
++EUROPA 1,3
+NOI MODERATI 1,2
+ALTRE LISTE 4,0
+NON SI ESPRIME 32%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages provided are for the parties listed, and the 'Altri' category includes the 'ALTRE LISTE' percentage. The total of the mentioned parties does not need to add up to 100%, and the non-responders are not included in the calculations.",1,10,SWG spa
+1580,2026-01-19,Termometro Politico,True Data,"Sondaggio su elezioni politiche, Maduro","Partiti %
+Fratelli d'Italia 30,4%
+PD 21,9%
+Movimento 5 Stelle 12,3%
+Forza Italia 8,4%
+Lega 8,5%
+Alleanza Verdi Sinistra 6,6%
+Azione 3,0%
+Italia Viva 2,5%
+Più Europa 1,7%
+Pace Terra Dignità 1,1%
+Democrazia Sovrana Popolare 1,3%
+Noi Moderati 1,2%
+Altri 1,1%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Forza Italia, Lega, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages provided are valid and do not include any negative numbers or subsets of the population. The total percentage of 'Altri' is calculated as the sum of the percentages of parties not listed, which is 1.1% for 'Altri'.",1,11,Termometro Politico
 1579,2026-01-16,tecnè srl,agenzia dire,Monitor italia,"fdi 31%
 pd 21,7%
 m5s 12%
