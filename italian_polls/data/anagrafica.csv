@@ -1,4 +1,31 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1589,2026-02-10,SWG S.p.A.,La7,intenzioni di voto,"FRATELLI D'ITALIA 30,1
+PARTITO DEMOCRATICO 22,2
+MOVIMENTO 5 STELLE 11,7
+FORZA ITALIA 8,4
+LEGA 6,6
+VERDI E SINISTRA 6,4
+FUTURO NAZIONALE 3,3
+AZIONE 3,1
+ITALIA VIVA 2,2
++EUROPA 1,5
+NOI MODERATI 1,2
+ALTRE LISTE 3,3
+NON SI ESPRIME 28%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, and Alleanza Verdi Sinistra. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for the listed parties sum up to 100% when considering the 'Altri' category, which includes 'Futuro Nazionale', 'Azione', 'Italia Viva', '+Europa', 'Noi Moderati', and 'Altre Liste'.",1,10,SWG spa
+1588,2026-02-09,Termometro Politico,True Data,"Sondaggio su elezioni politiche, Epstein","Partiti %
+Fratelli d'Italia 29,8%
+PD 22,0%
+Movimento 5 Stelle 11,9%
+Forza Italia 8,3%
+Lega 7,7%
+Alleanza Verdi Sinistra 6,4%
+Futuro Nazionale 3,5%
+Azione 2,8%
+Italia Viva 2,4%
+Più Europa 1,6%
+Democrazia Sovrana Popolare 1,1%
+Noi Moderati 1,0%
+Altri 1,5%",Cosa voterebbe se domani ci fossero le elezioni politiche?,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico (PD), Movimento 5 Stelle, Forza Italia, Lega, Alleanza Verdi Sinistra, Azione, Italia Viva, and +Europa. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for the listed parties sum up to 92.4%, and the remaining 1.5% is categorized under 'Altri'.",1,10,Termometro Politico
 1587,2026-02-09,tecnè srl,agenzia dire,monitor italia,"Fratelli d’Italia 31%
 Partito Democratico 21,9%
 Movimento 5 Stelle 11,9%
