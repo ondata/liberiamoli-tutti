@@ -1,0 +1,8 @@
+comune_orig,prov_orig,comune_fix,prov_fix,note
+Sarnano,AP,Sarnano,MC,provincia errata nel sorgente (AP invece di MC)
+Capitignano,TE,Capitignano,AQ,provincia errata nel sorgente (TE invece di AQ)
+Farindola,TE,Farindola,PE,provincia errata nel sorgente (TE invece di PE)
+Montereale,TE,Montereale,AQ,provincia errata nel sorgente (TE invece di AQ)
+Popoli,PE,Popoli Terme,PE,nome errato nel sorgente (Popoli invece di Popoli Terme)
+Silvi Marina,TE,Silvi,TE,nome errato nel sorgente (Silvi Marina invece di Silvi)
+Ancarano,AP,Ancarano,TE,provincia errata nel sorgente (AP invece di TE)
