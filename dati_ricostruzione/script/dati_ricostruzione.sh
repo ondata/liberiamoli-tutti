@@ -32,7 +32,7 @@ qsv excel --sheet 1 "${rawdata}" --output "${tmp}/riscontro_action_aid.csv"
 
 # Normalizza gli header in snake_case e aggiunge url_cup per ogni CUP
 csvnorm --force "${tmp}/riscontro_action_aid.csv" -o "${tmp}/riscontro_action_aid_norm.csv"
-mlr --csv put '$url_cup = (is_null($cupxall) || $cupxall == "" || string_len($cupxall) > 15) ? "" : "https://www.opencup.gov.it/portale/it/web/opencup/home/progetto/-/cup/" . $cupxall' \
+mlr --csv put '$url_cup = (is_null($cupxall) || $cupxall == "" || $cupxall =~ " - ") ? "" : "https://www.opencup.gov.it/portale/it/web/opencup/home/progetto/-/cup/" . strip($cupxall)' \
   "${tmp}/riscontro_action_aid_norm.csv" > "${tmp}/riscontro_action_aid_norm_url.csv" \
   && mv "${tmp}/riscontro_action_aid_norm_url.csv" "${tmp}/riscontro_action_aid_norm.csv"
 
@@ -151,11 +151,14 @@ fi
 # trova il CIG corrispondente nell'archivio ANAC e aggiunge url_cig
 duckdb -c "
 COPY (
-  SELECT DISTINCT r.cupxall AS cup, c.CIG AS cig, 'https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=' || c.CIG AS url_cig
-  FROM read_csv('${norm_fix}') r
-  INNER JOIN read_csv('${cup_csv}') c ON r.cupxall = c.CUP
-  WHERE r.cupxall IS NOT NULL
-  ORDER BY r.cupxall
+  SELECT DISTINCT trim(cup_code) AS cup, c.CIG AS cig, 'https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=' || c.CIG AS url_cig
+  FROM (
+    SELECT unnest(string_split(r.cupxall, ' - ')) AS cup_code
+    FROM read_csv('${norm_fix}') r
+    WHERE r.cupxall IS NOT NULL
+  ) s
+  INNER JOIN read_csv('${cup_csv}') c ON trim(s.cup_code) = c.CUP
+  ORDER BY cup
 ) TO '${data}/17/cup_cig.csv' (HEADER, DELIMITER ',')
 "
 
