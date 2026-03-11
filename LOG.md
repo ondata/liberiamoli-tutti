@@ -1,3 +1,9 @@
+## 2026-02-22
+
+- Aggiornato `dati_ricostruzione/script/dati_ricostruzione.sh` con estrazione ordinanze da due fonti: ordinanze commissariali (OC) e ordinanze speciali (OS)
+- Prodotto output unificato `dati_ricostruzione/data/ordinanze.csv` con colonne `tipo_id`, `tipo_label`, `n`, `titolo`, `data_pubblicazione`, `download_titolo`, `download_url`
+- Aggiunta la colonna `url_ordinanza` a `dati_ricostruzione/data/riscontro_action_aid.csv`, valorizzata con join su `ordinanza_attuale` e supporto ai casi con ordinanze multiple
+
 ## 2025-10-05
 
 - Risolto errore critico nel workflow GitHub Actions `referendum_iniziative_popolare.yml` che causava il fallimento del job "aggiorna timeline storica"

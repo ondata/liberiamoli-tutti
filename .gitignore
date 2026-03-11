@@ -22,6 +22,9 @@ istituti_penitenziari/data/raw/*
 # soldi e politica
 soldi_e_politica/processing/*/*.csv
 
+# bozze newsletter
+bozze/
+
 # registro volontà donazione organi
 registro_volonta_donazione_organi/script/comuni_csv/*.csv
 registro_volonta_donazione_organi/script/asl_csv/*.csv

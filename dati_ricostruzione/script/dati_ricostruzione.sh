@@ -5,6 +5,16 @@ set -e
 set -u
 set -o pipefail
 
+# Repository utility usate in questo script:
+# - qsv: https://github.com/dathere/qsv
+# - csvnorm: https://github.com/aborruso/csvnorm
+# - Miller (mlr): https://github.com/johnkerl/miller
+# - DuckDB CLI: https://github.com/duckdb/duckdb
+# - tometo_tomato: https://github.com/aborruso/tometo_tomato
+# - scrape-cli: https://github.com/aborruso/scrape-cli
+# - xq (da yq): https://github.com/kislyuk/yq
+# - jq: https://github.com/jqlang/jq
+
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 rawdata="${folder}/../rawdata/2026-02-02_riscontro_action_aid.xlsx"
@@ -13,6 +23,7 @@ tmp="${folder}/../../tmp"
 data="${folder}/../data"
 
 mkdir -p "${tmp}"
+mkdir -p "${data}/17"
 
 # --- FASE 1: Estrazione e normalizzazione dati sorgente ---
 
@@ -21,7 +32,7 @@ qsv excel --sheet 1 "${rawdata}" --output "${tmp}/riscontro_action_aid.csv"
 
 # Normalizza gli header in snake_case e aggiunge url_cup per ogni CUP
 csvnorm --force "${tmp}/riscontro_action_aid.csv" -o "${tmp}/riscontro_action_aid_norm.csv"
-mlr --csv put '$url_cup = "https://www.opencup.gov.it/portale/it/web/opencup/home/progetto/-/cup/" . $cupxall' \
+mlr --csv put '$url_cup = if (is_null($cupxall) || $cupxall == "") then "" else "https://www.opencup.gov.it/portale/it/web/opencup/home/progetto/-/cup/" . $cupxall end' \
   "${tmp}/riscontro_action_aid_norm.csv" > "${tmp}/riscontro_action_aid_norm_url.csv" \
   && mv "${tmp}/riscontro_action_aid_norm_url.csv" "${tmp}/riscontro_action_aid_norm.csv"
 
@@ -116,7 +127,7 @@ COPY (
   LEFT JOIN read_csv('${comuni_null_na_match}') m2
     ON r.comune = m2.comune AND (r.prov IS NULL OR r.prov = '#N/A')
   ORDER BY r.regione, r.comune
-) TO '${data}/riscontro_action_aid.csv' (HEADER, DELIMITER ',')
+) TO '${data}/17/riscontro_action_aid.csv' (HEADER, DELIMITER ',')
 "
 
 # --- FASE 6: Join CUP-CIG con dataset ANAC ---
@@ -143,7 +154,7 @@ COPY (
   INNER JOIN read_csv('${cup_csv}') c ON r.cupxall = c.CUP
   WHERE r.cupxall IS NOT NULL
   ORDER BY r.cupxall
-) TO '${data}/cup_cig.csv' (HEADER, DELIMITER ',')
+) TO '${data}/17/cup_cig.csv' (HEADER, DELIMITER ',')
 "
 
 # --- FASE 7: Estrazione ordinanze commissariali e ordinanze speciali ---
@@ -228,7 +239,7 @@ extract_ordinanze_table \
   head -n 1 "${tmp}/ordinanze_commissariali.csv"
   tail -n +2 "${tmp}/ordinanze_commissariali.csv"
   tail -n +2 "${tmp}/ordinanze_speciali.csv"
-} > "${data}/ordinanze.csv"
+} > "${data}/17/ordinanze.csv"
 
 # --- FASE 8: Arricchimento riscontro_action_aid con url_ordinanza ---
 
@@ -238,11 +249,11 @@ duckdb -c "
 COPY (
   WITH main_data AS (
     SELECT row_number() OVER () AS row_id, *
-    FROM read_csv('${data}/riscontro_action_aid.csv')
+    FROM read_csv('${data}/17/riscontro_action_aid.csv')
   ),
   ord_map AS (
     SELECT tipo_id, CAST(n AS INTEGER) AS n, download_url
-    FROM read_csv('${data}/ordinanze.csv')
+    FROM read_csv('${data}/17/ordinanze.csv')
   ),
   exploded AS (
     SELECT
@@ -268,4 +279,4 @@ COPY (
 ) TO '${tmp}/riscontro_action_aid_con_ordinanza.csv' (HEADER, DELIMITER ',')
 "
 
-mv "${tmp}/riscontro_action_aid_con_ordinanza.csv" "${data}/riscontro_action_aid.csv"
+mv "${tmp}/riscontro_action_aid_con_ordinanza.csv" "${data}/17/riscontro_action_aid.csv"
