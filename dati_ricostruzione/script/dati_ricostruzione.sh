@@ -127,8 +127,10 @@ COPY (
   LEFT JOIN read_csv('${comuni_null_na_match}') m2
     ON r.comune = m2.comune AND (r.prov IS NULL OR r.prov = '#N/A')
   ORDER BY r.regione, r.comune
-) TO '${data}/17/riscontro_action_aid.csv' (HEADER, DELIMITER ',')
+) TO '${tmp}/riscontro_action_aid_pre_clean.csv' (HEADER, DELIMITER ',')
 "
+
+mlr --csv clean-whitespace "${tmp}/riscontro_action_aid_pre_clean.csv" > "${data}/17/riscontro_action_aid.csv"
 
 # --- FASE 6: Join CUP-CIG con dataset ANAC ---
 
@@ -149,7 +151,7 @@ fi
 # trova il CIG corrispondente nell'archivio ANAC e aggiunge url_cig
 duckdb -c "
 COPY (
-  SELECT r.cupxall AS cup, c.CIG AS cig, 'https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=' || c.CIG AS url_cig
+  SELECT DISTINCT r.cupxall AS cup, c.CIG AS cig, 'https://dati.anticorruzione.it/superset/dashboard/dettaglio_cig/?cig=' || c.CIG AS url_cig
   FROM read_csv('${norm_fix}') r
   INNER JOIN read_csv('${cup_csv}') c ON r.cupxall = c.CUP
   WHERE r.cupxall IS NOT NULL
@@ -235,11 +237,16 @@ extract_ordinanze_table \
   "${tmp}/ordinanze_speciali.csv"
 
 # Output unico: unione ordinanze commissariali + speciali
+# data_pubblicazione convertita da DD/MM/YYYY a ISO 8601 (YYYY-MM-DD)
 {
   head -n 1 "${tmp}/ordinanze_commissariali.csv"
   tail -n +2 "${tmp}/ordinanze_commissariali.csv"
   tail -n +2 "${tmp}/ordinanze_speciali.csv"
-} > "${data}/17/ordinanze.csv"
+} | mlr --csv put '
+  if ($data_pubblicazione != "") {
+    $data_pubblicazione = strftime(strptime($data_pubblicazione, "%d/%m/%Y"), "%Y-%m-%d")
+  }
+' > "${data}/17/ordinanze.csv"
 
 # --- FASE 8: Arricchimento riscontro_action_aid con url_ordinanza ---
 

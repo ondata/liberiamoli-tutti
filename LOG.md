@@ -1,3 +1,7 @@
+## 2026-03-11
+
+- Fix qualità dati ricostruzione #17: whitespace rimosso con `mlr clean-whitespace`, 582 duplicati eliminati da `cup_cig.csv` con `SELECT DISTINCT`, date `data_pubblicazione` in `ordinanze.csv` convertite in ISO 8601
+
 ## 2026-02-22
 
 - Aggiornato `dati_ricostruzione/script/dati_ricostruzione.sh` con estrazione ordinanze da due fonti: ordinanze commissariali (OC) e ordinanze speciali (OS)
