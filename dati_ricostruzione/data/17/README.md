@@ -72,7 +72,7 @@ I valori del campo `fase_di_avanzamento_al_30_aprile_2025` includono già codice
 
 ### `cup_cig.csv`
 
-**13.330 righe**: per ogni CUP presente nel dataset, i Codici Identificativi Gara (CIG) corrispondenti, ottenuti tramite join con il dataset CUP-CIG pubblicato da ANAC. Coprono più dell'87% degli interventi della ricostruzione pubblica.
+**12.847 righe**: per ogni CUP presente nel dataset, i Codici Identificativi Gara (CIG) corrispondenti, ottenuti tramite join con il dataset CUP-CIG pubblicato da ANAC. Coprono più dell'87% degli interventi della ricostruzione pubblica.
 
 | Colonna | Tipo | Descrizione |
 |---|---|---|
