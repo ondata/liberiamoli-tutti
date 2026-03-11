@@ -32,7 +32,7 @@ qsv excel --sheet 1 "${rawdata}" --output "${tmp}/riscontro_action_aid.csv"
 
 # Normalizza gli header in snake_case e aggiunge url_cup per ogni CUP
 csvnorm --force "${tmp}/riscontro_action_aid.csv" -o "${tmp}/riscontro_action_aid_norm.csv"
-mlr --csv put '$url_cup = (is_null($cupxall) || $cupxall == "") ? "" : "https://www.opencup.gov.it/portale/it/web/opencup/home/progetto/-/cup/" . $cupxall' \
+mlr --csv put '$url_cup = (is_null($cupxall) || $cupxall == "" || string_len($cupxall) > 15) ? "" : "https://www.opencup.gov.it/portale/it/web/opencup/home/progetto/-/cup/" . $cupxall' \
   "${tmp}/riscontro_action_aid_norm.csv" > "${tmp}/riscontro_action_aid_norm_url.csv" \
   && mv "${tmp}/riscontro_action_aid_norm_url.csv" "${tmp}/riscontro_action_aid_norm.csv"
 
