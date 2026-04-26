@@ -1,6 +1,8 @@
 # Dati — Referendum e iniziative popolari (numero #18)
 
-Statistiche dei firmatari estratte dalla piattaforma [firmereferendum.giustizia.it](https://firmereferendum.giustizia.it/referendum/open) del Ministero della Giustizia. I dati — distribuzione per regione e per fascia d'età, con dettaglio di genere — sono accessibili solo dopo autenticazione con CIE o SPID e non sono disponibili in formato aperto.
+Statistiche dei firmatari estratte dalla piattaforma [firmereferendum.giustizia.it](https://firmereferendum.giustizia.it/referendum/open) del Ministero della Giustizia. I dati — distribuzione per regione e per fascia d'età, con dettaglio di sesso — sono accessibili solo dopo autenticazione con CIE o SPID e non sono disponibili in formato aperto.
+
+> Il Ministero raccoglie un dato binario di sesso (femmine/maschi), che corrisponde al sesso anagrafico dichiarato in fase di autenticazione con CIE o SPID.
 
 I file sono denominati `YYYY-MM-DD_<tipo>.csv` in base alla data di estrazione.
 
@@ -35,8 +37,8 @@ Una riga per ogni combinazione iniziativa × regione (20 regioni).
 | `regione` | testo | Nome della regione (maiuscolo) |
 | `codice_istat` | testo | Codice ISTAT regione (es. `01`–`20`) |
 | `nuts` | testo | Codice NUTS2 della regione (es. `ITC1`, `ITF1`) |
-| `femmine` | intero | Firme di donne nella regione |
-| `maschi` | intero | Firme di uomini nella regione |
+| `femmine` | intero | Firme di sesso femminile nella regione |
+| `maschi` | intero | Firme di sesso maschile nella regione |
 | `firme_totali` | intero | Totale firme nella regione |
 
 ---
@@ -57,8 +59,8 @@ Una riga per ogni combinazione iniziativa × fascia d'età (11 fasce, da `18 - 2
 | `firme_totali_nazionali` | intero | Totale firme a livello nazionale al momento dell'estrazione |
 | `timestamp_estrazione` | datetime | Data e ora dell'estrazione (ISO 8601 UTC) |
 | `fascia` | testo | Fascia d'età quinquennale (es. `18 - 22`, `23 - 27`, `68 e più`) |
-| `femmine` | intero | Firme di donne nella fascia |
-| `maschi` | intero | Firme di uomini nella fascia |
+| `femmine` | intero | Firme di sesso femminile nella fascia |
+| `maschi` | intero | Firme di sesso maschile nella fascia |
 | `totali` | intero | Totale firme nella fascia |
 
 ---
