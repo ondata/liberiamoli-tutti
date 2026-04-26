@@ -77,7 +77,7 @@ I file di questa cartella sono **snapshot statici** della distribuzione di firme
 
 Se sei interessato/a alla **serie storica del numero di firme nel tempo per ogni iniziativa** (senza info per regione e fascia d'età), c'è un repository dedicato:
 
-👉 [**ondata/referendum_iniziative_popolari**](https://github.com/ondata/referendum_iniziative_popolari)
+👉 [**ondata/referendum_iniziative_popolari**](https://github.com/ondata/referendum_iniziative_popolari/tree/main/data)
 
 In particolare:
 
