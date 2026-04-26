@@ -9,9 +9,9 @@ I file sono denominati `YYYY-MM-DD_<tipo>.csv` in base alla data di estrazione.
 ## Snapshot disponibili
 
 | Data estrazione | Iniziative | `regioni.csv` | `fasce_eta.csv` |
-|---|---:|---:|---:|
-| 2026-03-04 | 94 | 1.880 righe | 1.034 righe |
-| 2026-04-26 | 96 | 1.920 righe | 1.056 righe |
+|---|---:|---|---|
+| 2026-03-04 | 94 | [1.880 righe](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/referendum_iniziative_popolare/data/18/2026-03-04_regioni.csv) | [1.034 righe](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/referendum_iniziative_popolare/data/18/2026-03-04_fasce_eta.csv) |
+| 2026-04-26 | 96 | [1.920 righe](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/referendum_iniziative_popolare/data/18/2026-04-26_regioni.csv) | [1.056 righe](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/referendum_iniziative_popolare/data/18/2026-04-26_fasce_eta.csv) |
 
 ---
 
