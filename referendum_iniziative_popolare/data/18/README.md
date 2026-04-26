@@ -68,3 +68,20 @@ Una riga per ogni combinazione iniziativa × fascia d'età (11 fasce, da `18 - 2
 - Piattaforma firme: [firmereferendum.giustizia.it](https://firmereferendum.giustizia.it/referendum/open)
 - Metadati iniziative: endpoint pubblico `api-portal/iniziativa/public` (no autenticazione)
 - Statistiche per regione e fascia: endpoint `/referendum/dettaglio/{id}/statistiche` (autenticazione CIE richiesta)
+
+---
+
+## Serie storica delle firme raccolte nel tempo
+
+I file di questa cartella sono **snapshot statici** della distribuzione di firme per regione e fascia d'età. Non contengono l'evoluzione giornaliera dei totali raccolti.
+
+Se sei interessato/a alla **serie storica del numero di firme nel tempo per ogni iniziativa** (senza info per regione e fascia d'età), c'è un repository dedicato:
+
+👉 [**ondata/referendum_iniziative_popolari**](https://github.com/ondata/referendum_iniziative_popolari)
+
+In particolare:
+
+- [`source.jsonl`](https://github.com/ondata/referendum_iniziative_popolari/blob/main/data/source.jsonl) — anagrafica completa di tutte le iniziative (titolo, quorum, stato, date, ecc.), aggiornata 6 volte al giorno
+- [`time_line.jsonl`](https://github.com/ondata/referendum_iniziative_popolari/blob/main/data/time_line.jsonl) — timeline storica giornaliera del numero di sostenitori per ogni iniziativa, dal 6 luglio 2025 in poi (chiave di join: `id`)
+
+Il sito che visualizza questi dati è [ondata.github.io/referendum_iniziative_popolari](https://ondata.github.io/referendum_iniziative_popolari/).
