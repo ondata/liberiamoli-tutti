@@ -41,5 +41,5 @@ soglia=$(mlrgo --csv filter '$sostenitori>499999' "${folder}"/../data/referendum
 
 if [ "$soglia" -gt 0 ]; then
   echo "Allerta 500000"
-  echo "stop" "${folder}"/../data/alert.txt
+  echo "stop" > "${folder}"/../data/alert.txt
 fi

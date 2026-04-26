@@ -1,8 +1,6 @@
 name: Referendum e Iniziative Popolari - Raccolta dati
 
 on:
-  schedule:
-    - cron: '0 23 * * *'
   workflow_dispatch:
 
 jobs:
@@ -36,6 +34,10 @@ jobs:
         chmod +x mlrgo mlr
     - name: esegui lo script base
       run: |-
+        if [ "$(cat ./referendum_iniziative_popolare/data/alert.txt)" = "stop" ]; then
+          echo "alert.txt contiene 'stop': raccolta terminata, skip."
+          exit 0
+        fi
         export PATH=$PATH:~/bin
         cd ./referendum_iniziative_popolare/script
         chmod +x ./referendum_iniziative_popolare.sh
