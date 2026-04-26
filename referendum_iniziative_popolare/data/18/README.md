@@ -86,4 +86,4 @@ In particolare:
 - [`source.jsonl`](https://github.com/ondata/referendum_iniziative_popolari/blob/main/data/source.jsonl) — anagrafica completa di tutte le iniziative (titolo, quorum, stato, date, ecc.), aggiornata 6 volte al giorno
 - [`time_line.jsonl`](https://github.com/ondata/referendum_iniziative_popolari/blob/main/data/time_line.jsonl) — timeline storica giornaliera del numero di sostenitori per ogni iniziativa, dal 6 luglio 2025 in poi (chiave di join: `id`)
 
-Il sito che visualizza questi dati è [ondata.github.io/referendum_iniziative_popolari](https://ondata.github.io/referendum_iniziative_popolari/).
+Il sito in cui è possibile visualizzare questi dati è [ondata.github.io/referendum_iniziative_popolari](https://ondata.github.io/referendum_iniziative_popolari/).
