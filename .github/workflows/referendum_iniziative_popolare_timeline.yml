@@ -1,8 +1,6 @@
 name: Referendum e Iniziative Popolari - Timeline
 
 on:
-  schedule:
-    - cron: '30 23 * * *'
   workflow_dispatch:
 
 jobs:
