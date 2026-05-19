@@ -1,4 +1,37 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1626,2026-05-18,Istituto Piepoli,Istituto Piepoli,Intenzioni di voto (settimana dell'11 maggio 2026),"- Fratelli d'Italia 29
+- Lega Salvini Presidente 6 (-0,5)
+- Forza Italia 8,5 (+0,5)
+- Noi Moderati 1,5
+- Partito Democratico 21,5
+- Alleanza Verdi Sinistra 6,5 (-0,5)
+- +Europa 1,5 (+0,5)
+- Movimento 5 Stelle 13
+- Italia Viva 2,5 (-0,5)
+- Azione 2,5
+- Sud chiama Nord 1,5
+- Partito Liberal Democratico 1,5
+- Futuro Nazionale Vannacci 3,5
+- Altri partiti 1 (+0,5)
+
+Base: esprimono un'intenzione di voto (indecisi-astenuti 31%)","NTENZIONI DI VOTO
+(Scostamento rispetto alla settimana precedente)","The poll includes all major parties such as Fratelli d'Italia, Lega, Forza Italia, Partito Democratico, Alleanza Verdi Sinistra, +Europa, Movimento 5 Stelle, and Italia Viva, which are relevant for national voting intentions. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll.",1,11,Istituto Piepoli
+1625,2026-05-18,tecnè srl,agenzia dire,monitor italia,"fdi 28,9%
+fi 8,8%
+lega 7,1%
+noi moderati 1%
+pd 22,1%
+m5s 12,9%
+verdi+si 6,3%
+iv 2,4%
++europa 1,4%
+futuro nazionale 3,1%
+azione 3%
+altri 3%
+
+CD 45,8%
+CS 45,1%","RSINO DEI PARTITI
+DICHIARANO IL VOTO 55,8% - ASTENSIONE/INCERTI: 44,2%","The poll includes major parties such as Fratelli d'Italia, Forza Italia, Lega, Partito Democratico, Movimento 5 Stelle, +Europa, and Italia Viva, which are all relevant to national voting intentions. It does not focus on leader approval ratings or specific regional demographics, thus qualifying as a national voting intention poll. The percentages for 'altri' (others) are calculated as the sum of the percentages of parties not listed in the specified major parties, which is 3% from 'altri'.",1,10,tecnè srl
 1624,2026-05-12,SWG S.p.A.,La7,intenzioni di voto,"FRATELLI D'ITALIA 28,8
 PARTITO DEMOCRATICO 22,0
 MOVIMENTO 5 STELLE 12,2
