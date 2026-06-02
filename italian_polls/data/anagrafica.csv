@@ -1,4 +1,36 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1631,2026-06-01,Tecnè srl,agenzia dire,MONITOR ITALIA,"fdi 29,4%
+fi 8,8%
+lega 7%
+noi moderati 0,9%
+pd 22,1%
+m5s 12,4%
+verdi-si 6,3%
+iv 2,4%
++europa 1,4%
+futuro nazionale 3,6%
+azione 2,8%
+altri 2,9%
+
+CD 46,1%
+CS 44,6%","IL BORSINO DEI PARTITI
+DICHIARANO IL VOTO 55,5% - ASTENSIONE/INCERTI: 44,5%
+(rispondenti = 100%)","The poll includes major parties such as Fratelli d'Italia, Forza Italia, Lega, Partito Democratico, Movimento 5 Stelle, +Europa, Italia Viva, and Alleanza Verdi Sinistra, which are all relevant to national voting intentions. It does not focus on leader approval ratings or specific regional demographics, thus qualifying as a national voting intention poll. The percentages for 'altri' (others) are calculated by summing the percentages of parties not listed in the specified major parties, which in this case are 'noi moderati' (0.9%), 'futuro nazionale' (3.6%), and 'CD' (46.1%) and 'CS' (44.6%), totaling 95.2%. Therefore, the total for 'Altri' is 2.9% as stated in the poll, which is consistent with the other parties mentioned.",1,10,tecnè srl
+1630,2026-06-01,Youtrend,Sky TG24,Osservatorio Italia,"Fratelli d’Italia 27,7
+Partito Democratico 21,7
+Movimento 5 Stelle 13,5
+Forza Italia 7,8
+Alleanza Verdi-Sinistra 6,4
+Lega 5,9
+Futuro Nazionale 4,4
+Azione 3,2
+Italia Viva 2,2
+Più Europa 1,2
+Partito Liberaldemocratico 1,2
+Ora! 1,1
+Noi Moderati 1,0
+Un altro partito 2,7
+Astenuti + Indecisi 33,0",Intenzioni di voto,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Alleanza Verdi-Sinistra, and Lega, which are relevant for national voting intentions. It does not include any leader approval ratings or regional subsets, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The total percentage of parties mentioned is 27.7 + 21.7 + 13.5 + 7.8 + 6.4 + 5.9 + 4.4 + 3.2 + 2.2 + 1.2 + 1.2 + 1.1 + 1.0 + 2.7 =  94.9%. The remaining percentage (100% - 94.9% = 5.1%) can be attributed to 'Altri'.",1,10,Youtrend
 1629,2026-05-26,tecnè srl,agenzia dire,monitor italia,"fdi 29,2%
 fi 8,8%
 lega 6,9%
