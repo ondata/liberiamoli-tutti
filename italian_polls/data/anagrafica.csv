@@ -1,4 +1,37 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1634,2026-06-03,tecné srl,rti,le intenzioni di voto degli italiani,"fdi 29,4%
+fi 8,8%
+lega 7,1%
+noi moderati 0,9%
+pd 22%
+m5s 12,5%
+verdi+si 6.,2%
+iv 2,4%
++europa 1,5%
+futuro nazionale 3,6%
+azione 2,8%
+altri 2,8%
+
+
+CD 46,2%a
+CS 44,6%
+Altri 9,2%","se si votasse oggi per le politiche 
+dichiarano il voto 55,7% - astensione e incerti 44,3% 
+(rispondenti = 100%)","The poll includes major parties such as Fratelli d'Italia, Forza Italia, Lega, Partito Democratico, Movimento 5 Stelle, Alleanza Verdi Sinistra, Italia Viva, and +Europa, which are all relevant for a national voting intention poll. It does not focus on leader approval ratings or specific regions, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The percentages for the parties sum up to 100% when considering the 'Altri' category, which includes the 'noi moderati', 'futuro nazionale', and other unspecified parties. The total for 'Altri' is calculated as 2.8% (from the main results) + 9.2% (from the CD and CS results) = 12%.",1,10,tecnè srl
+1633,2026-06-03,SWG S.p.A.,La7,intenzioni di voto,"FRATELLI D'ITALIA 28,2
+PARTITO DEMOCRATICO 22,3
+MOVIMENTO 5 STELLE 13,0
+FORZA ITALIA 7,2
+VERDI E SINISTRA 6,7
+LEGA 5,8
+FUTURO NAZIONALE 4,6
+AZIONE 3,4
+ITALIA VIVA 2,4
++EUROPA 1,4
+NOI MODERATI 1,2
+ALTRE LISTE 3,8
+NON SI ESPRIME 28%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for the listed parties sum up to 90.6%, and the remaining 3.8% is categorized under 'Altri'.",1,10,SWG spa
+1632,2026-06-03,Ipsos Doxa,Corriere della Sera,"Intenzioni di voto, simulazione seggi, gradimento Governo, gradimento leader","{""(stima % su dichiarazioni valide)"": {"""": """"}, ""FRATELLI D\u2019ITALIA"": {"""": ""27,6""}, ""FORZA ITALIA"": {"""": ""8,2""}, ""NOI MODERATI"": {"""": ""0,8""}, ""LEGA"": {"""": ""5,7""}, ""FUTURO NAZIONALE"": {"""": ""4,8""}, ""PARTITO DEMOCRATICO"": {"""": ""20,1""}, ""MOVIMENTO 5 STELLE"": {"""": ""14,5""}, ""ALLEANZA VERDI - SINISTRA"": {"""": ""6,8""}, ""+EUROPA"": {"""": ""1,5""}, ""ITALIA VIVA"": {"""": ""2,0""}, ""AZIONE"": {"""": ""3,1""}, ""altre liste"": {"""": ""4,9""}, ""Totale"": {"""": ""100,0""}, ""(stima % su totale elettrici/elettori)"": {"""": """"}, ""indecisi/astensione/bianche/nulle"": {"""": ""39,8""}}","Se si votasse oggi, per quale lista voterebbe alla Camera dei Deputati?","The poll includes all major parties such as Fratelli d'Italia, Forza Italia, Lega, Partito Democratico, Movimento 5 Stelle, Alleanza Verdi - Sinistra, +Europa, and Italia Viva. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The percentages for the listed parties sum up to 100%, and the 'Altri' category includes the 'altre liste' percentage of 4.9%.",1,10,Ipsos Doxa
 1631,2026-06-01,Tecnè srl,agenzia dire,MONITOR ITALIA,"fdi 29,4%
 fi 8,8%
 lega 7%
