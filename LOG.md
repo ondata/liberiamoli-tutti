@@ -1,3 +1,7 @@
+## 2026-06-15
+
+- Aggiunto log persistente JSONL per le cause di fallimento del workflow PNRR CUP/CIG e commit dei log anche in caso di errore.
+
 ## 2026-03-11
 
 - Fix qualità dati ricostruzione #17: whitespace rimosso con `mlr clean-whitespace`, 582 duplicati eliminati da `cup_cig.csv` con `SELECT DISTINCT`, date `data_pubblicazione` in `ordinanze.csv` convertite in ISO 8601

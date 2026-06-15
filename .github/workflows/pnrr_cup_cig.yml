@@ -29,10 +29,11 @@ jobs:
         ./pnrr_cup_cig.sh
 
     - name: Commit e push se ci sono cambiamenti
+      if: always()
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull
-        git add -A
+        git add pnrr_cup_cig/data
         git commit -m "Aggiornamento automatico dati PNRR: $(date -I)" || exit 0
         git push

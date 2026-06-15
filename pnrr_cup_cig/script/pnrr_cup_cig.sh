@@ -23,51 +23,183 @@ done
 # Ottiene il percorso assoluto della directory dello script
 folder="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+# Crea le directory necessarie se non esistono
+mkdir -p "${folder}"/../data
+mkdir -p "${folder}"/tmp
+
+# Log persistente delle cause di aggiornamento/fallimento
+log_file="${folder}/../data/update_log.jsonl"
+LAST_ERROR_LOGGED=false
+
+json_escape() {
+    local value="${1:-}"
+    value="${value//\\/\\\\}"
+    value="${value//\"/\\\"}"
+    value="${value//$'\n'/\\n}"
+    value="${value//$'\r'/}"
+    printf '%s' "$value"
+}
+
+log_event() {
+    local status="${1:-}"
+    local stage="${2:-}"
+    local source="${3:-}"
+    local url="${4:-}"
+    local http_code="${5:-}"
+    local exit_code="${6:-}"
+    local message="${7:-}"
+    local timestamp
+    timestamp="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+
+    printf '{"timestamp":"%s","status":"%s","stage":"%s","source":"%s","url":"%s","http_code":"%s","exit_code":"%s","message":"%s","github_run_id":"%s","github_run_attempt":"%s","github_sha":"%s"}\n' \
+        "$(json_escape "$timestamp")" \
+        "$(json_escape "$status")" \
+        "$(json_escape "$stage")" \
+        "$(json_escape "$source")" \
+        "$(json_escape "$url")" \
+        "$(json_escape "$http_code")" \
+        "$(json_escape "$exit_code")" \
+        "$(json_escape "$message")" \
+        "$(json_escape "${GITHUB_RUN_ID:-}")" \
+        "$(json_escape "${GITHUB_RUN_ATTEMPT:-}")" \
+        "$(json_escape "${GITHUB_SHA:-}")" >> "$log_file"
+}
+
+log_unhandled_error() {
+    local exit_code="$1"
+    local line="$2"
+    if [ "$LAST_ERROR_LOGGED" != true ]; then
+        log_event "error" "script" "pnrr_cup_cig" "" "" "$exit_code" "Script failed at line ${line}"
+    fi
+}
+
+trap 'exit_code=$?; line=$LINENO; log_unhandled_error "$exit_code" "$line"' ERR
+
 # URLs dei dataset
 cup_cig_anac="https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv.zip"
 progetti_pnrr="https://proxy.andybandy.it/?url=https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti.csv"
 gare_pnrr="https://proxy.andybandy.it/?url=https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare.csv"
+user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 
 # Funzione per verificare URL (usa GET leggera, non bloccante)
 check_url() {
-    echo "Controllo URL: $1"
-    curl --retry 5 --retry-delay 3 --fail -s -L -o /dev/null "$1" || true
+    local source="$1"
+    local url="$2"
+    local http_code
+    local exit_code
+
+    echo "Controllo URL: $url"
+    set +e
+    http_code="$(curl --retry 5 --retry-delay 3 --fail -s -L -o /dev/null -w "%{http_code}" "$url")"
+    exit_code=$?
+    set -e
+    if [ "$exit_code" -ne 0 ]; then
+        log_event "warning" "precheck" "$source" "$url" "$http_code" "$exit_code" "URL precheck failed"
+    fi
+}
+
+download_with_curl() {
+    local source="$1"
+    local url="$2"
+    local output="$3"
+    local stderr_file="${folder}/tmp/${source}.curl.stderr.log"
+    local http_code
+    local exit_code
+    local message
+
+    set +e
+    http_code="$(curl --retry 5 --retry-delay 3 --fail -sS -L -A "$user_agent" -o "$output" -w "%{http_code}" "$url" 2>"$stderr_file")"
+    exit_code=$?
+    set -e
+
+    if [ "$exit_code" -ne 0 ]; then
+        message="$(tail -n 20 "$stderr_file" | tr '\n' ' ')"
+        log_event "error" "download" "$source" "$url" "$http_code" "$exit_code" "$message"
+        LAST_ERROR_LOGGED=true
+        return "$exit_code"
+    fi
+
+    if [ ! -s "$output" ]; then
+        log_event "error" "download" "$source" "$url" "$http_code" "0" "Downloaded file is empty"
+        LAST_ERROR_LOGGED=true
+        return 1
+    fi
+}
+
+download_with_wget() {
+    local source="$1"
+    local url="$2"
+    local output="$3"
+    local stderr_file="${folder}/tmp/${source}.wget.stderr.log"
+    local http_code
+    local exit_code
+    local message
+
+    set +e
+    wget --no-check-certificate --server-response -O "$output" "$url" 2>"$stderr_file"
+    exit_code=$?
+    set -e
+
+    http_code="$(awk '/^  HTTP\// {code=$2} END {print code}' "$stderr_file")"
+    if [ "$exit_code" -ne 0 ]; then
+        message="$(tail -n 20 "$stderr_file" | tr '\n' ' ')"
+        log_event "error" "download" "$source" "$url" "$http_code" "$exit_code" "$message"
+        LAST_ERROR_LOGGED=true
+        return "$exit_code"
+    fi
+
+    if [ ! -s "$output" ]; then
+        log_event "error" "download" "$source" "$url" "$http_code" "0" "Downloaded file is empty"
+        LAST_ERROR_LOGGED=true
+        return 1
+    fi
 }
 
 # Verifica gli URL prima di procedere
-check_url "${progetti_pnrr}"
-check_url "${gare_pnrr}"
-check_url "${cup_cig_anac}"
-
-# Crea le directory necessarie se non esistono
-mkdir -p "${folder}"/../data
-mkdir -p "${folder}"/tmp
+check_url "italiadomani_progetti" "${progetti_pnrr}"
+check_url "italiadomani_gare" "${gare_pnrr}"
+check_url "anac_cup_zip" "${cup_cig_anac}"
 
 # Svuota la cartella tmp se l'opzione -k non è stata specificata
 if [ "$CLEAN_TMP" = true ]; then
   rm -f "${folder}"/tmp/*
 fi
 
+DOWNLOAD_FAILED=false
+
 # Scarica i progetti PNRR solo se non esistono già
 if [ -f "${folder}"/tmp/PNRR_Progetti.csv ]; then
   echo "File PNRR_Progetti.csv già esistente, salto il download."
 else
-  curl --retry 5 --retry-delay 3 --fail -v -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -L -o "${folder}"/tmp/PNRR_Progetti.csv "${progetti_pnrr}" || true
+  if ! download_with_curl "italiadomani_progetti" "${progetti_pnrr}" "${folder}"/tmp/PNRR_Progetti.csv; then
+    DOWNLOAD_FAILED=true
+  fi
 fi
 
 # Scarica le gare PNRR solo se non esistono già
 if [ -f "${folder}"/tmp/PNRR_Gare.csv ]; then
   echo "File PNRR_Gare.csv già esistente, salto il download."
 else
-  curl --retry 5 --retry-delay 3 --fail -v -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" -L -o "${folder}"/tmp/PNRR_Gare.csv "${gare_pnrr}" || true
+  if ! download_with_curl "italiadomani_gare" "${gare_pnrr}" "${folder}"/tmp/PNRR_Gare.csv; then
+    DOWNLOAD_FAILED=true
+  fi
 fi
 
 # Scarica e estrai i dati ANAC solo se non esistono già
 if [ -f "${folder}"/tmp/cup_csv.zip ]; then
   echo "File cup_csv.zip già esistente, salto il download."
 else
-  wget --no-check-certificate -O "${folder}"/tmp/cup_csv.zip "${cup_cig_anac}"
-  unzip -o "${folder}"/tmp/cup_csv.zip -d "${folder}"/tmp
+  if ! download_with_wget "anac_cup_zip" "${cup_cig_anac}" "${folder}"/tmp/cup_csv.zip; then
+    DOWNLOAD_FAILED=true
+  elif ! unzip -o "${folder}"/tmp/cup_csv.zip -d "${folder}"/tmp; then
+    log_event "error" "extract" "anac_cup_zip" "${cup_cig_anac}" "" "1" "Unable to unzip cup_csv.zip"
+    LAST_ERROR_LOGGED=true
+    exit 1
+  fi
+fi
+
+if [ "$DOWNLOAD_FAILED" = true ]; then
+  exit 1
 fi
 
 # Estrai CUP e CIG dai progetti PNRR incrociati con i dati ANAC
@@ -114,3 +246,5 @@ check_file_size "${folder}"/../data/cup_cig_anac_pnrr_merge.csv
 if [ "$CLEAN_TMP" = true ]; then
   rm -f "${folder}"/tmp/*
 fi
+
+log_event "success" "script" "pnrr_cup_cig" "" "" "0" "Update completed"
