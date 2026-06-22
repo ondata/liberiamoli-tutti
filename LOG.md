@@ -1,3 +1,7 @@
+## 2026-06-22
+
+- Aggiunta cartella `maidati_ivg_2026/` con i dati IVG (numeri e qualitativo) per regione, anni 2023-2025, da accesso civico 2026. Formati CSV e JSONL, README con schema e note, licenza CC BY 4.0.
+
 ## 2026-06-15
 
 - Aggiunto log persistente JSONL per le cause di fallimento del workflow PNRR CUP/CIG e commit dei log anche in caso di errore.
