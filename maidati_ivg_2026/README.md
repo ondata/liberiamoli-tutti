@@ -75,11 +75,14 @@ Li puoi usare liberamente, anche per scopi commerciali, ma devi **citare la font
 
 ## Note sui dati
 
-Alcune risposte presentano dati parziali o disomogenei; le anomalie sono riportate nella colonna `note` del file `ivg_numeri` e si sintetizzano qui:
+Alcune risposte presentano dati parziali, disomogenei o assenti. Il file `ivg_numeri` contiene **19 unità territoriali**: mancano **Calabria** e **Provincia autonoma di Trento**, che non hanno trasmesso dati numerici (sono comunque presenti nel file `ivg_qualitativo`, che copre tutte le 21 unità). Le anomalie sono riportate anche nella colonna `note` di `ivg_numeri` e si sintetizzano qui:
 
+- **Calabria** — non ha trasmesso dati numerici: non compare in `ivg_numeri`.
+- **Provincia autonoma di Trento** — rimanda alle singole strutture e non fornisce dati numerici: non compare in `ivg_numeri`.
+- **Piemonte** — presente con le tre annualità ma **senza valori**: i dati 2023-2025 risultano non validati, in verifica o in lavorazione (dettaglio nella colonna `note`).
 - **Liguria** — risposta parziale: i dati comunicati si riferiscono a una sola struttura. La nota è presente su tutte e tre le annualità.
-- **Friuli Venezia Giulia** — i dati pubblicati sono i totali regionali (una prima comunicazione conteneva i dati della sola ASUGI ed è stata corretta).
+- **Friuli-Venezia Giulia** — i dati pubblicati sono i totali regionali (una prima comunicazione conteneva i dati della sola ASUGI ed è stata corretta). Manca il 2025.
 - **Veneto** — i dati 2025 sono relativi al solo primo semestre.
-- **Province autonome di Trento e Bolzano** — Bolzano fornisce il solo totale, non suddiviso tra chirurgiche e farmacologiche; per Trento il 2023 non è suddiviso.
-- **Calabria** — i dati 2025 non erano ancora disponibili al momento della raccolta.
+- **Provincia autonoma di Bolzano/Bozen** — fornisce il solo totale (colonna `totale`), non suddiviso tra chirurgiche e farmacologiche.
+- **2025 non fornito** da alcune Regioni (es. Abruzzo, Emilia-Romagna, Marche, Sicilia, Toscana, Valle d'Aosta): per queste sono presenti solo le righe 2023 e 2024.
 - La colonna `altro` indica una **modalità di IVG distinta** da chirurgica e farmacologica e va sommata a queste nel calcolo del totale regionale.
