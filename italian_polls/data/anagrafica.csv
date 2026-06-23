@@ -1,4 +1,37 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1643,2026-06-22,Tecnè Srl,Agenzia Dire,Monitor Italia,"Fratelli d’Italia 29,3%
+Forza Italia 8,7%
+Lega 6,5%
+Noi moderati 1%
+Partito democratico 21,5%
+Movimento 5 stelle 12,4%
+Verdi-Si 6,4%
+Iv 2,3%
++Europa 1,5%
+Futuro nazionale 4,6%
+Azione 3%
+Altri 2,8%
+
+Centrodestra 45,8%
+Centrosinistra 44,3%
+Altri 9,9%","Se si votasse oggi per le politiche
+Dichiarano il voto 53,7% - astensione e incerti 46,3%
+(rispondenti = 100%)","The poll includes major parties such as Fratelli d'Italia, Forza Italia, Lega, Partito Democratico, Movimento 5 Stelle, +Europa, and Azione, which are all relevant for a national voting intention poll. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The total percentage of parties mentioned sums up to 100% when considering the 'Altri' category, which includes all other parties not listed. The percentages for the specified parties are extracted accordingly.",1,9,tecnè srl
+1642,2026-06-19,Youtrend,Sky TG24,Osservatorio Italia,"Fratelli d’Italia 27,8
+Partito Democratico 22,2
+Movimento 5 Stelle 12,1
+Forza Italia 8,2
+Alleanza Verdi-Sinistra 6,8
+Futuro Nazionale 5,9
+Lega 5,8
+Azione 3,1
+Italia Viva 2,1
+Partito Liberaldemocratico 1,1
+Ora! 1,1
+Più Europa 1,0
+Noi Moderati 0,9
+Altri 1,8
+Astenuti + Indecisi 32,3",Intenzioni di voto,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Alleanza Verdi-Sinistra, Lega, Azione, and Italia Viva. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The total percentage of parties not listed (Futuro Nazionale, Partito Liberaldemocratico, Ora!, Noi Moderati) sums up to 8.9%, which will be included in the 'Altri' field.",1,10,Youtrend
 1641,2026-06-16,SWG S.p.A.,La7,intenzioni di voto,"FRATELLI D'ITALIA 27,9
 PARTITO DEMOCRATICO 22,1
 MOVIMENTO 5 STELLE 13,3
