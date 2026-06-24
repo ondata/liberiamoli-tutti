@@ -14,9 +14,9 @@ Friuli-Venezia Giulia,Regione,06,,2024,358,926,,,
 Lazio,Regione,12,,2023,2697,7574,,,Farmacologiche 2023: 3.843 ospedaliero + 3.731 territoriale
 Lazio,Regione,12,,2024,2472,6924,,,Farmacologiche 2024: 3.925 ospedaliero + 2.999 territoriale
 Lazio,Regione,12,,2025,2165,3855,,,Dati provvisori; farmacologiche 2025 solo ospedaliero
-Liguria,Regione,07,,2023,114,344,,41,dati parziali: risposta relativa a una sola struttura
-Liguria,Regione,07,,2024,208,449,,146,dati parziali: risposta relativa a una sola struttura
-Liguria,Regione,07,,2025,189,457,,126,dati parziali: risposta relativa a una sola struttura
+Liguria,Regione,07,,2023,114,344,,41,Dati parziali: risposta relativa a una sola struttura
+Liguria,Regione,07,,2024,208,449,,146,Dati parziali: risposta relativa a una sola struttura
+Liguria,Regione,07,,2025,189,457,,126,Dati parziali: risposta relativa a una sola struttura
 Lombardia,Regione,03,,2023,5870,5507,,,
 Lombardia,Regione,03,,2024,5156,6264,,,
 Lombardia,Regione,03,,2025,4548,6740,,,
@@ -25,20 +25,20 @@ Marche,Regione,11,,2024,691,490,,21,
 Molise,Regione,14,,2023,44,215,,,
 Molise,Regione,14,,2024,29,228,,,
 Molise,Regione,14,,2025,28,251,,,
-Piemonte,Regione,01,,2023,,,,,i dati relativi all’annualità 2023 non risultano ancora validati dal Ministero della Salute
-Piemonte,Regione,01,,2024,,,,,"i dati relativi all’annualità 2024 risultano, ad oggi, in fase di controllo e verifica finale"
-Piemonte,Regione,01,,2025,,,,,i dati relativi all’annualità 2025 risultano in corso di lavorazione
-Provincia Autonoma di Bolzano/Bozen,Provincia autonoma,04,021,2023,,,547,,dati non divisi tra chirurgiche e non
-Provincia Autonoma di Bolzano/Bozen,Provincia autonoma,04,021,2024,,,521,,dati non divisi tra chirurgiche e non
-Provincia Autonoma di Bolzano/Bozen,Provincia autonoma,04,021,2025,,,587,,dati non divisi tra chirurgiche e non
+Piemonte,Regione,01,,2023,,,,,I dati relativi all’annualità 2023 non risultano ancora validati dal Ministero della Salute
+Piemonte,Regione,01,,2024,,,,,"I dati relativi all’annualità 2024 risultano, ad oggi, in fase di controllo e verifica finale"
+Piemonte,Regione,01,,2025,,,,,I dati relativi all’annualità 2025 risultano in corso di lavorazione
+Provincia Autonoma di Bolzano/Bozen,Provincia autonoma,04,021,2023,,,547,,Dati non divisi tra chirurgiche e non
+Provincia Autonoma di Bolzano/Bozen,Provincia autonoma,04,021,2024,,,521,,Dati non divisi tra chirurgiche e non
+Provincia Autonoma di Bolzano/Bozen,Provincia autonoma,04,021,2025,,,587,,Dati non divisi tra chirurgiche e non
 Puglia,Regione,16,,2023,2190,3138,,30,
 Puglia,Regione,16,,2024,1806,3149,,16,
 Puglia,Regione,16,,2025,1655,3282,,26,
 Sardegna,Regione,20,,2023,663,694,,,
 Sardegna,Regione,20,,2024,463,967,,,
 Sardegna,Regione,20,,2025,360,899,,,
-Sicilia,Regione,19,,2023,2306,1927,,85,per 15 casi il metodo non è stato rilevato (N.R.)
-Sicilia,Regione,19,,2024,2049,2380,,41,per 30 casi il metodo non è stato rilevato (N.R.)
+Sicilia,Regione,19,,2023,2306,1927,,85,Per 15 casi il metodo non è stato rilevato (N.R.)
+Sicilia,Regione,19,,2024,2049,2380,,41,Per 30 casi il metodo non è stato rilevato (N.R.)
 Toscana,Regione,09,,2023,1620,2821,,,
 Toscana,Regione,09,,2024,1483,2878,,,
 Umbria,Regione,10,,2023,257,693,,12,
@@ -48,4 +48,4 @@ Valle d'Aosta/Vallée d'Aoste,Regione,02,,2023,42,91,,,
 Valle d'Aosta/Vallée d'Aoste,Regione,02,,2024,40,81,,,
 Veneto,Regione,05,,2023,1985,2282,,,
 Veneto,Regione,05,,2024,1590,2619,,,
-Veneto,Regione,05,,2025,715,1367,,,dati primo semestre
+Veneto,Regione,05,,2025,715,1367,,,Dati primo semestre
