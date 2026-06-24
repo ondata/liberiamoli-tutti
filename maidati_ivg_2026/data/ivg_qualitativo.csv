@@ -1,28 +1,28 @@
 nome,tipo,cod_reg,cod_uts,costo_chirurgica,costo_farmacologica,tipo_ricovero_chirurgica,tipo_ricovero_farmacologica,ambulatoriali,motivo_mai_dati
 Valle d'Aosta/Vallée d'Aoste,Regione,02,,"Non sono previsti rimborsi per le procedure relative all’IVG in quanto non vi sono
-costi a carico dell’utente.",Non sono previsti rimborsi per le procedure relative all’IVG in quanto non vi sono costi a carico dell’utente.,Ordinario o Day hospital,Ordinario o Day hospital,no,
-Friuli-Venezia Giulia,Regione,06,,,Il rimborso per le procedure è quello previsto dal regime di ricovero in Day Hospital.,Day hospital,Day hospital,no,
-Emilia-Romagna,Regione,08,,risposta non pertinente,risposta non pertinente,Day surgery,ambulatoriale,sì domiciliari,
-Provincia Autonoma di Bolzano/Bozen,Provincia autonoma,04,021,risposta non pertinente,risposta non pertinente,Day surgery,ambulatoriale,Bolzano domicilio,
+costi a carico dell’utente.",Non sono previsti rimborsi per le procedure relative all’IVG in quanto non vi sono costi a carico dell’utente.,Ordinario o Day hospital,Ordinario o Day hospital,No,
+Friuli-Venezia Giulia,Regione,06,,,Il rimborso per le procedure è quello previsto dal regime di ricovero in Day Hospital.,Day hospital,Day hospital,No,
+Emilia-Romagna,Regione,08,,Risposta non pertinente,Risposta non pertinente,Day surgery,Ambulatoriale,Sì domiciliari,
+Provincia Autonoma di Bolzano/Bozen,Provincia autonoma,04,021,Risposta non pertinente,Risposta non pertinente,Day surgery,Ambulatoriale,Bolzano domicilio,
 Provincia Autonoma di Trento,Provincia autonoma,04,022,,,,,,
 Calabria,Regione,18,,,,,,,"L’evasione dell’istanza presuppone, tuttavia, l’acquisizione di dati da parte delle strutture sanitarie competenti, dislocate territorialmente nell’ambito dell’intera area regionale, per i quali si è provveduto a inoltrare apposita richiesta."
 Basilicata,Regione,17,,Non sono previste forme di rimborso,Non sono previste forme di rimborso,Day surgery,Day surgery,Vengono eseguite le IVG ambulatoriali (in regime di DH terapeutico),
 Sicilia,Regione,19,,Non sono previste forme di rimborso,Non sono previste forme di rimborso,Ordinario o Day hospital,Ordinario o Day hospital,,
-Campania,Regione,15,,"la Regione Campania sta attualmente lavorando alla definizione degli aspetti correlati ai
-rimborsi e ai regimi assistenziali per le procedure di IVG.","la Regione Campania sta attualmente lavorando alla definizione degli aspetti correlati ai
+Campania,Regione,15,,"La Regione Campania sta attualmente lavorando alla definizione degli aspetti correlati ai
+rimborsi e ai regimi assistenziali per le procedure di IVG.","La Regione Campania sta attualmente lavorando alla definizione degli aspetti correlati ai
 rimborsi e ai regimi assistenziali per le procedure di IVG.",Day surgery,Day surgery,Sì. La possibilità di autosomministrazione a domicilio è prevista e disciplinata dal protocollo regionale ,
-Toscana,Regione,09,,"€ 1.099,00","€ 500,00",Day hospital o ricovero ordinario,"nella maggior parte dei casi in regime ambulatoriale ma possono essere svolte anche in regime
+Toscana,Regione,09,,"€ 1.099,00","€ 500,00",Day hospital o ricovero ordinario,"Nella maggior parte dei casi in regime ambulatoriale ma possono essere svolte anche in regime
 ospedaliero (per lo più day hospital)",,
-Liguria,Regione,07,,1.133 (ordinario); 209 (diurno); con dilatazione e raschiamento 989 (ordinario); 1099 (diurno),mai dati,Day hospital,Day hospital (a parte le ambulatoriali),,
-Lombardia,Regione,03,,"€ 952,00","€ 1.246,00",Day hospital,Day hospital,no,
-Molise,Regione,14,,risposta non pertinente,risposta non pertinente,Day hospital,Day hospital,ci stanno lavorando,
-Sardegna,Regione,20,,"346,54 dilatazione e rasc; isterotomia 1011,73",mai dati,Ordinario,Ordinario,no,
-Piemonte,Regione,01,,"La IVG è un diritto riconosciuto dalla legge in Italia e, per le cittadine iscritte al Servizio",,Day surgery,Day hospital o Day surgery,no,
+Liguria,Regione,07,,1.133 (ordinario); 209 (diurno); con dilatazione e raschiamento 989 (ordinario); 1099 (diurno),Mai dati,Day hospital,Day hospital (a parte le ambulatoriali),,
+Lombardia,Regione,03,,"€ 952,00","€ 1.246,00",Day hospital,Day hospital,No,
+Molise,Regione,14,,Risposta non pertinente,Risposta non pertinente,Day hospital,Day hospital,Ci stanno lavorando,
+Sardegna,Regione,20,,"346,54 dilatazione e rasc; isterotomia 1011,73",Mai dati,Ordinario,Ordinario,No,
+Piemonte,Regione,01,,"La IVG è un diritto riconosciuto dalla legge in Italia e, per le cittadine iscritte al Servizio",,Day surgery,Day hospital o Day surgery,No,
 Abruzzo,Regione,13,,"€ 1.099,00","€ 209,00",Day hospital,Day hospital,Nella Regione Abruzzo attualmente non ci sono Consultori che effettuano l'IVG farmacologica ambulatoriale. Si effettua in setting ambulatoriale solo presso il Centro Erogazione Servizi (CERS) Pescara Sud di Via Sparto.,
-Marche,Regione,11,,risposta non pertinente,risposta non pertinente,Ordinario,Ordinario,no,
-Puglia,Regione,16,,Per quanto attiene i rimborsi previsti si fa riferimento al nomenclatore tariffario ed alla normativa nazionale,Per quanto attiene i rimborsi previsti si fa riferimento al nomenclatore tariffario ed alla normativa nazionale,Ordinario (rari casi) o Day hospital,Ordinario (rari casi) o Day hospital,no,
+Marche,Regione,11,,Risposta non pertinente,Risposta non pertinente,Ordinario,Ordinario,No,
+Puglia,Regione,16,,Per quanto attiene i rimborsi previsti si fa riferimento al nomenclatore tariffario ed alla normativa nazionale,Per quanto attiene i rimborsi previsti si fa riferimento al nomenclatore tariffario ed alla normativa nazionale,Ordinario (rari casi) o Day hospital,Ordinario (rari casi) o Day hospital,No,
 Umbria,Regione,10,,"In merito alla richiesta relativa ai rimborsi previsti per le varie procedure e regimi assistenziali, si
 informa che questa Amministrazione non dispone di tali dati e informazioni nei propri archivi.","In merito alla richiesta relativa ai rimborsi previsti per le varie procedure e regimi assistenziali, si
 informa che questa Amministrazione non dispone di tali dati e informazioni nei propri archivi.",Day hospital o ordinario,Day hospital o ordinario,"Sebbene non ci sia un legame esplicito nelle tabelle, i dati sul ""Luogo dell'intervento"" indicano che una piccola parte degli interventi (specialmente nel 2023 e 2025) è avvenuta in ambulatori pubblici o consultori (rispettivamente 52 casi nel 2023 e 22 nel 2025), contesti solitamente legati alla procedura farmacologica",
-Veneto,Regione,05,,tariffe nazionali e regionali,tariffe nazionali e regionali,Day hospital,Day hospital,no,
+Veneto,Regione,05,,Tariffe nazionali e regionali,Tariffe nazionali e regionali,Day hospital,Day hospital,No,
 Lazio,Regione,12,,,,,,,
