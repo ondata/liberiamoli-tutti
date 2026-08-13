@@ -1,0 +1,43 @@
+name: TEMP - diagnosi 403 ANAC
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prova UA e client sullo stesso URL ANAC
+        run: |
+          URL="https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv.zip"
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+
+          echo "IP di uscita: $(curl -sS https://api.ipify.org || echo n/d)"
+          echo
+
+          probe_curl() {
+            echo "== $1"
+            shift
+            curl -sS -D - -o /dev/null -H "Range: bytes=0-100" "$@" "$URL" 2>&1 \
+              | grep -iE '^HTTP/|x-volterra-location|^server:' || echo "  (nessun header: errore di rete)"
+            echo
+          }
+
+          probe_wget() {
+            echo "== $1"
+            shift
+            wget --server-response --header="Range: bytes=0-100" -O /dev/null "$@" "$URL" 2>&1 \
+              | grep -iE 'HTTP/|x-volterra-location|server:|ERROR' || echo "  (nessun header)"
+            echo "  exit=$?"
+            echo
+          }
+
+          probe_wget "wget nudo (UA Wget/x) - replica del fallimento"
+          probe_wget "wget + UA Chrome" -U "$UA"
+          probe_curl "curl nudo (UA curl/x)"
+          probe_curl "curl + UA Chrome" -A "$UA"
+
+          echo "== wget nudo, GET completo senza Range (fedele allo script), max 15s"
+          timeout 15 wget --no-check-certificate --server-response -O /dev/null "$URL" 2>&1 \
+            | grep -iE 'HTTP/|x-volterra-location|ERROR' | head -20
+          echo "  exit=$? (124 = timeout, quindi il download stava procedendo)"
