@@ -1,0 +1,28 @@
+name: TEMP - prova proxy ANAC
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica ANAC via proxy Cloudflare
+        run: |
+          DIRETTO="https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv.zip"
+          PROXY="https://mio-proxy.andy-pr.workers.dev/?url=https%3A%2F%2Fdati.anticorruzione.it%2Fopendata%2Fdownload%2Fdataset%2Fcup%2Ffilesystem%2Fcup_csv.zip"
+
+          echo "== diretto (atteso 403)"
+          curl -sS -D - -o /dev/null -H "Range: bytes=0-100" "$DIRETTO" 2>&1 \
+            | grep -iE '^HTTP/|x-volterra-location' || echo "  errore rete"
+          echo
+
+          echo "== via proxy Cloudflare"
+          curl -sS -D /tmp/head.txt -o /tmp/cup_csv.zip "$PROXY" || echo "  curl exit=$?"
+          grep -iE '^HTTP/|content-type|content-length|cf-ray|x-volterra-location' /tmp/head.txt || true
+          echo
+          echo "  dimensione: $(stat -c%s /tmp/cup_csv.zip 2>/dev/null || echo 0) byte"
+          echo "  primi byte: $(head -c 4 /tmp/cup_csv.zip | xxd -p)"
+          echo "  integrità:"
+          unzip -t /tmp/cup_csv.zip 2>&1 | tail -2
+          unzip -l /tmp/cup_csv.zip 2>&1 | tail -4
