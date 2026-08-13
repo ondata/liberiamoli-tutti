@@ -1,3 +1,8 @@
+## 2026-08-13
+
+- Workflow PNRR CUP/CIG: il commit in caso di fallimento non dice più "Aggiornamento automatico dati PNRR" ma "PNRR non aggiornato, script fallito" — prima ogni run fallito committava il solo `update_log.jsonl` sotto un messaggio di aggiornamento riuscito.
+- Diagnosticata la causa dei fallimenti ricorrenti (2026-07-06 → 08-10): ANAC risponde **403** ai download da IP dei runner GitHub (Azure US, PoP F5 Dallas). Verificato che non dipende dallo User-Agent — wget/curl, nudi o con UA Chrome, sono tutti bloccati; dalla stessa URL con IP italiano si scarica. Dati PNRR fermi da 2026-07-06.
+
 ## 2026-06-22
 
 - Aggiunta cartella `maidati_ivg_2026/` con i dati IVG (numeri e qualitativo) per regione, anni 2023-2025, da accesso civico 2026. Formati CSV e JSONL, README con schema e note, licenza CC BY 4.0.

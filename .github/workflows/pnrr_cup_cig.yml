@@ -22,6 +22,7 @@ jobs:
         chmod +x duckdb
 
     - name: Esegui lo script di aggiornamento
+      id: aggiornamento
       run: |-
         export PATH=$PATH:~/bin
         cd pnrr_cup_cig/script
@@ -35,5 +36,10 @@ jobs:
         git config --local user.name "GitHub Actions"
         git pull
         git add pnrr_cup_cig/data
-        git commit -m "Aggiornamento automatico dati PNRR: $(date -I)" || exit 0
+        if [ "${{ steps.aggiornamento.outcome }}" = "success" ]; then
+          messaggio="Aggiornamento automatico dati PNRR: $(date -I)"
+        else
+          messaggio="PNRR non aggiornato, script fallito: $(date -I) (commit del solo log errori)"
+        fi
+        git commit -m "$messaggio" || exit 0
         git push
