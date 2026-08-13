@@ -2,6 +2,9 @@
 
 - Workflow PNRR CUP/CIG: il commit in caso di fallimento non dice più "Aggiornamento automatico dati PNRR" ma "PNRR non aggiornato, script fallito" — prima ogni run fallito committava il solo `update_log.jsonl` sotto un messaggio di aggiornamento riuscito.
 - Diagnosticata la causa dei fallimenti ricorrenti (2026-07-06 → 08-10): ANAC risponde **403** ai download da IP dei runner GitHub (Azure US, PoP F5 Dallas). Verificato che non dipende dallo User-Agent — wget/curl, nudi o con UA Chrome, sono tutti bloccati; dalla stessa URL con IP italiano si scarica. Dati PNRR fermi da 2026-07-06.
+- ANAC: download instradato su un proxy, il cui URL sta nel secret `ANAC_PROXY_URL`. `redact()` nello script maschera l'URL prima che finisca in `update_log.jsonl`, che è committato.
+- italiadomani: Akamai risponde 403 agli IP dei runner e pretende `User-Agent` browser **e** header `Range` insieme (uno solo dei due non basta). Una funzione serverless su Scaleway `fr-par` scarica i due CSV e li riversa su un bucket pubblico; il workflow invoca la funzione e poi legge dal bucket. URL in `ITALIADOMANI_REFRESH_URL` e `ITALIADOMANI_BUCKET_URL`. Sparisce `proxy.andybandy.it`, che era hardcoded nello script.
+- Workflow di nuovo verde end-to-end dopo cinque settimane.
 
 ## 2026-06-22
 
