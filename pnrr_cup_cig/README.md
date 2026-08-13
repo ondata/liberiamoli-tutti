@@ -23,6 +23,24 @@ Questo può succedere:
 
 Infine, **alcune misure del PNRR non prevedono gare d'appalto**: ad esempio i progetti per assunzioni di personale, strumenti finanziari, attività di ricerca, formazione, crediti d'imposta o concessioni di incentivi.
 
+## Come vengono scaricate le fonti
+
+Entrambe le fonti bloccano le richieste che arrivano dagli indirizzi IP dei runner di GitHub Actions, dove lo script gira ogni lunedì. Sono due blocchi distinti, verificati il 13 agosto 2026, ed entrambi restituiscono **403**:
+
+- **ANAC** (WAF F5/Volterra) blocca in base all'indirizzo IP. Non dipende dal client né dallo `User-Agent`: la stessa richiesta che dal runner riceve 403 va a buon fine da un IP italiano.
+- **Italia Domani** (Akamai) blocca in base all'indirizzo IP e in più pretende che la richiesta abbia **sia** uno `User-Agent` da browser **sia** l'header `Range`: se manca uno dei due risponde 403 anche da un IP ammesso. L'header `Range: bytes=0-` richiede l'intero file mantenendo l'header presente.
+
+Lo script quindi non scarica sempre dalle fonti originali:
+
+- il file ANAC passa da un **proxy**, il cui indirizzo è nel secret `ANAC_PROXY_URL` del repository;
+- i due CSV di Italia Domani vengono scaricati da una **funzione serverless ospitata in Francia**, che li preleva con gli header richiesti e li deposita su un bucket pubblico; lo script invoca la funzione e poi legge i file dal bucket. Gli indirizzi sono nei secret `ITALIADOMANI_REFRESH_URL` e `ITALIADOMANI_BUCKET_URL`.
+
+Quando le variabili d'ambiente corrispondenti non sono presenti — cioè eseguendo lo script in locale da una connessione italiana — il download avviene direttamente dalle fonti originali, senza intermediari.
+
+Ogni esecuzione, riuscita o fallita, aggiunge una riga a [`data/update_log.jsonl`](data/update_log.jsonl) con esito, codice HTTP e causa dell'errore. Gli indirizzi degli intermediari vengono oscurati prima della scrittura, perché quel file è versionato.
+
+> **Nota per il futuro:** la chiave di accesso usata dalla funzione serverless scade il **13 agosto 2027**. Dopo quella data la funzione continuerà a scaricare da Italia Domani ma non riuscirà più a scrivere sul bucket, e lo script fallirà sul download dei CSV: la causa sarà la chiave scaduta, non un nuovo blocco della fonte.
+
 ## File di output
 
 ### cup_cig_anac_pnrr.csv
