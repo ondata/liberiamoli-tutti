@@ -43,12 +43,14 @@ json_escape() {
 # Il log finisce in un repo pubblico: l'URL del proxy non deve comparirci
 redact() {
     local text="${1:-}"
-    if [ -n "${ANAC_PROXY_URL:-}" ]; then
-        local host="${ANAC_PROXY_URL#*://}"
+    local segreto host
+    for segreto in "${ANAC_PROXY_URL:-}" "${ITALIADOMANI_REFRESH_URL:-}"; do
+        [ -n "$segreto" ] || continue
+        host="${segreto#*://}"
         host="${host%%/*}"
-        text="${text//${ANAC_PROXY_URL}/<proxy>}"
+        text="${text//${segreto}/<proxy>}"
         text="${text//${host}/<proxy>}"
-    fi
+    done
     printf '%s' "$text"
 }
 
@@ -92,8 +94,16 @@ trap 'exit_code=$?; line=$LINENO; log_unhandled_error "$exit_code" "$line"' ERR
 
 # URLs dei dataset
 cup_cig_anac="https://dati.anticorruzione.it/opendata/download/dataset/cup/filesystem/cup_csv.zip"
-progetti_pnrr="https://proxy.andybandy.it/?url=https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti.csv"
-gare_pnrr="https://proxy.andybandy.it/?url=https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare.csv"
+# italiadomani (Akamai) risponde 403 agli IP dei runner GitHub. Una funzione serverless
+# in Francia scarica i due CSV e li deposita su un bucket pubblico, da cui leggiamo qui.
+# Senza ITALIADOMANI_BUCKET_URL si punta alla fonte originale (funziona da IP italiano).
+if [ -n "${ITALIADOMANI_BUCKET_URL:-}" ]; then
+    progetti_pnrr="${ITALIADOMANI_BUCKET_URL%/}/PNRR_Progetti.csv"
+    gare_pnrr="${ITALIADOMANI_BUCKET_URL%/}/PNRR_Gare.csv"
+else
+    progetti_pnrr="https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Progetti.csv"
+    gare_pnrr="https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/PNRR_Gare.csv"
+fi
 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
 
 # Funzione per verificare URL (usa GET leggera, non bloccante)
@@ -183,6 +193,16 @@ if [ "$CLEAN_TMP" = true ]; then
 fi
 
 DOWNLOAD_FAILED=false
+
+# Rinfresca i CSV sul bucket prima di leggerli (la funzione scarica da italiadomani)
+if [ -n "${ITALIADOMANI_REFRESH_URL:-}" ]; then
+    echo "Aggiorno i CSV di italiadomani sul bucket…"
+    if ! download_with_curl "italiadomani_refresh" "${ITALIADOMANI_REFRESH_URL}" "${folder}"/tmp/refresh.json --max-time 900; then
+        DOWNLOAD_FAILED=true
+    else
+        cat "${folder}"/tmp/refresh.json
+    fi
+fi
 
 # Scarica i progetti PNRR solo se non esistono già
 if [ -f "${folder}"/tmp/PNRR_Progetti.csv ]; then

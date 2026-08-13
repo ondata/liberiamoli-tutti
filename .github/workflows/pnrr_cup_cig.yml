@@ -25,6 +25,8 @@ jobs:
       id: aggiornamento
       env:
         ANAC_PROXY_URL: ${{ secrets.ANAC_PROXY_URL }}
+        ITALIADOMANI_REFRESH_URL: ${{ secrets.ITALIADOMANI_REFRESH_URL }}
+        ITALIADOMANI_BUCKET_URL: ${{ secrets.ITALIADOMANI_BUCKET_URL }}
       run: |-
         export PATH=$PATH:~/bin
         cd pnrr_cup_cig/script
