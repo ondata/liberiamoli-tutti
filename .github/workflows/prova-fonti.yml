@@ -1,0 +1,26 @@
+name: TEMP - prova fonti italiadomani
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    env:
+      PROXY: ${{ secrets.ANAC_PROXY_URL }}
+    steps:
+      - name: Prova italiadomani diretto e via proxy
+        run: |
+          for f in PNRR_Progetti PNRR_Gare; do
+            T="https://www.italiadomani.gov.it/content/dam/sogei-ng/opendata/${f}.csv"
+
+            echo "== ${f} diretto"
+            curl -sS -o /tmp/d.csv -w "   http=%{http_code} size=%{size_download}\n" --max-time 60 "$T" \
+              || echo "   curl exit=$?"
+
+            echo "== ${f} via proxy (da secret)"
+            curl -sS -o /tmp/p.csv -w "   http=%{http_code} size=%{size_download}\n" --max-time 60 \
+              -G --data-urlencode "url=${T}" "$PROXY" || echo "   curl exit=$?"
+            echo "   prima riga: $(head -c 120 /tmp/p.csv)"
+            echo
+          done
