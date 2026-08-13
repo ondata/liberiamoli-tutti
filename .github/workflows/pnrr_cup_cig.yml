@@ -23,6 +23,8 @@ jobs:
 
     - name: Esegui lo script di aggiornamento
       id: aggiornamento
+      env:
+        ANAC_PROXY_URL: ${{ secrets.ANAC_PROXY_URL }}
       run: |-
         export PATH=$PATH:~/bin
         cd pnrr_cup_cig/script

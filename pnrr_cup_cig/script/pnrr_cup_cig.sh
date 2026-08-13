@@ -40,6 +40,18 @@ json_escape() {
     printf '%s' "$value"
 }
 
+# Il log finisce in un repo pubblico: l'URL del proxy non deve comparirci
+redact() {
+    local text="${1:-}"
+    if [ -n "${ANAC_PROXY_URL:-}" ]; then
+        local host="${ANAC_PROXY_URL#*://}"
+        host="${host%%/*}"
+        text="${text//${ANAC_PROXY_URL}/<proxy>}"
+        text="${text//${host}/<proxy>}"
+    fi
+    printf '%s' "$text"
+}
+
 log_event() {
     local status="${1:-}"
     local stage="${2:-}"
@@ -50,6 +62,9 @@ log_event() {
     local message="${7:-}"
     local timestamp
     timestamp="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+
+    url="$(redact "$url")"
+    message="$(redact "$message")"
 
     printf '{"timestamp":"%s","status":"%s","stage":"%s","source":"%s","url":"%s","http_code":"%s","exit_code":"%s","message":"%s","github_run_id":"%s","github_run_attempt":"%s","github_sha":"%s"}\n' \
         "$(json_escape "$timestamp")" \
@@ -102,13 +117,15 @@ download_with_curl() {
     local source="$1"
     local url="$2"
     local output="$3"
+    shift 3
+    local extra_args=("$@")
     local stderr_file="${folder}/tmp/${source}.curl.stderr.log"
     local http_code
     local exit_code
     local message
 
     set +e
-    http_code="$(curl --retry 5 --retry-delay 3 --fail -sS -L -A "$user_agent" -o "$output" -w "%{http_code}" "$url" 2>"$stderr_file")"
+    http_code="$(curl --retry 5 --retry-delay 3 --fail -sS -L -A "$user_agent" "${extra_args[@]}" -o "$output" -w "%{http_code}" "$url" 2>"$stderr_file")"
     exit_code=$?
     set -e
 
@@ -189,7 +206,15 @@ fi
 if [ -f "${folder}"/tmp/cup_csv.zip ]; then
   echo "File cup_csv.zip già esistente, salto il download."
 else
-  if ! download_with_wget "anac_cup_zip" "${cup_cig_anac}" "${folder}"/tmp/cup_csv.zip; then
+  # ANAC risponde 403 alle richieste dagli IP dei runner GitHub: da lì serve il proxy,
+  # in locale (IP italiano) il download diretto funziona e ANAC_PROXY_URL può mancare
+  if [ -n "${ANAC_PROXY_URL:-}" ]; then
+    anac_download=(download_with_curl "anac_cup_zip" "${ANAC_PROXY_URL}" "${folder}/tmp/cup_csv.zip" -G --data-urlencode "url=${cup_cig_anac}")
+  else
+    anac_download=(download_with_wget "anac_cup_zip" "${cup_cig_anac}" "${folder}/tmp/cup_csv.zip")
+  fi
+
+  if ! "${anac_download[@]}"; then
     DOWNLOAD_FAILED=true
   elif ! unzip -o "${folder}"/tmp/cup_csv.zip -d "${folder}"/tmp; then
     log_event "error" "extract" "anac_cup_zip" "${cup_cig_anac}" "" "1" "Unable to unzip cup_csv.zip"
