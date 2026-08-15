@@ -1,0 +1,358 @@
+cf_piva_soggetto_attuatore,cod_ipa,denominazione_ipa,pec,fonte_ipa
+00033120437,c_f051,Comune di Matelica,protocollo.comunematelica@pec.it,domicili digitali
+00040520579,A6BF9LF1,AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE PUBBLICA DI RIETI,aterrieti@pec.it,domicili digitali
+00069210557,c_a439,Comune di Arrone,comune.arrone@postacert.umbria.it,domicili digitali
+00076610674,c_a488,Comune di Atri,postacert@pec.comune.atri.te.it,domicili digitali
+00078040573,c_c946,Comune di Concerviano,comune.concerviano@pec.it,domicili digitali
+00082300575,c_h446,Comune di Rocca Sinibalda,segreteria.roccasinibalda.ri@legalmail.it;ufficiotecnico.roccasinibalda@pec.it,domicili digitali
+00082310574,c_l293,Comune di Torricella in Sabina,torricella@pec.comune.torricellainsabina.ri.it,domicili digitali
+00083210666,6PAVRHY5,ATER Provincia Aquila,posta.certificata@ateraq.legalmail.it,portale IPA
+00085160661,c_b569,Comune di Campotosto,protocollo@pec.comune.campotosto.aq.it,domicili digitali
+00089690556,c_e729,Comune di Lugnano In Teverina,polizialocale@pec.comune.lugnanointeverina.tr.it;comune.lugnanointeverina@postacert.umbria.it;suap.comune.lugnanointeverina@postacert.umbria.it,domicili digitali
+00092290550,c_f510,Comune di Montefranco,comune.montefranco@postacert.umbria.it,domicili digitali
+00093840577,c_b627,Comune di Cantalice,protocollo@pec.comune.cantalice.ri.it,domicili digitali
+00094100575,c_g763,Comune di Poggio Mirteto,posta@pec.comune.poggiomirteto.ri.it,domicili digitali
+00094140571,c_f687,Comune di Montopoli di Sabina,uffprotocollo@comunemontopolidisabina.pecpa.it,domicili digitali
+00096090550,c_f457,Comune di Montecastrilli,comune.montecastrilli@postacert.umbria.it;suap.comune.montecastrilli@postacert.umbria.it,domicili digitali
+00096510664,c_f595,Comune di Montereale,segreteria.montereale@legalmail.it;anagrafe.montereale@legalmail.it,domicili digitali
+00098000698,c_c632,Comune di Chieti,protocollo@pec.comune.chieti.it,domicili digitali
+00100700574,c_h282,Comune di Rieti,protocollo@pec.comune.rieti.it,domicili digitali
+00101350445,cciip,Ciip - Cicli Integrati Impianti Primari Spa,servizio.protocollo@pec.ciip.it,domicili digitali
+00103110573,c_a315,Comune di Antrodoco,comunediantrodoco@legalmail.it,domicili digitali
+00106720428,c_a366,Comune di Arcevia,comune.arcevia@emarche.it,domicili digitali
+00108820572,c_h354,Comune di Rivodutri,comune.rivodutri@legalmail.it,domicili digitali
+00108830571,c_g756,Comune di Poggio Bustone,amministrazione.poggiobustone@legalmail.it,domicili digitali
+00109090571,c_c969,Comune di Contigliano,sedebassa@legalmail.it,domicili digitali
+00109190579,c_a996,Comune di Borgo Velino,protocollo@pec.comune.borgovelino.ri.it;COMUNE.BORGOVELINO.ri@pec.it,domicili digitali
+00109320572,c_d689,Comune di Forano,posta@pec.comune.forano.ri.it,domicili digitali
+00109350579,c_c268,Comune di Castel Sant'Angelo,comune.castelsantangelo.ri@legalmail.it,domicili digitali
+00109440578,c_c876,Comune di Collevecchio,info@pec.comune.collevecchio.ri.it,domicili digitali
+00110270576,c_l286,Comune di Torri in Sabina,ragioneria.torriinsabina.ri@legalmail.it,domicili digitali
+00110480571,c_a258,Comune di Amatrice,ragioneria@pec.comune.amatrice.rieti.it;fatture@pec.comune.amatrice.rieti.it;settore6@pec.comune.amatrice.rieti.it;protocollo@pec.comune.amatrice.rieti.it;lavoripubblici@pec.comune.amatrice.rieti.it;poliziamunicipale@pec.comune.amatrice.rieti.it;patrimonio@pec.comune.amatrice.rieti.it;manutenzione@pec.comune.amatrice.rieti.it;ricostruzione@pec.comune.amatrice.rieti.it;affarilegali@pec.comune.amatrice.rieti.it,domicili digitali
+00111040572,c_e535,Comune di Leonessa,comune@pec.comunedileonessa.it,domicili digitali
+00113040570,c_c746,Comune di Cittaducale,comunecittaducale@viapec.net,domicili digitali
+00113410575,c_a981,Comune di Borbona,borbona@pec.comune.borbona.rieti.it,domicili digitali
+00113430573,c_a019,Comune di Accumoli,comune.accumoli@pec.it,domicili digitali
+00113670574,c_f193,Comune di Micigliano,comune.micigliano.ri@legalmail.it,domicili digitali
+00114510571,p_ri,Provincia di Rieti,urp.provinciarieti@pec.it,domicili digitali
+00114600422,c_f453,Comune di Montecarotto,comune.montecarotto@emarche.it,domicili digitali
+00115590671,a4_te,Azienda Sanitaria Locale N. 4 di Teramo,aslteramo@raccomandata.eu,domicili digitali
+00116600438,c_c251,Comune di Castelraimondo,comunecastelraimondo@pec.it,domicili digitali
+00119580439,c_i158,Comune di San Severino Marche,protocollo.comune.sanseverinomarche@pec.it,domicili digitali
+00121000699,c_f196,Comune di Miglianico,miglianico@pec.it,domicili digitali
+00121280572,c_d560,Comune di Fiamignano,comunedifiamignano@pec.it,domicili digitali
+00122200579,c_i499,Comune di Scandriglia,ufftecnico@pec.comune.scandriglia.ri.it,domicili digitali
+00122890577,c_c749,Comune di Cittareale,comune.cittareale@pec.it,domicili digitali
+00123930570,c_g934,Comune di Posta,segreteria.posta.ri@legalmail.it,domicili digitali
+00125720433,c_f632,Comune di Potenza Picena,comune.potenzapicena@emarche.it,domicili digitali
+00129810438,c_c704,Comune di Cingoli,protocollo@pec.comune.cingoli.mc.it,domicili digitali
+00130350424,c_i251,Comune di Santa Maria Nuova,comune.santamarianuova@emarche.it,domicili digitali
+00132100439,c_f749,Comune di Morrovalle,comune.morrovalle.mc@legalmail.it,domicili digitali
+00132110438,c_f552,Comune di Montelupone,comune.montelupone.mc@legalmail.it;suap@pec.comune.montelupone.mc.it,domicili digitali
+00134550433,c_f621,Comune di Monte San Giusto,protocollo@pec.comune.montesangiusto.mc.it,domicili digitali
+00136120441,c_g005,Comune di Offida,fabio.menzietti@pec.comune.offida.ap.it;riccardo.tarquini@pec.comune.offida.ap.it;protocollo@pec.comune.offida.ap.it;ornella.nespeca@pec.comune.offida.ap.it;dario.giudici@pec.comune.offida.ap.it,domicili digitali
+00137890430,c_f496,Comune di Montefano,suap@pec.comune.montefano.mc.it;comune@pec.comune.montefano.mc.it;fatturaelettronica@pec.comune.montefano.mc.it,domicili digitali
+00138790431,c_l366,Comune di Treia,protocollo@pec.comune.treia.mc.it,domicili digitali
+00140670431,c_i436,Comune di Sarnano,comune.sarnano@pec.it,domicili digitali
+00146060413,c_b352,Comune di Cagli,comune.cagli@emarche.it,domicili digitali
+00148360662,c_a656,Comune di Barete,comune.barete.aq@legalmail.it,domicili digitali
+00149620692,c_g141,Comune di Ortona,protocollo@pec.comune.ortona.ch.it,domicili digitali
+00155670425,c_d451,Comune di Fabriano,protocollo@pec.comune.fabriano.an.it,domicili digitali
+00157980442,tspa,Tennacola Spa,infotennacola@pec.it,domicili digitali
+00158390419,c_b636,Comune di Cantiano,comune.cantiano@emarche.it,domicili digitali
+00163570542,c_g478,Comune di Perugia,comune.perugia@postacert.umbria.it,domicili digitali
+00164280661,c_b658,Comune di Capitignano,protocollo@pec.comune.capitignano.aq.it,domicili digitali
+00166560425,c_c615,Comune di Chiaravalle,info@pec.comune.chiaravalle.an.it,domicili digitali
+00166560540,c_d653,Comune di Foligno,comune.foligno@postacert.umbria.it,domicili digitali
+00169080439,c_d429,Comune di Esanatoglia,comune.esanatoglia@emarche.it,domicili digitali
+00169370442,c_e807,Comune di Magliano di Tenna,info@pec.comune.maglianoditenna.fm.it,domicili digitali
+00170370688,c_a945,Comune di Bolognano,protocollo@pec.comunebolognano.it,domicili digitali
+00172960429,c_i461,Comune di Sassoferrato,comune.sassoferrato@emarche.it,domicili digitali
+00173630674,c_l307,Comune di Tortoreto,comune@tortoretopec.it,domicili digitali
+00174750679,c_l103,Comune di Teramo,affarigenerali@comune.teramo.pecpa.it,domicili digitali
+00175660554,c_l117,Comune di Terni,comune.terni@postacert.umbria.it,domicili digitali
+00176320422,c_a626,Comune di Barbara,comune.barbara@emarche.it,domicili digitali
+00177050432,UNSTU_MC,Universita' Degli Studi di Macerata,ateneo@pec.unimc.it,domicili digitali
+00177650553,c_g189,Comune di Otricoli,comune.otricoli@postacert.umbria.it,domicili digitali
+00178250551,c_g790,Comune di Polino,comune.polino@postacert.umbria.it,domicili digitali
+00179190558,c_e045,Comune di Giove,comune.giove@postacert.umbria.it,domicili digitali
+00179200555,c_g432,Comune di Penna In Teverina,comune.pennainteverina@postacert.umbria.it;comune.pennainteverina@pec.it,domicili digitali
+00179350558,p_tr,Provincia di Terni,provincia.terni@postacert.umbria.it,domicili digitali
+00179510672,c_c169,Comune di Castelli,protocollo@pec.comune.castelli.te.it,domicili digitali
+00180280554,c_e241,Comune di Guardea,suape.guardea@pec.oxygenwireless.net;comune.guardea@postacert.umbria.it,domicili digitali
+00180530552,c_a242,Comune di Alviano,comune.alviano@postacert.umbria.it,domicili digitali
+00181710427,c_f381,Comune di Monsano,comune.monsano@emarche.it,domicili digitali
+00182280420,c_f634,Comune di Monte San Vito,protocollo@pec.comune.montesanvito.an.it,domicili digitali
+00182380428,c_i653,Comune di Serra San Quirico,protocollo.serrasanquirico@emarche.it,domicili digitali
+00182490433,c_d042,Comune di Corridonia,comunecorridonia@pec.it,domicili digitali
+00183860667,c_i546,Comune di Scoppito,comunediscoppito@pecpa.it;cucscoppito@viapec.net,domicili digitali
+00184460426,c_f745,Comune di Morro D'Alba,comune.morrodalba@legalmail.it;suap.comune.morrodalba@legalmail.it,domicili digitali
+00185360435,c_e694,Comune di Loro Piceno,comune.loropiceno.mc@legalmail.it,domicili digitali
+00185520426,c_a769,Comune di Belvedere Ostrense,segreteria.belvedere@emarche.it;suap.belvedere@emarche.it,domicili digitali
+00185990553,c_i381,Comune di San Venanzo,comune.sanvenanzo@postacert.umbria.it,domicili digitali
+00188910665,c_f852,Comune di Navelli,comune.navelli@pec.mailcert.info,domicili digitali
+00188950422,c_e837,Comune di Maiolati Spontini,comune.maiolatispontini@emarche.it,domicili digitali
+00190300665,c_b256,Comune di Bugnara,comunebugnara@pec.arc.it,domicili digitali
+00192970689,c_L263,Comune di Torre De' Passeri,torredepasseri@pec.comune.torredepasseri.pe.it,domicili digitali
+00193620424,c_i932,Comune di Staffolo,comunestaffolo@pec.net,domicili digitali
+00195310677,c_a885,Comune di Bisenti,protocollo@pec.comune.bisenti.te.it,domicili digitali
+00195720677,c_c316,Comune di Castiglione Messer Raimondo,protocollo@pec.comune.castiglione.te.it,domicili digitali
+00196710420,c_d965,Comune di Genga,sindaco@pec.comunedigenga.it,domicili digitali
+00208390427,c_d211,Comune di Cupramontana,comune.cupramontana@emarche.it,domicili digitali
+00210940433,c_i569,Comune di Sefro,comune.sefro.mc@emarche.it;comune.sefro.ragioneria@emarche.it;comune.sefro.tecnico@emarche.it,domicili digitali
+00212000418,p_PU,Provincia di Pesaro e Urbino,provincia.pesarourbino@legalmail.it,domicili digitali
+00212050678,c_a746,Comune di Bellante,protocollo@pec.comune.bellante.te.it,domicili digitali
+00212850689,p_pe,Provincia di Pescara,provincia.pescara@legalmail.it,domicili digitali
+00215270430,c_h876,Comune di San Ginesio,protocollo@pec.comune.sanginesio.mc.it,domicili digitali
+00216210666,c_c783,Comune di Civitella Roveto,info@pec.comune.civitella-roveto.aq.it;ragioneria@pec.comune.civitella-roveto.aq.it,domicili digitali
+00217240431,c_b398,Comune di Caldarola,comune.caldarola.mc@legalmail.it,domicili digitali
+00218260446,c_f522,Comune di Montegranaro,tributi@pec.comune.montegranaro.fm.it;cultura@pec.comune.montegranaro.fm.it;urbanistica@pec.comune.montegranaro.fm.it;pmcomando@pec.comune.montegranaro.fm.it;elettorale@pec.comune.montegranaro.fm.it;ragioneria@pec.comune.montegranaro.fm.it;llpp@pec.comune.montegranaro.fm.it;anagrafe@pec.comune.montegranaro.fm.it,domicili digitali
+00218320430,c_f454,Comune di Montecassiano,comune.montecassiano@emarche.it,domicili digitali
+00221260433,c_g690,Comune di Pioraco,comune.pioraco.mc@legalmail.it,domicili digitali
+00221280688,c_g621,Comune di Pietranico,comune.pietranico@pec.it,domicili digitali
+00221990682,C_d394,Comune di Elice,postacert@pec.comune.elice.pe.it,domicili digitali
+00222390544,c_d279,Comune di Deruta,comune.deruta@postacert.umbria.it,domicili digitali
+00224000430,c_f567,Comune di Pollenza,suap@pec.comune.pollenza.mc.it;comune.pollenza.mc@legalmail.it,domicili digitali
+00224710681,c_g438,Comune di Penne,protocollo@pec.comune.penne.pe.it,domicili digitali
+00225910686,c_g555,Comune di Pianella,protocollo@pec.comune.pianella.pe.it,domicili digitali
+00228640686,c_c779,Comune di Civitella Casanova,civitellacas.protocollo@pec-comuni.it,domicili digitali
+00229010442,c_a462,Comune di Ascoli Piceno,comune.ap@pec.it,domicili digitali
+00230400681,c_g589,Comune di Picciano,comunepicciano@legalmail.it,domicili digitali
+00231350687,c_d501,Comune di Farindola,finanze.farindola@pec.it,domicili digitali
+00242630432,c_c267,Comune di Castelsantangelo Sul Nera,protocollo@pec.comune.castelsantangelosulnera.mc.it,domicili digitali
+00242710432,c_c582,Comune di Cessapalombo,comune.cessapalombo.mc@legalmail.it,domicili digitali
+00243720430,c_b562,Comune di Camporotondo di Fiastrone,comune.camporotondodifiastrone@legalmail.it,domicili digitali
+00244400438,c_f268,Comune di Mogliano,suap@pec.comune.mogliano.mc.it;info@pec.comune.mogliano.mc.it,domicili digitali
+00248560690,c_g271,Comune di Palena,comunedipalena@pec.it,domicili digitali
+00251860698,c_b238,Comune di Bucchianico,protocollo.bucchianico@pec.it,domicili digitali
+00252920699,c_g294,Comune di Palombaro,comunepalombaro@servercertificato.it,domicili digitali
+00254240682,c_e558,Comune di Lettomanoppello,ufficio.finanziario@pec.lettomanoppello.eu,domicili digitali
+00262470438,c_c770,Comune di Civitanova Marche,comune.civitanovamarche@pec.it,domicili digitali
+00263210437,c_F793,Comune di Muccia,protocollo@pec.comune.muccia.mc.it,domicili digitali
+00264420431,c_l501,Comune di Urbisaglia,fatturazione@pec.comune.urbisaglia.mc.it,domicili digitali
+00265950436,c_i651,Comune di Serrapetrona,comune.serrapetrona.mc@legalmail.it,domicili digitali
+00266030436,c_d628,Comune di Fiuminata,comune.fiuminata.mc@legalmail.it,domicili digitali
+00267160430,c_c886,Comune di Colmurano,protocollo@pec.comune.colmurano.mc.it,domicili digitali
+00267220432,c_h323,Comune di Ripe San Ginesio,comune.ripesanginesio.mc@legalmail.it,domicili digitali
+00268590437,c_d853,Comune di Gagliole,protocollo@pec.comune.gagliole.mc.it,domicili digitali
+00269440434,c_a739,Comune di Belforte del Chienti,prot@pec.comune.belfortedelchienti.mc.it,domicili digitali
+00276830437,c_b474,Comune di Camerino,protocollo@pec.comune.camerino.mc.it,domicili digitali
+00284570439,c_h211,Comune di Recanati,comune.recanati@emarche.it,domicili digitali
+00286490438,c_g515,Comune di Petriolo,protocollo@pec.comune.petriolo.mc.it,domicili digitali
+00311510432,c_a329,Comune di Apiro,comune.apiro.mc@legalmail.it,domicili digitali
+00312450547,c_e975,Comune di Marsciano,comune.marsciano@postacert.umbria.it,domicili digitali
+00312750433,c_d566,Comune di Poggio San Vicino,comune.poggiosanvicino@emarche.it,domicili digitali
+00313820540,c_a475,Comune di Assisi,comune.assisi@postacert.umbria.it;contravvenzioni.comune.assisi@pec.it,domicili digitali
+00314800418,c_d808,Comune di Frontone,comune.frontone@emarche.it,domicili digitali
+00316550540,c_d786,Comune di Umbertide,comune.umbertide@postacert.umbria.it,domicili digitali
+00316740547,c_l188,Comune di Todi,comune.todi@postacert.umbria.it,domicili digitali
+00316820547,c_i921,Comune di Spoleto,suap.comune.spoleto@postacert.umbria.it;comune.spoleto@postacert.umbria.it,domicili digitali
+00319830428,c_e690,Comune di Loreto,comune.loreto@emarche.it,domicili digitali
+00330500448,c_i315,Comune di Santa Vittoria in Matenano,comunesvittoria@pec.it,domicili digitali
+00334990447,c_d542,Comune di Fermo,protocollo@pec.comune.fermo.it,domicili digitali
+00334990546,c_e256,Comune di Gubbio,comune.gubbio@postacert.umbria.it,domicili digitali
+00339900425,c_i643,Comune di Serra De' Conti,comune.serradeconti@emarche.it,domicili digitali
+00345420426,c_c524,Comune di Cerreto D'Esi,ragioneria@pec.comune.cerretodesi.an.it,domicili digitali
+00351040423,c_a271,Comune di Ancona,comune.ancona@emarche.it,domicili digitali
+00351780549,c_i263,Comune di Sant'Anatolia di Narco,comune.santanatoliadinarco@postacert.umbria.it,domicili digitali
+00353580442,c_a437,Comune di Arquata del Tronto,comune.arquatadeltronto@emarche.it,domicili digitali
+00355250440,c_c877,Comune di Colli del Tronto,comune.collideltronto@postcert.it;comune.collideltronto@emarche.it,domicili digitali
+00356080440,c_a044,Comune di Acquasanta Terme,comune.acquasantaterme@anutelpec.it,domicili digitali
+00356330449,c_d210,Comune di Cupra Marittima,comune.cupramarittima@emarche.it,domicili digitali
+00356970442,c_f722,Comune di Moresco,ragioneria.moresco@pec.ucvaldaso.it;moresco@pec.it,domicili digitali
+00357010446,c_e447,Comune di Lapedona,tecnico.lapedona@pec.ucvaldaso.it;lapedona@pec.ucvaldaso.it;solidea.pieroni@pec.ucvaldaso.it,domicili digitali
+00357030444,c_f614,Comune di Monterubbiano,monterubbiano@pec.ucvaldaso.it,domicili digitali
+00357070440,c_f516,Comune di Montegallo,comune.montegallo@emarche.it,domicili digitali
+00357080449,c_f570,Comune di Montemonaco,comunemontemonaco.protocollo@pec.it,domicili digitali
+00357180447,c_f493,Comune di Montefalcone Appennino,comune@pec.montefalcone.it,domicili digitali
+00358210441,c_h182,Comune di Rapagnano,comune.rapagnano@pec.it,domicili digitali
+00358230449,c_h588,Comune di Rotella,protocollo.comune.rotella@pec.it,domicili digitali
+00358540441,c_c321,Comune di Castignano,comunecastignano.ap@pec.it,domicili digitali
+00360140446,c_h769,Comune di San Benedetto del Tronto,protocollo@cert-sbt.it,domicili digitali
+00360220446,c_f487,Comune di Montedinove,comune.montedinove@emarche.it,domicili digitali
+00360630412,c_f497,Comune di Montefelcino,comunemontefelcino@pecitaly.it,domicili digitali
+00362290447,c_d652,Comune di Folignano,comune.folignano@emarche.it,domicili digitali
+00362890444,c_i912,Comune di Spinetoli,areaamministrativa@pec.comune.spinetoli.ap.it,domicili digitali
+00363050543,c_i727,Comune di Sigillo,comune.sigillo@postacert.umbria.it;suap.comune.sigillo@postacert.umbria.it,domicili digitali
+00363500448,c_a335,Comune di Appignano del Tronto,comuneappignanodeltronto@pec.it,domicili digitali
+00364960443,c_e868,Comune di Maltignano,anagrafe.comune.maltignano@emarche.it,domicili digitali
+00370910440,c_h321,Comune di Ripatransone,protocollo@pec.comune.ripatransone.ap.it;ragioneria@pec.comune.ripatransone.ap.it,domicili digitali
+00372420547,c_c745,Comune di Citta' di Castello,comune.cittadicastello@postacert.umbria.it;tributi@pec.comune.cittadicastello.pg.it,domicili digitali
+00376660445,c_a047,Comune di Acquaviva Picena,protocollo@pec.comuneacquavivapicena.it,domicili digitali
+00376950440,c_f591,Comune di Monteprandone,comune.monteprandone@emarche.it,domicili digitali
+00377160445,c_l279,Comune di Torre San Patrizio,comune.torresanpatrizio@postcert.it,domicili digitali
+00377760442,c_d096,Comune di Cossignano,protocollo@pec.comune.cossignano.ap.it,domicili digitali
+00380940445,c_f021,Comune di Massa Fermana,protocollo.massafermana@pec.it,domicili digitali
+00382520427,univpm,Universita' Politecnica delle Marche,direttore.dm@pec.univpm.it;direttore.cad@pec.univpm.it;direttore.disva@pec.univpm.it;direttore.disco@pec.univpm.it;preside.medicina@pec.univpm.it;direttore.simau@pec.univpm.it;preside.economia@pec.univpm.it;direttore.d3a@pec.univpm.it;direttore.disbsp@pec.univpm.it;direttore.dimsc@pec.univpm.it;direttore.disclimo@pec.univpm.it;direttore.dicea@pec.univpm.it;direttore.dii@pec.univpm.it;direttore.diism@pec.univpm.it;direttore.csal@pec.univpm.it;protocollo@pec.univpm.it;preside.ingegneria@pec.univpm.it;direttore.dises@pec.univpm.it,domicili digitali
+00384000543,c_a832,Comune di Bettona,ragioneria@pec.comune.bettona.pg.it;suap.comune.bettona@postacert.umbria.it;segreteria@pec.comune.bettona.pg.it,domicili digitali
+00384350427,c_g157,Comune di Osimo,comune.osimo@emarche.it,domicili digitali
+00385230545,c_a710,Comune di Bastia Umbra,comune.bastiaumbra@postacert.umbria.it,domicili digitali
+00385810445,c_g516,Comune di Petritoli,comune.petritoli.sindaco@emarche.it,domicili digitali
+00390830446,c_g137,Comune di Ortezzano,comune.ortezzano@emarche.it,domicili digitali
+00396470445,c_f599,Comune di Monte Rinaldo,COMUNE.MONTERINALDO@EMARCHE.IT,domicili digitali
+00400660445,c_f509,Comune di Montefortino,comune.montefortino@emarche.it;comune.montefortino@pec.it,domicili digitali
+00405660549,c_i522,Comune di Scheggia e Pascelupo,comune.scheggiaepascelupo@postacert.umbria.it,domicili digitali
+00407650548,c_b609,Comune di Cannara,comune.cannara@postacert.umbria.it,domicili digitali
+00411920549,c_d745,Comune di Fossato di Vico,suap.comune.fossatodivico@postacert.umbria.it;comune.fossatodivico@postacert.umbria.it,domicili digitali
+00413580671,c_l207,Comune di Torano Nuovo,protocollotorano@postecert.it,domicili digitali
+00417870540,c_f911,Comune di Nocera Umbra,comune.noceraumbra@postacert.umbria.it,domicili digitali
+00429530546,c_f024,Comune di Massa Martana,COMUNE.MASSAMARTANA@POSTACERT.UMBRIA.IT,domicili digitali
+00429570542,c_l397,Comune di Trevi,comune.trevi@postacert.umbria.it,domicili digitali
+00436320543,c_g212,Comune di Paciano,comune.paciano@postacert.umbria.it,domicili digitali
+00443770540,p_pg,Provincia di Perugia,provincia.perugia@postacert.umbria.it,domicili digitali
+00449760545,c_c845,Comune di Collazzone,comune.collazzone@postacert.umbria.it,domicili digitali
+00450620547,c_a835,Comune di Bevagna,comune.bevagna@postacert.umbria.it,domicili digitali
+00453460545,adsu_pg,Agenzia per il Diritto allo Studio Universitario dell'Umbria,adisu@pec.it,domicili digitali
+00467070546,c_e230,Comune di Gualdo Tadino,gualdotadino@letterecertificate.it;suap.comune.gualdotadino@postacert.umbria.it;comune.gualdotadino@postacert.umbria.it,domicili digitali
+00467160677,c_c781,Comune di Civitella Del Tronto,protocollo@pec.comunecivitelladeltronto.it;tecnico@pec.comunecivitelladeltronto.it;segreteria@pec.comunecivitelladeltronto.it;vigili@pec.comunecivitelladeltronto.it;demografici@pec.comunecivitelladeltronto.it;statocivile@pec.comunecivitelladeltronto.it,domicili digitali
+00470070541,c_e012,Comune di Giano dell'Umbria,comune.gianodellumbria@postacert.umbria.it,domicili digitali
+00470080540,c_d108,Comune di Costacciaro,comune.costacciaro@postacert.umbria.it;suap.comune.costacciaro@postacert.umbria.it,domicili digitali
+00470090549,c_l653,Comune di Valtopina,comune.valtopina@postacert.umbria.it,domicili digitali
+00470120544,c_i585,Comune di Sellano,comune.sellano@postacert.umbria.it,domicili digitali
+00476350541,c_l573,Comune di Valfabbrica,comune.valfabbrica@postacert.umbria.it;suap.comune.valfabbrica@postacert.umbria.it,domicili digitali
+00482510542,c_c252,Comune di Castel Ritaldi,comune.castelritaldi@postacert.umbria.it,domicili digitali
+00821180577,as_ri,Azienda USL Rieti,asl.rieti@pec.it,domicili digitali
+00920370673,aidas,Azienda per Il Diritto Agli Studi Universitari di Teramo,info@pec.adsuteramo.it,domicili digitali
+01116550441,p_ap,Provincia di Ascoli Piceno,provincia.ascoli@emarche.it,domicili digitali
+01457790556,WU7SOOU2,AZIENDA TERRITORIALE PER L'EDILIZIA RESIDENZIALE DELLA REGIONE UMBRIA,ater.umbria@legalmail.it,domicili digitali
+01499590550,055,Azienda Unita' Sanitaria Locale Umbria 2,aslumbria2@postacert.umbria.it,domicili digitali
+01792410662,asl1_asl,Azienda Sanitaria Locale Avezzano Sulmona L'Aquila,ingegneriaclinica@pec.asl1abruzzo.it;protocollogenerale@pec.asl1abruzzo.it;appaltilavori@pec.asl1abruzzo.it;benieservizi@pec.asl1abruzzo.it,domicili digitali
+01874180431,umdma,Unione Montana Dei Monti Azzurri,sua.umma@pec.it;montiazzurri@pec.it;suap.montiazzurri@pec.it,domicili digitali
+01874330432,umavp,Unione Montana Potenza Esino Musone,umpotenzaesino@emarche.it,domicili digitali
+01874730433,ummc,Unione Montana Marca di Camerino,ragioneria.unionemarcadicamerino@emarche.it,domicili digitali
+01920870670,aspte1,Asp. N. 1 Prov. Teramo,asp1teramo@pec.it,portale IPA
+01932550435,comvalfo,Comune di Valfornace,comune.valfornace@emarche.it,domicili digitali
+02119730428,Y5H2310W,ACQUAMBIENTE MARCHE SRL,info@pec.acquambientemarche.it,domicili digitali
+02175860424,as_marc,Regione Marche Azienda Sanitaria Unica Regionale,areavasta3.asur@emarche.it;areavasta4.asur@emarche.it;areavasta2.asur@emarche.it;asur@emarche.it;areavasta5.asur@emarche.it;ast.ancona0123@emarche.it,domicili digitali
+02457750582,c_f871,Comune di Nerola,segreterianerola@pec.provincia.roma.it,domicili digitali
+02573290422,eram_042,Ente Regionale per L'Abitazione Pubblica Delle Marche,erap.marche.fm@emarche.it;erap.marche.mc@emarche.it;erap.marche.pu@emarche.it;erap.marche.an@emarche.it;erap.marche.ap@emarche.it,domicili digitali
+02770710420,eerid,Erdis Ente Regionale per Il Diritto allo Studio,erdis@emarche.it,domicili digitali
+06340981007,agd,Agenzia del Demanio,dre_Liguria@pce.agenziademanio.it;dre_PiemonteVDA@pce.agenziademanio.it;dre_ToscanaUmbria@pce.agenziademanio.it;dre_AbruzzoMolise@pce.agenziademanio.it;dre_Calabria@pce.agenziademanio.it;dre_Campania@pce.agenziademanio.it;dre_EmiliaRomagna@pce.agenziademanio.it;dre_FriuliVeneziaGiulia@pce.agenziademanio.it;dre_lazio@pce.agenziademanio.it;dre_Lombardia@pce.agenziademanio.it;AgenziaDemanio@pce.agenziademanio.it;dre_PugliaBasilicata@pce.agenziademanio.it;dre_Sicilia@pce.agenziademanio.it;dre_TrentinoAltoAdige@pce.agenziademanio.it;dre_Veneto@pce.agenziademanio.it;dr_romacapitale@pce.agenziademanio.it;dre_Marche@pce.agenziademanio.it;dre_Sardegna@pce.agenziademanio.it,domicili digitali
+80000110439,c_a334,Comune di Appignano,comune.appignano@emarche.it,domicili digitali
+80000130544,r_umbria,Regione Umbria,regione.giunta@postacert.umbria.it,domicili digitali
+80000270449,c_c093,Comune di Castel di Lama,servizi.demografici@pec.comune.casteldilama.ap.it;rita.cherubini@pec.comune.casteldilama.ap.it,domicili digitali
+80000330441,c_d691,Comune di Force,segreteria@pec.comune.force.ap.it,domicili digitali
+80000370678,c_l314,Comune di Tossicia,finanziario@peccomunetossicia.te.it;protocollo@peccomunetossicia.te.it,domicili digitali
+80000490443,c_f415,Comune di Montalto delle Marche,com.montalto.ap@emarche.it,domicili digitali
+80000970444,c_i774,Comune di Smerillo,comune.smerillo@emarche.it;ragioneria.comune.smerillo@emarche.it,domicili digitali
+80001030446,c_a252,Comune di Amandola,comune.amandola.ufficiotecnico@emarche.it,domicili digitali
+80001070673,p_TE,Provincia di Teramo,protocollo@pec.provincia.teramo.it,domicili digitali
+80001190687,c_c771,Comune di Civitaquana,info@pec.comune.civitaquana.pe.it,domicili digitali
+80001250432,p_mc,Provincia di Macerata,provincia.macerata@legalmail.it;fatture@pec.provincia.mc.it,domicili digitali
+80001250440,c_c935,Comune di Comunanza,protocollo@pec.comune.comunanza.ap.it,domicili digitali
+80001250689,c_k7sn,Comune di Carpineto della Nora,protocollo@pec.comune.carpinetodellanora.pe.it;istituzionexixvestina@legalmail.it,domicili digitali
+80001270687,c_f441,Comune di Montebello di Bertona,finanziariomontebello@pec.it,domicili digitali
+80001330556,c_d538,Comune di Ferentillo,comune.ferentillo@postacert.umbria.it,domicili digitali
+80001650433,c_e783,Comune di Macerata,comune.macerata@legalmail.it,domicili digitali
+80001650441,c_g289,Comune di Palmiano,comune.palmiano@emarche.it,domicili digitali
+80002070672,c_f690,Comune di Montorio Al Vomano,postacert@pec.comune.montorio.te.it,domicili digitali
+80002910679,c_a692,Comune di Basciano,postacert@pec.comune.basciano.te.it,domicili digitali
+80003050673,c_l295,Comune di Torricella Sicura,comune.torricellasicura@legalmail.it,domicili digitali
+80003070671,cmdl,Comunita' Montana della Laga,ufficiotecnico@cert.cmlaga.it,portale IPA
+80003250687,c_d201,Comune di Cugnoli,segreteria@pec.comune.cugnoli.pe.it;ragioneria@pec.comune.cugnoli.pe.it;tecnico@pec.comune.cugnoli.pe.it,domicili digitali
+80003670660,c_b358,Comune di Cagnano Amiterno,segreteria@pec.comune.cagnanoamiterno.aq.it,domicili digitali
+80003750447,c_c331,Comune di Castorano,ufficioragioneria@pec.comune.castorano.ap.it;protocollo@pec.comune.castorano.ap.it,domicili digitali
+80003790674,c_e343,Comune di Isola del Gran Sasso,protocollo@pec.comune.isola.te.it,domicili digitali
+80003910439,c_f482,Comune di Montecosaro,comune.montecosaro@emarche.it,domicili digitali
+80004210565,c_a857,Comune di Blera,uffici@pec.comuneblera.it,domicili digitali
+80004250447,c_h390,Comune di Roccafluvione,comune.roccafluvione@emarche.it,domicili digitali
+80004310449,c_l728,Comune di Venarotta,comune.venarotta@emarche.it,domicili digitali
+80004350676,c_d076,Comune di Cortino,protocollogenerale@pec.comune.cortino.te.it,domicili digitali
+80004590677,c_d179,Comune di Crognaleto,responsabilesegreteriacrognaleto@postecert.it,domicili digitali
+80004630671,c_c311,Comune di Colledara,suap@pec.comune.colledara.te.it;postacert@pec.comune.colledara.te.it,domicili digitali
+80004770675,c_c128,Comune di Castellalto,castellalto.segreteria@raccomandatacertificata.it,domicili digitali
+80004810679,c_b640,Comune di Canzano,protocollo@pec.comune.canzano.te.it,domicili digitali
+80005210671,c_g437,Comune di Penna Sant'Andrea,postacert@pec.comune.pennasantandrea.te.it,domicili digitali
+80005250677,c_g608,Comune di Pietracamela,postacert@pec.comune.pietracamela.te.it,domicili digitali
+80005310554,c_a045,Comune di Acquasparta,suap.comune.acquasparta@postacert.umbria.it;comune.acquasparta@postacert.umbria.it,domicili digitali
+80005330420,c_d597,Comune di Filottrano,comune.filottrano@emarche.it,domicili digitali
+80005430444,ctgct,Co.Tu.Ge. Consorzio Turistico del Comprensorio Dei Monti Gemelli,cotuge@pec.it,domicili digitali
+80005510674,c_h440,Comune di Rocca Santa Maria,roccasm@pec.it,domicili digitali
+80005970670,c_b515,Comune di Campli,postacert@pec.comune.campli.te.it,domicili digitali
+80006060679,c_l597,Comune di Valle Castellana,postacert@pec.comune.vallecastellana.te.it,domicili digitali
+80006810677,c_c040,Comune di Castel Castagna,protocollo@pec.comune.castelcastagna.te.it,domicili digitali
+80007080668,c_g726,Comune di Pizzoli,protocollo@pec.comune.pizzoli.aq.it,domicili digitali
+80008630420,r_marche,Regione Marche,regione.marche.protocollogiunta@emarche.it,domicili digitali
+80013770682,c_a120,Comune di Alanno,comune.alanno@pec.it,domicili digitali
+80143490581,r_lazio,Regione Lazio,protocollo@pec.regione.lazio.it;protocollocrl@cert.consreglazio.it,domicili digitali
+80208450587,as,Anas Spa,anas@postacert.stradeanas.it;divprotocolloanac@postacert.stradeanas.it;soc.to@postacert.stradeanas.it;beautycontest@postacert.stradeanas.it;anas.aosta@postacert.stradeanas.it;anas.friuliveneziagiulia@postacert.stradeanas.it;relazioni.affidamenti@postacert.stradeanas.it;anas.veneto@postacert.stradeanas.it;anas.cssc@postacert.stradeanas.it;anas.piemonte@postacert.stradeanas.it;dls.crcta@postacert.stradeanas.it;mi-garecontr@postacert.stradeanas.it;anas.campania@postacert.stradeanas.it;anas.liguria@postacert.stradeanas.it;anas.lombardia@postacert.stradeanas.it;amministrazione.lazio@postacert.stradeanas.it;anas.marche@postacert.stradeanas.it;dict_affidamenti@postacert.stradeanas.it;anas.toscana@postacert.stradeanas.it;anas.puglia@postacert.stradeanas.it;servizioclienti@postacert.stradeanas.it;collegioconsultivotecnico@postacert.stradeanas.it;anas.molise@postacert.stradeanas.it;appalti.lavori@postacert.stradeanas.it;anas.lazio@postacert.stradeanas.it;normativa.appalti@postacert.stradeanas.it;anas.sardegna@postacert.stradeanas.it;anas.emiliaromagna@postacert.stradeanas.it;anas.a2@postacert.stradeanas.it;anas.autostradea24a25@postacert.stradeanas.it;anas.sicilia@postacert.stradeanas.it;anas.umbria@postacert.stradeanas.it;acquisti@postacert.stradeanas.it;tutelaaziendale@postacert.stradeanas.it;bo-garecontr@postacert.stradeanas.it;anas.calabria@postacert.stradeanas.it;prod_sife@postacert.stradeanas.it;to-garecontr@postacert.stradeanas.it;anas.basilicata@postacert.stradeanas.it;rm-garecontr@postacert.stradeanas.it;anas.abruzzo@postacert.stradeanas.it,portale IPA
+80415740580,m_ef,Ministero dell'Economia e delle Finanze,dipartimento.economia@pec.mef.gov.it;corte.tributaria.bz.1grado@pce.finanze.it;corte.tributaria.AG@pce.finanze.it;corte.tributaria.BN@pce.finanze.it;corte.tributaria.CR@pce.finanze.it;corte.tributaria.GE@pce.finanze.it;corte.tributaria.GR@pce.finanze.it;corte.tributaria.IS@pce.finanze.it;corte.tributaria.lombardia@pce.finanze.it;corte.tributaria.PD@pce.finanze.it;corte.tributaria.RA@pce.finanze.it;corte.tributaria.TS@pce.finanze.it;corte.tributaria.TV@pce.finanze.it;corte.tributaria.VV@pce.finanze.it;rts-aq.rgs@pec.mef.gov.it;rts-ar.rgs@pec.mef.gov.it;rts-bg.rgs@pec.mef.gov.it;rts-ce.rgs@pec.mef.gov.it;rts-im.rgs@pec.mef.gov.it;rts-le.rgs@pec.mef.gov.it;rts-pc.rgs@pec.mef.gov.it;rts-sa.rgs@pec.mef.gov.it;rts-ve.rgs@pec.mef.gov.it;rts-vt.rgs@pec.mef.gov.it;ucb-affariesteri.rgs@pec.mef.gov.it;rgs.ucb.mt.gedoc@pec.mef.gov.it;dipartimento.tesoro@pec.mef.gov.it;ufficiodigabinetto@pec.mef.gov.it;corte.tributaria.bz.2grado@pce.finanze.it;corte.tributaria.AQ@pce.finanze.it;corte.tributaria.BA@pce.finanze.it;corte.tributaria.BI@pce.finanze.it;corte.tributaria.CA@pce.finanze.it;corte.tributaria.calabria@pce.finanze.it;corte.tributaria.CL@pce.finanze.it;corte.tributaria.CN@pce.finanze.it;corte.tributaria.CO@pce.finanze.it;corte.tributaria.LI@pce.finanze.it;corte.tributaria.PA@pce.finanze.it;corte.tributaria.PV@pce.finanze.it;corte.tributaria.RI@pce.finanze.it;corte.tributaria.RN@pce.finanze.it;corte.tributaria.TP@pce.finanze.it;corte.tributaria.VA@pce.finanze.it;corte.tributaria.VT@pce.finanze.it;dgt.direzionegenerale@pec.mef.gov.it;rts-ca.rgs@pec.mef.gov.it;rts-ch.rgs@pec.mef.gov.it;rts-cz.rgs@pec.mef.gov.it;rts-li.rgs@pec.mef.gov.it;rts-mi.rgs@pec.mef.gov.it;rts-mt.rgs@pec.mef.gov.it;rts-pg.rgs@pec.mef.gov.it;rts-pi.rgs@pec.mef.gov.it;rts-pt.rgs@pec.mef.gov.it;rts-ro.rgs@pec.mef.gov.it;rts-ta.rgs@pec.mef.gov.it;rts-ts.rgs@pec.mef.gov.it;rgs.ucb-lavoro.gedoc@pec.mef.gov.it;corte.tributaria.tn.1grado@pce.finanze.it;corte.tributaria.AN@pce.finanze.it;corte.tributaria.basilicata@pce.finanze.it;corte.tributaria.BS@pce.finanze.it;corte.tributaria.campania@pce.finanze.it;corte.tributaria.FC@pce.finanze.it;corte.tributaria.IM@pce.finanze.it;corte.tributaria.KR@pce.finanze.it;corte.tributaria.ME@pce.finanze.it;corte.tributaria.MN@pce.finanze.it;corte.tributaria.piemonte@pce.finanze.it;corte.tributaria.PN@pce.finanze.it;corte.tributaria.puglia@pce.finanze.it;corte.tributaria.SA@pce.finanze.it;corte.tributaria.SO@pce.finanze.it;corte.tributaria.TA@pce.finanze.it;corte.tributaria.TR@pce.finanze.it;corte.tributaria.VB@pce.finanze.it;corte.tributaria.VC@pce.finanze.it;corte.tributaria.veneto@pce.finanze.it;corte.tributaria.VR@pce.finanze.it;rts-ao.rgs@pec.mef.gov.it;rts-at.rgs@pec.mef.gov.it;rts-ba.rgs@pec.mef.gov.it;rts-bn.rgs@pec.mef.gov.it;rts-cr.rgs@pec.mef.gov.it;rts-fe.rgs@pec.mef.gov.it;rts-fi.rgs@pec.mef.gov.it;rts-lu.rgs@pec.mef.gov.it;rts-ra.rgs@pec.mef.gov.it;rts-so.rgs@pec.mef.gov.it;rts-sv.rgs@pec.mef.gov.it;rts-tv.rgs@pec.mef.gov.it;rts-vc.rgs@pec.mef.gov.it;rgs.ucb-interno.gedoc@pec.mef.gov.it;ucb-infrastrutture.gedoc.rgs@pec.mef.gov.it;corte.tributaria.AP@pce.finanze.it;corte.tributaria.BG@pce.finanze.it;corte.tributaria.BL@pce.finanze.it;corte.tributaria.CH@pce.finanze.it;corte.tributaria.FG@pce.finanze.it;corte.tributaria.LO@pce.finanze.it;corte.tributaria.LT@pce.finanze.it;corte.tributaria.MS@pce.finanze.it;corte.tributaria.NU@pce.finanze.it;corte.tributaria.PG@pce.finanze.it;corte.tributaria.UD@pce.finanze.it;corte.tributaria.valledaosta@pce.finanze.it;UfficioSegreteriaCPGT@pce.finanze.it;rts-ag.rgs@pec.mef.gov.it;rts-an.rgs@pec.mef.gov.it;rts-ap.rgs@pec.mef.gov.it;rts-bl.rgs@pec.mef.gov.it;rts-bo.rgs@pec.mef.gov.it;rts-bs.rgs@pec.mef.gov.it;rts-cn.rgs@pec.mef.gov.it;rts-co.rgs@pec.mef.gov.it;rts-fr.rgs@pec.mef.gov.it;rts-no.rgs@pec.mef.gov.it;rts-nu.rgs@pec.mef.gov.it;rts-pe.rgs@pec.mef.gov.it;rts-pr.rgs@pec.mef.gov.it;rts-pu.rgs@pec.mef.gov.it;rts-rc.rgs@pec.mef.gov.it;rts-re.rgs@pec.mef.gov.it;rts-ri.rgs@pec.mef.gov.it;rts-sr.rgs@pec.mef.gov.it;rts-tn.rgs@pec.mef.gov.it;rgs.ucb.mbac.gedoc@pec.mef.gov.it;ucb-mimit.gedoc.rgs@pec.mef.gov.it;dag@pec.mef.gov.it;mef@pec.mef.gov.it;DCST.DAG@PEC.MEF.GOV.IT;corte.tributaria.AL@pce.finanze.it;corte.tributaria.CZ@pce.finanze.it;corte.tributaria.EN@pce.finanze.it;corte.tributaria.FE@pce.finanze.it;corte.tributaria.liguria@pce.finanze.it;corte.tributaria.marche@pce.finanze.it;corte.tributaria.MI@pce.finanze.it;corte.tributaria.MO@pce.finanze.it;corte.tributaria.NA@pce.finanze.it;corte.tributaria.PR@pce.finanze.it;corte.tributaria.PT@pce.finanze.it;corte.tributaria.RG@pce.finanze.it;corte.tributaria.RM@pce.finanze.it;corte.tributaria.toscana@pce.finanze.it;df.udg@pce.finanze.it;rts-bz.rgs@pec.mef.gov.it;rts-cl.rgs@pec.mef.gov.it;rts-cs.rgs@pec.mef.gov.it;rts-ct.rgs@pec.mef.gov.it;rts-gr.rgs@pec.mef.gov.it;rts-mc.rgs@pec.mef.gov.it;rts-mn.rgs@pec.mef.gov.it;rts-pz.rgs@pec.mef.gov.it;rts-sp.rgs@pec.mef.gov.it;rts-te.rgs@pec.mef.gov.it;rts-tp.rgs@pec.mef.gov.it;UCB-POLITICHEAGRICOLE.GEDOC.RGS@PEC.MEF.GOV.IT;rgs.ucb-ambiente.gedoc@pec.mef.gov.it;rgs.ragionieregenerale.coordinamento@pec.mef.gov.it;corte.tributaria.tn.2grado@pce.finanze.it;corte.tributaria.AV@pce.finanze.it;corte.tributaria.emiliaromagna@pce.finanze.it;corte.tributaria.GO@pce.finanze.it;corte.tributaria.LC@pce.finanze.it;corte.tributaria.molise@pce.finanze.it;corte.tributaria.PE@pce.finanze.it;corte.tributaria.PI@pce.finanze.it;corte.tributaria.PU@pce.finanze.it;corte.tributaria.PZ@pce.finanze.it;corte.tributaria.sicilia@pce.finanze.it;corte.tributaria.SR@pce.finanze.it;corte.tributaria.SV@pce.finanze.it;corte.tributaria.umbria@pce.finanze.it;corte.tributaria.VE@pce.finanze.it;corte.tributaria.VI@pce.finanze.it;rts-al.rgs@pec.mef.gov.it;rts-ge.rgs@pec.mef.gov.it;rts-is.rgs@pec.mef.gov.it;rts-mo.rgs@pec.mef.gov.it;rts-na.rgs@pec.mef.gov.it;rts-pa.rgs@pec.mef.gov.it;rts-pd.rgs@pec.mef.gov.it;rts-pn.rgs@pec.mef.gov.it;rts-pv.rgs@pec.mef.gov.it;rts-rg.rgs@pec.mef.gov.it;rts-rm.rgs@pec.mef.gov.it;rts-ud.rgs@pec.mef.gov.it;rgs.ucb.mae@pec.mef.gov.it;corte.tributaria.AR@pce.finanze.it;corte.tributaria.BO@pce.finanze.it;corte.tributaria.BR@PCE.FINANZE.IT;corte.tributaria.CT@pce.finanze.it;corte.tributaria.friuliveneziagiulia@pce.finanze.it;corte.tributaria.LE@pce.finanze.it;corte.tributaria.MT@pce.finanze.it;corte.tributaria.OR@pce.finanze.it;corte.tributaria.PC@pce.finanze.it;corte.tributaria.RC@pce.finanze.it;corte.tributaria.RO@pce.finanze.it;corte.tributaria.SS@pce.finanze.it;corte.tributaria.TE@pce.finanze.it;corte.tributaria.TO@pce.finanze.it;rts-fg.rgs@pec.mef.gov.it;rts-go.rgs@pec.mef.gov.it;rts-lt.rgs@pec.mef.gov.it;rts-tr.rgs@pec.mef.gov.it;rts-vi.rgs@pec.mef.gov.it;rgs.ucb.mef@pec.mef.gov.it;rgs.ucb.mi.gedoc@pec.mef.gov.it;rgs.ucb-salute.gedoc@pec.mef.gov.it;corte.tributaria.abruzzo@pce.finanze.it;corte.tributaria.AO@pce.finanze.it;corte.tributaria.AT@pce.finanze.it;corte.tributaria.CB@pce.finanze.it;corte.tributaria.CE@pce.finanze.it;corte.tributaria.CS@pce.finanze.it;corte.tributaria.FI@pce.finanze.it;corte.tributaria.FR@pce.finanze.it;corte.tributaria.lazio@pce.finanze.it;corte.tributaria.LU@pce.finanze.it;corte.tributaria.MC@pce.finanze.it;corte.tributaria.NO@pce.finanze.it;corte.tributaria.PO@pce.finanze.it;corte.tributaria.RE@pce.finanze.it;corte.tributaria.sardegna@pce.finanze.it;corte.tributaria.SI@pce.finanze.it;corte.tributaria.SP@pce.finanze.it;rts-av.rgs@pec.mef.gov.it;rts-br.rgs@pec.mef.gov.it;rts-cb.rgs@pec.mef.gov.it;rts-fc.rgs@pec.mef.gov.it;rts-me.rgs@pec.mef.gov.it;rts-si.rgs@pec.mef.gov.it;rts-ss.rgs@pec.mef.gov.it;rts-to.rgs@pec.mef.gov.it;rts-va.rgs@pec.mef.gov.it;rts-vr.rgs@pec.mef.gov.it;rgs.ucb.difesa.gedoc@pec.mef.gov.it;rgs.ucb-giustizia.gedoc@pec.mef.gov.it,domicili digitali
+81000130435,c_f460,Comune di Monte Cavallo,comune.montecavallo@pec.it,domicili digitali
+81000190439,c_g657,Comune di Pieve Torina,comune.pievetorina.mc@legalmail.it,domicili digitali
+81000190686,c_c308,Comune di Castiglione a Casauria,comunecastiglioneacasauria@legalmail.it,domicili digitali
+81000250431,c_d564,Comune di Fiastra,comune.fiastra.mc@legalmail.it,domicili digitali
+81000270678,c_c322,Comune di Castilenti,protocollo@pec.comune.castilenti.te.it;suap@pec.comune.castilenti.te.it,domicili digitali
+81000350678,c_3rhm,Comune di Cellino Attanasio,postacert@pec.comune.cellinoattanasio.te.it,domicili digitali
+81000370676,c_f747,Comune di Morro D'Oro,protocollo@pec.comune.morrodoro.te.it,domicili digitali
+81000390674,c_f942,Comune di Notaresco,lavoripubblici@pec.comune.notaresco.te.it;territorio@pec.comune.notaresco.te.it;finanziario@pec.comune.notaresco.te.it;servizio.amministrativo@pec.comune.notaresco.te.it;polizialocale@pec.comune.notaresco.te.it;protocollo@pec.comune.notaresco.te.it,domicili digitali
+81000410688,c_i376,Comune di San Valentino in Abruzzo Citeriore,info@pec.comune.sanvalentino.pe.it,domicili digitali
+81000430546,c_f685,Comune di Montone,comune.montone@postacert.umbria.it,domicili digitali
+81000480434,c_i661,Comune di Serravalle di Chienti,comune.serravalledichienti.mc@legalmail.it,domicili digitali
+81000670448,c_f549,Comune di Montelparo,COMUNE.MONTELPARO@EMARCHE.IT,domicili digitali
+81000730432,c_m078,Comune di Visso,comune.visso.mc@legalmail.it,domicili digitali
+81000850446,c_f664,Comune di Monte Vidon Combatte,comune.montevidoncombatte@emarche.it,domicili digitali
+81000910430,c_a947,Comune di Bolognola,comune@pec.comune.bolognola.mc.it,domicili digitali
+81000910448,c_f633,Comune di Monte Urano,comune.monteurano@emarche.it,domicili digitali
+81001050442,c_f697,Comune di Montottone,comune@pec.montottone.eu,domicili digitali
+81001090448,c_d760,Comune di Francavilla D'Ete,pecomune.francavilladete@emarche.it,domicili digitali
+81001170448,c_e208,Comune di Grottazzolina,comune.grottazzolina@emarche.it,domicili digitali
+81001270446,c_f626,Comune di Monte San Pietrangeli,comune.montesanpietrangeli@emarche.it,domicili digitali
+81001330448,c_f665,Comune di Monte Vidon Corrado,certificata@pec.comune.montevidoncorrado.fm.it,domicili digitali
+81001350446,c_i324,Comune di Sant'Elpidio a Mare,protocollo@pec.santelpidioamare.it,domicili digitali
+81001450444,c_f379,Comune di Monsampietro Morico,comune.monsampietromorico@emarche.it,domicili digitali
+81001470558,c_f462,Comune di Montecchio,comune.montecchio@postacert.umbria.it;suap.comune.montecchio@postacert.umbria.it,domicili digitali
+81001490440,c_a760,Comune di Belmonte Piceno,comune.belmontepiceno@pec.it;utc.belmontepiceno@pec.it,domicili digitali
+81001510551,c_g148,Comune di Orvieto,comune.orvieto@postacert.umbria.it,domicili digitali
+81001630417,c_f347,Comune di Mondavio,comune.mondavio@emarche.it,domicili digitali
+81001750447,c_d477,Comune di Falerone,protocollo.comune.falerone@emarche.it,domicili digitali
+81001810431,c_l517,Comune di Ussita,anagrafe@pec.comune.ussita.mc.it,domicili digitali
+81001810449,c_f428,Comune di Montappone,certificata@pec.comune.montappone.fm.it,domicili digitali
+81001850445,c_f536,Comune di Monteleone di Fermo,monteleonedifermo@pec.it,domicili digitali
+81001890441,c_g873,Comune di Ponzano di Fermo,comune@pec.ponzanodifermo.org,domicili digitali
+81001910439,USC,Universita' degli Studi di Camerino,protocollo@pec.unicam.it,domicili digitali
+81001950443,c_g403,Comune di Pedaso,protocollo@pec.comunedipedaso.it,domicili digitali
+81001970441,c_f517,Comune di Monte Giberto,info@pec.montegiberto.net,domicili digitali
+81002030443,c_f520,Comune di Montegiorgio,comune.montegiorgio@emarche.it,domicili digitali
+81002090447,c_c070,Comune di Servigliano,comune@pec.comune.servigliano.fm.it,domicili digitali
+81002350684,c_g499,Comune di Pescosansonesco,sindaco@pec.comune.pescosansonesco.pe.it,domicili digitali
+81003650447,c_g921,Comune di Porto Sant'Elpidio,pseprotocollo@postecert.elpinet.it,domicili digitali
+82000070670,c_f764,Comune di Mosciano Sant'Angelo,comune.mosciano.te@legalmail.it,domicili digitali
+82000530442,c_f380,Comune di Monsampolo del Tronto,comune.monsampolodeltronto@pec.it,domicili digitali
+82000670446,c_e207,Comune di Grottammare,comune.grottammare.protocollo@emarche.it,domicili digitali
+82001180676,c_e989,Comune di Martinsicuro,protocollo.martinsicuro@pec.it,domicili digitali
+82001410545,c_e229,Comune di Gualdo Cattaneo,comune.gualdocattaneo@postacert.umbria.it,domicili digitali
+82001560679,c_c972,Comune di Colonnella,comune.colonnella@pec.it,domicili digitali
+82001610540,c_f492,Comune di Montefalco,comune.montefalco@postacert.umbria.it,domicili digitali
+82001750544,c_i888,Comune di Spello,comune.spello@postacert.umbria.it,domicili digitali
+82001930443,c_b727,Comune di Carassai,protocollo@pec.comune.carassai.ap.it,domicili digitali
+82002250429,c_c060,Comune di Castelbellino,comune.castelbellino@emarche.it,domicili digitali
+82002470423,c_h979,Comune di San Marcello,sanmarcello.suap@emarche.it;comune.sanmarcello@emarche.it,domicili digitali
+82002820676,c_d043,Comune di Corropoli,anagrafe@pec.comunecorropoli.it;ragioneria@pec.comunecorropoli.it;urbanistica@pec.comunecorropoli.it;notifichepl.corropoli@pec.it;protocollo@pec.comunecorropoli.it;poliziamunicipale@pec.comunecorropoli.it,domicili digitali
+83000110433,c_l191,Comune di Tolentino,comune.tolentino.mc@legalmail.it,domicili digitali
+83000590667,c_m090,Comune di Corfinio,comune.corfinio.aq@pec.it,domicili digitali
+83002290431,c_e228,Comune di Gualdo,comune.gualdo.mc@legalmail.it,domicili digitali
+83002470439,c_f622,Comune di Monte San Martino,montesanmartino@pec.it,domicili digitali
+83002570436,c_g436,Comune di Penna San Giovanni,pennasangiovanni@pec.it,domicili digitali
+83002690432,c_i286,Comune di Sant'Angelo In Pontano,comune.santangeloinpontano@pec.it,domicili digitali
+84001550544,c_l627,Comune di Vallo di Nera,comune.vallodinera@postacert.umbria.it,domicili digitali
+84002330540,c_b504,Comune di Campello sul Clitunno,comune.campellosulclitunno@postacert.umbria.it,domicili digitali
+84002410540,c_b948,Comune di Cascia,comune.cascia@postacert.umbria.it,domicili digitali
+84002490542,c_c527,Comune di Cerreto di Spoleto,comune.cerretodispoleto@postacert.umbria.it,domicili digitali
+84002570541,c_f540,Comune di Monteleone di Spoleto,comune.monteleonedispoleto@postacert.umbria.it,domicili digitali
+84002650541,c_f935,Comune di Norcia,comune.norcia@postacert.umbria.it,domicili digitali
+84002730541,c_h015,Comune di Preci,comune.preci@postacert.umbria.it,domicili digitali
+84002810541,c_i523,Comune di Scheggino,comune.scheggino@postacert.umbria.it,domicili digitali
+84006620540,c_g758,Comune di Poggiodomo,comune.poggiodomo@postacert.umbria.it,domicili digitali
+90038780442,p_FM,Provincia di Fermo,provincia.fermo@emarche.it,domicili digitali
+90076740571,uslrps,Ufficio Speciale per La Ricostruzione Post Sisma 2016 della Regione Lazio,finanzaesviluppo.usr@pec.regione.lazio.it;pubblica.ricostruzionelazio@pec.regione.lazio.it;pec.usrlaziogare@legalmail.it;conferenzeusr@pec.regione.lazio.it;privata.ricostruzionelazio@pec.regione.lazio.it;pec.usrlaziogare@pec.regione.lazio.it,domicili digitali
+91059790682,artaa_pe,Agenzia Regionale per La Tutela dell' Ambiente dell' Abruzzo,protocollo@pec.artaabruzzo.it,domicili digitali
+91278030373,arlst,Agenzia Regionale per La Sicurezza Territoriale e La Protezione Civile,peiarpciv@postacert.regione.emilia-romagna.it,domicili digitali
+92001400677,c_d489,Comune di Fano Adriano,protocollo@cert.comune.fanoadriano.te.it,domicili digitali
+92012890676,unite,Universita' degli Studi di Teramo,protocollo@pec.unite.it,domicili digitali
+92049990416,cbdm,Consorzio di Bonifica Delle Marche,pec@pec.bonificamarche.it,domicili digitali
+92054150674,usrpsaq,Ufficio Speciale per La Ricostruzione Post Sisma 2016 per La Regione Abruzzo,usr2016@pec.regione.abruzzo.it,domicili digitali
+93151650426,LXFZQA8T,Ufficio Speciale per la Ricostruzione post sisma 2016 per la Regione Marche,regione.marche.usr.amministrazione@emarche.it;regione.marche.usr.appalticontratti@emarche.it;regione.marche.usr.pubblica@emarche.it;regione.marche.usr.privata@emarche.it;regione.marche.usr@emarche.it;regione.marche.usr.ordinanzespeciali@emarche.it;regione.marche.usr.sviluppoterritorio@emarche.it,domicili digitali
+94162980547,uslrp,Ufficio Speciale per La Ricostruzione Post sisma 2016 della Regione Umbria,ufficiospecialericostruzione@pec.regione.umbria.it,domicili digitali
+97904380587,m_bac,Ministero della Cultura,dg-aei@pec.cultura.gov.it;man-ve-lag@pec.cultura.gov.it;as-ar@pec.cultura.gov.it;as-bi@pec.cultura.gov.it;as-bl@pec.cultura.gov.it;as-bn@pec.cultura.gov.it;as-ca@pec.cultura.gov.it;as-fe@pec.cultura.gov.it;as-fi@pec.cultura.gov.it;as-fr@pec.cultura.gov.it;as-is@pec.cultura.gov.it;as-me@pec.cultura.gov.it;as-pu@pec.cultura.gov.it;as-so@pec.cultura.gov.it;as-ts@pec.cultura.gov.it;as-vb@pec.cultura.gov.it;bmn-bdc@pec.cultura.gov.it;bn-pz@pec.cultura.gov.it;bnc-rm@pec.cultura.gov.it;bu-ales@pec.cultura.gov.it;dg-bpm@pec.cultura.gov.it;ga-ave@pec.cultura.gov.it;ga-bor@pec.cultura.gov.it;ic-bsa@pec.cultura.gov.it;pin-br@pec.cultura.gov.it;drm-laz@pec.cultura.gov.it;drm-tos@pec.cultura.gov.it;re-ce@pec.cultura.gov.it;sab-amo@pec.cultura.gov.it;sab-cal@pec.cultura.gov.it;sa-fvg@pec.cultura.gov.it;sab-umb@pec.cultura.gov.it;sabap-cz-kr@pec.cultura.gov.it;sabap-fg@pec.cultura.gov.it;sabap-mn@pec.cultura.gov.it;sabap-met-rm@pec.cultura.gov.it;sabap-sa@pec.cultura.gov.it;ss-pnrr@pec.cultura.gov.it;sabap-mb@pec.cultura.gov.it;sabap-pd-tv-bl@pec.cultura.gov.it;as-br@pec.cultura.gov.it;as-ch@pec.cultura.gov.it;as-cl@pec.cultura.gov.it;as-fg@pec.cultura.gov.it;as-fm@pec.cultura.gov.it;as-mi@pec.cultura.gov.it;as-na@pec.cultura.gov.it;as-or@pec.cultura.gov.it;as-pr@pec.cultura.gov.it;as-te@pec.cultura.gov.it;as-tv@pec.cultura.gov.it;as-vr@pec.cultura.gov.it;b-maru@pec.cultura.gov.it;bmn-prg@pec.cultura.gov.it;bn-cs@pec.cultura.gov.it;bs-bald@pec.cultura.gov.it;bmn-mnc@pec.cultura.gov.it;bu-ss@pec.cultura.gov.it;sr-fvg@pec.cultura.gov.it;sr-lom@pec.cultura.gov.it;sr-pie@pec.cultura.gov.it;ic-archeo@pec.cultura.gov.it;ic-dp@pec.cultura.gov.it;opd@pec.cultura.gov.it;pa-oant@pec.cultura.gov.it;pa-paeve@pec.cultura.gov.it;man-ch@pec.cultura.gov.it;drm-fvg@pec.cultura.gov.it;pal-pu@pec.cultura.gov.it;saas-sipa@pec.cultura.gov.it;sabap-mi@pec.cultura.gov.it;sabap-bas@pec.cultura.gov.it;sabap-an-pu@pec.cultura.gov.it;sabap-aq-te@pec.cultura.gov.it;as-ge@pec.cultura.gov.it;vrm-fi@pec.cultura.gov.it;as-bat@pec.cultura.gov.it;drm-pug@pec.cultura.gov.it;diva@pec.cultura.gov.it;as-an@pec.cultura.gov.it;as-ap@pec.cultura.gov.it;as-at@pec.cultura.gov.it;as-ba@pec.cultura.gov.it;as-bg@pec.cultura.gov.it;as-cb@pec.cultura.gov.it;as-fc@pec.cultura.gov.it;as-lt@pec.cultura.gov.it;as-nu@pec.cultura.gov.it;as-pt@pec.cultura.gov.it;as-rc@pec.cultura.gov.it;as-ri@pec.cultura.gov.it;as-sv@pec.cultura.gov.it;as-vi@pec.cultura.gov.it;b-mela@pec.cultura.gov.it;b-stmo@pec.cultura.gov.it;bmn-far@pec.cultura.gov.it;bs-cr@pec.cultura.gov.it;bs-mc@pec.cultura.gov.it;bs-medi@pec.cultura.gov.it;bmn-grf@pec.cultura.gov.it;bu-pd@pec.cultura.gov.it;c-ll@pec.cultura.gov.it;cm-pil@pec.cultura.gov.it;dg-s@pec.cultura.gov.it;sr-abr@pec.cultura.gov.it;sr-cam@pec.cultura.gov.it;sr-lig@pec.cultura.gov.it;mn-rm@pec.cultura.gov.it;drm-cal@pec.cultura.gov.it;drm-mol@pec.cultura.gov.it;drm-sar@pec.cultura.gov.it;drm-ven@pec.cultura.gov.it;sab-ero@pec.cultura.gov.it;sab-mar@pec.cultura.gov.it;sa-sar@pec.cultura.gov.it;sab-tos@pec.cultura.gov.it;sab-vta@pec.cultura.gov.it;sabap-ap-fm-mc@pec.cultura.gov.it;sabap-mol@pec.cultura.gov.it;sabap-umb@pec.cultura.gov.it;sabap-vr@pec.cultura.gov.it;sabap-lu@pec.cultura.gov.it;ss-abap-rm@pec.cultura.gov.it;mn-vomero@pec.cultura.gov.it;mupa-capri@pec.cultura.gov.it;rpct@pec.cultura.gov.it;uss-sisma2016@pec.cultura.gov.it;dg-dc@pec.cultura.gov.it;diac@pec.cultura.gov.it;as-al@pec.cultura.gov.it;as-bz@pec.cultura.gov.it;as-ce@pec.cultura.gov.it;as-co@pec.cultura.gov.it;as-cz@pec.cultura.gov.it;as-im@pec.cultura.gov.it;as-mo@pec.cultura.gov.it;as-no@pec.cultura.gov.it;as-pv@pec.cultura.gov.it;as-ro@pec.cultura.gov.it;as-sp@pec.cultura.gov.it;as-sr@pec.cultura.gov.it;as-ss@pec.cultura.gov.it;as-to@pec.cultura.gov.it;as-ud@pec.cultura.gov.it;bs-scts@pec.cultura.gov.it;bu-to@pec.cultura.gov.it;dg-mu@pec.cultura.gov.it;sr-bas@pec.cultura.gov.it;sr-sar@pec.cultura.gov.it;man-na@pec.cultura.gov.it;drm-lig@pec.cultura.gov.it;sabap-ch-pe@pec.cultura.gov.it;sabap-ba@pec.cultura.gov.it;sabap-ra@pec.cultura.gov.it;sabap-al@pec.cultura.gov.it;sabap-fi@pec.cultura.gov.it;pa-pompei@pec.cultura.gov.it;pa-certa@pec.cultura.gov.it;mn-abr@pec.cultura.gov.it;mn-bo@pec.cultura.gov.it;mn-lu@pec.cultura.gov.it;pa-maremma@pec.cultura.gov.it;pa-sepino-mu-cb@pec.cultura.gov.it;dg-or.ufficiopersonale@pec.cultura.gov.it;dg-spc@pec.cultura.gov.it;diag@pec.cultura.gov.it;ic-vepp@pec.cultura.gov.it;icri@pec.cultura.gov.it;cctpc_fd@mailcert.beniculturali.it;as-bo@pec.cultura.gov.it;as-aq@pec.cultura.gov.it;as-av@pec.cultura.gov.it;as-cn@pec.cultura.gov.it;as-li@pec.cultura.gov.it;as-mc@pec.cultura.gov.it;as-pc@pec.cultura.gov.it;as-pd@pec.cultura.gov.it;as-pe@pec.cultura.gov.it;as-ra@pec.cultura.gov.it;as-rn@pec.cultura.gov.it;b-marc@pec.cultura.gov.it;bcm-gir@pec.cultura.gov.it;bmn-mnv@pec.cultura.gov.it;bn-ba@pec.cultura.gov.it;bn-na@pec.cultura.gov.it;dg-a@pec.cultura.gov.it;dg-ca@pec.cultura.gov.it;dms-rm@pec.cultura.gov.it;sr-cal@pec.cultura.gov.it;sr-mar@pec.cultura.gov.it;sr-mol@pec.cultura.gov.it;sr-pug@pec.cultura.gov.it;sr-tos@pec.cultura.gov.it;sr-umb@pec.cultura.gov.it;ga-uff@pec.cultura.gov.it;ic-pi@pec.cultura.gov.it;man-ca@pec.cultura.gov.it;mn-bar@pec.cultura.gov.it;mu-civ@pec.cultura.gov.it;sabap-na-met@pec.cultura.gov.it;mu-mira@pec.cultura.gov.it;mr-to@pec.cultura.gov.it;sab-bas@pec.cultura.gov.it;sabap-im-sv@pec.cultura.gov.it;sabap-no@pec.cultura.gov.it;sabap-cal@pec.cultura.gov.it;sabap-liguria@pec.cultura.gov.it;vi-ve@pec.cultura.gov.it;mn-si@pec.cultura.gov.it;mupa-mel-ven@pec.cultura.gov.it;pa-colosseo@pec.cultura.gov.it;unita-pnrr@pec.cultura.gov.it;vm-tuscia@pec.cultura.gov.it;dg-ruo@pec.cultura.gov.it;as-ag@pec.cultura.gov.it;as-bs@pec.cultura.gov.it;as-ct@pec.cultura.gov.it;as-en@pec.cultura.gov.it;as-go@pec.cultura.gov.it;as-le@pec.cultura.gov.it;as-mn@pec.cultura.gov.it;as-pi@pec.cultura.gov.it;as-rm@pec.cultura.gov.it;as-si@pec.cultura.gov.it;as-tp@pec.cultura.gov.it;as-vc@pec.cultura.gov.it;as-vt@pec.cultura.gov.it;as-vv@pec.cultura.gov.it;b-casa@pec.cultura.gov.it;b-ricc@pec.cultura.gov.it;b-vall@pec.cultura.gov.it;bs-lu@pec.cultura.gov.it;bmn-cas@pec.cultura.gov.it;bmn-trs@pec.cultura.gov.it;bu-ca@pec.cultura.gov.it;dg-bic@pec.cultura.gov.it;sr-ero@pec.cultura.gov.it;sr-laz@pec.cultura.gov.it;ga-afi-mn-bar@pec.cultura.gov.it;gan-aar@pec.cultura.gov.it;gan-amc@pec.cultura.gov.it;ic-cd@pec.cultura.gov.it;ic-pal@pec.cultura.gov.it;mu-cap@pec.cultura.gov.it;pa-appia@pec.cultura.gov.it;pa-erco@pec.cultura.gov.it;pal-na@pec.cultura.gov.it;drm-pie@pec.cultura.gov.it;sab-cam@pec.cultura.gov.it;sab-laz@pec.cultura.gov.it;sabap-vt-em@pec.cultura.gov.it;sabap-ve-met@pec.cultura.gov.it;sabap-ss@pec.cultura.gov.it;sg@pec.cultura.gov.it;udcm@pec.cultura.gov.it;va-ve@pec.cultura.gov.it;mn-pi@pec.cultura.gov.it;sabap-mo@pec.cultura.gov.it;acs@pec.cultura.gov.it;as-lu@pec.cultura.gov.it;as-mt@pec.cultura.gov.it;as-re@pec.cultura.gov.it;as-rg@pec.cultura.gov.it;as-sa@pec.cultura.gov.it;as-tn@pec.cultura.gov.it;as-tr@pec.cultura.gov.it;as-ve@pec.cultura.gov.it;b-ange@pec.cultura.gov.it;bmn-sng@pec.cultura.gov.it;bs-ison@pec.cultura.gov.it;bmn-sns@pec.cultura.gov.it;bu-ge@pec.cultura.gov.it;bu-na@pec.cultura.gov.it;bu-pi@pec.cultura.gov.it;bu-pv@pec.cultura.gov.it;dg-cc@pec.cultura.gov.it;dg-eric@pec.cultura.gov.it;dg-abap@pec.cultura.gov.it;sr-ven@pec.cultura.gov.it;ic-cu@pec.cultura.gov.it;ic-gr@pec.cultura.gov.it;icr@pec.cultura.gov.it;MAN-RC@pec.cultura.gov.it;man-ta@pec.cultura.gov.it;mn-etru@pec.cultura.gov.it;pa-fleg@pec.cultura.gov.it;pal-mn@pec.cultura.gov.it;drm-ero@pec.cultura.gov.it;drm-umb@pec.cultura.gov.it;sab-lig@pec.cultura.gov.it;sab-pie@pec.cultura.gov.it;sabap-rc@pec.cultura.gov.it;sabap-bo@pec.cultura.gov.it;sabap-bs@pec.cultura.gov.it;sabap-lazio@pec.cultura.gov.it;sabap-br-le-ta@pec.cultura.gov.it;sabap-co-lc@pec.cultura.gov.it;sabap-pr@pec.cultura.gov.it;sabap-si@pec.cultura.gov.it;sabap-ca@pec.cultura.gov.it;sabap-ce@pec.cultura.gov.it;sabap-na@pec.cultura.gov.it;sabap-pi@pec.cultura.gov.it;sabap-to@pec.cultura.gov.it;sn-sub@pec.cultura.gov.it;mn-ad@pec.cultura.gov.it;mn-ra@pec.cultura.gov.it;mupa-prae-gabi@pec.cultura.gov.it;pa-kr-sibari@pec.cultura.gov.it;dit@pec.cultura.gov.it;man-fi@pec.cultura.gov.it;as-cr@pec.cultura.gov.it;as-cs@pec.cultura.gov.it;as-gr@pec.cultura.gov.it;as-ms@pec.cultura.gov.it;as-pg@pec.cultura.gov.it;as-pn@pec.cultura.gov.it;as-po@pec.cultura.gov.it;as-pz@pec.cultura.gov.it;as-ta@pec.cultura.gov.it;as-va@pec.cultura.gov.it;bnc-fi@pec.cultura.gov.it;ga-esten@pec.cultura.gov.it;gan-umb@pec.cultura.gov.it;gpp@pec.cultura.gov.it;ic-a@pec.cultura.gov.it;MN-MT@pec.cultura.gov.it;oiv@pec.cultura.gov.it;mn-lig@pec.cultura.gov.it;drm-bas@pec.cultura.gov.it;drm-cam@pec.cultura.gov.it;drm-lom@pec.cultura.gov.it;sab-lom@pec.cultura.gov.it;sab-puglia@pec.cultura.gov.it;sabap-fvg@pec.cultura.gov.it;sabap-ve-lag@pec.cultura.gov.it;mn-fe@pec.cultura.gov.it,domicili digitali
+97914140583,PCM,Presidenza del Consiglio dei Ministri,comm.ricostruzionesisma2016@pec.governo.it,domicili digitali
+privato,054,Azienda Unita' Sanitaria Locale Umbria 1,umbriasaluteeservizi.nso@pec.it;aslumbria1@postacert.umbria.it,portale IPA

@@ -6,3 +6,11 @@ Montereale,TE,Montereale,AQ,provincia errata nel sorgente (TE invece di AQ)
 Popoli,PE,Popoli Terme,PE,nome errato nel sorgente (Popoli invece di Popoli Terme)
 Silvi Marina,TE,Silvi,TE,nome errato nel sorgente (Silvi Marina invece di Silvi)
 Ancarano,AP,Ancarano,TE,provincia errata nel sorgente (AP invece di TE)
+Isola del gran Sasso,TE,Isola del Gran Sasso d'Italia,TE,nome incompleto nel sorgente
+Montopoli in Sabina,RI,Montopoli di Sabina,RI,nome errato nel sorgente (in Sabina invece di di Sabina)
+SERRAVALLE DEL CHIENTI,MC,Serravalle di Chienti,MC,nome errato nel sorgente (del Chienti invece di di Chienti)
+Sant’Anatolia di Narco,PG,Sant'Anatolia di Narco,PG,apostrofo tipografico nel sorgente
+Corridonia,,Corridonia,MC,provincia assente nel sorgente
+Pioraco,,Pioraco,MC,provincia assente nel sorgente
+Cascia,Comuni vari,Cascia,PG,provincia valorizzata a "Comuni vari" nel sorgente
+Ussita,Comuni vari,Ussita,MC,provincia valorizzata a "Comuni vari" nel sorgente
