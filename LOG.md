@@ -1,3 +1,11 @@
+## 2026-08-17
+
+- Workflow PNRR fallito il 17/08 con **401** sull'invocazione della funzione Scaleway: il token era stato ruotato il 13/08 (nuovo valore nel secret `SCW_PROXY_TOKEN`, creato alle 10:12, e nella funzione, aggiornata alle 10:18) ma `ITALIADOMANI_REFRESH_URL` era rimasto alle 09:28, con il token vecchio. Riscritto il secret con l'URL completo (`https://<dominio-funzione>/?token=<PROXY_TOKEN>`, token nella query string perché lo script fa una `curl` nuda senza header di autenticazione), workflow di nuovo verde.
+- La funzione è `staging-italiadomani` (namespace omonimo, `fr-par`, node22, timeout 900s, `privacy: public`), il bucket è `liberiamoli-tutti-staging`. Il 401 non lo genera Scaleway ma il codice della funzione, che valida `PROXY_TOKEN`: una funzione `private` risponderebbe 403 dal gateway. Per il debug basta `scw function function list`, che mostra env var e `updated_at`, più `curl` sul bucket pubblico per vedere la data dei CSV.
+- Nel run del 17/08 le fonti erano tutte raggiungibili (precheck progetti e gare 200, zip ANAC scaricato e scompattato): a far uscire lo script con `exit 1` prima dell'elaborazione è stato il solo `DOWNLOAD_FAILED=true` acceso dal refresh. Da valutare se degradare `italiadomani_refresh` a warning, lasciando decidere il fallimento ai download veri.
+- Rimosso il secret `SCW_PROXY_TOKEN`, non usato da nessun workflow: era la copia nuda del token che il 13/08 ha ricevuto il valore nuovo mentre `ITALIADOMANI_REFRESH_URL` restava indietro. Il token vive ora in un posto solo. Alla prossima rotazione va ricomposto a mano l'URL intero, dominio più `?token=`.
+- Il `PROXY_TOKEN` è una stringa scelta da noi e non scade: si cambia solo per decisione o per esposizione. Le due scadenze reali sono altrove — 2027-08-13 la chiave S3 con cui la funzione scrive sul bucket (si rigenera nelle env var della funzione, i secret GitHub non c'entrano), 2026-11-11 la chiave della CLI `scw` usata per il debug da terminale, ininfluente per il workflow.
+
 ## 2026-08-15
 
 - Dati ricostruzione, numero #20: nuova cartella `dati_ricostruzione/data/20/` dal riscontro FOIA ActionAid di luglio 2026 (`rawdata/2026-07-23_dati_final_2026_opere_private_e_pubbliche.xlsx`). Pubblica al 30 aprile 2026, privata al 31 maggio 2026 — **due date di riferimento diverse nella stessa consegna**.
