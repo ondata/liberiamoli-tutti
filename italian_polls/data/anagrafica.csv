@@ -1,4 +1,35 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1663,2026-09-08,Tecnè srl,RTI,Le intenzioni di voto degli italiani,"fdi 28%
+fi 7,9%
+lega 5,7%
+noi moderati 1%
+(CD 42,6%)
+pd 20,8%
+m5s 12,5%
+verdi-si 6,2%
+iv 2,1%
++europa 1%
+(CS 42,6%)
+futuro nazionale 7,4%
+azione 3,2%
+altri 4,2%
+(ALTRI 14,8%)","Se si votasse oggi per le politiche 
+Dichiarano il voto 54,4% - astensione e incerti 45,6% 
+(rispondenti = 100%)","The poll includes major parties such as Fratelli d'Italia, Forza Italia, Lega, Partito Democratico, Movimento 5 Stelle, Alleanza Verdi Sinistra, Italia Viva, +Europa, and Azione. It refers to nationwide voting intentions and does not focus on leader approval ratings or specific demographics. Therefore, it qualifies as a national voting intention poll. The total percentage of parties listed is 54.4%, and the remaining 45.6% is attributed to abstention and undecided voters. The sum of the percentages of the parties not listed (noi moderati and altri) is included in the 'Altri' field.",1,11,tecnè srl
+1662,2026-09-08,SWG S.p.A.,La7,intenzioni di voto,"FRATELLI D'ITALIA 26,8
+PARTITO DEMOCRATICO 20,6
+MOVIMENTO 5 STELLE 12,5
+FUTURO NAZIONALE 7,7
+FORZA ITALIA 6,9
+VERDI E SINISTRA 6,8
+LEGA 5,7
+AZIONE 3,2
+ITALIA VIVA 2,5
++EUROPA 1,4
+NOI MODERATI 1,0
+SUD CHIAMA NORD 1,0
+ALTRE LISTE 3,9
+NON SI ESPRIME 29%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, Azione, Italia Viva, and +Europa, which are relevant for national voting intentions. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. The percentages provided are valid and do not include negative numbers. Therefore, this is a national voting intention poll. The total percentage of 'Altri' is calculated as 3.9% from 'ALTRE LISTE'.",1,12,SWG spa
 1661,2026-09-07,Only Numbers,RTI-Reti Televisive Italiane S.p.A.,"Su intenzioni di voto, Governo e primarie di centrosinistra","FRATELLI D'ITALIA-GIORGIA MELONI 26,5
 PARTITO DEMOCRATICO-PSE-SOCIALISTI & DEMOCRATICI 21,3
 MOVIMENTO 5 STELLE-2050-#PACE 11,0
