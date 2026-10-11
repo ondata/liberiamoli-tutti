@@ -30,7 +30,8 @@ jobs:
         cp bin/mlrgo ~/bin/mlr
         cd ~/bin
         chmod +x mlr
-        sudo apt install tor
+        sudo apt-get update
+        sudo apt-get install -y tor
         sudo sh -c "echo 'SOCKSPort 9050 # Default' >> /etc/tor/torrc"
         sudo sh -c "echo 'ExitNodes {it} StrictNodes 1' >> /etc/tor/torrc"
         sudo systemctl start tor

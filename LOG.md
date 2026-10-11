@@ -1,3 +1,7 @@
+## 2026-10-11
+
+- Workflow `cgsse.yml` fallito dall'1 all'8 ottobre su `sudo apt install tor` (404 e 502 su libevent: l'indice apt dell'immagine del runner puntava a una versione non più servita dal mirror). Aggiunto `sudo apt-get update` prima di `sudo apt-get install -y tor`.
+
 ## 2026-08-17
 
 - Workflow PNRR fallito il 17/08 con **401** sull'invocazione della funzione Scaleway: il token era stato ruotato il 13/08 (nuovo valore nel secret `SCW_PROXY_TOKEN`, creato alle 10:12, e nella funzione, aggiornata alle 10:18) ma `ITALIADOMANI_REFRESH_URL` era rimasto alle 09:28, con il token vecchio. Riscritto il secret con l'URL completo (`https://<dominio-funzione>/?token=<PROXY_TOKEN>`, token nella query string perché lo script fa una `curl` nuda senza header di autenticazione), workflow di nuovo verde.
