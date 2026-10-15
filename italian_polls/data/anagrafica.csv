@@ -1,4 +1,64 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1680,2026-10-13,SWG S.p.A.,La7,intenzioni di voto,"FRATELLI D'ITALIA 27,7
+PARTITO DEMOCRATICO 20,4
+MOVIMENTO 5 STELLE 12,7
+FUTURO NAZIONALE 7,6
+FORZA ITALIA 7,3
+VERDI E SINISTRA 6,6
+LEGA 5,4
+AZIONE 3,2
+ITALIA VIVA 2,3
++EUROPA 1,7
+NOI MODERATI 1,0
+SUD CHIAMA NORD 1,0
+ALTRE LISTE 3,1
+NON SI ESPRIME 28%","Se dovesse votare oggi alle elezioni nazionali, a quale dei seguenti partiti darebbe il suo voto più probabilmente?","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, Azione, Italia Viva, and others. It refers to nationwide voting intentions, making it a national voting intention poll. The percentages for the parties sum up to 100% when considering the relevant parties, and the presence of 'Altri' is calculated from the 'ALTRE LISTE' percentage. Therefore, this is a national poll.",1,12,SWG spa
+1679,2026-10-12,Only Numbers,RTI-Reti Televisive Italiane S.p.A.,Sulle intenzioni di voto e l'emergenza casa,"FRATELLI D'ITALIA-GIORGIA MELONI 27,5
+PARTITO DEMOCRATICO-PSE-SOCIALISTI & DEMOCRATICI 19,5
+MOVIMENTO 5 STELLE-2050-#PACE 11,7
+FORZA ITALIA-BERLUSCONI PRESIDENTE-PPE 7,5
+FUTURO NAZIONALE VANNACCI 7,0
+ALLEANZA VERDI E SINISTRA-EUROPA VERDE-SINISTRA ITALIANA 6,8
+LEGA-SALVINI PREMIER 6,3
+AZIONE CON CALENDA SIAMO EUROPEI-RENEW EUROPE 3,3
+CASA RIFORMISTA-ITALIA VIVA-RENZI 2,3
++EUROPA 2,0
+NOI MODERATI 1,1
+Altri 5,0
+INDECISI - ASTENSIONE 43,9",INTENZIONI DI VOTO,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Alleanza Verdi Sinistra, Lega, Azione, Italia Viva, and +Europa, which are relevant for national voting intentions. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll.",1,11,Only Numbers
+1678,2026-10-12,LAB21 SRL,AFFARITALIANI,STABILICUM INTENZIONI DI VOTO E SIMULAZIONE SEGGI CON LA NUOVA LEGGE LETTORALE,"ALTRI PARTITI 2,5%
+
+AZIONE 2,9%
+FUTURO NAZIONALE 8,2%
+
+TOTALE CENTROSINISTRA 43,1%
+PIU' EUROPA 1,2%
+ITALIA VIVA 2,9%
+ALLEANZA VERDI SINISTRA 5,6%
+MOVIMENTO 5 STELLE 13,4%
+PARTITO DEMOCRATICO 20,0%
+
+TOTALE CENTRODESTRA 43,3%
+NOI MODERATI 0,8%
+SUD CHIAMA NORD 1,6%
+LEGA 5,5%
+FORZA ITALIA 7,0%
+FRATELLI D'ITALIA 28,4%",INTENZIONI DI VOTO STABILICUM,"The poll includes all major parties such as Partito Democratico, Forza Italia, Fratelli d'Italia, Alleanza Verdi Sinistra, Lega, Movimento 5 Stelle, +Europa, Italia Viva, and Sud Chiama Nord. It refers to nationwide voting intentions and does not focus on leader approval ratings or specific demographics. Therefore, it qualifies as a national voting intention poll.",1,12,LAB21 SRL
+1677,2026-10-09,Youtrend,Sky TG24,Osservatorio Italia,"Fratelli d'Italia 27,0
+Partito Democratico 20,4
+Movimento 5 Stelle 13,5
+Futuro Nazionale 7,8
+Forza Italia 7,4
+Alleanza Verdi-Sinistra 5,8
+Lega 4,8
+Azione 3,3
+Italia Viva 2,5
++Europa 1,5
+Ora! 1,2
+Partito Liberaldemocratico 1,1
+Noi Moderati 1,0
+Altri 2,7
+Indecisi + Astenuti 35,1",Intenzioni di voto (al netto degli astenuti),"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Alleanza Verdi-Sinistra, Lega, Azione, Italia Viva, and +Europa. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The total percentage of parties listed is 100% - (35.1% for indecisive and abstainers) = 64.9%. The sum of 'Altri' is calculated as 2.7%.",1,11,Youtrend
 1676,2026-10-06,SWG S.p.A.,La7,intenzioni di voto,"FRATELLI D'ITALIA 27,7
 PARTITO DEMOCRATICO 20,7
 MOVIMENTO 5 STELLE 12,6
