@@ -39,6 +39,18 @@ else
   echo "Rilevato ambiente locale: utilizzerò chiamate dirette"
 fi
 
+# Con Tor attendi un circuito funzionante (max ~5 minuti) prima di iniziare i download
+if [ "$USE_TOR" = true ]; then
+  for i in $(seq 1 30); do
+    if curl -s --socks5-hostname 127.0.0.1:9050 --max-time 10 https://check.torproject.org/api/ip | grep -q '"IsTor":true'; then
+      echo "Tor pronto dopo $i controlli"
+      break
+    fi
+    echo "Tor non ancora pronto (controllo $i)"
+    sleep 5
+  done
+fi
+
 # Funzione per eseguire curl con retry (con o senza Tor)
 curl_with_retry() {
   local url="$1"
@@ -51,7 +63,7 @@ curl_with_retry() {
       echo "Tentativo $attempt per: $url (tramite Tor)"
 
       # Usa Tor come proxy SOCKS5 sulla porta 9050
-      if curl -ksL --socks5-hostname 127.0.0.1:9050 \
+      if curl -ksSL --socks5-hostname 127.0.0.1:9050 \
         --max-time 60 --connect-timeout 15 --fail "$url" \
         -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
         -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
@@ -86,7 +98,7 @@ curl_with_retry() {
     fi
 
     if [ "$USE_TOR" = true ]; then
-      sleep $((attempt * 3)) # Pausa più lunga per Tor
+      sleep $((attempt * 15)) # Pausa più lunga per Tor
     else
       sleep $((attempt * 2)) # Pausa più breve per chiamata diretta
     fi

@@ -1,3 +1,7 @@
+## 2026-10-23
+
+- Workflow `cgsse.yml` fallito il 23/10 alla prima pagina (e il 14/10 a `page=147`): la prima `curl` partiva 2 s dopo il riavvio di Tor, senza attendere un circuito verso un'uscita italiana (`ExitNodes {it} StrictNodes 1`), e 4 tentativi in ~90 s non bastavano. In `cgsse.sh`: attesa di Tor pronto su `check.torproject.org/api/ip` (max ~5 min), `-S` alla curl per vedere l'errore nel log, pause tra i tentativi Tor da `attempt*3` a `attempt*15` s.
+
 ## 2026-10-11
 
 - Workflow `cgsse.yml` fallito dall'1 all'8 ottobre su `sudo apt install tor` (404 e 502 su libevent: l'indice apt dell'immagine del runner puntava a una versione non più servita dal mirror). Aggiunto `sudo apt-get update` prima di `sudo apt-get install -y tor`.
