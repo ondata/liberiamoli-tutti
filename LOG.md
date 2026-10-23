@@ -1,6 +1,7 @@
 ## 2026-10-23
 
 - Workflow `cgsse.yml` fallito il 23/10 alla prima pagina (e il 14/10 a `page=147`): la prima `curl` partiva 2 s dopo il riavvio di Tor, senza attendere un circuito verso un'uscita italiana (`ExitNodes {it} StrictNodes 1`), e 4 tentativi in ~90 s non bastavano. In `cgsse.sh`: attesa di Tor pronto su `check.torproject.org/api/ip` (max ~5 min), `-S` alla curl per vedere l'errore nel log, pause tra i tentativi Tor da `attempt*3` a `attempt*15` s.
+- Run di verifica verde, ma il controllo su `check.torproject.org` non è mai riuscito e la prima pagina è passata solo dopo ~10 min dall'avvio di Tor. Il controllo ora interroga direttamente `www.cgsse.it`, con attesa massima portata a ~15 min.
 
 ## 2026-10-11
 

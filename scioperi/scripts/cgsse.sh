@@ -39,10 +39,10 @@ else
   echo "Rilevato ambiente locale: utilizzerò chiamate dirette"
 fi
 
-# Con Tor attendi un circuito funzionante (max ~5 minuti) prima di iniziare i download
+# Con Tor attendi che www.cgsse.it risponda (max ~15 minuti) prima di iniziare i download
 if [ "$USE_TOR" = true ]; then
-  for i in $(seq 1 30); do
-    if curl -s --socks5-hostname 127.0.0.1:9050 --max-time 10 https://check.torproject.org/api/ip | grep -q '"IsTor":true'; then
+  for i in $(seq 1 60); do
+    if curl -ksS --socks5-hostname 127.0.0.1:9050 --max-time 10 --fail -o /dev/null https://www.cgsse.it/; then
       echo "Tor pronto dopo $i controlli"
       break
     fi
