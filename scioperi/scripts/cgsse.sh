@@ -55,15 +55,15 @@ fi
 curl_with_retry() {
   local url="$1"
   local output_file="$2"
-  local max_attempts=4
+  local max_attempts=6
   local attempt=1
 
   while [ $attempt -le $max_attempts ]; do
     if [ "$USE_TOR" = true ]; then
       echo "Tentativo $attempt per: $url (tramite Tor)"
 
-      # Usa Tor come proxy SOCKS5 sulla porta 9050
-      if curl -ksSL --socks5-hostname 127.0.0.1:9050 \
+      # Usa Tor come proxy SOCKS5 sulla porta 9050; credenziali diverse a ogni tentativo = circuito nuovo (IsolateSOCKSAuth)
+      if curl -ksSL -x "socks5h://retry${attempt}${RANDOM}:x@127.0.0.1:9050" \
         --max-time 60 --connect-timeout 15 --fail "$url" \
         -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
         -H 'accept-language: it,en-US;q=0.9,en;q=0.8' \
