@@ -3,6 +3,7 @@
 - Workflow `cgsse.yml` fallito il 23/10 alla prima pagina (e il 14/10 a `page=147`): la prima `curl` partiva 2 s dopo il riavvio di Tor, senza attendere un circuito verso un'uscita italiana (`ExitNodes {it} StrictNodes 1`), e 4 tentativi in ~90 s non bastavano. In `cgsse.sh`: attesa di Tor pronto su `check.torproject.org/api/ip` (max ~5 min), `-S` alla curl per vedere l'errore nel log, pause tra i tentativi Tor da `attempt*3` a `attempt*15` s.
 - Run di verifica verde, ma il controllo su `check.torproject.org` non è mai riuscito e la prima pagina è passata solo dopo ~10 min dall'avvio di Tor. Il controllo ora interroga direttamente `www.cgsse.it`, con attesa massima portata a ~15 min.
 - Secondo run di verifica fallito a `page=27`: Tor pronto subito, ma il circuito si è perso a metà raccolta e i 4 tentativi passavano dallo stesso nodo d'uscita. Ora ogni tentativo usa credenziali SOCKS diverse, che per Tor significano un circuito nuovo (IsolateSOCKSAuth); tentativi da 4 a 6.
+- Terzo run fallito a `page=32` dopo 53 min: cambiando credenziali a ogni tentativo, anche il primo di ogni pagina apriva un circuito nuovo, che spesso non si costruiva entro il `--connect-timeout` di 15 s; quasi ogni pagina falliva al primo colpo. Ora lo stesso circuito resta finché funziona e si cambia solo dopo un fallimento.
 
 ## 2026-10-11
 
