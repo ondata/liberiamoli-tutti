@@ -39,17 +39,18 @@ if [ "$n_url" -eq 0 ]; then
   exit 1
 fi
 
-# indice sha256 -> nome dei PDF già in archivio
-declare -A nome_da_sha=()
-while read -r sha percorso; do
-  nome_da_sha[$sha]="$(basename "$percorso")"
-done < <(sha256sum "$archivio"/*.pdf)
-
-# manifest precedente, indicizzato per URL
+# indice sha256 -> nome dei PDF già in archivio, e manifest precedente indicizzato per URL.
+# L'indice viene dal manifest: nel repo i PDF sono in Git LFS e in CI sul disco ci sono
+# solo i puntatori, quindi si calcola lo sha256 solo dei PDF che il manifest non conosce
+declare -A nome_da_sha=() nomi_noti=()
 declare -A m_etag=() m_lm=() m_len=() m_sha=() m_prima=()
 if [ -f "$manifest" ]; then
   # separatore "|" e non tab: read fonde le tab consecutive e i campi vuoti si perderebbero
   while IFS='|' read -r data nome sha url sul_sito etag lm len prima; do
+    if [ -n "$nome" ]; then
+      nome_da_sha[$sha]="$nome"
+      nomi_noti[$nome]=1
+    fi
     [ -z "$url" ] && continue
     m_etag[$url]="$etag"
     m_lm[$url]="$lm"
@@ -58,6 +59,13 @@ if [ -f "$manifest" ]; then
     m_prima[$url]="$prima"
   done < <(mlr --icsv --ocsv --ofs '|' --headerless-csv-output cut -o -f data_report,nome_file,sha256,url,sul_sito,etag,last_modified,content_length,prima_vista "$manifest")
 fi
+
+for percorso in "$archivio"/*.pdf; do
+  nome="$(basename "$percorso")"
+  [ -n "${nomi_noti[$nome]:-}" ] && continue
+  sha="$(sha256sum "$percorso" | cut -d' ' -f1)"
+  nome_da_sha[$sha]="$nome"
+done
 
 righe="$lavoro/righe.tsv"
 : >"$righe"
