@@ -46,18 +46,17 @@ while read -r sha percorso; do
 done < <(sha256sum "$archivio"/*.pdf)
 
 # manifest precedente, indicizzato per URL
-declare -A m_etag=() m_lm=() m_len=() m_sha=() m_prima=() m_ultima=()
+declare -A m_etag=() m_lm=() m_len=() m_sha=() m_prima=()
 if [ -f "$manifest" ]; then
   # separatore "|" e non tab: read fonde le tab consecutive e i campi vuoti si perderebbero
-  while IFS='|' read -r data nome sha url sul_sito etag lm len prima ultima; do
+  while IFS='|' read -r data nome sha url sul_sito etag lm len prima; do
     [ -z "$url" ] && continue
     m_etag[$url]="$etag"
     m_lm[$url]="$lm"
     m_len[$url]="$len"
     m_sha[$url]="$sha"
     m_prima[$url]="$prima"
-    m_ultima[$url]="$ultima"
-  done < <(mlr --icsv --ocsv --ofs '|' --headerless-csv-output cat "$manifest")
+  done < <(mlr --icsv --ocsv --ofs '|' --headerless-csv-output cut -o -f data_report,nome_file,sha256,url,sul_sito,etag,last_modified,content_length,prima_vista "$manifest")
 fi
 
 righe="$lavoro/righe.tsv"
@@ -110,8 +109,8 @@ while read -r url; do
 
   nome="${nome_da_sha[$sha]}"
   sha_visti[$sha]=1
-  printf '%s\t%s\t%s\t%s\tsi\t%s\t%s\t%s\t%s\t%s\n' \
-    "${nome:0:10}" "$nome" "$sha" "$url" "$etag" "$lm" "$len" "${m_prima[$url]:-$oggi}" "$oggi" >>"$righe"
+  printf '%s\t%s\t%s\t%s\tsi\t%s\t%s\t%s\t%s\n' \
+    "${nome:0:10}" "$nome" "$sha" "$url" "$etag" "$lm" "$len" "${m_prima[$url]:-$oggi}" >>"$righe"
 done <"$lavoro/url.txt"
 
 # URL del manifest precedente non più sul sito
@@ -120,19 +119,19 @@ for url in "${!m_sha[@]}"; do
   sha="${m_sha[$url]}"
   sha_visti[$sha]=1
   nome="${nome_da_sha[$sha]:-}"
-  printf '%s\t%s\t%s\t%s\tno\t%s\t%s\t%s\t%s\t%s\n' \
-    "${nome:0:10}" "$nome" "$sha" "$url" "${m_etag[$url]}" "${m_lm[$url]}" "${m_len[$url]}" "${m_prima[$url]}" "${m_ultima[$url]}" >>"$righe"
+  printf '%s\t%s\t%s\t%s\tno\t%s\t%s\t%s\t%s\n' \
+    "${nome:0:10}" "$nome" "$sha" "$url" "${m_etag[$url]}" "${m_lm[$url]}" "${m_len[$url]}" "${m_prima[$url]}" >>"$righe"
 done
 
 # PDF in archivio che nessun URL attuale o passato restituisce
 for sha in "${!nome_da_sha[@]}"; do
   [ -n "${sha_visti[$sha]:-}" ] && continue
   nome="${nome_da_sha[$sha]}"
-  printf '%s\t%s\t%s\t\tno\t\t\t\t\t\n' "${nome:0:10}" "$nome" "$sha" >>"$righe"
+  printf '%s\t%s\t%s\t\tno\t\t\t\t\n' "${nome:0:10}" "$nome" "$sha" >>"$righe"
 done
 
 {
-  printf 'data_report\tnome_file\tsha256\turl\tsul_sito\tetag\tlast_modified\tcontent_length\tprima_vista\tultima_vista\n'
+  printf 'data_report\tnome_file\tsha256\turl\tsul_sito\tetag\tlast_modified\tcontent_length\tprima_vista\n'
   cat "$righe"
 } | mlr --itsv --ocsv sort -f data_report,nome_file,url >"$lavoro/manifest.csv"
 

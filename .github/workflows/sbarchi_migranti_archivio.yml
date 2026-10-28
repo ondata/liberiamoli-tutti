@@ -1,0 +1,38 @@
+name: Archivio PDF cruscotto statistico sbarchi migranti
+
+on:
+  schedule:
+    - cron: '0 6 * * 1,4'  # lunedì e giovedì alle 6:00 UTC
+  workflow_dispatch:  # Permette l'esecuzione manuale
+
+jobs:
+  archivia:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: crea cartella utente bin, copia dentro l'eseguibile mlr
+      run: |-
+        mkdir -p ~/bin
+        cp bin/mlrgo ~/bin/mlr
+        chmod +x ~/bin/mlr
+
+    - name: installa pdftotext
+      run: |-
+        sudo apt-get update
+        sudo apt-get install -y poppler-utils
+
+    - name: archivia i PDF
+      run: |-
+        export PATH=~/bin:$PATH
+        ./sbarchi-migranti/script/archivia_pdf.sh
+
+    - name: Commit e push se ci sono cambiamenti
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git pull
+        git add sbarchi-migranti/rawdata/pdf
+        git commit -m "archivio PDF cruscotto sbarchi migranti: $(date -I)" || exit 0
+        git push

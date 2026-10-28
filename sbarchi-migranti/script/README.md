@@ -12,7 +12,7 @@ Archivia in `rawdata/pdf` i PDF del Cruscotto statistico giornaliero, dalla pagi
 
 - Idempotente: per gli URL già visti fa una richiesta condizionale (`If-None-Match` con l'ETag salvato) e il server risponde `304` senza rimandare il file. Un file viene scritto solo se il suo `sha256` non è già in archivio.
 - Nomi: `YYYY-MM-DD_cruscotto_statistico_giornaliero.pdf`; se per la stessa data arriva un contenuto diverso, `_v2`, `_v3`, ...
-- Tiene traccia di URL e file in `rawdata/pdf/manifest.csv`: `data_report`, `nome_file`, `sha256`, `url`, `sul_sito` (`si`/`no`), `etag`, `last_modified`, `content_length`, `prima_vista`, `ultima_vista`. Gli URL spariti dal sito restano con `sul_sito=no`; i file senza URL sono quelli scaricati dal vecchio sito.
+- Tiene traccia di URL e file in `rawdata/pdf/manifest.csv`: `data_report`, `nome_file`, `sha256`, `url`, `sul_sito` (`si`/`no`), `etag`, `last_modified`, `content_length`, `prima_vista`. Gli URL spariti dal sito restano con `sul_sito=no`; i file senza URL sono quelli scaricati dal vecchio sito.
 - Esce con errore se la pagina non risponde, se non contiene PDF, se un file non è un PDF o se non si ricava la data né dal nome né dal testo.
 - Richiede `curl`, `perl`, `pdftotext`, `sha256sum`, `mlr` (Miller 6).
 
