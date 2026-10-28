@@ -74,6 +74,47 @@ Il file è [`sbarchi-per-giorno.csv`](https://raw.githubusercontent.com/ondata/l
 | Fonte | string | Fonte dei dati, così come da report |
 | Data_Report | string | La data del report PDF, da cui sono estratti i dati |
 
+### Sbarchi mensili
+
+Si tratta dei numeri degli **sbarchi per mese**, così come riportati in ogni report: dal 2017 nel formato del PDF in uso fino al 31 maggio 2026, degli ultimi tre anni nel formato successivo. Ogni report riporta i mesi fino a quello del report; i valori dello stesso mese possono cambiare da un report all'altro, per i consolidamenti.
+
+Il file è [`sbarchi-mensili.csv`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/sbarchi-mensili.csv), ed è composto dalle colonne descritte a seguire.
+
+| Nome colonna | Tipologia colonna | Descrizione colonna |
+| ---- | ---- | ----------- |
+| Data_Report | date | La data del report PDF, da cui sono estratti i dati |
+| Anno | integer | L'anno |
+| Mese | integer | Il mese, da 1 a 12 |
+| Valore | integer | Il numero di persone migranti sbarcate nel mese |
+| Mese_in_corso | string | `si` se è il mese del report, quindi un dato parziale; altrimenti `no` |
+
+### Minori stranieri non accompagnati
+
+Si tratta dei **minori stranieri non accompagnati** sbarcati, dal 1° gennaio fino a una data, per anno. Nel formato del PDF in uso fino al 31 maggio 2026 ogni report riporta i due anni precedenti interi e l'anno in corso; nel formato successivo l'anno in corso confrontato con lo stesso periodo dei due anni precedenti e la serie annuale dal 2014.
+
+Il file è [`minori-non-accompagnati.csv`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/minori-non-accompagnati.csv), ed è composto dalle colonne descritte a seguire.
+
+| Nome colonna | Tipologia colonna | Descrizione colonna |
+| ---- | ---- | ----------- |
+| Data_Report | date | La data del report PDF, da cui sono estratti i dati |
+| Anno | integer | L'anno |
+| Fino_Al | date | Il dato va dal 1° gennaio di `Anno` a questa data, inclusa. `Anno-12-31` è l'anno intero |
+| Valore | integer | Il numero di minori stranieri non accompagnati sbarcati |
+
+### Rimpatri
+
+Si tratta dei **rimpatri forzati** e dei **rimpatri volontari assistiti**, dal 1° gennaio fino a una data, per anno. Sono nel PDF dal report del 15 giugno 2026: l'anno in corso confrontato con lo stesso periodo dei due anni precedenti, e la serie annuale dal 2014.
+
+Il file è [`rimpatri.csv`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/rimpatri.csv), ed è composto dalle colonne descritte a seguire.
+
+| Nome colonna | Tipologia colonna | Descrizione colonna |
+| ---- | ---- | ----------- |
+| Data_Report | date | La data del report PDF, da cui sono estratti i dati |
+| Tipo | string | `forzati` oppure `volontari assistiti` |
+| Anno | integer | L'anno |
+| Fino_Al | date | Il dato va dal 1° gennaio di `Anno` a questa data, inclusa. `Anno-12-31` è l'anno intero |
+| Valore | integer | Il numero di persone rimpatriate |
+
 ### Anagrafica report
 
 Abbiamo inserito anche il file [`anagrafica-report.csv`](anagrafica-report.csv), che contiene i dati di anagrafica dei report PDF: per ogni data di report, l'URL del report PDF. Gli URL puntano al vecchio sito del Ministero, che non è più raggiungibile: gli URL attuali sono nel [manifest](../rawdata/pdf/manifest.csv).

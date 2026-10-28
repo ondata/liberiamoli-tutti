@@ -20,17 +20,19 @@ Archivia in `rawdata/pdf` i PDF del Cruscotto statistico giornaliero, dalla pagi
 
 ## estrai.py
 
-Estrae dai PDF sbarchi per giorno, accoglienza per regione e nazionalità, li valida con `valida.py` e scrive i CSV in `dati/` solo se tutti i controlli passano. Dipendenze dichiarate nello script: `uv run` crea l'ambiente da solo.
+Estrae dai PDF sbarchi per giorno, accoglienza per regione, nazionalità, sbarchi mensili, minori stranieri non accompagnati e rimpatri, li valida con `valida.py` e scrive i CSV in `dati/` solo se tutti i controlli passano. Dipendenze dichiarate nello script: `uv run` crea l'ambiente da solo.
 
 - Report dal 2019-09-30 in poi.
 - Per ogni data usa la versione del PDF che contiene la sezione cercata, a parità la più recente (`_vN` più alto).
 - Sbarchi per giorno: la pagina è quella con più etichette `dd-mmm`; ogni etichetta è abbinata al valore sulla stessa riga, allineato al bordo destro della colonna dei valori. Si ignorano i numeri in grassetto, che sono le etichette del grafico.
 - Accoglienza e nazionalità: tabelle lette con `pdfplumber` dalla pagina che contiene `spot` e `azional`.
+- Sbarchi mensili: griglia mesi per anni costruita dalle posizioni delle parole, in entrambi i formati del PDF; solo i numeri con il carattere dei valori della tabella. Verifica: somma dei mesi uguale al totale annuo del PDF.
+- Minori non accompagnati e rimpatri: testo della pagina, riga per riga. Verifica per i rimpatri: forzati più volontari uguale alla riga Totale.
 - L'estrazione di ogni PDF è salvata in `rawdata/estratti/<nome>.json` e riusata ai giri successivi. Se cambia il modo di estrarre, si incrementa `VERSIONE_ESTRATTORE` e si rilancia in locale, dove ci sono i PDF veri.
 
 ## valida.py
 
-Controlli con [pointblank](https://posit-dev.github.io/pointblank/): date valide e non successive al report, giorni completi, regioni e nazioni riconosciute, chiavi uniche, valori non negativi, somme uguali ai totali stampati nel PDF, presenza delle sezioni attese.
+Controlli con [pointblank](https://posit-dev.github.io/pointblank/): date valide e non successive al report, giorni e mesi completi, regioni e nazioni riconosciute, chiavi uniche, valori non negativi, somme uguali ai totali stampati nel PDF, presenza delle sezioni attese.
 
 Le anomalie della fonte già verificate a mano sono in due file, letti dalla validazione:
 

@@ -55,13 +55,17 @@ def coerenza_totali(controlli):
 
 
 # ultimo report in cui il Ministero pubblica la sezione; dopo cambia il formato del PDF
-ULTIMO_REPORT = {"giorni": "2026-05-31", "accoglienza": "2026-10-15", "nazionalita": "9999-12-31"}
+ULTIMO_REPORT = {"giorni": "2026-05-31", "accoglienza": "2026-10-15", "nazionalita": "9999-12-31", "mensili": "9999-12-31", "msna": "9999-12-31", "rimpatri": "9999-12-31"}
+# primo report in cui compare la sezione, se dopo l'inizio della serie
+PRIMO_REPORT = {"rimpatri": "2026-06-15"}
 
 
-def valida(giorni, accoglienza, nazionalita, controlli, trovate, regioni, nazioni, anomalie_note, sezioni_assenti):
-    """anomalie_note: CSV di discrepanze fra righe e totali già verificate a mano sul PDF.
+def valida(dati, controlli, verifiche, trovate, regioni, nazioni, anomalie_note, sezioni_assenti):
+    """dati: {sezione: righe}. verifiche: somme da confrontare con i totali del PDF, prodotte dagli estrattori.
+    anomalie_note: CSV di discrepanze fra righe e totali già verificate a mano sul PDF.
     Passano solo se report, colonna, somma e totale sono identici a quelli annotati.
     sezioni_assenti: CSV dei report in cui una sezione attesa manca in tutte le versioni del PDF."""
+    giorni, accoglienza, nazionalita = dati["giorni"], dati["accoglienza"], dati["nazionalita"]
     g = pl.DataFrame(giorni).with_columns(
         data_ok=pl.col("Data").map_elements(data_valida, return_dtype=pl.Boolean)
     )
@@ -70,7 +74,8 @@ def valida(giorni, accoglienza, nazionalita, controlli, trovate, regioni, nazion
     a = pl.DataFrame(accoglienza, infer_schema_length=None)
     n = pl.DataFrame(nazionalita, infer_schema_length=None)
     note = pl.read_csv(anomalie_note, schema_overrides={"Data_Report": pl.String, "somma": pl.Int64, "totale": pl.Int64})
-    t = coerenza_totali(controlli).join(
+    schema_v = {"Data_Report": pl.String, "file": pl.String, "colonna": pl.String, "somma": pl.Int64, "totale": pl.Int64}
+    t = pl.concat([coerenza_totali(controlli), pl.DataFrame(verifiche, schema=schema_v)]).join(
         note.select("Data_Report", "colonna", "somma", "totale", nota=pl.lit(True)),
         on=["Data_Report", "colonna", "somma", "totale"], how="left",
     ).with_columns(pl.col("nota").fill_null(False))
@@ -78,9 +83,23 @@ def valida(giorni, accoglienza, nazionalita, controlli, trovate, regioni, nazion
     assenti = pl.read_csv(sezioni_assenti, schema_overrides={"Data_Report": pl.String})
     copertura = (
         pl.DataFrame(trovate)
-        .with_columns(attesa=pl.col("Data_Report") <= pl.col("sezione").replace_strict(ULTIMO_REPORT))
+        .with_columns(attesa=(pl.col("Data_Report") <= pl.col("sezione").replace_strict(ULTIMO_REPORT))
+                      & (pl.col("Data_Report") >= pl.col("sezione").replace_strict(PRIMO_REPORT, default="0000-00-00")))
         .join(assenti.select("Data_Report", "sezione", nota=pl.lit(True)), on=["Data_Report", "sezione"], how="left")
         .with_columns(pl.col("nota").fill_null(False))
+    )
+
+    mensili = pl.DataFrame(dati["mensili"])
+    # anni chiusi di un report: tutti e 12 i mesi
+    mesi_per_anno = (
+        mensili.filter(pl.col("Anno") < pl.col("Data_Report").str.slice(0, 4).cast(pl.Int64))
+        .group_by("Data_Report", "Anno").agg(n=pl.len())
+    )
+    msna = pl.DataFrame(dati["msna"], schema={"Data_Report": pl.String, "Anno": pl.Int64, "Fino_Al": pl.String, "Valore": pl.Int64}).with_columns(
+        data_ok=pl.col("Fino_Al").map_elements(data_valida, return_dtype=pl.Boolean)
+    )
+    rimpatri = pl.DataFrame(dati["rimpatri"], schema={"Data_Report": pl.String, "Tipo": pl.String, "Anno": pl.Int64, "Fino_Al": pl.String, "Valore": pl.Int64}).with_columns(
+        data_ok=pl.col("Fino_Al").map_elements(data_valida, return_dtype=pl.Boolean)
     )
 
     codici = [r["CodiceRegione"] for r in regioni.values()]
@@ -118,6 +137,38 @@ def valida(giorni, accoglienza, nazionalita, controlli, trovate, regioni, nazion
             .col_vals_ge("Valore", 0, brief="Valore >= 0"),
         ),
         (
+            "sbarchi-mensili",
+            pb.Validate(mensili, tbl_name="sbarchi-mensili")
+            .col_vals_between("Mese", 1, 12, brief="Mese fra 1 e 12")
+            .col_vals_expr(pl.col("Anno") * 100 + pl.col("Mese") <= pl.col("Data_Report").str.slice(0, 4).cast(pl.Int64) * 100 + pl.col("Data_Report").str.slice(5, 2).cast(pl.Int64), brief="mese non successivo a quello del report")
+            .col_vals_ge("Valore", 0, brief="Valore >= 0")
+            .rows_distinct(["Data_Report", "Anno", "Mese"], brief="una riga per mese, anno e report"),
+        ),
+        (
+            "sbarchi-mensili, completezza",
+            pb.Validate(mesi_per_anno, tbl_name="mesi per anno chiuso")
+            .col_vals_eq("n", 12, brief="12 mesi per ogni anno chiuso"),
+        ),
+        (
+            "minori-non-accompagnati",
+            pb.Validate(msna, tbl_name="minori-non-accompagnati")
+            .col_vals_not_null("Fino_Al", brief="data di fine periodo presente")
+            .col_vals_expr(pl.col("data_ok"), brief="Fino_Al è una data valida")
+            .col_vals_expr(pl.col("Fino_Al") <= pl.col("Data_Report"), brief="Fino_Al non successiva a Data_Report")
+            .col_vals_expr(pl.col("Fino_Al").str.slice(0, 4).cast(pl.Int64) == pl.col("Anno"), brief="Fino_Al nell'anno della riga")
+            .col_vals_ge("Valore", 0, brief="Valore >= 0")
+            .rows_distinct(["Data_Report", "Anno", "Fino_Al"], brief="una riga per anno, periodo e report"),
+        ),
+        (
+            "rimpatri",
+            pb.Validate(rimpatri, tbl_name="rimpatri")
+            .col_vals_in_set("Tipo", ["forzati", "volontari assistiti"], brief="tipo riconosciuto")
+            .col_vals_expr(pl.col("data_ok"), brief="Fino_Al è una data valida")
+            .col_vals_expr(pl.col("Fino_Al") <= pl.col("Data_Report"), brief="Fino_Al non successiva a Data_Report")
+            .col_vals_ge("Valore", 0, brief="Valore >= 0")
+            .rows_distinct(["Data_Report", "Tipo", "Anno", "Fino_Al"], brief="una riga per tipo, anno, periodo e report"),
+        ),
+        (
             "sezioni per report",
             pb.Validate(copertura, tbl_name="copertura")
             .col_vals_expr(pl.col("trovata") | ~pl.col("attesa") | pl.col("nota"), brief="sezione attesa presente, salvo assenze note")
@@ -146,7 +197,10 @@ def valida(giorni, accoglienza, nazionalita, controlli, trovate, regioni, nazion
                     print(pl.from_dataframe(esempio).head(10) if not isinstance(esempio, pl.DataFrame) else esempio.head(10))
     print(f"[totali stampati nel PDF] anomalie note della fonte: {t['nota'].sum()} su {note.height} annotate")
     nuove = t.filter((pl.col("somma") != pl.col("totale")) & ~pl.col("nota"))
+    discordanti = Path(anomalie_note).parent.parent.parent / "tmp" / "totali_discordanti.csv"
     if nuove.height:
         # elenco completo, da verificare sul PDF ed eventualmente annotare in anomalie_fonte.csv
-        nuove.drop("nota").write_csv(Path(anomalie_note).parent.parent.parent / "tmp" / "totali_discordanti.csv")
+        nuove.drop("nota").write_csv(discordanti)
+    else:
+        discordanti.unlink(missing_ok=True)
     return tutto_ok

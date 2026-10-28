@@ -1,10 +1,13 @@
 {
- "versione_estrattore": 1,
+ "versione_estrattore": 3,
  "file": "2021-07-15_cruscotto_statistico_giornaliero.pdf",
  "illeggibile": true,
  "sezioni": {
   "giorni": null,
   "accoglienza": null,
-  "nazionalita": null
+  "nazionalita": null,
+  "mensili": null,
+  "msna": null,
+  "rimpatri": null
  }
 }

@@ -18,7 +18,9 @@ Indice:
 - Report considerati: dal 30 settembre 2019. I report dal 2017 al 15 settembre 2019 sono archiviati ma non estratti.
 - Sbarchi per giorno: si legge la tabella dei giorni, abbinando ogni etichetta (`19-set`) al valore sulla stessa riga. Non si usano le etichette del grafico a barre, che a volte mancano o si sovrappongono.
 - Accoglienza e nazionalità: tabelle lette con `pdfplumber`.
-- Per ogni report si tengono solo i giorni fino alla data del report.
+- Sbarchi mensili: ogni numero va alla riga del suo mese e alla colonna del suo anno (o viceversa nel formato nuovo), tenendo solo i numeri con il carattere dei valori della tabella. Le etichette del grafico, che a volte cadono sulle righe, hanno un carattere diverso.
+- Minori non accompagnati e rimpatri: testo della pagina letto riga per riga.
+- Per ogni report si tengono solo i giorni, e i mesi, fino alla data del report: nel PDF quelli successivi compaiono come 0.
 
 ## Più versioni dello stesso report
 
@@ -52,6 +54,11 @@ Lasciate come sono nel PDF, annotate perché i controlli non le scambino per err
 - Report fuori calendario: il 21 maggio 2025 il Ministero ha pubblicato un report fuori dalla cadenza quindicinale. È nei dati con la sua data.
 - Report non più sul sito: 2022-05-15, 2023-10-13, 2024-07-15, 2024-07-31, 2025-05-31. Sono nel nostro archivio e nei dati.
 
+- Minori non accompagnati, formato vecchio: fa fede la frase "Anno 2023: 382" e non le intestazioni del grafico. Nel report del 15 gennaio 2023 le intestazioni dicono 2020, 2021, 2023, mentre la frase dice 2021, 2022, 2023. La data di fine periodo dell'anno in corso viene dall'intestazione, che ha più forme ("al 28 agosto", "all' 8 marzo", "dato al 31 dicembre"), e a volte è precedente alla data del report (al 23 settembre nel report del 30 settembre 2019).
+- Minori non accompagnati, formato nuovo: il dato del 2022 è "consolidato in data 07/05/2026" (nota del PDF), e vale 14.071 invece dei 14.044 dei report precedenti.
+- Rimpatri: i rimpatri volontari assistiti del 2014 e 2015 sono indicati con "-" e non sono nel dataset; quelli del 2016 coprono solo l'ultimo quadrimestre, da quando sono partiti i progetti; sono contati alle ore 17:00 del giorno lavorativo precedente. Il periodo dell'anno in corso termina qualche giorno prima del report (al 26 ottobre nel report del 28 ottobre 2026).
+- Totali annui degli sbarchi: nel formato vecchio stanno come etichette sul grafico mensile; quando si sovrappongono ai valori della tabella il testo è illeggibile ("1112.994.3369" per 119.369) e il confronto si salta.
+
 ## Correzioni ai dataset del 28 ottobre 2026
 
 I dataset sono stati rigenerati con il nuovo estrattore. Rispetto alle versioni precedenti:
@@ -69,6 +76,8 @@ I dataset sono stati rigenerati con il nuovo estrattore. Rispetto alle versioni 
   - aggiunti i report fino al 28 ottobre 2026.
 - In tutti e tre, i valori delle date con due versioni vengono ora dalla `_v2` (vedi sopra).
 
+- Dataset nuovi: `sbarchi-mensili.csv`, `minori-non-accompagnati.csv` e `rimpatri.csv`, da tutti i report dal 30 settembre 2019 (i rimpatri dal 15 giugno 2026).
+
 ## Cambi di formato del PDF
 
 - Dal 15 giugno 2026 il PDF non ha più gli sbarchi per giorno, solo i totali mensili, e ha nuove sezioni su minori stranieri non accompagnati e rimpatri. `sbarchi-per-giorno.csv` si ferma al 31 maggio 2026.
@@ -83,4 +92,7 @@ Prima di scrivere i CSV, `script/valida.py` verifica con [pointblank](https://po
 - regioni riconosciute e 20 per report, nazioni riconosciute;
 - valori non negativi, nessuna riga doppia;
 - somma delle righe uguale ai totali stampati nel PDF, salvo le anomalie annotate;
-- presenza delle sezioni attese in ogni report, salvo le assenze annotate.
+- presenza delle sezioni attese in ogni report, salvo le assenze annotate;
+- sbarchi mensili: 12 mesi per ogni anno chiuso, nessun mese successivo a quello del report, somma dei mesi uguale al totale annuo stampato nel PDF (272 confronti su 171 report);
+- minori non accompagnati e rimpatri: data di fine periodo presente, valida, nell'anno della riga e non successiva al report;
+- rimpatri: forzati più volontari assistiti uguale alla riga "Totale" del PDF (150 confronti).

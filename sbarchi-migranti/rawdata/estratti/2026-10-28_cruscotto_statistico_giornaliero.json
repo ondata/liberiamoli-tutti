@@ -1,5 +1,5 @@
 {
- "versione_estrattore": 1,
+ "versione_estrattore": 3,
  "file": "2026-10-28_cruscotto_statistico_giornaliero.pdf",
  "illeggibile": false,
  "sezioni": {
@@ -89,6 +89,625 @@
     }
    ],
    "totale": 26192
+  },
+  "mensili": {
+   "righe": [
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 1,
+     "Valore": 2258,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 2,
+     "Valore": 2301,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 3,
+     "Valore": 6857,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 4,
+     "Valore": 4721,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 5,
+     "Valore": 4976,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 6,
+     "Valore": 4902,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 7,
+     "Valore": 7465,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 8,
+     "Valore": 8526,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 9,
+     "Valore": 7685,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 10,
+     "Valore": 5722,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 11,
+     "Valore": 8124,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Mese": 12,
+     "Valore": 3080,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 1,
+     "Valore": 3479,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 2,
+     "Valore": 3329,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 3,
+     "Valore": 2407,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 4,
+     "Valore": 6578,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 5,
+     "Valore": 7178,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 6,
+     "Valore": 7089,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 7,
+     "Valore": 6487,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 8,
+     "Valore": 6146,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 9,
+     "Valore": 8315,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 10,
+     "Valore": 7938,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 11,
+     "Valore": 4360,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Mese": 12,
+     "Valore": 3010,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2026,
+     "Mese": 1,
+     "Valore": 1457,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2026,
+     "Mese": 2,
+     "Valore": 2510,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2026,
+     "Mese": 3,
+     "Valore": 2150,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2026,
+     "Mese": 4,
+     "Valore": 2459,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2026,
+     "Mese": 5,
+     "Valore": 3054,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2026,
+     "Mese": 6,
+     "Valore": 2758,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2026,
+     "Mese": 7,
+     "Valore": 2179,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2026,
+     "Mese": 8,
+     "Valore": 2995,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2026,
+     "Mese": 9,
+     "Valore": 3329,
+     "Mese_in_corso": "no"
+    }
+   ],
+   "verifiche": [
+    {
+     "colonna": "sbarchi 2024",
+     "somma": 66617,
+     "totale": 66617
+    },
+    {
+     "colonna": "sbarchi 2025",
+     "somma": 66316,
+     "totale": 66316
+    }
+   ]
+  },
+  "msna": {
+   "righe": [
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2014,
+     "Fino_Al": "2014-12-31",
+     "Valore": 13026
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2015,
+     "Fino_Al": "2015-12-31",
+     "Valore": 12360
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2016,
+     "Fino_Al": "2016-12-31",
+     "Valore": 25846
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2017,
+     "Fino_Al": "2017-12-31",
+     "Valore": 15779
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2018,
+     "Fino_Al": "2018-12-31",
+     "Valore": 3536
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2019,
+     "Fino_Al": "2019-12-31",
+     "Valore": 1644
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2020,
+     "Fino_Al": "2020-12-31",
+     "Valore": 4687
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2021,
+     "Fino_Al": "2021-12-31",
+     "Valore": 10053
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2022,
+     "Fino_Al": "2022-12-31",
+     "Valore": 14071
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2023,
+     "Fino_Al": "2023-12-31",
+     "Valore": 18820
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Fino_Al": "2024-10-26",
+     "Valore": 7196
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2024,
+     "Fino_Al": "2024-12-31",
+     "Valore": 8752
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Fino_Al": "2025-10-26",
+     "Valore": 10624
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2025,
+     "Fino_Al": "2025-12-31",
+     "Valore": 12177
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Anno": 2026,
+     "Fino_Al": "2026-10-26",
+     "Valore": 5284
+    }
+   ],
+   "verifiche": []
+  },
+  "rimpatri": {
+   "righe": [
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2024,
+     "Fino_Al": "2024-10-26",
+     "Valore": 4525
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2024,
+     "Fino_Al": "2024-10-26",
+     "Valore": 204
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2025,
+     "Fino_Al": "2025-10-26",
+     "Valore": 4887
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2025,
+     "Fino_Al": "2025-10-26",
+     "Valore": 529
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2026,
+     "Fino_Al": "2026-10-26",
+     "Valore": 6237
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2026,
+     "Fino_Al": "2026-10-26",
+     "Valore": 1027
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2014,
+     "Fino_Al": "2014-12-31",
+     "Valore": 6408
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2015,
+     "Fino_Al": "2015-12-31",
+     "Valore": 5505
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2016,
+     "Fino_Al": "2016-12-31",
+     "Valore": 5817
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2016,
+     "Fino_Al": "2016-12-31",
+     "Valore": 136
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2017,
+     "Fino_Al": "2017-12-31",
+     "Valore": 6514
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2017,
+     "Fino_Al": "2017-12-31",
+     "Valore": 869
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2018,
+     "Fino_Al": "2018-12-31",
+     "Valore": 6848
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2018,
+     "Fino_Al": "2018-12-31",
+     "Valore": 1185
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2019,
+     "Fino_Al": "2019-12-31",
+     "Valore": 7073
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2019,
+     "Fino_Al": "2019-12-31",
+     "Valore": 384
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2020,
+     "Fino_Al": "2020-12-31",
+     "Valore": 3607
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2020,
+     "Fino_Al": "2020-12-31",
+     "Valore": 268
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2021,
+     "Fino_Al": "2021-12-31",
+     "Valore": 3837
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2021,
+     "Fino_Al": "2021-12-31",
+     "Valore": 347
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2022,
+     "Fino_Al": "2022-12-31",
+     "Valore": 4305
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2022,
+     "Fino_Al": "2022-12-31",
+     "Valore": 145
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2023,
+     "Fino_Al": "2023-12-31",
+     "Valore": 4751
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2023,
+     "Fino_Al": "2023-12-31",
+     "Valore": 45
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2024,
+     "Fino_Al": "2024-12-31",
+     "Valore": 5414
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2024,
+     "Fino_Al": "2024-12-31",
+     "Valore": 290
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "forzati",
+     "Anno": 2025,
+     "Fino_Al": "2025-12-31",
+     "Valore": 6097
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Tipo": "volontari assistiti",
+     "Anno": 2025,
+     "Fino_Al": "2025-12-31",
+     "Valore": 675
+    }
+   ],
+   "verifiche": [
+    {
+     "colonna": "rimpatri 2024 al 2024-10-26",
+     "somma": 4729,
+     "totale": 4729
+    },
+    {
+     "colonna": "rimpatri 2025 al 2025-10-26",
+     "somma": 5416,
+     "totale": 5416
+    },
+    {
+     "colonna": "rimpatri 2026 al 2026-10-26",
+     "somma": 7264,
+     "totale": 7264
+    },
+    {
+     "colonna": "rimpatri 2014 al 2014-12-31",
+     "somma": 6408,
+     "totale": 6408
+    },
+    {
+     "colonna": "rimpatri 2015 al 2015-12-31",
+     "somma": 5505,
+     "totale": 5505
+    },
+    {
+     "colonna": "rimpatri 2016 al 2016-12-31",
+     "somma": 5953,
+     "totale": 5953
+    },
+    {
+     "colonna": "rimpatri 2017 al 2017-12-31",
+     "somma": 7383,
+     "totale": 7383
+    },
+    {
+     "colonna": "rimpatri 2018 al 2018-12-31",
+     "somma": 8033,
+     "totale": 8033
+    },
+    {
+     "colonna": "rimpatri 2019 al 2019-12-31",
+     "somma": 7457,
+     "totale": 7457
+    },
+    {
+     "colonna": "rimpatri 2020 al 2020-12-31",
+     "somma": 3875,
+     "totale": 3875
+    },
+    {
+     "colonna": "rimpatri 2021 al 2021-12-31",
+     "somma": 4184,
+     "totale": 4184
+    },
+    {
+     "colonna": "rimpatri 2022 al 2022-12-31",
+     "somma": 4450,
+     "totale": 4450
+    },
+    {
+     "colonna": "rimpatri 2023 al 2023-12-31",
+     "somma": 4796,
+     "totale": 4796
+    },
+    {
+     "colonna": "rimpatri 2024 al 2024-12-31",
+     "somma": 5704,
+     "totale": 5704
+    },
+    {
+     "colonna": "rimpatri 2025 al 2025-12-31",
+     "somma": 6772,
+     "totale": 6772
+    }
+   ]
   }
  }
 }

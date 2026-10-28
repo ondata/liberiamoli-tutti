@@ -1,5 +1,5 @@
 {
- "versione_estrattore": 1,
+ "versione_estrattore": 3,
  "file": "2020-07-15_cruscotto_statistico_giornaliero.pdf",
  "illeggibile": false,
  "sezioni": {
@@ -362,6 +362,347 @@
     }
    ],
    "totale": 9706
-  }
+  },
+  "mensili": {
+   "righe": [
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 1,
+     "Valore": 4468,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 2,
+     "Valore": 8971,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 3,
+     "Valore": 10853,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 4,
+     "Valore": 12943,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 5,
+     "Valore": 22993,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 6,
+     "Valore": 23526,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 7,
+     "Valore": 11461,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 8,
+     "Valore": 3920,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 9,
+     "Valore": 6282,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 10,
+     "Valore": 5984,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 11,
+     "Valore": 5641,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2017,
+     "Mese": 12,
+     "Valore": 2327,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 1,
+     "Valore": 4182,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 2,
+     "Valore": 1065,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 3,
+     "Valore": 1049,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 4,
+     "Valore": 3171,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 5,
+     "Valore": 3963,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 6,
+     "Valore": 3147,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 7,
+     "Valore": 1969,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 8,
+     "Valore": 1531,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 9,
+     "Valore": 947,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 10,
+     "Valore": 1007,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 11,
+     "Valore": 980,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Mese": 12,
+     "Valore": 359,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 1,
+     "Valore": 202,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 2,
+     "Valore": 60,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 3,
+     "Valore": 262,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 4,
+     "Valore": 255,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 5,
+     "Valore": 782,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 6,
+     "Valore": 1218,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 7,
+     "Valore": 1088,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 8,
+     "Valore": 1268,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 9,
+     "Valore": 2498,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 10,
+     "Valore": 2017,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 11,
+     "Valore": 1232,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Mese": 12,
+     "Valore": 589,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2020,
+     "Mese": 1,
+     "Valore": 1342,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2020,
+     "Mese": 2,
+     "Valore": 1211,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2020,
+     "Mese": 3,
+     "Valore": 241,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2020,
+     "Mese": 4,
+     "Valore": 671,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2020,
+     "Mese": 5,
+     "Valore": 1654,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2020,
+     "Mese": 6,
+     "Valore": 1831,
+     "Mese_in_corso": "no"
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2020,
+     "Mese": 7,
+     "Valore": 2756,
+     "Mese_in_corso": "si"
+    }
+   ],
+   "verifiche": [
+    {
+     "colonna": "sbarchi 2018",
+     "somma": 23370,
+     "totale": 23370
+    },
+    {
+     "colonna": "sbarchi 2019",
+     "somma": 11471,
+     "totale": 11471
+    }
+   ]
+  },
+  "msna": {
+   "righe": [
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2018,
+     "Fino_Al": "2018-12-31",
+     "Valore": 3536
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2019,
+     "Fino_Al": "2019-12-31",
+     "Valore": 1680
+    },
+    {
+     "Data_Report": "2020-07-15",
+     "Anno": 2020,
+     "Fino_Al": "2020-07-13",
+     "Valore": 126
+    }
+   ],
+   "verifiche": []
+  },
+  "rimpatri": null
  }
 }
