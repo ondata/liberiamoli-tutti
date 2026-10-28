@@ -1,0 +1,20 @@
+provider: worldbank
+provider_url: https://api.worldbank.org/v2/sdmx/rest
+agency_id: WB
+dataset: WDI
+description: World Development Indicators
+filters:
+  FREQ:
+    value: A
+    description: ''
+  SERIES:
+    value: SP_POP_TOTL
+    description: Population, total
+  REF_AREA:
+    value: BGD+EGY+MLI+ERI+DZA+SDN+TUN+GIN+PAK+SYR+MAR+NGA+SOM+IRN+ETH
+    description: ''
+start_period: '2025'
+end_period: '2025'
+last_n: null
+first_n: null
+labels: false
