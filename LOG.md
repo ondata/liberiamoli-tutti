@@ -1,3 +1,11 @@
+## 2026-10-28
+
+- `sbarchi-migranti`: il sito del Viminale è stato rifatto (Drupal 11). Il vecchio host `www.libertaciviliimmigrazione...` non risolve più, e `bulk_download_pdf.sh` usciva con `exit 0` senza scaricare niente dal 15/09/2025. Nuova pagina: `https://libertaciviliimmigrazione.dlci.interno.gov.it/documentazione/dati-e-statistiche/cruscotto-statistico-giornaliero`.
+- Nuovo `sbarchi-migranti/script/archivia_pdf.sh`, solo archiviazione e idempotente: GET condizionale con `If-None-Match` (ETag di nginx), file scritto solo se lo sha256 è nuovo, manifest in `rawdata/pdf/manifest.csv` (affiancato ad `anagrafica-report.csv`). Secondo lancio: 210 risposte 304, nessun file scritto, ~30 s. Provato con Miller 6.12, come in CI.
+- PDF in `rawdata/pdf` rinominati con `git mv` in `YYYY-MM-DD_cruscotto_statistico_giornaliero[_vN].pdf`. Tolto un doppione identico (15/09/2020); le due copie diverse di 15/12/2024 e 30/06/2025 diventano `_v2`.
+- Archiviati 83 PDF nuovi: 41 dal 2017 al 15/09/2019, 28 dal 21/05/2025 al 28/10/2026, 14 `_v2` per date in cui il sito restituisce un file con contenuto diverso dal nostro (in sei casi 6 pagine invece di 8; per il 15/07/2021 il nostro era rovinato). Cinque report (15/05/2022, 13/10/2023, 15/07/2024, 31/07/2024, 31/05/2025) non sono più sul sito: li abbiamo solo noi.
+- Formato dei PDF cambiato due volte: dal 15/06/2026 niente più sbarchi giornalieri (solo mensili) e nuove sezioni su minori non accompagnati e rimpatri; dal 28/10/2026 niente più accoglienza per regione. Gli script di estrazione vanno riscritti e, dopo la rinomina, non sono rilanciabili.
+
 ## 2026-10-23
 
 - Workflow `cgsse.yml` fallito il 23/10 alla prima pagina (e il 14/10 a `page=147`): la prima `curl` partiva 2 s dopo il riavvio di Tor, senza attendere un circuito verso un'uscita italiana (`ExitNodes {it} StrictNodes 1`), e 4 tentativi in ~90 s non bastavano. In `cgsse.sh`: attesa di Tor pronto su `check.torproject.org/api/ip` (max ~5 min), `-S` alla curl per vedere l'errore nel log, pause tra i tentativi Tor da `attempt*3` a `attempt*15` s.
