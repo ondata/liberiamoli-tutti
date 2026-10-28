@@ -1,0 +1,392 @@
+{
+ "versione_estrattore": 1,
+ "file": "2026-02-15_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2026-02-01",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-02",
+     "Valore": 21,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-03",
+     "Valore": 47,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-04",
+     "Valore": 47,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-05",
+     "Valore": 33,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-06",
+     "Valore": 89,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-07",
+     "Valore": 71,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-08",
+     "Valore": 48,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-09",
+     "Valore": 30,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-10",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-11",
+     "Valore": 317,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-12",
+     "Valore": 3,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-13",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-14",
+     "Valore": 3,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    },
+    {
+     "Data": "2026-02-15",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2026-02-15"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": {
+   "righe": [
+    {
+     "Regione": "Lombardia",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 13989,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3360,
+     "_totale": 17349
+    },
+    {
+     "Regione": "Lazio",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 10405,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2710,
+     "_totale": 13115
+    },
+    {
+     "Regione": "Emilia-Romagna",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8535,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3742,
+     "_totale": 12277
+    },
+    {
+     "Regione": "Piemonte",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8961,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2546,
+     "_totale": 11507
+    },
+    {
+     "Regione": "Campania",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 6769,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 4409,
+     "_totale": 11178
+    },
+    {
+     "Regione": "Sicilia",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": 148,
+     "Migranti presenti nei centri di accoglienza": 3811,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 6351,
+     "_totale": 10310
+    },
+    {
+     "Regione": "Toscana",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8202,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1950,
+     "_totale": 10152
+    },
+    {
+     "Regione": "Veneto",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7857,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 775,
+     "_totale": 8632
+    },
+    {
+     "Regione": "Calabria",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": 0,
+     "Migranti presenti nei centri di accoglienza": 3894,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3368,
+     "_totale": 7262
+    },
+    {
+     "Regione": "Puglia",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": 0,
+     "Migranti presenti nei centri di accoglienza": 3634,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3598,
+     "_totale": 7232
+    },
+    {
+     "Regione": "Liguria",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4899,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1084,
+     "_totale": 5983
+    },
+    {
+     "Regione": "Friuli-Venezia Giulia",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4127,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 251,
+     "_totale": 4378
+    },
+    {
+     "Regione": "Abruzzo",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3380,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 961,
+     "_totale": 4341
+    },
+    {
+     "Regione": "Marche",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2100,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1537,
+     "_totale": 3637
+    },
+    {
+     "Regione": "Sardegna",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2719,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 287,
+     "_totale": 3006
+    },
+    {
+     "Regione": "Umbria",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2350,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 522,
+     "_totale": 2872
+    },
+    {
+     "Regione": "Basilicata",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1409,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 878,
+     "_totale": 2287
+    },
+    {
+     "Regione": "Molise",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 845,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 926,
+     "_totale": 1771
+    },
+    {
+     "Regione": "Trentino-Alto Adige",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1413,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 205,
+     "_totale": 1618
+    },
+    {
+     "Regione": "Valle d'Aosta",
+     "Data_Report": "2026-02-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 93,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 37,
+     "_totale": 130
+    }
+   ],
+   "totale": {
+    "hot": 148,
+    "acc": 99392,
+    "sai": 39497,
+    "totale": 139037
+   }
+  },
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 759
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Somalia",
+     "Valore": 247
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Egitto",
+     "Valore": 195
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Algeria",
+     "Valore": 174
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 173
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Sudan",
+     "Valore": 165
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Guinea",
+     "Valore": 118
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 52
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Iran",
+     "Valore": 49
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Marocco",
+     "Valore": 32
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Mali",
+     "Valore": 31
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Sierra Leone",
+     "Valore": 25
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Camerun",
+     "Valore": 24
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Eritrea",
+     "Valore": 22
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Iraq",
+     "Valore": 13
+    },
+    {
+     "Data_Report": "2026-02-15",
+     "Nazione_PDF": "Altre*",
+     "Valore": 87
+    }
+   ],
+   "totale": 2166
+  }
+ }
+}

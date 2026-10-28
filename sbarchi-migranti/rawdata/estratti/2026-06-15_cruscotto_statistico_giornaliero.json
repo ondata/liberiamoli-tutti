@@ -1,0 +1,283 @@
+{
+ "versione_estrattore": 1,
+ "file": "2026-06-15_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": null,
+  "accoglienza": {
+   "righe": [
+    {
+     "Regione": "Lombardia",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 13251,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3376,
+     "_totale": 16627
+    },
+    {
+     "Regione": "Lazio",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 9815,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2706,
+     "_totale": 12521
+    },
+    {
+     "Regione": "Emilia-Romagna",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8043,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3751,
+     "_totale": 11794
+    },
+    {
+     "Regione": "Piemonte",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8392,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2557,
+     "_totale": 10949
+    },
+    {
+     "Regione": "Campania",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 6093,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 4731,
+     "_totale": 10824
+    },
+    {
+     "Regione": "Sicilia",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": 253,
+     "Migranti presenti nei centri di accoglienza": 3725,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 6521,
+     "_totale": 10499
+    },
+    {
+     "Regione": "Toscana",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7783,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2003,
+     "_totale": 9786
+    },
+    {
+     "Regione": "Veneto",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7205,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 728,
+     "_totale": 7933
+    },
+    {
+     "Regione": "Calabria",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": 0,
+     "Migranti presenti nei centri di accoglienza": 3599,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3571,
+     "_totale": 7170
+    },
+    {
+     "Regione": "Puglia",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": 0,
+     "Migranti presenti nei centri di accoglienza": 2983,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3592,
+     "_totale": 6575
+    },
+    {
+     "Regione": "Liguria",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4725,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1124,
+     "_totale": 5849
+    },
+    {
+     "Regione": "Abruzzo",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3090,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1001,
+     "_totale": 4091
+    },
+    {
+     "Regione": "Friuli-Venezia Giulia",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3822,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 241,
+     "_totale": 4063
+    },
+    {
+     "Regione": "Marche",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1738,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1511,
+     "_totale": 3249
+    },
+    {
+     "Regione": "Sardegna",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2674,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 294,
+     "_totale": 2968
+    },
+    {
+     "Regione": "Umbria",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2170,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 527,
+     "_totale": 2697
+    },
+    {
+     "Regione": "Basilicata",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1242,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 866,
+     "_totale": 2108
+    },
+    {
+     "Regione": "Molise",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 882,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 941,
+     "_totale": 1823
+    },
+    {
+     "Regione": "Trentino-Alto Adige",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1254,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 189,
+     "_totale": 1443
+    },
+    {
+     "Regione": "Valle d'Aosta",
+     "Data_Report": "2026-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 99,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 37,
+     "_totale": 136
+    }
+   ],
+   "totale": {
+    "hot": 253,
+    "acc": 92585,
+    "sai": 40267,
+    "totale": 133105
+   }
+  },
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 3899
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Somalia",
+     "Valore": 1432
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 1150
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Sudan",
+     "Valore": 1114
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Algeria",
+     "Valore": 872
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Egitto",
+     "Valore": 847
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 532
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Eritrea",
+     "Valore": 351
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Mali",
+     "Valore": 297
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Nigeria",
+     "Valore": 266
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 214
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Iran",
+     "Valore": 183
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Guinea",
+     "Valore": 174
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Marocco",
+     "Valore": 146
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Sud Sudan",
+     "Valore": 137
+    },
+    {
+     "Data_Report": "2026-06-15",
+     "Nazione_PDF": "Altre*",
+     "Valore": 1123
+    }
+   ],
+   "totale": 12737
+  }
+ }
+}

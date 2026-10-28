@@ -1,0 +1,472 @@
+{
+ "versione_estrattore": 1,
+ "file": "2024-11-30_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2024-11-01",
+     "Valore": 150,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-02",
+     "Valore": 27,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-03",
+     "Valore": 184,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-04",
+     "Valore": 743,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-05",
+     "Valore": 757,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-06",
+     "Valore": 443,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-07",
+     "Valore": 194,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-08",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-09",
+     "Valore": 63,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-10",
+     "Valore": 507,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-11",
+     "Valore": 187,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-12",
+     "Valore": 102,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-13",
+     "Valore": 407,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-14",
+     "Valore": 266,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-15",
+     "Valore": 306,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-16",
+     "Valore": 145,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-17",
+     "Valore": 223,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-18",
+     "Valore": 70,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-19",
+     "Valore": 37,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-20",
+     "Valore": 285,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-21",
+     "Valore": 104,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-22",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-23",
+     "Valore": 70,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-24",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-25",
+     "Valore": 162,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-26",
+     "Valore": 371,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-27",
+     "Valore": 595,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-28",
+     "Valore": 453,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-29",
+     "Valore": 840,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    },
+    {
+     "Data": "2024-11-30",
+     "Valore": 75,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-11-30"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": {
+   "righe": [
+    {
+     "Regione": "Lombardia",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 15036,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3177,
+     "_totale": 18213
+    },
+    {
+     "Regione": "Lazio",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 10581,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2588,
+     "_totale": 13169
+    },
+    {
+     "Regione": "Emilia-Romagna",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 9011,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3599,
+     "_totale": 12610
+    },
+    {
+     "Regione": "Piemonte",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 9449,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2451,
+     "_totale": 11900
+    },
+    {
+     "Regione": "Campania",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 6818,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3998,
+     "_totale": 10816
+    },
+    {
+     "Regione": "Sicilia",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": 689,
+     "Migranti presenti nei centri di accoglienza": 3843,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 5973,
+     "_totale": 10505
+    },
+    {
+     "Regione": "Toscana",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8308,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1868,
+     "_totale": 10176
+    },
+    {
+     "Regione": "Veneto",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7884,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 790,
+     "_totale": 8674
+    },
+    {
+     "Regione": "Calabria",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": 285,
+     "Migranti presenti nei centri di accoglienza": 3663,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3344,
+     "_totale": 7292
+    },
+    {
+     "Regione": "Puglia",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": 0,
+     "Migranti presenti nei centri di accoglienza": 3642,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3572,
+     "_totale": 7214
+    },
+    {
+     "Regione": "Liguria",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4574,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1046,
+     "_totale": 5620
+    },
+    {
+     "Regione": "Friuli-Venezia Giulia",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4072,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 223,
+     "_totale": 4295
+    },
+    {
+     "Regione": "Abruzzo",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3294,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 924,
+     "_totale": 4218
+    },
+    {
+     "Regione": "Marche",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2724,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1494,
+     "_totale": 4218
+    },
+    {
+     "Regione": "Umbria",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2255,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 469,
+     "_totale": 2724
+    },
+    {
+     "Regione": "Basilicata",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1785,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 850,
+     "_totale": 2635
+    },
+    {
+     "Regione": "Sardegna",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2149,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 287,
+     "_totale": 2436
+    },
+    {
+     "Regione": "Molise",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 772,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 929,
+     "_totale": 1701
+    },
+    {
+     "Regione": "Trentino-Alto Adige",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1503,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 184,
+     "_totale": 1687
+    },
+    {
+     "Regione": "Valle d'Aosta",
+     "Data_Report": "2024-11-30",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 108,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 37,
+     "_totale": 145
+    }
+   ],
+   "totale": {
+    "hot": 974,
+    "acc": 101471,
+    "sai": 37803,
+    "totale": 140248
+   }
+  },
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2024-11-30",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 12468
+    },
+    {
+     "Data_Report": "2024-11-30",
+     "Nazione_PDF": "Siria",
+     "Valore": 11613
+    },
+    {
+     "Data_Report": "2024-11-30",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 7598
+    },
+    {
+     "Data_Report": "2024-11-30",
+     "Nazione_PDF": "Egitto",
+     "Valore": 4018
+    },
+    {
+     "Data_Report": "2024-11-30",
+     "Nazione_PDF": "Guinea",
+     "Valore": 3452
+    },
+    {
+     "Data_Report": "2024-11-30",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 2863
+    },
+    {
+     "Data_Report": "2024-11-30",
+     "Nazione_PDF": "Sudan",
+     "Valore": 2053
+    },
+    {
+     "Data_Report": "2024-11-30",
+     "Nazione_PDF": "Eritrea",
+     "Valore": 2014
+    },
+    {
+     "Data_Report": "2024-11-30",
+     "Nazione_PDF": "Mali",
+     "Valore": 1613
+    },
+    {
+     "Data_Report": "2024-11-30",
+     "Nazione_PDF": "Gambia",
+     "Valore": 1463
+    },
+    {
+     "Data_Report": "2024-11-30",
+     "Nazione_PDF": "altre*",
+     "Valore": 14024
+    }
+   ],
+   "totale": 63179
+  }
+ }
+}

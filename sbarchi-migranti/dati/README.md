@@ -6,14 +6,18 @@ Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamol
 
 Sono in formato `CSV`, con separatore `,` e con codifica `UTF-8`. Li abbiamo resi disponibili anche in [formato Google Sheet](https://docs.google.com/spreadsheets/d/1dNlByw2cMoqGorp4zPN6OULtG_jVRCe5xpl0YdKJxFE/edit?usp=sharing), ma la fonte più affidabile è quella dei file `CSV`.
 
-La fonte è il "[Cruscotto statistico](http://www.libertaciviliimmigrazione.dlci.interno.gov.it/it/documentazione/statistica/cruscotto-statistico-giornaliero)" del Ministero dell'Interno.<br>
-Copia dei PDF del cruscotto è disponibile in [questa cartella](https://github.com/ondata/liberiamoli-tutti/tree/main/sbarchi-migranti/rawdata/pdf).
+La fonte è il "[Cruscotto statistico giornaliero](https://libertaciviliimmigrazione.dlci.interno.gov.it/documentazione/dati-e-statistiche/cruscotto-statistico-giornaliero)" del Ministero dell'Interno.<br>
+Copia dei PDF del cruscotto è disponibile in [questa cartella](https://github.com/ondata/liberiamoli-tutti/tree/main/sbarchi-migranti/rawdata/pdf), con un [manifest](../rawdata/pdf/manifest.csv) che per ogni file riporta URL, impronta `sha256` e se è ancora pubblicato sul sito.
+
+Anomalie della fonte, correzioni e scelte fatte nell'estrazione sono descritte in [`note-sui-dati.md`](note-sui-dati.md).
 
 👉 **Nota Bene**: questi sono rilasciati con **licenza** [**CC-BY 4.0**](https://creativecommons.org/licenses/by/4.0/deed.it): li **puoi usare liberamente**, anche per scopi commerciali, ma devi **citare la fonte**, scrivendo semplicemente "Fonte: [Liberiamoli tutti!](https://datibenecomune.substack.com/)" e inserendo il link ipertestuale a `https://datibenecomune.substack.com/`.
 
 ### Accoglienza
 
 Si tratta dei numeri dell'**accoglienza**, per **regione** di accoglienza e per tipologia.
+
+Il dato si ferma al report del 15 ottobre 2026: dal 28 ottobre 2026 il PDF non contiene più questa tabella.
 
 Il file è [`accoglienza.csv`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/accoglienza.csv), ed è composto dalle colonne descritte a seguire.
 
@@ -58,6 +62,8 @@ Il file è [`nazionalita.csv`](https://raw.githubusercontent.com/ondata/liberiam
 
 Si tratta dei numeri degli **sbarchi giornalieri** per anno, mese e giorno.
 
+Ogni report riporta i giorni del suo mese fino alla data del report. Il dato si ferma al report del 31 maggio 2026: dal 15 giugno 2026 il PDF riporta solo i totali mensili.
+
 Il file è [`sbarchi-per-giorno.csv`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/sbarchi-per-giorno.csv), ed è composto dalle colonne descritte a seguire.
 
 | Nome colonna | Tipologia colonna | Descrizione colonna |
@@ -70,7 +76,7 @@ Il file è [`sbarchi-per-giorno.csv`](https://raw.githubusercontent.com/ondata/l
 
 ### Anagrafica report
 
-Abbiamo inserito anche il file [`anagrafica-report.csv`](anagrafica-report.csv), che contiene i dati di anagrafica dei report PDF: per ogni data di report, l'URL del report PDF.
+Abbiamo inserito anche il file [`anagrafica-report.csv`](anagrafica-report.csv), che contiene i dati di anagrafica dei report PDF: per ogni data di report, l'URL del report PDF. Gli URL puntano al vecchio sito del Ministero, che non è più raggiungibile: gli URL attuali sono nel [manifest](../rawdata/pdf/manifest.csv).
 
 | Nome colonna | Tipologia colonna | Descrizione colonna |
 | ---- | ---- | ----------- |

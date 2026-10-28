@@ -1,0 +1,479 @@
+{
+ "versione_estrattore": 1,
+ "file": "2023-03-31_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2023-03-01",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-02",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-03",
+     "Valore": 211,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-04",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-05",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-06",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-07",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-08",
+     "Valore": 468,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-09",
+     "Valore": 1865,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-10",
+     "Valore": 1120,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-11",
+     "Valore": 1470,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-12",
+     "Valore": 343,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-13",
+     "Valore": 17,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-14",
+     "Valore": 15,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-15",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-16",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-17",
+     "Valore": 37,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-18",
+     "Valore": 274,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-19",
+     "Valore": 116,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-20",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-21",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-22",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-23",
+     "Valore": 491,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-24",
+     "Valore": 2814,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-25",
+     "Valore": 2007,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-26",
+     "Valore": 772,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-27",
+     "Valore": 632,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-28",
+     "Valore": 161,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-29",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-30",
+     "Valore": 40,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    },
+    {
+     "Data": "2023-03-31",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-03-31"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": {
+   "righe": [
+    {
+     "Regione": "Lombardia",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 10155,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2982,
+     "_totale": 13137
+    },
+    {
+     "Regione": "Emilia-Romagna",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7990,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3128,
+     "_totale": 11118
+    },
+    {
+     "Regione": "Piemonte",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7814,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2189,
+     "_totale": 10003
+    },
+    {
+     "Regione": "Lazio",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7271,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2695,
+     "_totale": 9966
+    },
+    {
+     "Regione": "Sicilia",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": 860,
+     "Migranti presenti nei centri di accoglienza": 3310,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 5128,
+     "_totale": 9298
+    },
+    {
+     "Regione": "Toscana",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 6172,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1719,
+     "_totale": 7891
+    },
+    {
+     "Regione": "Campania",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4168,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3221,
+     "_totale": 7389
+    },
+    {
+     "Regione": "Veneto",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 6459,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 746,
+     "_totale": 7205
+    },
+    {
+     "Regione": "Calabria",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2452,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2988,
+     "_totale": 5440
+    },
+    {
+     "Regione": "Puglia",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": 162,
+     "Migranti presenti nei centri di accoglienza": 1900,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3130,
+     "_totale": 5192
+    },
+    {
+     "Regione": "Liguria",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4158,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1026,
+     "_totale": 5184
+    },
+    {
+     "Regione": "Friuli-Venezia Giulia",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3911,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 235,
+     "_totale": 4146
+    },
+    {
+     "Regione": "Marche",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1918,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1271,
+     "_totale": 3189
+    },
+    {
+     "Regione": "Abruzzo",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2292,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 848,
+     "_totale": 3140
+    },
+    {
+     "Regione": "Umbria",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1767,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 420,
+     "_totale": 2187
+    },
+    {
+     "Regione": "Basilicata",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1406,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 702,
+     "_totale": 2108
+    },
+    {
+     "Regione": "Trentino-Alto Adige",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1629,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 207,
+     "_totale": 1836
+    },
+    {
+     "Regione": "Molise",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 810,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 888,
+     "_totale": 1698
+    },
+    {
+     "Regione": "Sardegna",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1400,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 257,
+     "_totale": 1657
+    },
+    {
+     "Regione": "Valle d'Aosta",
+     "Data_Report": "2023-03-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 107,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 37,
+     "_totale": 144
+    }
+   ],
+   "totale": {
+    "hot": 1022,
+    "acc": 77089,
+    "sai": 33817,
+    "totale": 111928
+   }
+  },
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2023-03-31",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 4047
+    },
+    {
+     "Data_Report": "2023-03-31",
+     "Nazione_PDF": "Guinea",
+     "Valore": 3352
+    },
+    {
+     "Data_Report": "2023-03-31",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 2221
+    },
+    {
+     "Data_Report": "2023-03-31",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 1941
+    },
+    {
+     "Data_Report": "2023-03-31",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 1888
+    },
+    {
+     "Data_Report": "2023-03-31",
+     "Nazione_PDF": "Egitto",
+     "Valore": 1860
+    },
+    {
+     "Data_Report": "2023-03-31",
+     "Nazione_PDF": "Camerun",
+     "Valore": 1083
+    },
+    {
+     "Data_Report": "2023-03-31",
+     "Nazione_PDF": "Siria",
+     "Valore": 938
+    },
+    {
+     "Data_Report": "2023-03-31",
+     "Nazione_PDF": "Mali",
+     "Valore": 814
+    },
+    {
+     "Data_Report": "2023-03-31",
+     "Nazione_PDF": "Burkina Faso",
+     "Valore": 732
+    },
+    {
+     "Data_Report": "2023-03-31",
+     "Nazione_PDF": "altre*",
+     "Valore": 8404
+    }
+   ],
+   "totale": 27280
+  }
+ }
+}

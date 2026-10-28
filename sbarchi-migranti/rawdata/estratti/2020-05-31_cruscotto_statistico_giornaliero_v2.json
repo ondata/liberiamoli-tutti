@@ -1,0 +1,290 @@
+{
+ "versione_estrattore": 1,
+ "file": "2020-05-31_cruscotto_statistico_giornaliero_v2.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2020-05-01",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-02",
+     "Valore": 78,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-03",
+     "Valore": 44,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-04",
+     "Valore": 316,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-05",
+     "Valore": 10,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-06",
+     "Valore": 192,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-07",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-08",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-09",
+     "Valore": 79,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-10",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-11",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-12",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-13",
+     "Valore": 53,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-14",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-15",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-16",
+     "Valore": 68,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-17",
+     "Valore": 2,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-18",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-19",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-20",
+     "Valore": 137,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-21",
+     "Valore": 1,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-22",
+     "Valore": 7,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-23",
+     "Valore": 97,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-24",
+     "Valore": 178,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-25",
+     "Valore": 40,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-26",
+     "Valore": 71,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-27",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-28",
+     "Valore": 186,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-29",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-30",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    },
+    {
+     "Data": "2020-05-31",
+     "Valore": 95,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-05-31"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": null,
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2020-05-31",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 974
+    },
+    {
+     "Data_Report": "2020-05-31",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 665
+    },
+    {
+     "Data_Report": "2020-05-31",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 590
+    },
+    {
+     "Data_Report": "2020-05-31",
+     "Nazione_PDF": "Sudan",
+     "Valore": 396
+    },
+    {
+     "Data_Report": "2020-05-31",
+     "Nazione_PDF": "Algeria",
+     "Valore": 372
+    },
+    {
+     "Data_Report": "2020-05-31",
+     "Nazione_PDF": "Marocco",
+     "Valore": 322
+    },
+    {
+     "Data_Report": "2020-05-31",
+     "Nazione_PDF": "Somalia",
+     "Valore": 228
+    },
+    {
+     "Data_Report": "2020-05-31",
+     "Nazione_PDF": "Guinea",
+     "Valore": 214
+    },
+    {
+     "Data_Report": "2020-05-31",
+     "Nazione_PDF": "Mali",
+     "Valore": 165
+    },
+    {
+     "Data_Report": "2020-05-31",
+     "Nazione_PDF": "Nigeria",
+     "Valore": 117
+    },
+    {
+     "Data_Report": "2020-05-31",
+     "Nazione_PDF": "altre*",
+     "Valore": 1076
+    }
+   ],
+   "totale": 5119
+  }
+ }
+}

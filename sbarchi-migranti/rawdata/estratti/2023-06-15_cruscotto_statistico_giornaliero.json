@@ -1,0 +1,367 @@
+{
+ "versione_estrattore": 1,
+ "file": "2023-06-15_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2023-06-01",
+     "Valore": 508,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-02",
+     "Valore": 571,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-03",
+     "Valore": 178,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-04",
+     "Valore": 16,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-05",
+     "Valore": 103,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-06",
+     "Valore": 525,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-07",
+     "Valore": 1014,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-08",
+     "Valore": 456,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-09",
+     "Valore": 480,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-10",
+     "Valore": 105,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-11",
+     "Valore": 493,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-12",
+     "Valore": 271,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-13",
+     "Valore": 482,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-14",
+     "Valore": 105,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    },
+    {
+     "Data": "2023-06-15",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-06-15"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": {
+   "righe": [
+    {
+     "Regione": "Lombardia",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 11258,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3110,
+     "_totale": 14368
+    },
+    {
+     "Regione": "Emilia-Romagna",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8279,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3175,
+     "_totale": 11454
+    },
+    {
+     "Regione": "Piemonte",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8129,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2327,
+     "_totale": 10456
+    },
+    {
+     "Regione": "Lazio",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7712,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2722,
+     "_totale": 10434
+    },
+    {
+     "Regione": "Sicilia",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": 177,
+     "Migranti presenti nei centri di accoglienza": 3569,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 5451,
+     "_totale": 9197
+    },
+    {
+     "Regione": "Campania",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 5196,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3515,
+     "_totale": 8711
+    },
+    {
+     "Regione": "Toscana",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 6661,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1773,
+     "_totale": 8434
+    },
+    {
+     "Regione": "Veneto",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 6724,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 747,
+     "_totale": 7471
+    },
+    {
+     "Regione": "Puglia",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": 172,
+     "Migranti presenti nei centri di accoglienza": 2395,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3003,
+     "_totale": 5570
+    },
+    {
+     "Regione": "Calabria",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2564,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2979,
+     "_totale": 5543
+    },
+    {
+     "Regione": "Liguria",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4242,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1058,
+     "_totale": 5300
+    },
+    {
+     "Regione": "Friuli-Venezia Giulia",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4122,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 236,
+     "_totale": 4358
+    },
+    {
+     "Regione": "Marche",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2447,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1319,
+     "_totale": 3766
+    },
+    {
+     "Regione": "Abruzzo",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2493,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 868,
+     "_totale": 3361
+    },
+    {
+     "Regione": "Umbria",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1791,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 436,
+     "_totale": 2227
+    },
+    {
+     "Regione": "Basilicata",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1417,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 719,
+     "_totale": 2136
+    },
+    {
+     "Regione": "Sardegna",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1613,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 277,
+     "_totale": 1890
+    },
+    {
+     "Regione": "Trentino-Alto Adige",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1574,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 210,
+     "_totale": 1784
+    },
+    {
+     "Regione": "Molise",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 742,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 866,
+     "_totale": 1608
+    },
+    {
+     "Regione": "Valle d'Aosta",
+     "Data_Report": "2023-06-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 108,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 36,
+     "_totale": 144
+    }
+   ],
+   "totale": {
+    "hot": 349,
+    "acc": 83036,
+    "sai": 34827,
+    "totale": 118212
+   }
+  },
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2023-06-15",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 7570
+    },
+    {
+     "Data_Report": "2023-06-15",
+     "Nazione_PDF": "Egitto",
+     "Valore": 6986
+    },
+    {
+     "Data_Report": "2023-06-15",
+     "Nazione_PDF": "Guinea",
+     "Valore": 6374
+    },
+    {
+     "Data_Report": "2023-06-15",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 5915
+    },
+    {
+     "Data_Report": "2023-06-15",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 5660
+    },
+    {
+     "Data_Report": "2023-06-15",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 3901
+    },
+    {
+     "Data_Report": "2023-06-15",
+     "Nazione_PDF": "Siria",
+     "Valore": 3430
+    },
+    {
+     "Data_Report": "2023-06-15",
+     "Nazione_PDF": "Burkina Faso",
+     "Valore": 2391
+    },
+    {
+     "Data_Report": "2023-06-15",
+     "Nazione_PDF": "Camerun",
+     "Valore": 2005
+    },
+    {
+     "Data_Report": "2023-06-15",
+     "Nazione_PDF": "Mali",
+     "Valore": 1611
+    },
+    {
+     "Data_Report": "2023-06-15",
+     "Nazione_PDF": "altre*",
+     "Valore": 9819
+    }
+   ],
+   "totale": 55662
+  }
+ }
+}

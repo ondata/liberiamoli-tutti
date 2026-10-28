@@ -1,0 +1,164 @@
+{
+ "versione_estrattore": 1,
+ "file": "2023-10-13_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2023-10-01",
+     "Valore": 411,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-02",
+     "Valore": 345,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-03",
+     "Valore": 745,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-04",
+     "Valore": 351,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-05",
+     "Valore": 296,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-06",
+     "Valore": 692,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-07",
+     "Valore": 203,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-08",
+     "Valore": 646,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-09",
+     "Valore": 711,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-10",
+     "Valore": 572,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-11",
+     "Valore": 148,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-12",
+     "Valore": 372,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    },
+    {
+     "Data": "2023-10-13",
+     "Valore": 32,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2023-10-13"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": null,
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2023-10-13",
+     "Nazione_PDF": "Guinea",
+     "Valore": 17147
+    },
+    {
+     "Data_Report": "2023-10-13",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 15490
+    },
+    {
+     "Data_Report": "2023-10-13",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 14821
+    },
+    {
+     "Data_Report": "2023-10-13",
+     "Nazione_PDF": "Egitto",
+     "Valore": 8786
+    },
+    {
+     "Data_Report": "2023-10-13",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 8047
+    },
+    {
+     "Data_Report": "2023-10-13",
+     "Nazione_PDF": "Burkina Faso",
+     "Valore": 7946
+    },
+    {
+     "Data_Report": "2023-10-13",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 6353
+    },
+    {
+     "Data_Report": "2023-10-13",
+     "Nazione_PDF": "Siria",
+     "Valore": 5750
+    },
+    {
+     "Data_Report": "2023-10-13",
+     "Nazione_PDF": "Mali",
+     "Valore": 5297
+    },
+    {
+     "Data_Report": "2023-10-13",
+     "Nazione_PDF": "Camerun",
+     "Valore": 4813
+    },
+    {
+     "Data_Report": "2023-10-13",
+     "Nazione_PDF": "altre*",
+     "Valore": 44830
+    }
+   ],
+   "totale": 139280
+  }
+ }
+}

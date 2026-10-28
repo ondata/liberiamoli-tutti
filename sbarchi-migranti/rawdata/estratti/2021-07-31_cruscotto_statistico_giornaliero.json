@@ -1,0 +1,479 @@
+{
+ "versione_estrattore": 1,
+ "file": "2021-07-31_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2021-07-01",
+     "Valore": 323,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-02",
+     "Valore": 12,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-03",
+     "Valore": 434,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-04",
+     "Valore": 316,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-05",
+     "Valore": 120,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-06",
+     "Valore": 101,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-07",
+     "Valore": 869,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-08",
+     "Valore": 204,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-09",
+     "Valore": 722,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-10",
+     "Valore": 168,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-11",
+     "Valore": 139,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-12",
+     "Valore": 560,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-13",
+     "Valore": 104,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-14",
+     "Valore": 18,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-15",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-16",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-17",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-18",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-19",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-20",
+     "Valore": 17,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-21",
+     "Valore": 508,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-22",
+     "Valore": 403,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-23",
+     "Valore": 941,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-24",
+     "Valore": 728,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-25",
+     "Valore": 251,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-26",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-27",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-28",
+     "Valore": 297,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-29",
+     "Valore": 682,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-30",
+     "Valore": 353,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    },
+    {
+     "Data": "2021-07-31",
+     "Valore": 68,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-07-31"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": {
+   "righe": [
+    {
+     "Regione": "Lombardia",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7425,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2123,
+     "_totale": 9548
+    },
+    {
+     "Regione": "Emilia-Romagna",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 5723,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2194,
+     "_totale": 7917
+    },
+    {
+     "Regione": "Sicilia",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": 1201,
+     "Migranti presenti nei centri di accoglienza": 2644,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3712,
+     "_totale": 7557
+    },
+    {
+     "Regione": "Lazio",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4986,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1869,
+     "_totale": 6855
+    },
+    {
+     "Regione": "Piemonte",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4982,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1810,
+     "_totale": 6792
+    },
+    {
+     "Regione": "Campania",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3298,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2095,
+     "_totale": 5393
+    },
+    {
+     "Regione": "Toscana",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3383,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1346,
+     "_totale": 4729
+    },
+    {
+     "Regione": "Puglia",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": 36,
+     "Migranti presenti nei centri di accoglienza": 1630,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2672,
+     "_totale": 4338
+    },
+    {
+     "Regione": "Veneto",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3610,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 578,
+     "_totale": 4188
+    },
+    {
+     "Regione": "Calabria",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1325,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2540,
+     "_totale": 3865
+    },
+    {
+     "Regione": "Liguria",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2398,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 836,
+     "_totale": 3234
+    },
+    {
+     "Regione": "Friuli-Venezia Giulia",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2530,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 303,
+     "_totale": 2833
+    },
+    {
+     "Regione": "Marche",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1314,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 807,
+     "_totale": 2121
+    },
+    {
+     "Regione": "Abruzzo",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1011,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 520,
+     "_totale": 1531
+    },
+    {
+     "Regione": "Basilicata",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 802,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 553,
+     "_totale": 1355
+    },
+    {
+     "Regione": "Umbria",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 917,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 329,
+     "_totale": 1246
+    },
+    {
+     "Regione": "Trentino-Alto Adige",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 960,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 185,
+     "_totale": 1145
+    },
+    {
+     "Regione": "Molise",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 279,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 751,
+     "_totale": 1030
+    },
+    {
+     "Regione": "Sardegna",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 568,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 181,
+     "_totale": 749
+    },
+    {
+     "Regione": "Valle d'Aosta",
+     "Data_Report": "2021-07-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 44,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 18,
+     "_totale": 62
+    }
+   ],
+   "totale": {
+    "hot": 1237,
+    "acc": 49829,
+    "sai": 25422,
+    "totale": 76488
+   }
+  },
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2021-07-31",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 6869
+    },
+    {
+     "Data_Report": "2021-07-31",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 4176
+    },
+    {
+     "Data_Report": "2021-07-31",
+     "Nazione_PDF": "Egitto",
+     "Valore": 2291
+    },
+    {
+     "Data_Report": "2021-07-31",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 2031
+    },
+    {
+     "Data_Report": "2021-07-31",
+     "Nazione_PDF": "Eritrea",
+     "Valore": 1428
+    },
+    {
+     "Data_Report": "2021-07-31",
+     "Nazione_PDF": "Guinea",
+     "Valore": 1408
+    },
+    {
+     "Data_Report": "2021-07-31",
+     "Nazione_PDF": "Sudan",
+     "Valore": 1309
+    },
+    {
+     "Data_Report": "2021-07-31",
+     "Nazione_PDF": "Iran",
+     "Valore": 1268
+    },
+    {
+     "Data_Report": "2021-07-31",
+     "Nazione_PDF": "Marocco",
+     "Valore": 1081
+    },
+    {
+     "Data_Report": "2021-07-31",
+     "Nazione_PDF": "Iraq",
+     "Valore": 836
+    },
+    {
+     "Data_Report": "2021-07-31",
+     "Nazione_PDF": "altre*",
+     "Valore": 6173
+    }
+   ],
+   "totale": 28870
+  }
+ }
+}

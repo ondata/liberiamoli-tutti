@@ -1,0 +1,367 @@
+{
+ "versione_estrattore": 1,
+ "file": "2021-05-15_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2021-05-01",
+     "Valore": 992,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-02",
+     "Valore": 60,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-03",
+     "Valore": 68,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-04",
+     "Valore": 484,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-05",
+     "Valore": 61,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-06",
+     "Valore": 47,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-07",
+     "Valore": 7,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-08",
+     "Valore": 16,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-09",
+     "Valore": 1952,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-10",
+     "Valore": 293,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-11",
+     "Valore": 17,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-12",
+     "Valore": 66,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-13",
+     "Valore": 56,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-14",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    },
+    {
+     "Data": "2021-05-15",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-05-15"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": {
+   "righe": [
+    {
+     "Regione": "Lombardia",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7742,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2127,
+     "_totale": 9869
+    },
+    {
+     "Regione": "Emilia-Romagna",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 5659,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2192,
+     "_totale": 7851
+    },
+    {
+     "Regione": "Lazio",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 5078,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1892,
+     "_totale": 6970
+    },
+    {
+     "Regione": "Piemonte",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4939,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1914,
+     "_totale": 6853
+    },
+    {
+     "Regione": "Sicilia",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": 346,
+     "Migranti presenti nei centri di accoglienza": 2614,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3769,
+     "_totale": 6729
+    },
+    {
+     "Regione": "Campania",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3300,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2042,
+     "_totale": 5342
+    },
+    {
+     "Regione": "Toscana",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3346,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1374,
+     "_totale": 4720
+    },
+    {
+     "Regione": "Puglia",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": 292,
+     "Migranti presenti nei centri di accoglienza": 1539,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2726,
+     "_totale": 4557
+    },
+    {
+     "Regione": "Veneto",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3626,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 585,
+     "_totale": 4211
+    },
+    {
+     "Regione": "Calabria",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1625,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2364,
+     "_totale": 3989
+    },
+    {
+     "Regione": "Liguria",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2364,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 842,
+     "_totale": 3206
+    },
+    {
+     "Regione": "Friuli-Venezia Giulia",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2475,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 303,
+     "_totale": 2778
+    },
+    {
+     "Regione": "Marche",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1130,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 848,
+     "_totale": 1978
+    },
+    {
+     "Regione": "Abruzzo",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 871,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 556,
+     "_totale": 1427
+    },
+    {
+     "Regione": "Basilicata",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 718,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 563,
+     "_totale": 1281
+    },
+    {
+     "Regione": "Trentino-Alto Adige",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1014,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 187,
+     "_totale": 1201
+    },
+    {
+     "Regione": "Umbria",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 850,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 351,
+     "_totale": 1201
+    },
+    {
+     "Regione": "Sardegna",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 701,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 203,
+     "_totale": 904
+    },
+    {
+     "Regione": "Molise",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 131,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 729,
+     "_totale": 860
+    },
+    {
+     "Regione": "Valle d'Aosta",
+     "Data_Report": "2021-05-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 37,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 22,
+     "_totale": 59
+    }
+   ],
+   "totale": {
+    "hot": 638,
+    "acc": 49759,
+    "sai": 25589,
+    "totale": 75986
+   }
+  },
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2021-05-15",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 2165
+    },
+    {
+     "Data_Report": "2021-05-15",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 1738
+    },
+    {
+     "Data_Report": "2021-05-15",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 1301
+    },
+    {
+     "Data_Report": "2021-05-15",
+     "Nazione_PDF": "Guinea",
+     "Valore": 860
+    },
+    {
+     "Data_Report": "2021-05-15",
+     "Nazione_PDF": "Eritrea",
+     "Valore": 795
+    },
+    {
+     "Data_Report": "2021-05-15",
+     "Nazione_PDF": "Egitto",
+     "Valore": 784
+    },
+    {
+     "Data_Report": "2021-05-15",
+     "Nazione_PDF": "Sudan",
+     "Valore": 773
+    },
+    {
+     "Data_Report": "2021-05-15",
+     "Nazione_PDF": "Mali",
+     "Valore": 506
+    },
+    {
+     "Data_Report": "2021-05-15",
+     "Nazione_PDF": "Marocco",
+     "Valore": 488
+    },
+    {
+     "Data_Report": "2021-05-15",
+     "Nazione_PDF": "Algeria",
+     "Valore": 385
+    },
+    {
+     "Data_Report": "2021-05-15",
+     "Nazione_PDF": "altre*",
+     "Valore": 3337
+    }
+   ],
+   "totale": 13132
+  }
+ }
+}

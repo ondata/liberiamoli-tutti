@@ -34,3 +34,4 @@ registro_volonta_donazione_organi/script/output_comuni/*.csv
 dati_ricostruzione/data/17/open-data-quality
 .venv/
 tmp/grafico_18/
+__pycache__/

@@ -1,0 +1,392 @@
+{
+ "versione_estrattore": 1,
+ "file": "2025-11-15_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2025-11-01",
+     "Valore": 253,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-02",
+     "Valore": 119,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-03",
+     "Valore": 564,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-04",
+     "Valore": 115,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-05",
+     "Valore": 152,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-06",
+     "Valore": 501,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-07",
+     "Valore": 237,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-08",
+     "Valore": 466,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-09",
+     "Valore": 99,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-10",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-11",
+     "Valore": 190,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-12",
+     "Valore": 211,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-13",
+     "Valore": 411,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-14",
+     "Valore": 195,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    },
+    {
+     "Data": "2025-11-15",
+     "Valore": 57,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-11-15"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": {
+   "righe": [
+    {
+     "Regione": "Lombardia",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 14245,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3373,
+     "_totale": 17618
+    },
+    {
+     "Regione": "Lazio",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 10902,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2711,
+     "_totale": 13613
+    },
+    {
+     "Regione": "Emilia-Romagna",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8803,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3764,
+     "_totale": 12567
+    },
+    {
+     "Regione": "Piemonte",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 9431,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2521,
+     "_totale": 11952
+    },
+    {
+     "Regione": "Campania",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7023,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 4345,
+     "_totale": 11368
+    },
+    {
+     "Regione": "Sicilia",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": 356,
+     "Migranti presenti nei centri di accoglienza": 4320,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 6361,
+     "_totale": 11037
+    },
+    {
+     "Regione": "Toscana",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8707,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1972,
+     "_totale": 10679
+    },
+    {
+     "Regione": "Veneto",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8184,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 815,
+     "_totale": 8999
+    },
+    {
+     "Regione": "Calabria",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": 172,
+     "Migranti presenti nei centri di accoglienza": 4175,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3479,
+     "_totale": 7826
+    },
+    {
+     "Regione": "Puglia",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": 0,
+     "Migranti presenti nei centri di accoglienza": 3793,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3744,
+     "_totale": 7537
+    },
+    {
+     "Regione": "Liguria",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 5009,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1053,
+     "_totale": 6062
+    },
+    {
+     "Regione": "Abruzzo",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3576,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 954,
+     "_totale": 4530
+    },
+    {
+     "Regione": "Friuli-Venezia Giulia",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4087,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 249,
+     "_totale": 4336
+    },
+    {
+     "Regione": "Marche",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2385,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1545,
+     "_totale": 3930
+    },
+    {
+     "Regione": "Sardegna",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2825,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 278,
+     "_totale": 3103
+    },
+    {
+     "Regione": "Umbria",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2502,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 517,
+     "_totale": 3019
+    },
+    {
+     "Regione": "Basilicata",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1574,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 862,
+     "_totale": 2436
+    },
+    {
+     "Regione": "Molise",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 967,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 995,
+     "_totale": 1962
+    },
+    {
+     "Regione": "Trentino-Alto Adige",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1410,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 200,
+     "_totale": 1610
+    },
+    {
+     "Regione": "Valle d'Aosta",
+     "Data_Report": "2025-11-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 97,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 37,
+     "_totale": 134
+    }
+   ],
+   "totale": {
+    "hot": 528,
+    "acc": 104015,
+    "sai": 39775,
+    "totale": 144318
+   }
+  },
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 18962
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Egitto",
+     "Valore": 8573
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Eritrea",
+     "Valore": 7369
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 4202
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Sudan",
+     "Valore": 3796
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Somalia",
+     "Valore": 3112
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Etiopia",
+     "Valore": 2098
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 1638
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Iran",
+     "Valore": 1628
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Algeria",
+     "Valore": 1444
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Guinea",
+     "Valore": 1381
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Siria",
+     "Valore": 1295
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Nigeria",
+     "Valore": 866
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Mali",
+     "Valore": 840
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "Marocco",
+     "Valore": 701
+    },
+    {
+     "Data_Report": "2025-11-15",
+     "Nazione_PDF": "altre*",
+     "Valore": 4611
+    }
+   ],
+   "totale": 62516
+  }
+ }
+}

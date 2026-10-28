@@ -1,0 +1,178 @@
+{
+ "versione_estrattore": 1,
+ "file": "2022-09-15_cruscotto_statistico_giornaliero_v2.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2022-09-01",
+     "Valore": 739,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-02",
+     "Valore": 467,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-03",
+     "Valore": 925,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-04",
+     "Valore": 1094,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-05",
+     "Valore": 182,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-06",
+     "Valore": 208,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-07",
+     "Valore": 385,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-08",
+     "Valore": 391,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-09",
+     "Valore": 369,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-10",
+     "Valore": 234,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-11",
+     "Valore": 249,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-12",
+     "Valore": 1022,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-13",
+     "Valore": 1002,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-14",
+     "Valore": 644,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    },
+    {
+     "Data": "2022-09-15",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2022-09-15"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": null,
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2022-09-15",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 14036
+    },
+    {
+     "Data_Report": "2022-09-15",
+     "Nazione_PDF": "Egitto",
+     "Valore": 12697
+    },
+    {
+     "Data_Report": "2022-09-15",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 10016
+    },
+    {
+     "Data_Report": "2022-09-15",
+     "Nazione_PDF": "Afghanistan",
+     "Valore": 5271
+    },
+    {
+     "Data_Report": "2022-09-15",
+     "Nazione_PDF": "Siria",
+     "Valore": 4204
+    },
+    {
+     "Data_Report": "2022-09-15",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 2100
+    },
+    {
+     "Data_Report": "2022-09-15",
+     "Nazione_PDF": "Eritrea",
+     "Valore": 1662
+    },
+    {
+     "Data_Report": "2022-09-15",
+     "Nazione_PDF": "Iran",
+     "Valore": 1513
+    },
+    {
+     "Data_Report": "2022-09-15",
+     "Nazione_PDF": "Guinea",
+     "Valore": 1492
+    },
+    {
+     "Data_Report": "2022-09-15",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 1486
+    },
+    {
+     "Data_Report": "2022-09-15",
+     "Nazione_PDF": "altre*",
+     "Valore": 11685
+    }
+   ],
+   "totale": 66162
+  }
+ }
+}

@@ -1,0 +1,465 @@
+{
+ "versione_estrattore": 1,
+ "file": "2024-02-29_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2024-02-01",
+     "Valore": 372,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-02",
+     "Valore": 83,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-03",
+     "Valore": 46,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-04",
+     "Valore": 83,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-05",
+     "Valore": 218,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-06",
+     "Valore": 109,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-07",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-08",
+     "Valore": 259,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-09",
+     "Valore": 365,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-10",
+     "Valore": 189,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-11",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-12",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-13",
+     "Valore": 40,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-14",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-15",
+     "Valore": 23,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-16",
+     "Valore": 52,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-17",
+     "Valore": 52,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-18",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-19",
+     "Valore": 55,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-20",
+     "Valore": 43,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-21",
+     "Valore": 121,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-22",
+     "Valore": 32,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-23",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-24",
+     "Valore": 41,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-25",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-26",
+     "Valore": 17,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-27",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-28",
+     "Valore": 48,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    },
+    {
+     "Data": "2024-02-29",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2024-02-29"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": {
+   "righe": [
+    {
+     "Regione": "Lombardia",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 14658,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3046,
+     "_totale": 17704
+    },
+    {
+     "Regione": "Emilia-Romagna",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 9608,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3330,
+     "_totale": 12938
+    },
+    {
+     "Regione": "Lazio",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 9811,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2465,
+     "_totale": 12276
+    },
+    {
+     "Regione": "Piemonte",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 9840,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2251,
+     "_totale": 12091
+    },
+    {
+     "Regione": "Campania",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7065,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3954,
+     "_totale": 11019
+    },
+    {
+     "Regione": "Toscana",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8128,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1794,
+     "_totale": 9922
+    },
+    {
+     "Regione": "Veneto",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 8251,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 767,
+     "_totale": 9018
+    },
+    {
+     "Regione": "Sicilia",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": 3,
+     "Migranti presenti nei centri di accoglienza": 3625,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 5307,
+     "_totale": 8935
+    },
+    {
+     "Regione": "Puglia",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": 5,
+     "Migranti presenti nei centri di accoglienza": 3878,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 3123,
+     "_totale": 7006
+    },
+    {
+     "Regione": "Calabria",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3211,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 2900,
+     "_totale": 6111
+    },
+    {
+     "Regione": "Liguria",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 4934,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1042,
+     "_totale": 5976
+    },
+    {
+     "Regione": "Marche",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2889,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 1384,
+     "_totale": 4273
+    },
+    {
+     "Regione": "Friuli-Venezia Giulia",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3965,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 218,
+     "_totale": 4183
+    },
+    {
+     "Regione": "Abruzzo",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3251,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 902,
+     "_totale": 4153
+    },
+    {
+     "Regione": "Sardegna",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2448,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 272,
+     "_totale": 2720
+    },
+    {
+     "Regione": "Umbria",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2244,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 440,
+     "_totale": 2684
+    },
+    {
+     "Regione": "Basilicata",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1867,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 807,
+     "_totale": 2674
+    },
+    {
+     "Regione": "Molise",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 930,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 837,
+     "_totale": 1767
+    },
+    {
+     "Regione": "Trentino-Alto Adige",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1529,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 192,
+     "_totale": 1721
+    },
+    {
+     "Regione": "Valle d'Aosta",
+     "Data_Report": "2024-02-29",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 106,
+     "Migranti presenti nei centri SIPROIMI": null,
+     "Migranti presenti nei centri SAI": 32,
+     "_totale": 138
+    }
+   ],
+   "totale": {
+    "hot": 8,
+    "acc": 102238,
+    "sai": 35063,
+    "totale": 137309
+   }
+  },
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2024-02-29",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 1124
+    },
+    {
+     "Data_Report": "2024-02-29",
+     "Nazione_PDF": "Siria",
+     "Valore": 758
+    },
+    {
+     "Data_Report": "2024-02-29",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 698
+    },
+    {
+     "Data_Report": "2024-02-29",
+     "Nazione_PDF": "Egitto",
+     "Valore": 508
+    },
+    {
+     "Data_Report": "2024-02-29",
+     "Nazione_PDF": "Eritrea",
+     "Valore": 248
+    },
+    {
+     "Data_Report": "2024-02-29",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 244
+    },
+    {
+     "Data_Report": "2024-02-29",
+     "Nazione_PDF": "Etiopia",
+     "Valore": 187
+    },
+    {
+     "Data_Report": "2024-02-29",
+     "Nazione_PDF": "Sudan",
+     "Valore": 149
+    },
+    {
+     "Data_Report": "2024-02-29",
+     "Nazione_PDF": "Guinea",
+     "Valore": 109
+    },
+    {
+     "Data_Report": "2024-02-29",
+     "Nazione_PDF": "Gambia",
+     "Valore": 66
+    },
+    {
+     "Data_Report": "2024-02-29",
+     "Nazione_PDF": "altre*",
+     "Valore": 415
+    }
+   ],
+   "totale": 4506
+  }
+ }
+}

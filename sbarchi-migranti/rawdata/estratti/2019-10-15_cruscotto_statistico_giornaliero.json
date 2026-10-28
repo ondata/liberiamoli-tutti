@@ -1,0 +1,367 @@
+{
+ "versione_estrattore": 1,
+ "file": "2019-10-15_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2019-10-01",
+     "Valore": 89,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-02",
+     "Valore": 172,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-03",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-04",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-05",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-06",
+     "Valore": 23,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-07",
+     "Valore": 22,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-08",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-09",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-10",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-11",
+     "Valore": 13,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-12",
+     "Valore": 43,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-13",
+     "Valore": 159,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-14",
+     "Valore": 301,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    },
+    {
+     "Data": "2019-10-15",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-15"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": {
+   "righe": [
+    {
+     "Regione": "Lombardia",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 11556,
+     "Migranti presenti nei centri SIPROIMI": 2108,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 13664
+    },
+    {
+     "Regione": "Emilia-Romagna",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7444,
+     "Migranti presenti nei centri SIPROIMI": 2216,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 9660
+    },
+    {
+     "Regione": "Lazio",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 6233,
+     "Migranti presenti nei centri SIPROIMI": 2811,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 9044
+    },
+    {
+     "Regione": "Piemonte",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7134,
+     "Migranti presenti nei centri SIPROIMI": 1748,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 8882
+    },
+    {
+     "Regione": "Campania",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 6063,
+     "Migranti presenti nei centri SIPROIMI": 1812,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 7875
+    },
+    {
+     "Regione": "Sicilia",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": 391,
+     "Migranti presenti nei centri di accoglienza": 3643,
+     "Migranti presenti nei centri SIPROIMI": 3051,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 7085
+    },
+    {
+     "Regione": "Toscana",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 5586,
+     "Migranti presenti nei centri SIPROIMI": 1303,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 6889
+    },
+    {
+     "Regione": "Veneto",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 5942,
+     "Migranti presenti nei centri SIPROIMI": 681,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 6623
+    },
+    {
+     "Regione": "Puglia",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": 0,
+     "Migranti presenti nei centri di accoglienza": 2246,
+     "Migranti presenti nei centri SIPROIMI": 2260,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 4506
+    },
+    {
+     "Regione": "Calabria",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2067,
+     "Migranti presenti nei centri SIPROIMI": 2000,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 4067
+    },
+    {
+     "Regione": "Liguria",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3174,
+     "Migranti presenti nei centri SIPROIMI": 715,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 3889
+    },
+    {
+     "Regione": "Friuli-Venezia Giulia",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2556,
+     "Migranti presenti nei centri SIPROIMI": 353,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 2909
+    },
+    {
+     "Regione": "Marche",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1717,
+     "Migranti presenti nei centri SIPROIMI": 914,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 2631
+    },
+    {
+     "Regione": "Trentino-Alto Adige",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1877,
+     "Migranti presenti nei centri SIPROIMI": 362,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 2239
+    },
+    {
+     "Regione": "Abruzzo",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1318,
+     "Migranti presenti nei centri SIPROIMI": 484,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 1802
+    },
+    {
+     "Regione": "Umbria",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1315,
+     "Migranti presenti nei centri SIPROIMI": 373,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 1688
+    },
+    {
+     "Regione": "Sardegna",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1385,
+     "Migranti presenti nei centri SIPROIMI": 230,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 1615
+    },
+    {
+     "Regione": "Basilicata",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1087,
+     "Migranti presenti nei centri SIPROIMI": 499,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 1586
+    },
+    {
+     "Regione": "Molise",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 610,
+     "Migranti presenti nei centri SIPROIMI": 632,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 1242
+    },
+    {
+     "Regione": "Valle d'Aosta",
+     "Data_Report": "2019-10-15",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 153,
+     "Migranti presenti nei centri SIPROIMI": 25,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 178
+    }
+   ],
+   "totale": {
+    "hot": 391,
+    "acc": 73106,
+    "sip": 24577,
+    "totale": 98074
+   }
+  },
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2019-10-15",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 2349
+    },
+    {
+     "Data_Report": "2019-10-15",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 997
+    },
+    {
+     "Data_Report": "2019-10-15",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 942
+    },
+    {
+     "Data_Report": "2019-10-15",
+     "Nazione_PDF": "Algeria",
+     "Valore": 786
+    },
+    {
+     "Data_Report": "2019-10-15",
+     "Nazione_PDF": "Iraq",
+     "Valore": 620
+    },
+    {
+     "Data_Report": "2019-10-15",
+     "Nazione_PDF": "Sudan",
+     "Valore": 344
+    },
+    {
+     "Data_Report": "2019-10-15",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 325
+    },
+    {
+     "Data_Report": "2019-10-15",
+     "Nazione_PDF": "Iran",
+     "Valore": 214
+    },
+    {
+     "Data_Report": "2019-10-15",
+     "Nazione_PDF": "Guinea",
+     "Valore": 190
+    },
+    {
+     "Data_Report": "2019-10-15",
+     "Nazione_PDF": "Marocco",
+     "Valore": 152
+    },
+    {
+     "Data_Report": "2019-10-15",
+     "Nazione_PDF": "altre*",
+     "Valore": 1536
+    }
+   ],
+   "totale": 8455
+  }
+ }
+}

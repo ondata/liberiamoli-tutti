@@ -1,4 +1,4 @@
-name: Archivio PDF cruscotto statistico sbarchi migranti
+name: Archivio PDF e dati del cruscotto statistico sbarchi migranti
 
 on:
   schedule:
@@ -23,16 +23,27 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y poppler-utils
 
+    - uses: astral-sh/setup-uv@v6
+
     - name: archivia i PDF
+      id: archivia
       run: |-
         export PATH=~/bin:$PATH
         ./sbarchi-migranti/script/archivia_pdf.sh
 
+    # i PDF già archiviati sono puntatori Git LFS: estrai.py legge la loro estrazione da rawdata/estratti
+    # ed elabora solo i PDF appena scaricati
+    - name: estrai e valida i dati
+      run: |-
+        cd sbarchi-migranti
+        uv run script/estrai.py
+
     - name: Commit e push se ci sono cambiamenti
+      if: always() && steps.archivia.outcome == 'success'
       run: |
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull
-        git add sbarchi-migranti/rawdata/pdf
-        git commit -m "archivio PDF cruscotto sbarchi migranti: $(date -I)" || exit 0
+        git add sbarchi-migranti/rawdata/pdf sbarchi-migranti/rawdata/estratti sbarchi-migranti/dati
+        git commit -m "archivio PDF e dati cruscotto sbarchi migranti: $(date -I)" || exit 0
         git push

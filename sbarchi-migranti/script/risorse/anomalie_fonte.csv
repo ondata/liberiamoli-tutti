@@ -1,0 +1,23 @@
+Data_Report,colonna,somma,totale,nota
+2020-11-30,Migranti presenti negli hot spot,230,899,totale di colonna stampato nel PDF diverso dalla somma delle regioni; verificato sul testo il 2026-10-28
+2020-11-30,Migranti presenti nei centri di accoglienza,55480,54956,totale di colonna stampato nel PDF diverso dalla somma delle regioni; verificato sul testo il 2026-10-28
+2021-01-15,Migranti presenti nei centri di accoglienza,53682,54343,"totale di colonna stampato nel PDF fermo a 54.343 / 25.574 in tre report consecutivi, diverso dalla somma delle regioni; verificato sul testo il 2026-10-28"
+2021-01-15,Migranti presenti nei centri SAI,25399,25574,"totale di colonna stampato nel PDF fermo a 54.343 / 25.574 in tre report consecutivi, diverso dalla somma delle regioni; verificato sul testo il 2026-10-28"
+2021-01-31,Migranti presenti nei centri di accoglienza,52833,54343,"totale di colonna stampato nel PDF fermo a 54.343 / 25.574 in tre report consecutivi, diverso dalla somma delle regioni; verificato sul testo il 2026-10-28"
+2021-01-31,Migranti presenti nei centri SAI,25399,25574,"totale di colonna stampato nel PDF fermo a 54.343 / 25.574 in tre report consecutivi, diverso dalla somma delle regioni; verificato sul testo il 2026-10-28"
+2021-02-15,Migranti presenti nei centri di accoglienza,52774,54343,"totale di colonna stampato nel PDF fermo a 54.343 / 25.574 in tre report consecutivi, diverso dalla somma delle regioni; verificato sul testo il 2026-10-28"
+2021-02-15,Migranti presenti nei centri SAI,25311,25574,"totale di colonna stampato nel PDF fermo a 54.343 / 25.574 in tre report consecutivi, diverso dalla somma delle regioni; verificato sul testo il 2026-10-28"
+2022-08-15,Totale riga Calabria,5124,4864,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2022-08-15,Totale riga Puglia,4394,4654,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2022-10-15,Totale riga Puglia,4817,4825,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2023-05-31,Totale riga Sicilia,9144,8931,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2023-06-30,Totale riga Sicilia,12091,8931,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2023-06-30,Totale riga Puglia,5601,5619,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2024-03-15,Totale riga Sicilia,9721,9630,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2024-04-15,Totale riga Sicilia,9374,9372,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2024-12-15,Totale riga Sicilia,9792,10264,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2024-12-15,Totale riga Calabria,7013,7030,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2025-06-15,Totale riga Sicilia,10585,9891,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2025-06-15,Totale riga Calabria,7319,7304,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2025-06-30,Totale riga Sicilia,10267,9988,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28
+2025-06-30,Totale riga Calabria,7421,7383,il totale di riga stampato nel PDF non è la somma delle colonne della regione; verificato sul testo il 2026-10-28

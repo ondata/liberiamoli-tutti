@@ -1,0 +1,178 @@
+{
+ "versione_estrattore": 1,
+ "file": "2021-02-15_cruscotto_statistico_giornaliero_v2.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2021-02-01",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-02",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-03",
+     "Valore": 56,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-04",
+     "Valore": 418,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-05",
+     "Valore": 146,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-06",
+     "Valore": 67,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-07",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-08",
+     "Valore": 453,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-09",
+     "Valore": 54,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-10",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-11",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-12",
+     "Valore": 106,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-13",
+     "Valore": 2,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-14",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    },
+    {
+     "Data": "2021-02-15",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2021-02-15"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": null,
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2021-02-15",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 334
+    },
+    {
+     "Data_Report": "2021-02-15",
+     "Nazione_PDF": "Guinea",
+     "Valore": 254
+    },
+    {
+     "Data_Report": "2021-02-15",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 249
+    },
+    {
+     "Data_Report": "2021-02-15",
+     "Nazione_PDF": "Eritrea",
+     "Valore": 217
+    },
+    {
+     "Data_Report": "2021-02-15",
+     "Nazione_PDF": "Mali",
+     "Valore": 129
+    },
+    {
+     "Data_Report": "2021-02-15",
+     "Nazione_PDF": "Algeria",
+     "Valore": 125
+    },
+    {
+     "Data_Report": "2021-02-15",
+     "Nazione_PDF": "Sudan",
+     "Valore": 94
+    },
+    {
+     "Data_Report": "2021-02-15",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 83
+    },
+    {
+     "Data_Report": "2021-02-15",
+     "Nazione_PDF": "Afghanistan",
+     "Valore": 76
+    },
+    {
+     "Data_Report": "2021-02-15",
+     "Nazione_PDF": "Camerun",
+     "Valore": 64
+    },
+    {
+     "Data_Report": "2021-02-15",
+     "Nazione_PDF": "altre*",
+     "Valore": 716
+    }
+   ],
+   "totale": 2341
+  }
+ }
+}

@@ -1,0 +1,479 @@
+{
+ "versione_estrattore": 1,
+ "file": "2019-10-31_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2019-10-01",
+     "Valore": 89,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-02",
+     "Valore": 172,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-03",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-04",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-05",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-06",
+     "Valore": 23,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-07",
+     "Valore": 22,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-08",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-09",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-10",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-11",
+     "Valore": 13,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-12",
+     "Valore": 43,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-13",
+     "Valore": 159,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-14",
+     "Valore": 310,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-15",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-16",
+     "Valore": 377,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-17",
+     "Valore": 53,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-18",
+     "Valore": 137,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-19",
+     "Valore": 117,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-20",
+     "Valore": 55,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-21",
+     "Valore": 118,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-22",
+     "Valore": 67,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-23",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-24",
+     "Valore": 48,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-25",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-26",
+     "Valore": 18,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-27",
+     "Valore": 22,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-28",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-29",
+     "Valore": 56,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-30",
+     "Valore": 116,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    },
+    {
+     "Data": "2019-10-31",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2019-10-31"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": {
+   "righe": [
+    {
+     "Regione": "Lombardia",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 11404,
+     "Migranti presenti nei centri SIPROIMI": 2108,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 13512
+    },
+    {
+     "Regione": "Emilia-Romagna",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7377,
+     "Migranti presenti nei centri SIPROIMI": 2216,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 9593
+    },
+    {
+     "Regione": "Piemonte",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 7110,
+     "Migranti presenti nei centri SIPROIMI": 1748,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 8858
+    },
+    {
+     "Regione": "Lazio",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 5963,
+     "Migranti presenti nei centri SIPROIMI": 2811,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 8774
+    },
+    {
+     "Regione": "Campania",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 5887,
+     "Migranti presenti nei centri SIPROIMI": 1812,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 7699
+    },
+    {
+     "Regione": "Sicilia",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": 350,
+     "Migranti presenti nei centri di accoglienza": 3494,
+     "Migranti presenti nei centri SIPROIMI": 3051,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 6895
+    },
+    {
+     "Regione": "Toscana",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 5420,
+     "Migranti presenti nei centri SIPROIMI": 1303,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 6723
+    },
+    {
+     "Regione": "Veneto",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 5831,
+     "Migranti presenti nei centri SIPROIMI": 681,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 6512
+    },
+    {
+     "Regione": "Puglia",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": 0,
+     "Migranti presenti nei centri di accoglienza": 2413,
+     "Migranti presenti nei centri SIPROIMI": 2260,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 4673
+    },
+    {
+     "Regione": "Calabria",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2029,
+     "Migranti presenti nei centri SIPROIMI": 2000,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 4029
+    },
+    {
+     "Regione": "Liguria",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 3141,
+     "Migranti presenti nei centri SIPROIMI": 715,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 3856
+    },
+    {
+     "Regione": "Friuli-Venezia Giulia",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 2650,
+     "Migranti presenti nei centri SIPROIMI": 353,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 3003
+    },
+    {
+     "Regione": "Marche",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1690,
+     "Migranti presenti nei centri SIPROIMI": 914,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 2604
+    },
+    {
+     "Regione": "Trentino-Alto Adige",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1831,
+     "Migranti presenti nei centri SIPROIMI": 362,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 2193
+    },
+    {
+     "Regione": "Abruzzo",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1298,
+     "Migranti presenti nei centri SIPROIMI": 484,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 1782
+    },
+    {
+     "Regione": "Umbria",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1274,
+     "Migranti presenti nei centri SIPROIMI": 373,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 1647
+    },
+    {
+     "Regione": "Sardegna",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1341,
+     "Migranti presenti nei centri SIPROIMI": 230,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 1571
+    },
+    {
+     "Regione": "Basilicata",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 1061,
+     "Migranti presenti nei centri SIPROIMI": 499,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 1560
+    },
+    {
+     "Regione": "Molise",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 576,
+     "Migranti presenti nei centri SIPROIMI": 632,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 1208
+    },
+    {
+     "Regione": "Valle d'Aosta",
+     "Data_Report": "2019-10-31",
+     "Migranti presenti negli hot spot": null,
+     "Migranti presenti nei centri di accoglienza": 145,
+     "Migranti presenti nei centri SIPROIMI": 25,
+     "Migranti presenti nei centri SAI": null,
+     "_totale": 170
+    }
+   ],
+   "totale": {
+    "hot": 350,
+    "acc": 71935,
+    "sip": 24577,
+    "totale": 96862
+   }
+  },
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2019-10-31",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 2555
+    },
+    {
+     "Data_Report": "2019-10-31",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 1094
+    },
+    {
+     "Data_Report": "2019-10-31",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 973
+    },
+    {
+     "Data_Report": "2019-10-31",
+     "Nazione_PDF": "Algeria",
+     "Valore": 944
+    },
+    {
+     "Data_Report": "2019-10-31",
+     "Nazione_PDF": "Iraq",
+     "Valore": 777
+    },
+    {
+     "Data_Report": "2019-10-31",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 383
+    },
+    {
+     "Data_Report": "2019-10-31",
+     "Nazione_PDF": "Iran",
+     "Valore": 375
+    },
+    {
+     "Data_Report": "2019-10-31",
+     "Nazione_PDF": "Sudan",
+     "Valore": 356
+    },
+    {
+     "Data_Report": "2019-10-31",
+     "Nazione_PDF": "Guinea",
+     "Valore": 208
+    },
+    {
+     "Data_Report": "2019-10-31",
+     "Nazione_PDF": "Marocco",
+     "Valore": 190
+    },
+    {
+     "Data_Report": "2019-10-31",
+     "Nazione_PDF": "altre*",
+     "Valore": 1793
+    }
+   ],
+   "totale": 9648
+  }
+ }
+}

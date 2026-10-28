@@ -1,0 +1,308 @@
+{
+ "versione_estrattore": 1,
+ "file": "2025-06-30_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2025-06-01",
+     "Valore": 297,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-02",
+     "Valore": 139,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-03",
+     "Valore": 74,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-04",
+     "Valore": 181,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-05",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-06",
+     "Valore": 406,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-07",
+     "Valore": 191,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-08",
+     "Valore": 599,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-09",
+     "Valore": 650,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-10",
+     "Valore": 419,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-11",
+     "Valore": 94,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-12",
+     "Valore": 350,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-13",
+     "Valore": 257,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-14",
+     "Valore": 79,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-15",
+     "Valore": 352,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-16",
+     "Valore": 799,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-17",
+     "Valore": 471,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-18",
+     "Valore": 180,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-19",
+     "Valore": 40,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-20",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-21",
+     "Valore": 31,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-22",
+     "Valore": 402,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-23",
+     "Valore": 391,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-24",
+     "Valore": 60,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-25",
+     "Valore": 240,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-26",
+     "Valore": 65,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-27",
+     "Valore": 44,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-28",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-29",
+     "Valore": 43,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    },
+    {
+     "Data": "2025-06-30",
+     "Valore": 78,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2025-06-30"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": null,
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 9733
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Eritrea",
+     "Valore": 4338
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Egitto",
+     "Valore": 3516
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 2619
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Etiopia",
+     "Valore": 1415
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Siria",
+     "Valore": 1086
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Sudan",
+     "Valore": 988
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Somalia",
+     "Valore": 967
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Guinea",
+     "Valore": 660
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 558
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Algeria",
+     "Valore": 548
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Iran",
+     "Valore": 528
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Nigeria",
+     "Valore": 463
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Mali",
+     "Valore": 421
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "Costa D'Avorio",
+     "Valore": 376
+    },
+    {
+     "Data_Report": "2025-06-30",
+     "Nazione_PDF": "altre*",
+     "Valore": 1687
+    }
+   ],
+   "totale": 29903
+  }
+ }
+}

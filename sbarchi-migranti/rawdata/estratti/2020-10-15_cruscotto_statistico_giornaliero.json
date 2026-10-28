@@ -1,0 +1,178 @@
+{
+ "versione_estrattore": 1,
+ "file": "2020-10-15_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": {
+   "righe": [
+    {
+     "Data": "2020-10-01",
+     "Valore": 62,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-02",
+     "Valore": 314,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-03",
+     "Valore": 78,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-04",
+     "Valore": 152,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-05",
+     "Valore": 58,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-06",
+     "Valore": 110,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-07",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-08",
+     "Valore": 4,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-09",
+     "Valore": 88,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-10",
+     "Valore": 604,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-11",
+     "Valore": 559,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-12",
+     "Valore": 72,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-13",
+     "Valore": 93,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-14",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    },
+    {
+     "Data": "2020-10-15",
+     "Valore": 0,
+     "Note": "*I dati si riferiscono agli eventi di sbarco rilevati entro le ore 8:00 del giorno di riferimento",
+     "Fonte": "Fonte: Dipartimento della Pubblica sicurezza. I dati sono suscettibili di successivo consolidamento.",
+     "Data_Report": "2020-10-15"
+    }
+   ],
+   "totale": null
+  },
+  "accoglienza": null,
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2020-10-15",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 10745
+    },
+    {
+     "Data_Report": "2020-10-15",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 3333
+    },
+    {
+     "Data_Report": "2020-10-15",
+     "Nazione_PDF": "Algeria",
+     "Valore": 1166
+    },
+    {
+     "Data_Report": "2020-10-15",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 1112
+    },
+    {
+     "Data_Report": "2020-10-15",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 1076
+    },
+    {
+     "Data_Report": "2020-10-15",
+     "Nazione_PDF": "Sudan",
+     "Valore": 791
+    },
+    {
+     "Data_Report": "2020-10-15",
+     "Nazione_PDF": "Egitto",
+     "Valore": 758
+    },
+    {
+     "Data_Report": "2020-10-15",
+     "Nazione_PDF": "Marocco",
+     "Valore": 691
+    },
+    {
+     "Data_Report": "2020-10-15",
+     "Nazione_PDF": "Afghanistan",
+     "Valore": 676
+    },
+    {
+     "Data_Report": "2020-10-15",
+     "Nazione_PDF": "Somalia",
+     "Valore": 618
+    },
+    {
+     "Data_Report": "2020-10-15",
+     "Nazione_PDF": "altre*",
+     "Valore": 4954
+    }
+   ],
+   "totale": 25920
+  }
+ }
+}

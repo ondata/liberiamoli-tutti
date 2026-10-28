@@ -1,0 +1,94 @@
+{
+ "versione_estrattore": 1,
+ "file": "2026-10-28_cruscotto_statistico_giornaliero.pdf",
+ "illeggibile": false,
+ "sezioni": {
+  "giorni": null,
+  "accoglienza": null,
+  "nazionalita": {
+   "righe": [
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Bangladesh",
+     "Valore": 6103
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Algeria",
+     "Valore": 3420
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Somalia",
+     "Valore": 2939
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Eritrea",
+     "Valore": 2649
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Sudan",
+     "Valore": 1982
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Pakistan",
+     "Valore": 1666
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Egitto",
+     "Valore": 1508
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Tunisia",
+     "Valore": 1392
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Mali",
+     "Valore": 483
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Etiopia",
+     "Valore": 480
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Nigeria",
+     "Valore": 393
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Costa d'Avorio",
+     "Valore": 361
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Sud Sudan",
+     "Valore": 348
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Iran",
+     "Valore": 328
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Guinea",
+     "Valore": 308
+    },
+    {
+     "Data_Report": "2026-10-28",
+     "Nazione_PDF": "Altre*",
+     "Valore": 1832
+    }
+   ],
+   "totale": 26192
+  }
+ }
+}
