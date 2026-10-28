@@ -4,7 +4,7 @@ Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamol
 
 ## Dati
 
-Sono in formato `CSV`, con separatore `,` e con codifica `UTF-8`. Li abbiamo resi disponibili anche in [formato Google Sheet](https://docs.google.com/spreadsheets/d/1dNlByw2cMoqGorp4zPN6OULtG_jVRCe5xpl0YdKJxFE/edit?usp=sharing), ma la fonte più affidabile è quella dei file `CSV`.
+Sono in formato `CSV`, con separatore `,` e con codifica `UTF-8`. Sono aggiornati in automatico due volte a settimana, il lunedì e il giovedì. Lo schema dei file è descritto nel [datapackage](italian-immigration-datapackage.json), in formato [Frictionless Data](https://specs.frictionlessdata.io/data-package/).
 
 La fonte è il "[Cruscotto statistico giornaliero](https://libertaciviliimmigrazione.dlci.interno.gov.it/documentazione/dati-e-statistiche/cruscotto-statistico-giornaliero)" del Ministero dell'Interno.<br>
 Copia dei PDF del cruscotto è disponibile in [questa cartella](https://github.com/ondata/liberiamoli-tutti/tree/main/sbarchi-migranti/rawdata/pdf), con un [manifest](../rawdata/pdf/manifest.csv) che per ogni file riporta URL, impronta `sha256` e se è ancora pubblicato sul sito.

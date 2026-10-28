@@ -1,6 +1,6 @@
 {
   "profile": "data-package",
-  "description": "Questo datapackage contiene dati su sbarchi, nazionalità e accoglienza delle persone migranti. La fonte è il Cruscotto statistico del Ministero dell'Interno.",
+  "description": "Questo datapackage contiene dati su sbarchi (per giorno e per mese), nazionalità, accoglienza, minori stranieri non accompagnati e rimpatri. La fonte è il Cruscotto statistico giornaliero del Ministero dell'Interno. Anomalie della fonte e correzioni sono descritte in note-sui-dati.md.",
   "name": "italian-immigration-data-package",
   "license": {
     "type": "CC-BY-4.0",
@@ -85,7 +85,7 @@
           {
             "name": "ISO_3166-1",
             "type": "string",
-            "description": "Il codice ISO 3166-1 alfa-3 della nazione. È un'informazione non presente nel report, che è stata aggiunta per rendere i dati più usabili"
+            "description": "Il codice ISO 3166-1 alfa-2 della nazione. È un'informazione non presente nel report, che è stata aggiunta per rendere i dati più usabili"
           },
           {
             "name": "Valore",
@@ -128,8 +128,132 @@
           },
           {
             "name": "Data_Report",
+            "type": "date",
+            "description": "La data del report"
+          }
+        ]
+      }
+    },
+    {
+      "name": "sbarchi-mensili",
+      "path": "sbarchi-mensili.csv",
+      "description": "Si tratta dei numeri degli sbarchi per mese, così come riportati in ogni report.",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "type": "table",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Data_Report",
+            "type": "date",
+            "description": "La data del report"
+          },
+          {
+            "name": "Anno",
+            "type": "integer",
+            "description": "L'anno"
+          },
+          {
+            "name": "Mese",
+            "type": "integer",
+            "description": "Il mese, da 1 a 12"
+          },
+          {
+            "name": "Valore",
+            "type": "integer",
+            "description": "Il numero di persone migranti sbarcate nel mese"
+          },
+          {
+            "name": "Mese_in_corso",
             "type": "string",
-            "description": "La data in cui il report è stato generato"
+            "description": "si se è il mese del report, quindi un dato parziale; altrimenti no",
+            "constraints": {
+              "enum": [
+                "si",
+                "no"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "minori-non-accompagnati",
+      "path": "minori-non-accompagnati.csv",
+      "description": "Si tratta dei minori stranieri non accompagnati sbarcati, dal 1° gennaio fino a una data, per anno.",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "type": "table",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Data_Report",
+            "type": "date",
+            "description": "La data del report"
+          },
+          {
+            "name": "Anno",
+            "type": "integer",
+            "description": "L'anno"
+          },
+          {
+            "name": "Fino_Al",
+            "type": "date",
+            "description": "Il dato va dal 1° gennaio di Anno a questa data, inclusa"
+          },
+          {
+            "name": "Valore",
+            "type": "integer",
+            "description": "Il numero di minori stranieri non accompagnati sbarcati"
+          }
+        ]
+      }
+    },
+    {
+      "name": "rimpatri",
+      "path": "rimpatri.csv",
+      "description": "Si tratta dei rimpatri forzati e dei rimpatri volontari assistiti, dal 1° gennaio fino a una data, per anno. Presenti nei report dal 15 giugno 2026.",
+      "profile": "tabular-data-resource",
+      "format": "csv",
+      "encoding": "utf-8",
+      "type": "table",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Data_Report",
+            "type": "date",
+            "description": "La data del report"
+          },
+          {
+            "name": "Tipo",
+            "type": "string",
+            "description": "forzati oppure volontari assistiti",
+            "constraints": {
+              "enum": [
+                "forzati",
+                "volontari assistiti"
+              ]
+            }
+          },
+          {
+            "name": "Anno",
+            "type": "integer",
+            "description": "L'anno"
+          },
+          {
+            "name": "Fino_Al",
+            "type": "date",
+            "description": "Il dato va dal 1° gennaio di Anno a questa data, inclusa"
+          },
+          {
+            "name": "Valore",
+            "type": "integer",
+            "description": "Il numero di persone rimpatriate"
           }
         ]
       }
