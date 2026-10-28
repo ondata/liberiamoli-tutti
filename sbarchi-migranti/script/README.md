@@ -28,6 +28,7 @@ Estrae dai PDF sbarchi per giorno, accoglienza per regione, nazionalità, sbarch
 - Accoglienza e nazionalità: tabelle lette con `pdfplumber` dalla pagina che contiene `spot` e `azional`.
 - Sbarchi mensili: griglia mesi per anni costruita dalle posizioni delle parole, in entrambi i formati del PDF; solo i numeri con il carattere dei valori della tabella. Verifica: somma dei mesi uguale al totale annuo del PDF.
 - Minori non accompagnati e rimpatri: testo della pagina, riga per riga. Verifica per i rimpatri: forzati più volontari uguale alla riga Totale.
+- A fine estrazione scrive in `dati/README.md`, fra i commenti `<!-- ultimo-report -->` e `<!-- /ultimo-report -->`, la data dell'ultimo report e il numero di report: cambia solo quando arriva un report nuovo.
 - L'estrazione di ogni PDF è salvata in `rawdata/estratti/<nome>.json` e riusata ai giri successivi. Se cambia il modo di estrarre, si incrementa `VERSIONE_ESTRATTORE` e si rilancia in locale, dove ci sono i PDF veri.
 
 ## valida.py

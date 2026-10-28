@@ -1,5 +1,6 @@
 ## 2026-10-28
 
+- `sbarchi-migranti`: `estrai.py` scrive nel README dei dati la data dell'ultimo report incluso e il numero di report (fra due commenti HTML); idempotente, nessun commit se non arrivano report nuovi.
 - `sbarchi-migranti/dati`: datapackage con i tre dataset nuovi; corretti `ISO_3166-1` (alfa-2, non alfa-3) e il tipo di `Data_Report` in `sbarchi-per-giorno` (ora `date`). `frictionless validate`: 6 risorse valide. Tolto dal README il Google Sheet, non più aggiornato.
 - `sbarchi-migranti/analisi/mappa`: mappa degli sbarcati 2025 per milione di abitanti del paese d'origine. Popolazione Banca Mondiale via opensdmx (query salvata), mapshaper con palette `lajolla` di Crameri, riquadro con la quota di nazionalità non attribuita (6,9%). Si rifà con `./mappa.sh`.
 - `sbarchi-migranti`: tre dataset nuovi dai PDF del cruscotto. `sbarchi-mensili.csv` (12.290 righe, 173 report, griglia mesi per anni dalle posizioni delle parole, in entrambi i formati), `minori-non-accompagnati.csv` (588 righe, 173 report), `rimpatri.csv` (280 righe, dal 2026-06-15). Validazione estesa: 37 controlli, 272 confronti somma dei mesi / totale annuo e 150 forzati + volontari / totale, tutti ok. I tre dataset esistenti restano identici byte per byte.

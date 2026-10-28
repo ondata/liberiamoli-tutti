@@ -6,6 +6,10 @@ Questo è un insieme di dati pubblicati nel contesto del progetto "[**Liberiamol
 
 Sono in formato `CSV`, con separatore `,` e con codifica `UTF-8`. Sono aggiornati in automatico due volte a settimana, il lunedì e il giovedì. Lo schema dei file è descritto nel [datapackage](italian-immigration-datapackage.json), in formato [Frictionless Data](https://specs.frictionlessdata.io/data-package/).
 
+<!-- ultimo-report -->
+Ultimo report incluso: **28/10/2026** (173 report dal 30/09/2019).
+<!-- /ultimo-report -->
+
 La fonte è il "[Cruscotto statistico giornaliero](https://libertaciviliimmigrazione.dlci.interno.gov.it/documentazione/dati-e-statistiche/cruscotto-statistico-giornaliero)" del Ministero dell'Interno.<br>
 Copia dei PDF del cruscotto è disponibile in [questa cartella](https://github.com/ondata/liberiamoli-tutti/tree/main/sbarchi-migranti/rawdata/pdf), con un [manifest](../rawdata/pdf/manifest.csv) che per ogni file riporta URL, impronta `sha256` e se è ancora pubblicato sul sito.
 

@@ -527,6 +527,19 @@ def main():
     scrivi_csv(DATI / "sbarchi-mensili.csv", dati["mensili"], ["Data_Report", "Anno", "Mese", "Valore", "Mese_in_corso"])
     scrivi_csv(DATI / "minori-non-accompagnati.csv", dati["msna"], ["Data_Report", "Anno", "Fino_Al", "Valore"])
     scrivi_csv(DATI / "rimpatri.csv", dati["rimpatri"], ["Data_Report", "Tipo", "Anno", "Fino_Al", "Valore"])
+    aggiorna_readme(max(versioni_per_data()), len(versioni_per_data()))
+
+
+def aggiorna_readme(ultimo, n_report):
+    """Data dell'ultimo report fra i due commenti del README dei dati. Solo la data del report e
+    non quella di esecuzione: il README cambia soltanto quando arriva un report nuovo."""
+    readme = DATI / "README.md"
+    testo = readme.read_text(encoding="utf-8")
+    riga = f"<!-- ultimo-report -->\nUltimo report incluso: **{ultimo[8:]}/{ultimo[5:7]}/{ultimo[:4]}** ({n_report} report dal 30/09/2019).\n<!-- /ultimo-report -->"
+    nuovo = re.sub(r"<!-- ultimo-report -->.*?<!-- /ultimo-report -->", riga, testo, flags=re.S)
+    if nuovo == testo and "<!-- ultimo-report -->" not in testo:
+        sys.exit("README dei dati senza i commenti <!-- ultimo-report --> e <!-- /ultimo-report -->")
+    readme.write_text(nuovo, encoding="utf-8")
 
 
 if __name__ == "__main__":
