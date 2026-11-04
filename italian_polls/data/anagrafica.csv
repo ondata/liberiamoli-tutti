@@ -1,4 +1,53 @@
 n,data_inserimento,realizzatore,committente,titolo,testo,domanda,national_poll_rationale,national_poll,numero_partiti,realizzatore_normalizzato
+1690,2026-11-03,Only Numbers,RTI-Reti Televisive Italiane S.p.A.,Intenzioni di voto,"FRATELLI D'ITALIA-GIORGIA MELONI 27,8
+PARTITO DEMOCRATICO-PSE-SOCIALISTI & DEMOCRATICI 20,3
+MOVIMENTO 5 STELLE-2050-#PACE 11,6
+FORZA ITALIA-BERLUSCONI PRESIDENTE-PPE 7,6
+FUTURO NAZIONALE VANNACCI 6,8
+LEGA-ITALIA FEDERALE 6,3
+ALLEANZA VERDI E SINISTRA-EUROPA VERDE-SINISTRA ITALIANA 6,2
+AZIONE CON CALENDA SIAMO EUROPEI-RENEW EUROPE 3,2
+CASA RIFORMISTA-ITALIA VIVA-RENZI 2,4
++EUROPA 1,3
+NOI MODERATI 1,3
+PROGETTO CIVICO 1,1
+SUD CHIAMA NORD 0,8
+PIU' UNO 0,4
+Altri 2,9
+INDECISI - ASTENSIONE 43,0",Intenzioni di voto,"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Lega, Alleanza Verdi e Sinistra, +Europa, and Azione. It refers to nationwide voting intentions and does not focus on leader approval ratings or specific demographics. Therefore, it qualifies as a national voting intention poll.",1,12,Only Numbers
+1689,2026-11-02,Youtrend,Sky TG24,Osservatorio Italia,"Fratelli d'Italia 28,1
+Partito Democratico 19,9
+Movimento 5 Stelle 13,5
+Forza Italia 7,0
+Futuro Nazionale 7,0
+Alleanza Verdi e Sinistra 6,4
+Lega 5,0
+Azione 3,4
+Italia Viva 2,7
+Ora 1,2
+Noi Moderati 1,0
+Sud Chiama Nord 0,8
+Altri Centrosinistra 1,5
+Altri 2,5
+Indecisi + Astenuti 33,9",Intenzioni di voto (al netto degli astenuti),"The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Alleanza Verdi e Sinistra, Lega, Azione, and Italia Viva, which are relevant for national voting intentions. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll. The percentages for the parties listed sum up to 100% when considering the 'Altri' category, which includes minor parties and others not specified.",1,11,Youtrend
+1688,2026-11-02,Ipsos Doxa,Corriere della Sera,"Intenzioni di voto, simulazione seggi, gradimento Governo, gradimento leader","{""(stima % su dichiarazioni valide)"": {"""": """"}, ""FRATELLI D\u2019ITALIA"": {"""": ""26,7""}, ""FORZA ITALIA"": {"""": ""6,3""}, ""NOI MODERATI"": {"""": ""0,8""}, ""LEGA"": {"""": ""5,6""}, ""FUTURO NAZIONALE"": {"""": ""7,9""}, ""PARTITO DEMOCRATICO"": {"""": ""19,9""}, ""MOVIMENTO 5 STELLE"": {"""": ""14,9""}, ""ALLEANZA VERDI - SINISTRA"": {"""": ""6,3""}, ""+EUROPA"": {"""": ""1,8""}, ""ITALIA VIVA"": {"""": ""2,0""}, ""AZIONE"": {"""": ""3,0""}, ""altre liste"": {"""": ""4,8""}, ""Totale"": {"""": ""100,0""}, ""(stima % su totale elettrici/elettori)"": {"""": """"}, ""indecisi/astensione/bianche/nulle"": {"""": ""40,8""}}","Se si votasse oggi, per quale lista voterebbe alla Camera dei Deputati?","The poll includes all major parties such as Fratelli d'Italia, Forza Italia, Lega, Partito Democratico, Movimento 5 Stelle, Alleanza Verdi - Sinistra, +Europa, Italia Viva, and Azione. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll.",1,11,Ipsos Doxa
+1687,2026-10-30,Only Numbers,Rai. Porta a Porta,"Su intenzioni di voto, Lega, Campo Largo e manifestazioni","FRATELLI D'ITALIA-GIORGIA MELONI 27,6
+PARTITO DEMOCRATICO-PSE-SOCIALISTI & DEMOCRATICI 20,8
+MOVIMENTO 5 STELLE-2050-#PACE 10,4
+FORZA ITALIA-BERLUSCONI PRESIDENTE-PPE 7,5
+FUTURO NAZIONALE VANNACCI 6,8
+ALLEANZA VERDI E SINISTRA-EUROPA VERDE-SINISTRA ITALIANA 6,5
+LEGA-ITALIA FEDERALE 6,5
+AZIONE CON CALENDA SIAMO EUROPEI-RENEW EUROPE 3,4
+CASA RIFORMISTA-ITALIA VIVA-RENZI 2,2
++EUROPA 1,3
+PIU' UNO 0,5
+PROGETTO CIVICO 0,8
+NOI MODERATI 0,9
+SUD CHIAMA NORD 0,8
+Altri 4,0
+INDECISI - ASTENSIONE 48,5","Intenzioni di voto
+IPOTESI 1 - Schlein Premier per il Campo Largo","The poll includes all major parties such as Fratelli d'Italia, Partito Democratico, Movimento 5 Stelle, Forza Italia, Alleanza Verdi e Sinistra, Lega, Azione, and Italia Viva, which are relevant for national voting intentions. It does not focus on leader approval ratings or specific demographics, and it refers to nationwide voting intentions. Therefore, it qualifies as a national voting intention poll.",1,12,Only Numbers
 1686,2026-10-27,SWG S.p.A.,La7,intenzioni di voto,"Coalizione Centrosinistra 44,9
 P. DEMOCRATICO 20,6
 MOVIMENTO 5 STELLE 12,4
