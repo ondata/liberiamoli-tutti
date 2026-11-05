@@ -128,6 +128,25 @@ Abbiamo inserito anche il file [`anagrafica-report.csv`](anagrafica-report.csv),
 | Data_Report | string | La data del report PDF, da cui sono estratti i dati |
 | URL | string | L'URL del report di quella data |
 
+## Altre fonti
+
+Una parte di questi dati è pubblicata anche da altre fonti, a volte con più dettaglio. Verifica fatta il 5 novembre 2026.
+
+| Fonte | Cosa pubblica | Rispetto a questi dati |
+| ---- | ---- | ---- |
+| [UNHCR, pagina Italia](https://data.unhcr.org/en/situations/europe-sea-arrivals/location/24521) | Sbarchi per nazionalità dall'inizio dell'anno, in CSV e JSON, con circa 29 paesi. Report settimanali e mensili in PDF con paese di imbarco, regione di sbarco e minori non accompagnati per nazionalità | Usa i dati del Ministero dell'Interno, con più dettaglio. Il CSV copre solo l'anno in corso, lo storico è nei PDF |
+| [Frontex](https://www.frontex.europa.eu/what-we-do/monitoring-and-risk-analysis/migratory-map/) | Attraversamenti irregolari delle frontiere per mese, rotta e nazionalità, in xlsx, aggiornati ogni mese | La rotta del Mediterraneo centrale non coincide con l'Italia. Conta gli attraversamenti, non le persone |
+| [Ministero del Lavoro, minori stranieri non accompagnati](https://www.lavoro.gov.it/temi-e-priorita/immigrazione/focus-on/minori-stranieri/pagine/dati-minori-stranieri-non-accompagnati) | Minori non accompagnati presenti in Italia per nazionalità, età, genere e regione. Dashboard mensile da giugno 2023, prima report in PDF | Conta i minori presenti, non quelli sbarcati. Ha l'età e la nazionalità, che il cruscotto non riporta |
+| [SAI, posti per sito](https://www.retesai.it/wp-content/uploads/2026/10/Posti-SAI-per-sito-30.09.2026.pdf) | Posti del Sistema di accoglienza e integrazione per regione e tipo di progetto, in PDF | Le presenze SAI per regione coincidono con quelle del cruscotto |
+| [ActionAid e Openpolis, Centri d'Italia](https://www.actionaid.it/press-area/frontiera-ovunque-centri-italia-2026/) | Dati sui centri di accoglienza ottenuti con accesso civico | Annuali, non quindicinali |
+
+Non abbiamo trovato altrove, in formato leggibile da un programma:
+
+- le presenze in accoglienza per regione e tipo di struttura, ogni quindici giorni, dal 30/09/2019;
+- i rimpatri forzati e volontari per anno, dal 2014. Non abbiamo verificato cosa pubblica Eurostat sui rimpatri;
+- una serie continua dal 2019, con un formato unico e le anomalie della fonte corrette e documentate;
+- l'archivio dei PDF del cruscotto, compresi quelli non più pubblicati sul sito del Ministero (vedi il [manifest](../rawdata/pdf/manifest.csv), colonna `sul_sito`).
+
 ## Note
 
 ### Tipologia dati
