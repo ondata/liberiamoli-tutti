@@ -21,7 +21,7 @@ Anomalie della fonte, correzioni e scelte fatte nell'estrazione sono descritte i
 
 Si tratta dei numeri dell'**accoglienza**, per **regione** di accoglienza e per tipologia.
 
-Il dato si ferma al report del 15 ottobre 2026: dal 28 ottobre 2026 il PDF non contiene più questa tabella.
+La tabella è nei report del 15 e di fine mese; nei report fuori dalla cadenza quindicinale, come quelli del 28 e del 30 ottobre 2026, non c'è.
 
 Il file è [`accoglienza.csv`](https://raw.githubusercontent.com/ondata/liberiamoli-tutti/main/sbarchi-migranti/dati/accoglienza.csv), ed è composto dalle colonne descritte a seguire.
 

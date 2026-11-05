@@ -38,7 +38,7 @@ Controlli con [pointblank](https://posit-dev.github.io/pointblank/): date valide
 Le anomalie della fonte già verificate a mano sono in due file, letti dalla validazione:
 
 - `risorse/anomalie_fonte.csv`: totali del PDF che non coincidono con la somma delle righe. Un caso passa solo se report, colonna, somma e totale sono identici a quelli annotati. Le discrepanze nuove sono scritte in `tmp/totali_discordanti.csv`, da verificare sul PDF prima di annotarle.
-- `risorse/sezioni_assenti.csv`: report in cui una sezione attesa manca in tutte le versioni del PDF.
+- `risorse/sezioni_assenti.csv`: report in cui una sezione attesa manca in tutte le versioni del PDF. L'accoglienza è attesa solo nei report del 15 e di fine mese: i report fuori dalla cadenza quindicinale non la hanno.
 
 ## Risorse
 

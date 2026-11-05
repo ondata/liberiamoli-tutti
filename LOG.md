@@ -1,3 +1,7 @@
+## 2026-11-05
+
+- `sbarchi-migranti`: i run programmati del 29/10, 2/11 e 5/11 sono verdi e hanno aggiunto i report del 30/10, 31/10 e 4/11. Il report del 31/10 ha di nuovo la tabella dell'accoglienza: non era sparita dal 28/10, manca solo nei report fuori dalla cadenza quindicinale, che il Ministero ora pubblica più spesso. Corretti note e README dei dati; in `valida.py` l'accoglienza è attesa nei report del 15 e di fine mese (`SOLO_QUINDICINALI`), e da `sezioni_assenti.csv` sono usciti 2023-10-13 e 2025-05-21.
+
 ## 2026-10-28
 
 - `sbarchi-migranti`: `estrai.py` scrive nel README dei dati la data dell'ultimo report incluso e il numero di report (fra due commenti HTML); idempotente, nessun commit se non arrivano report nuovi.

@@ -46,12 +46,12 @@ Lasciate come sono nel PDF, annotate perché i controlli non le scambino per err
   - 2020-11-30: totale hot spot 899, mentre le regioni sommano 230;
   - 2021-01-15, 2021-01-31, 2021-02-15: totale dei centri di accoglienza fermo a 54.343 e dei SAI a 25.574 in tre report di fila, mentre le regioni cambiano;
   - 14 totali di riga (Sicilia, Calabria, Puglia, 2022-2025) diversi dalla somma delle colonne della regione. Per esempio, il 15 agosto 2022 i 260 presenti negli hot spot stanno sulla riga della Calabria, ma i totali di riga tornano solo se sono della Puglia.
-- Report senza tabella dell'accoglienza: 2020-10-15, 2021-03-15, 2023-10-13, 2025-05-21, tutti PDF di 6 pagine. Elenco in [`script/risorse/sezioni_assenti.csv`](../script/risorse/sezioni_assenti.csv).
+- Report senza tabella dell'accoglienza: la tabella c'è nei report del 15 e di fine mese, e manca in quelli fuori dalla cadenza quindicinale (vedi sotto). Fra i report del 15 e di fine mese mancano solo 2020-10-15 e 2021-03-15, PDF di 6 pagine, elencati in [`script/risorse/sezioni_assenti.csv`](../script/risorse/sezioni_assenti.csv).
 - Titolo sovrapposto: in alcuni report (fine 2020, agosto 2022 - gennaio 2023) il titolo della pagina dei giorni è stampato due volte e il testo estratto è illeggibile. La pagina si riconosce dalla tabella dei giorni.
 - Asse del grafico sulla riga della tabella: nel gennaio-marzo 2024 l'asse "1 2 3 ..." del grafico cade alla stessa altezza della riga del 19. Si tiene il numero allineato alla colonna dei valori.
 - Ora di riferimento: di norma gli sbarchi sono quelli rilevati entro le ore 8:00 del giorno; i report del 31 dicembre 2022 (prima versione) e del 31 dicembre 2023 dichiarano le ore 24:00. La colonna `Note` riporta quella del PDF.
 - Nomi di nazione: refusi e varianti (`Ngeria`, `Costa D'Avorio`, `Altre*`) sono ricondotti a un nome unico con [`script/risorse/nations.csv`](../script/risorse/nations.csv).
-- Report fuori calendario: il 21 maggio 2025 il Ministero ha pubblicato un report fuori dalla cadenza quindicinale. È nei dati con la sua data.
+- Report fuori calendario: il Ministero ha pubblicato report fuori dalla cadenza quindicinale il 13 ottobre 2023 e il 21 maggio 2025, e da fine ottobre 2026 ne pubblica più spesso (28 e 30 ottobre, 4 novembre 2026). Sono nei dati con la loro data; non hanno la tabella dell'accoglienza.
 - Report non più sul sito: 2022-05-15, 2023-10-13, 2024-07-15, 2024-07-31, 2025-05-31. Sono nel nostro archivio e nei dati.
 
 - Minori non accompagnati, formato vecchio: fa fede la frase "Anno 2023: 382" e non le intestazioni del grafico. Nel report del 15 gennaio 2023 le intestazioni dicono 2020, 2021, 2023, mentre la frase dice 2021, 2022, 2023. La data di fine periodo dell'anno in corso viene dall'intestazione, che ha più forme ("al 28 agosto", "all' 8 marzo", "dato al 31 dicembre"), e a volte è precedente alla data del report (al 23 settembre nel report del 30 settembre 2019).
@@ -81,7 +81,7 @@ I dataset sono stati rigenerati con il nuovo estrattore. Rispetto alle versioni 
 ## Cambi di formato del PDF
 
 - Dal 15 giugno 2026 il PDF non ha più gli sbarchi per giorno, solo i totali mensili, e ha nuove sezioni su minori stranieri non accompagnati e rimpatri. `sbarchi-per-giorno.csv` si ferma al 31 maggio 2026.
-- Dal 28 ottobre 2026 il PDF non ha più la tabella dell'accoglienza per regione. `accoglienza.csv` si ferma al 15 ottobre 2026.
+- Accoglienza: la tabella per regione è solo nei report del 15 e di fine mese. Fino al 5 novembre 2026 questa nota diceva che dal 28 ottobre 2026 la tabella non c'era più: il report del 28 ottobre era il primo dei report intermedi, e quello del 31 ottobre la contiene.
 
 ## Controlli automatici
 

@@ -55,9 +55,11 @@ def coerenza_totali(controlli):
 
 
 # ultimo report in cui il Ministero pubblica la sezione; dopo cambia il formato del PDF
-ULTIMO_REPORT = {"giorni": "2026-05-31", "accoglienza": "2026-10-15", "nazionalita": "9999-12-31", "mensili": "9999-12-31", "msna": "9999-12-31", "rimpatri": "9999-12-31"}
+ULTIMO_REPORT = {"giorni": "2026-05-31", "accoglienza": "9999-12-31", "nazionalita": "9999-12-31", "mensili": "9999-12-31", "msna": "9999-12-31", "rimpatri": "9999-12-31"}
 # primo report in cui compare la sezione, se dopo l'inizio della serie
 PRIMO_REPORT = {"rimpatri": "2026-06-15"}
+# sezioni pubblicate solo nei report del 15 e di fine mese, non in quelli fuori dalla cadenza quindicinale
+SOLO_QUINDICINALI = {"accoglienza"}
 
 
 def valida(dati, controlli, verifiche, trovate, regioni, nazioni, anomalie_note, sezioni_assenti):
@@ -81,10 +83,13 @@ def valida(dati, controlli, verifiche, trovate, regioni, nazioni, anomalie_note,
     ).with_columns(pl.col("nota").fill_null(False))
 
     assenti = pl.read_csv(sezioni_assenti, schema_overrides={"Data_Report": pl.String})
+    data = pl.col("Data_Report").str.to_date()
+    quindicinale = (data.dt.day() == 15) | (data == data.dt.month_end())
     copertura = (
         pl.DataFrame(trovate)
         .with_columns(attesa=(pl.col("Data_Report") <= pl.col("sezione").replace_strict(ULTIMO_REPORT))
-                      & (pl.col("Data_Report") >= pl.col("sezione").replace_strict(PRIMO_REPORT, default="0000-00-00")))
+                      & (pl.col("Data_Report") >= pl.col("sezione").replace_strict(PRIMO_REPORT, default="0000-00-00"))
+                      & (quindicinale | ~pl.col("sezione").is_in(list(SOLO_QUINDICINALI))))
         .join(assenti.select("Data_Report", "sezione", nota=pl.lit(True)), on=["Data_Report", "sezione"], how="left")
         .with_columns(pl.col("nota").fill_null(False))
     )
