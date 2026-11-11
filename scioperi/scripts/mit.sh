@@ -18,7 +18,7 @@ mkdir -p "$folder"/../data/mit
 find "$folder"/tmp/mit -type f -delete
 
 # Parametri per la ricerca degli scioperi (anno corrente)
-YEAR=2025
+YEAR="$(date +%Y)"
 START="01/01/$YEAR"  # Data di inizio ricerca in formato DD/MM/YYYY
 END="31/12/$YEAR"    # Data di fine ricerca in formato DD/MM/YYYY
 
