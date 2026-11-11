@@ -1,3 +1,7 @@
+## 2026-11-11
+
+- `scioperi/scripts/mit.sh`: la Action era rossa dal 24/10 perché i runner GitHub non raggiungono il sito MIT (connessione che non si stabilisce, nessun HTML; in locale la stessa POST risponde in ~1 s con 584 righe). Agunto fallback via proxy Cloudflare: Worker `mit-post-proxy` con placement a Milano che inoltra la sola POST di ricerca; lo script tenta prima il direct e poi il proxy. Verificato in locale (584 record, date valide) e via Worker (200, 584 righe, colo MXP).
+
 ## 2026-11-05
 
 - `sbarchi-migranti/dati`: nel README la sezione «Altre fonti» (UNHCR, Frontex, Ministero del Lavoro, SAI, ActionAid e Openpolis), con cosa si trova solo in questi dati. Eurostat non verificato.
