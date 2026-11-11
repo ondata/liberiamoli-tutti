@@ -48,8 +48,9 @@ I dati vengono estratti da entrambe le fonti e standardizzati in formati CSV e J
 Per ogni output i dati sono resi disponibili in due formati:
 
 - MIT
-  - [`mit_data.csv`](data/mit/mit_data.csv)
-  - [`mit_data.jsonl`](data/mit/mit_data.jsonl)
+  - [`mit_data.csv`](data/mit/mit_data.csv) / [`mit_data.jsonl`](data/mit/mit_data.jsonl): aggregato di anno precedente e anno corrente
+  - `mit_data_<anno>.csv` / `mit_data_<anno>.jsonl`: un file per ciascuno dei due anni scaricati a ogni esecuzione
+  - [`mit_data_2022-2024.csv`](data/mit/mit_data_2022-2024.csv): archivio degli anni 2022-2024
 - CGSSE
   - [`cgsse_data.csv`](data/cgsse/cgsse_data.csv)
   - [`cgsse_data.jsonl`](data/cgsse/cgsse_data.jsonl)
